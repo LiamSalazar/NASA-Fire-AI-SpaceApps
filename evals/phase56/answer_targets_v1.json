@@ -1,0 +1,97 @@
+{
+  "status": "implementation-agent source-inspected, not independent scientific adjudication",
+  "targets": [
+    {
+      "id": "flex_identity",
+      "case_ids": [
+        "droplet_start"
+      ],
+      "evidence_id": "E-hackathon-e4bd4cb86c28c921f67bca67",
+      "proposition": "FLEX is a droplet combustion experiment using the Multi-User Droplet Combustion Apparatus inside the Combustion Integrated Rack on the International Space Station.",
+      "review": "Compared with original source passages during baseline audit; relevance is documentary, not DIRECT applicability."
+    },
+    {
+      "id": "diameters",
+      "case_ids": [
+        "droplet_measurements",
+        "droplet_findings"
+      ],
+      "evidence_id": "E-hackathon-5b0bc0bb232e8281c6d03919",
+      "proposition": "The report includes histories of droplet diameters from the backlit camera and flame diameters from the hydroxyl-filter and color cameras.",
+      "review": "Compared with original source passages during baseline audit; relevance is documentary, not DIRECT applicability."
+    },
+    {
+      "id": "extinction_measurement",
+      "case_ids": [
+        "droplet_measurements"
+      ],
+      "evidence_id": "E-hackathon-5b0bc0bb232e8281c6d03919",
+      "proposition": "Extinction diameters are reported for cases where the flame extinguished at a finite droplet size.",
+      "review": "Compared with original source passages during baseline audit; relevance is documentary, not DIRECT applicability."
+    },
+    {
+      "id": "extinction_mechanisms",
+      "case_ids": [
+        "droplet_findings"
+      ],
+      "evidence_id": "E-hackathon-5b0bc0bb232e8281c6d03919",
+      "proposition": "Both radiative and diffusive extinctions occurred during the testing.",
+      "review": "Compared with original source passages during baseline audit; relevance is documentary, not DIRECT applicability."
+    },
+    {
+      "id": "dilution",
+      "case_ids": [
+        "droplet_conditions",
+        "pressure_oxygen"
+      ],
+      "evidence_id": "E-hackathon-5b0bc0bb232e8281c6d03919",
+      "proposition": "The droplets were burned with oxygen diluted with nitrogen, carbon dioxide, or mixtures thereof.",
+      "review": "Compared with original source passages during baseline audit; relevance is documentary, not DIRECT applicability."
+    },
+    {
+      "id": "pressure",
+      "case_ids": [
+        "pressure_oxygen"
+      ],
+      "evidence_id": "E-hackathon-5b0bc0bb232e8281c6d03919",
+      "proposition": "The experiments used various pressures between 0.70 and 3.05 atm.",
+      "review": "Compared with original source passages during baseline audit; relevance is documentary, not DIRECT applicability."
+    },
+    {
+      "id": "imaging_droplet",
+      "case_ids": [
+        "instrumentation"
+      ],
+      "evidence_id": "E-hackathon-e4bd4cb86c28c921f67bca67",
+      "proposition": "A backlit camera was used to determine droplet diameter as a function of time during burning.",
+      "review": "Compared with original source passages during baseline audit; relevance is documentary, not DIRECT applicability."
+    },
+    {
+      "id": "imaging_flame",
+      "case_ids": [
+        "instrumentation"
+      ],
+      "evidence_id": "E-hackathon-e4bd4cb86c28c921f67bca67",
+      "proposition": "A camera with a filter centered at 310 nm was intended to record emissions from excited hydroxyl radicals and provide a measure of flame diameter.",
+      "review": "Compared with original source passages during baseline audit; relevance is documentary, not DIRECT applicability."
+    },
+    {
+      "id": "solid_scope",
+      "case_ids": [
+        "solid"
+      ],
+      "evidence_id": "E-hackathon-b58329d788fe400f6e203dc5",
+      "proposition": "The SoFIE facility supports multiple solid-material combustion studies and uses the Combustion Integrated Rack.",
+      "review": "Compared with original source passages during baseline audit; relevance is documentary, not DIRECT applicability."
+    },
+    {
+      "id": "smoke_uncertainty",
+      "case_ids": [
+        "smoke"
+      ],
+      "evidence_id": "E-hackathon-f0fd0236bada72366666624d",
+      "proposition": "The document identifies a possibility that pre-ignition fire signatures in reduced gravity could differ from those in normal gravity.",
+      "review": "Compared with original source passages during baseline audit; relevance is documentary, not DIRECT applicability."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": "scientific-scenario-v1",
+  "scenario_id": "lunar-hypothesis-evaluation",
+  "question": "PMMA oxygen 22.2 %",
+  "provenance": "team_simulator",
+  "entity_constraints": [{"relation": "hasGravityCondition", "entity_id": "lunar"}],
+  "property_constraints": [],
+  "unresolved_conditions": [],
+  "simulator_results": []
+}

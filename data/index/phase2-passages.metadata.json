@@ -1,0 +1,10 @@
+{
+  "index_id": "phase2-passages",
+  "model_id": "nvidia/nemotron-3-embed-1b",
+  "embedding_preprocessing_version": "phase2-v1",
+  "corpus_snapshot_digest": "65e0d51f0c76df0813dfbfd95ec91ffbfe0db7208d7a51c182184516edd762e8",
+  "creation_timestamp": 1791145639.0478473,
+  "index_kind": "canonical-evidence-passages",
+  "number_of_vectors": 6055,
+  "embedding_dimension": 2048
+}

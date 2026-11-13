@@ -1,0 +1,91 @@
+{
+  "protocol": "pre-correction-reserved-scientific-v7",
+  "boundary": "Twenty-one agent-authored original-source-inspected scenarios, distinct from exposed v6 queries. Frozen before the next coverage/record-context corrections; not independent human adjudication and not production response rules. Includes a genuine multi-turn comparison. All expected source relationships remain evaluation-only.",
+  "cases": [
+    {
+      "id": "v7-spice-acquisition",
+      "question": "Using SPICE source record psi-107-record-5 (GMT day 45, ignition 14:50:07), report its recorded fuel, nozzle diameter, volumetric and mass fuel rates, air speed, and flame-off time. Keep this as an acquisition record rather than reconciling a unique physical run."
+    },
+    {
+      "id": "v7-cfi-1209",
+      "question": "For CFI Flex Number 1209, give the pressure and oxygen/nitrogen/helium composition, the literal fuel formula, fiber flag and CIR identifier. Keep equipment identifiers separate from experimental quantities."
+    },
+    {
+      "id": "v7-efield-18080",
+      "question": "For E-FIELD test day 18080, separately report Test Type, Mesh Polarity, Fuel Bottle, Fuel Conc and Flames Ignited. Preserve the two fuel fields even if their numbers resemble each other."
+    },
+    {
+      "id": "v7-cld-18039",
+      "question": "For CLD day 18039, what fuel-bottle entry and concentration range are recorded, what are both MFC entries and their source-defined meaning, and how many flames were ignited? Do not turn instrument limits into measured flow."
+    },
+    {
+      "id": "v7-bre-march",
+      "question": "For the BRE entry on 4 March 2019, report burner size, fuel bottle, oxygen concentration entries and ignition count. Explain the scope of the listed oxygen values."
+    },
+    {
+      "id": "v7-sflame-20142",
+      "question": "For s-Flame day 20142, report the test-type description, atmosphere, exact fuel-bottle mixture and ignition count. Give printed mixture entries without calculating an unreported balance fraction."
+    },
+    {
+      "id": "v7-slice-hardware",
+      "question": "What does the SLICE entry dated 5 March 2012 say about fuel and the fuel bottle, and which instruments are described for the shared SPICE/SLICE setup? Distinguish the source session entry from the general apparatus configuration."
+    },
+    {
+      "id": "v7-flex2-decane",
+      "question": "For the FLEX-2 Decane (pure) configuration summary, list the diameter range, oxygen fractions, pressure alternatives, temperature and flow range. Explain whether this identifies a Cartesian set of actual runs."
+    },
+    {
+      "id": "v7-daft-temperature",
+      "question": "For DAFT D2, summarize the recorded hardware, aerosol material, sampling locations and GMT day. Does this registered session provide a numerical temperature? Keep any limitation specific to this lookup."
+    },
+    {
+      "id": "v7-cfig-l1",
+      "question": "For CFI-G 21088 L1, separately report oxygen before and after, pressure, burn time, termination code, peak burner temperature and Tad. Preserve whether Tad is a calculated field."
+    },
+    {
+      "id": "v7-flame-design-ramped",
+      "question": "For Flame Design test 19115G1, give the initial/final oxygen fractions, initial/final/mean pressures, and the literal fuel-setting and Tad flags. Do not invent a numerical setting from RAMPED."
+    },
+    {
+      "id": "v7-flex-disruption",
+      "question": "For FLEX identifier 264F003, report test number, fuel, pressure, initial diameter and test end. What quantitative extinction diameter and burn time can this row support? Do not substitute another FLEX test."
+    },
+    {
+      "id": "v7-bass-asrun12",
+      "question": "For BASS As Run Test #12, list Test #, Sample #, Fuel Sample Material and GMT. Retain each identifier under its own field."
+    },
+    {
+      "id": "v7-bassii-b12",
+      "question": "For BASS-II test B12 associated with the recorded PI label Bhattacharjee, quote sample and material description, calibrated initial/final oxygen, initial/final carbon dioxide and initial/final carbon monoxide. Keep before and after values distinct."
+    },
+    {
+      "id": "v7-same-comparison",
+      "question": "Compare SAME samples 2 and 3 using material, air flow, weight-loss rate and aging duration. What differs, and can these two source rows alone establish a new causal explanation?"
+    },
+    {
+      "id": "v7-same-reflight",
+      "question": "For SAME-Reflight test 62a, give sample type, description, inlet velocity, Rt/R0 and net aging time. Retain the ratio as its recorded quantity without inventing an absolute temperature."
+    },
+    {
+      "id": "v7-saffireiii-s2",
+      "question": "For Saffire-III sample S2, summarize material, thickness, length, width, air-flow speed, direction and camera identifiers."
+    },
+    {
+      "id": "v7-saffireiii-followup",
+      "question": "Compare that sample with S1: what flow direction and speed does each record give, and which camera identifiers belong to each?",
+      "followup_of": "v7-saffireiii-s2"
+    },
+    {
+      "id": "v7-ufgm-method",
+      "question": "How does the PSI-62 Approach describe combining UFGM simulation with two-color tomography of BASS/BASS-II imagery? Identify the geometries and the quantities used for comparison, and distinguish modeling from imagery-based validation."
+    },
+    {
+      "id": "v7-offgassing-standard",
+      "question": "In the main Test 7 procedure of NASA-STD-6001B with Change 3, what is the offgassing test purpose, how are specimens contained and thermally conditioned, what is analyzed afterward, and what total toxic-hazard-index criterion is stated? Treat these as standard requirements."
+    },
+    {
+      "id": "v7-acme-finding-comparison",
+      "question": "Compare the reported CLD soot/dilution findings with the E-FIELD ion-current and field-strength findings in the ACME ISS overview. Preserve preliminary qualifications and distinguish correlation from a new causal inference."
+    }
+  ]
+}

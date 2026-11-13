@@ -1,0 +1,193 @@
+[
+  {
+    "type": "SampleRecord",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-psi-25-table-B1",
+        "source_id": "psi-25",
+        "page": null,
+        "section": "Experimental table"
+      }
+    ],
+    "id": "psi-25-B1-sample",
+    "material": "100 micron PMMA film   2 cm wide",
+    "geometry": null
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-psi-25-table-B1",
+        "source_id": "psi-25",
+        "page": null,
+        "section": "Experimental table"
+      }
+    ],
+    "id": "psi-25-B1",
+    "investigation_id": "psi-25",
+    "sample_id": "psi-25-B1-sample",
+    "condition_ids": [
+      "psi-25-B1-gmt",
+      "psi-25-B1-flow_restrictor",
+      "psi-25-B1-fan_display",
+      "psi-25-B1-air_display",
+      "psi-25-B1-initial_oxygen",
+      "psi-25-B1-final_oxygen",
+      "psi-25-B1-total_frames_shot"
+    ]
+  },
+  {
+    "type": "ConditionRecord",
+    "id": "psi-25-B1-gmt",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-psi-25-table-B1",
+        "source_id": "psi-25",
+        "page": null,
+        "section": "Experimental table"
+      }
+    ],
+    "kind": "gmt",
+    "reported_value": 50.0,
+    "reported_unit": null,
+    "canonical_value": null,
+    "canonical_unit": null,
+    "reported_lower_value": null,
+    "reported_upper_value": null,
+    "canonical_lower_value": null,
+    "canonical_upper_value": null,
+    "is_approximate": false
+  },
+  {
+    "type": "ConditionRecord",
+    "id": "psi-25-B1-flow_restrictor",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-psi-25-table-B1",
+        "source_id": "psi-25",
+        "page": null,
+        "section": "Experimental table"
+      }
+    ],
+    "kind": "flow_restrictor",
+    "reported_value": 2.0,
+    "reported_unit": null,
+    "canonical_value": null,
+    "canonical_unit": null,
+    "reported_lower_value": null,
+    "reported_upper_value": null,
+    "canonical_lower_value": null,
+    "canonical_upper_value": null,
+    "is_approximate": false
+  },
+  {
+    "type": "ConditionRecord",
+    "id": "psi-25-B1-fan_display",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-psi-25-table-B1",
+        "source_id": "psi-25",
+        "page": null,
+        "section": "Experimental table"
+      }
+    ],
+    "kind": "fan_display",
+    "reported_value": 62.0,
+    "reported_unit": null,
+    "canonical_value": null,
+    "canonical_unit": null,
+    "reported_lower_value": null,
+    "reported_upper_value": null,
+    "canonical_lower_value": null,
+    "canonical_upper_value": null,
+    "is_approximate": false
+  },
+  {
+    "type": "ConditionRecord",
+    "id": "psi-25-B1-air_display",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-psi-25-table-B1",
+        "source_id": "psi-25",
+        "page": null,
+        "section": "Experimental table"
+      }
+    ],
+    "kind": "air_display",
+    "reported_value": 5.0,
+    "reported_unit": null,
+    "canonical_value": null,
+    "canonical_unit": null,
+    "reported_lower_value": null,
+    "reported_upper_value": null,
+    "canonical_lower_value": null,
+    "canonical_upper_value": null,
+    "is_approximate": false
+  },
+  {
+    "type": "ConditionRecord",
+    "id": "psi-25-B1-initial_oxygen",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-psi-25-table-B1",
+        "source_id": "psi-25",
+        "page": null,
+        "section": "Experimental table"
+      }
+    ],
+    "kind": "initial_oxygen",
+    "reported_value": 22.2,
+    "reported_unit": "%",
+    "canonical_value": 0.222,
+    "canonical_unit": "fraction",
+    "reported_lower_value": null,
+    "reported_upper_value": null,
+    "canonical_lower_value": null,
+    "canonical_upper_value": null,
+    "is_approximate": false
+  },
+  {
+    "type": "ConditionRecord",
+    "id": "psi-25-B1-final_oxygen",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-psi-25-table-B1",
+        "source_id": "psi-25",
+        "page": null,
+        "section": "Experimental table"
+      }
+    ],
+    "kind": "final_oxygen",
+    "reported_value": 22.2,
+    "reported_unit": "%",
+    "canonical_value": 0.222,
+    "canonical_unit": "fraction",
+    "reported_lower_value": null,
+    "reported_upper_value": null,
+    "canonical_lower_value": null,
+    "canonical_upper_value": null,
+    "is_approximate": false
+  },
+  {
+    "type": "ConditionRecord",
+    "id": "psi-25-B1-total_frames_shot",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-psi-25-table-B1",
+        "source_id": "psi-25",
+        "page": null,
+        "section": "Experimental table"
+      }
+    ],
+    "kind": "total_frames_shot",
+    "reported_value": 57.0,
+    "reported_unit": null,
+    "canonical_value": null,
+    "canonical_unit": null,
+    "reported_lower_value": null,
+    "reported_upper_value": null,
+    "canonical_lower_value": null,
+    "canonical_upper_value": null,
+    "is_approximate": false
+  }
+]

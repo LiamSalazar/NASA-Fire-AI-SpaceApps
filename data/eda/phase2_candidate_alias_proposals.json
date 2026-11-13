@@ -1,0 +1,6 @@
+{
+  "version": "phase2-closure-2026-10-04",
+  "status": "NO_AUTO_PROPOSALS",
+  "proposals": [],
+  "reason": "The unreviewed semantic phrases either target concepts absent from the controlled index or are scientifically confusable (for example flame-spread velocity versus airflow velocity). No embedding-ranked phrase met the evidence and ambiguity standard for a review CandidateAlias proposal."
+}

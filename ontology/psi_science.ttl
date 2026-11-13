@@ -1,0 +1,79 @@
+@prefix fs: <https://example.org/nasa-fire-safety#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+fs:psiScience a owl:Ontology ; owl:versionInfo "psi-curated-v7" ;
+ rdfs:comment "Curated additions justified by original PSI table scope and embedded definitions. Cell locators live exclusively in the evidence registry." .
+fs:SourceRecord a owl:Class ; rdfs:subClassOf prov:Entity ;
+ rdfs:comment "A source-scoped scientific record, including auxiliary annotations and maintenance; does not imply one distinct physical run." .
+fs:SourceAnnotation a owl:Class ; rdfs:subClassOf fs:SourceRecord ;
+ rdfs:comment "An original source annotation. Applies only to explicitly referenced records or fields; not a new experimental observation." .
+fs:DataProductReference a owl:Class ; rdfs:subClassOf fs:SourceRecord ;
+ rdfs:comment "A source-reported data product identifier and description; does not establish a measured value or physical instrument identity." .
+fs:MaintenanceRecord a owl:Class ; rdfs:subClassOf fs:SourceRecord ;
+ rdfs:comment "A recorded maintenance activity, without asserting a combustion trial or fuel sample." .
+fs:hasSourceAnnotation a owl:ObjectProperty ; rdfs:range fs:SourceAnnotation .
+fs:referencesSourceRecord a owl:ObjectProperty ;
+ rdfs:comment "An explicit original annotation reference to a source record; not experimental equivalence." .
+fs:ExperimentalSession a owl:Class ; rdfs:subClassOf fs:SourceRecord ;
+ rdfs:comment "A reported session or test-day summary, potentially covering multiple ignitions and varying conditions." .
+fs:ConfigurationSummary a owl:Class ; rdfs:subClassOf fs:SourceRecord ;
+ rdfs:comment "A source-reported family of alternative configurations. No combination or executed run is implied." .
+fs:ReportedField a owl:Class ;
+ rdfs:comment "An explicitly reported descriptive field, derived quantity, instrument capacity or scoped summary value. Not necessarily an observation." .
+fs:hasSourceRecord a owl:ObjectProperty ; rdfs:range fs:SourceRecord .
+fs:hasRecordedField a owl:ObjectProperty ; rdfs:range fs:ReportedField .
+fs:ResearchObjective a owl:Class ; rdfs:comment "A source-reported research objective; not an achieved result." .
+fs:ResearchHypothesis a owl:Class ; rdfs:comment "A source-reported hypothesis; not an established observation." .
+fs:DocumentaryMethod a owl:Class ; rdfs:comment "Source-reported methodological description; retains any prospective or conditional wording." .
+fs:Apparatus a owl:Class ; rdfs:comment "Source-reported investigation hardware description, without inheriting run use." .
+fs:hasObjective a owl:ObjectProperty ; rdfs:range fs:ResearchObjective .
+fs:hasHypothesis a owl:ObjectProperty ; rdfs:range fs:ResearchHypothesis .
+fs:hasDocumentedMethod a owl:ObjectProperty ; rdfs:range fs:DocumentaryMethod .
+fs:usesApparatus a owl:ObjectProperty ; rdfs:range fs:Apparatus .
+fs:hasDocumentation a owl:ObjectProperty .
+fs:PublicationFigureReference a owl:Class ; rdfs:subClassOf fs:SourceRecord ;
+ rdfs:comment "A figure/data-product reference. May point to experimental, calculated or mixed content; is not itself a measured value." .
+fs:ScientificProperty a owl:Class ; rdfs:comment "A curated field/property descriptor, retaining dimension and unit meaning independently from any particular quantity." .
+fs:dimension a owl:DatatypeProperty ; rdfs:comment "Physical dimension from the curated source-field/unit dictionary; not a measured value." .
+fs:rawExpression a owl:DatatypeProperty ; rdfs:comment "Original source expression, including approximation and range syntax." .
+fs:SourceFieldDefinition a owl:Class ; rdfs:subClassOf fs:ReportedField ;
+ rdfs:comment "An explicitly reported table-wide column definition or limitation. Its source row is provenance, not the exclusive experimental applicability of the definition." .
+fs:ReportedMaterialDescription a owl:Class ;
+ rdfs:comment "A source-local fuel, bottle, sample or aerosol description. This does not identify a pure substance, reconcile mixtures, or establish equivalence between records." .
+fs:hasMaterialDescription a owl:ObjectProperty ; rdfs:range fs:ReportedMaterialDescription ;
+ rdfs:comment "Connects an experimental source record to its exact reported material description, retaining that record's scope." .
+fs:hasPublicationReference a owl:ObjectProperty ; rdfs:range fs:Publication ;
+ rdfs:comment "An official investigation metadata record lists this publication. This relationship does not certify the publication's findings or establish experimental equivalence." .
+fs:SourceReportedFinding a owl:Class ; rdfs:subClassOf fs:NASAConclusion ;
+ rdfs:comment "A verbatim, attributed finding from an inspected NASA report. Its uncertainty and investigation-level context remain attached; it is not a new assistant inference or a run-level observation." .
+fs:hasReportedFinding a owl:ObjectProperty ; rdfs:range fs:SourceReportedFinding .
+fs:hasFindingContext a owl:ObjectProperty ; rdfs:domain fs:SourceReportedFinding ; rdfs:range fs:DocumentaryMethod ;
+ rdfs:comment "The source's documented method/configuration context for an attributed finding. No conditions are inherited by another experimental run." .
+fs:Campaign a owl:Class ;
+ rdfs:comment "An explicitly source-reported research campaign grouping investigations. Membership alone does not establish equal experimental conditions." .
+
+# Explicit instrument-description facets, never inherited as per-run settings.
+fs:instrumentCategory a owl:DatatypeProperty ; rdfs:domain fs:Instrument ; rdfs:range xsd:string ;
+ rdfs:label "instrument category" ; rdfs:comment "The source's explicit instrument noun, retained with that description's evidence." .
+fs:signalFormat a owl:DatatypeProperty ; rdfs:domain fs:Instrument ; rdfs:range xsd:string ;
+ rdfs:label "signal format" ; rdfs:comment "Source-reported signal format of this instrument description, not another component on the same page." .
+fs:acquisitionMode a owl:DatatypeProperty ; rdfs:domain fs:Instrument ; rdfs:range xsd:string ;
+ rdfs:label "acquisition mode" ; rdfs:comment "Source-reported capture mode, scoped to this instrument description." .
+fs:detectorType a owl:DatatypeProperty ; rdfs:domain fs:Instrument ; rdfs:range xsd:string ;
+ rdfs:label "detector type" ; rdfs:comment "Explicit detector type from the cited instrument description." .
+fs:hasInvestigation a owl:ObjectProperty ; rdfs:domain fs:Campaign ; rdfs:range fs:Investigation .
+
+# Manual instrument vocabulary justified by NASA NTRS 20140009169, physical page 3.
+fs:Instrument a owl:Class ; rdfs:subClassOf prov:Entity ;
+ rdfs:comment "A source-reported instrument description within an experimental setup. A type/configuration descriptor when serial physical identity is absent; not proof of a particular physical device or run use." .
+fs:usesInstrument a owl:ObjectProperty ; rdfs:domain fs:Investigation ; rdfs:range fs:Instrument ;
+ rdfs:comment "A source reports this investigation's instrument configuration. This does not inherit settings or use by every run." .
+fs:hasInstrument a owl:ObjectProperty ; rdfs:domain fs:Apparatus ; rdfs:range fs:Instrument ;
+ rdfs:comment "An explicitly source-reported instrument component of an apparatus configuration." .
+
+fs:ScientificTermDefinition a owl:Class ; rdfs:subClassOf prov:Entity ;
+ rdfs:comment "An original source definition of scientific nomenclature. It supplies term meaning, not experimental values, conditions or a calculation procedure for another record." .
+fs:hasTermDefinition a owl:ObjectProperty ; rdfs:domain fs:ReportedField ; rdfs:range fs:ScientificTermDefinition ;
+ rdfs:comment "A curated field-to-nomenclature association, with original definition evidence and no transfer of experimental conditions." .

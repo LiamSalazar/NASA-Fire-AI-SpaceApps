@@ -1,0 +1,15 @@
+# Related Scientific Error Analysis
+
+This is an additive Phase 3C engineering iteration. NASA raw/canonical inputs, historical gold and historical benchmark artifacts are preserved. No independent scientific adjudication is claimed. Experimental features remain default-off. QueryIntentV2 is retained; no Phase 4 work is started.
+
+The explicit error taxonomy is `artifacts/phase3c_related_error_taxonomy_v1.json`. It covers material equivalence, family/ancestor/sibling authority, phenomenon, gravity, airflow/oxygen, numeric boundaries, UNKNOWN, design/observation confusion, cross-level conclusions, broad irrelevant documents, false DIRECT, missing RELATED, causal claims, citations/pages, model contracts/timeouts, fallback and ambiguity. Case/component receipts identify observed engineering failures or prevented changes. Unreviewed scientific errors are not assigned invented expert labels.
+
+qi11: an archived `>=` → `>` formulation is now rejected. qi19: no approved acrylic taxonomy exists; broad sources are contextual and the mapping remains pending. qi31: addition of a requested class to equivalent wording is rejected. Internal relation names remain technical planning fields. qi14: source observation and reviewed graph entity were intact; FTS text omitted the topic present in its section. Retaining selected statement citations recovers the expected identity without production evidence-ID rules.
+
+qi12 preserves source comparison: shared recorded airflow, differing oxygen/flow direction, unknown pressure. qi18 remains scientific-review pending: a limitation or unresolved antecedent is not automatically a NASA open question. Frozen requested-information disagreements are retained for the contract owner, not silently corrected. qi42 now supports bounded separate material groups; explicit same-experiment conjunction cannot use that union.
+
+comp01/comp11: the experimental anchor policy no longer treats shared gravity alone as a sufficient relationship between an unrelated requested material and SIBAL. General aerospace lexical hits remain documentary candidates, never scientific matches. Some may be irrelevant; the expanded review packet requires expert adjudication. C generates more candidates than native execution, with no measured independent scientific benefit.
+
+Fresh V1/V2 parity is DIRECT 31/39, RELATED 37/39, evidence sets 6/39. DIRECT differences occur in qi07, qi08, qi14, qi16, qi17, qi18, qi33, qi45; RELATED differs in qi15 and qi27. Run coverage, requested-class selection and evidence budgets differ between V1 and V2. The historical 39/39 claim is not reused as a fresh pass. These discrepancies require review before default adoption; this test is agreement, not scientific correctness.
+
+No newly approved false family relationships were introduced: domain approved taxonomy remains empty. Synthetic tests prevent incorrect DIRECT siblings, unreviewed taxonomy authority, missing experimental citations, invalid RDF/metadata paths, cycles and unknown-as-difference. This is technical prevention evidence, not a measured NASA scientific error rate.

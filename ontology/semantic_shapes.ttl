@@ -1,0 +1,21 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix sem: <https://example.org/nasa-fire-safety/semantic/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sem:ValueShape a sh:NodeShape ; sh:targetClass sem:SemanticValue ;
+  sh:property [ sh:path sem:subject ; sh:minCount 1 ; sh:maxCount 1 ; sh:nodeKind sh:IRI ] ;
+  sh:property [ sh:path sem:measuredProperty ; sh:minCount 1 ; sh:maxCount 1 ; sh:nodeKind sh:IRI ] ;
+  sh:property [ sh:path sem:value ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ] ;
+  sh:property [ sh:path sem:evidenceRef ; sh:minCount 1 ] .
+sem:RelationShape a sh:NodeShape ; sh:targetClass sem:SemanticRelation ;
+  sh:property [ sh:path sem:subject ; sh:minCount 1 ; sh:maxCount 1 ; sh:nodeKind sh:IRI ] ;
+  sh:property [ sh:path sem:relation ; sh:minCount 1 ; sh:maxCount 1 ; sh:nodeKind sh:IRI ] ;
+  sh:property [ sh:path sem:object ; sh:minCount 1 ; sh:maxCount 1 ; sh:nodeKind sh:IRI ] ;
+  sh:property [ sh:path sem:evidenceRef ; sh:minCount 1 ] .
+
+# Explicit contextual authority in the same native RDF representation. This
+# state permits experimental applicability, never canonical promotion.
+sem:ContextAuthorityShape a sh:NodeShape ; sh:targetSubjectsOf sem:reviewState ;
+  sh:property [ sh:path sem:reviewState ; sh:maxCount 1 ; sh:datatype xsd:string ;
+    sh:in ( "APPROVED" "VERIFIED_CONTEXTUAL_APPLICABILITY" "STAGED_CANDIDATE" "CONFLICTED" "UNKNOWN" ) ] ;
+  sh:property [ sh:path sem:evidenceRef ; sh:minCount 1 ] .

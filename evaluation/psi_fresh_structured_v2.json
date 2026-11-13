@@ -1,0 +1,16 @@
+{
+  "kind": "post-correction-fresh-structured-HTTP",
+  "boundary": "Two predetermined current-pipeline conversations; original rows inspected before generation; no response or expected answer supplied to runtime.",
+  "cases": [
+    {
+      "id": "fresh-record-comparison",
+      "question": "Compare CFI Flex Numbers 1208 and 1209: what oxygen fractions, pressures and fiber status are recorded for each? Keep their run contexts separate and do not infer a causal effect.",
+      "followup_of": null
+    },
+    {
+      "id": "fresh-solid-instrument",
+      "question": "For BASS-II B4, give the recorded material, initial and final calibrated oxygen, radiometer gain and total frames. Which values are instrument settings rather than scientific outcomes?",
+      "followup_of": null
+    }
+  ]
+}

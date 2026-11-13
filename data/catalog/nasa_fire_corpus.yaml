@@ -1,0 +1,104 @@
+catalog_version: 1
+policy:
+  include_media: false
+  max_single_download_mb: 50
+  official_sources_only: true
+sources:
+  - source_id: psi-25
+    canonical_name: BASS-II
+    family: BASS
+    nasa_identifier: PSI-25
+    source_system: NASA PSI
+    canonical_url: https://lsda.jsc.nasa.gov/Experiment/PSI-25
+    doi: 10.60555/4qc4-de67
+    source_type: investigation_and_experimental_table
+    public_availability: public
+    experimental_table_availability: available
+    structured_data_availability: CSV
+    document_availability: metadata_and_file_listing
+    raw_data_availability: inventoried_not_downloaded
+    media_availability: inventoried_not_downloaded
+    known_file_count: 694
+    relevant_scientific_topics: [solid_fuel_combustion, atmosphere, oxygen]
+    relevant_safety_topics: [material_flammability]
+    ingestion_priority: tier_1
+    ingestion_status: ingested_structured
+    notes: File count is the PSI version-history added-file count; not a download count.
+  - source_id: psi-98
+    canonical_name: Saffire-I
+    family: SAFFIRE
+    nasa_identifier: PSI-98
+    source_system: NASA PSI
+    canonical_url: https://lsda.jsc.nasa.gov/Experiment/PSI-98
+    doi: 10.60555/0t15-1z43
+    source_type: investigation_and_experimental_table
+    public_availability: public
+    experimental_table_availability: available
+    structured_data_availability: CSV
+    document_availability: metadata_and_file_listing
+    raw_data_availability: inventoried_not_downloaded
+    media_availability: inventoried_not_downloaded
+    known_file_count: 74
+    relevant_scientific_topics: [large_scale_spacecraft_fire, forced_flow, oxygen]
+    relevant_safety_topics: [fire_propagation]
+    ingestion_priority: tier_1
+    ingestion_status: ingested_structured
+    notes: S1/S2 remain regression gold.
+  - source_id: ntrs-20205007829
+    canonical_name: Spacecraft Fire Safety Needs for Exploration
+    family: spacecraft_fire_safety
+    nasa_identifier: '20205007829'
+    source_system: NTRS
+    canonical_url: https://ntrs.nasa.gov/citations/20205007829
+    source_type: presentation
+    public_availability: public
+    document_availability: PDF
+    ingestion_priority: tier_1
+    ingestion_status: ingested_document
+    relevant_safety_topics: [suppression, detection, exploration]
+    notes: Documentary evidence; not an experimental table.
+  - source_id: nasa-std-6001
+    canonical_name: NASA-STD-6001
+    family: normative_fire_safety
+    nasa_identifier: NASA-STD-6001
+    source_system: NASA Technical Standards
+    canonical_url: https://standards.nasa.gov/standard/nasa/nasa-std-6001
+    source_type: standard
+    public_availability: public
+    document_availability: PDF
+    ingestion_priority: tier_1
+    ingestion_status: ingested_document
+    relevant_safety_topics: [materials, flammability, testing]
+    notes: Normative statements retain exact page/section evidence.
+  - source_id: family-discovery-pending
+    canonical_name: FLEX, FLEX-2, SoFIE, SoFIE-GEL, SoFIE-MIST, SAME, SPICE, SLICE, Confined Combustion
+    family: discovery_pending
+    source_system: official_NASA_discovery_required
+    source_type: inventory_placeholder
+    public_availability: unverified_in_this_execution
+    ingestion_priority: tier_1_or_2
+    ingestion_status: not_ingested
+    notes: No investigation identifier is asserted until verified from an official NASA endpoint.
+  - source_id: ntrs-20150023456
+    canonical_name: FLEX Experiment Data Archive
+    family: FLEX
+    nasa_identifier: '20150023456'
+    source_system: NTRS
+    canonical_url: https://ntrs.nasa.gov/api/citations/20150023456/downloads/20150023456.pdf?attachment=true
+    source_type: technical_report
+    document_availability: PDF
+    structured_data_availability: documentary_archive_only
+    relevant_scientific_topics: [liquid_fuel, droplet, extinction, flame_size]
+    ingestion_status: HOLDOUT_FIRST_PASS
+    corpus_role: holdout
+  - source_id: ntrs-20200000361
+    canonical_name: Solid Fuel Ignition and Extinction (SoFIE) Project on ISS
+    family: SoFIE
+    nasa_identifier: '20200000361'
+    source_system: NTRS
+    canonical_url: https://ntrs.nasa.gov/api/citations/20200000361/downloads/20200000361.pdf?attachment=true
+    source_type: technical_report
+    document_availability: PDF
+    relevant_scientific_topics: [solid_fuel, PMMA, oxygen, pressure, flow, ignition, extinction]
+    ingestion_status: DOCUMENTS_INGESTED
+    corpus_role: development

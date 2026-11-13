@@ -1,0 +1,6 @@
+[
+ {"id":"context_diagnostics","topic":"new conversational validation","message":"Which camera-based quantities do the original droplet reports distinguish, and what measurement limitations are stated?","live":true,"conversation":"diagnostics"},
+ {"id":"context_channels","topic":"new conversational validation","message":"Keeping that measurement context, how do the reported flame diameters from the color and ultraviolet channels compare?","live":true,"conversation":"diagnostics"},
+ {"id":"context_visible_extinction","topic":"new conversational validation","message":"Which of those quantities was recorded at visible flame extinction? Preserve the report's definition and units.","live":true,"conversation":"diagnostics"},
+ {"id":"context_applicability","topic":"new conversational validation","message":"Would it be justified to transfer those recorded quantities to a partial-gravity habitat? Explain only documented scope and useful further searches.","live":true,"conversation":"diagnostics"}
+]

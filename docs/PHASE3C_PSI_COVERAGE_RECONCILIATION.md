@@ -1,0 +1,7 @@
+# PSI coverage reconciliation
+
+Rechecked [NASA's official combustion inventory](https://www.nasa.gov/physical-sciences-informatics-psi/psi-investigations-by-research-area/) and reconciled all 19 investigations against local metadata, files, evidence and canonical records. Three are partially structured (BASS-II, FLEX, Saffire-I), seven have local structured tables not published canonically, four have documentary exposure, five are not acquired under this policy. Exact canonical InvestigationRecord-title count 2/19 understated FLEX run representation.
+
+Every row includes PSI identifier/DOI, official access path, local table files, canonical record counts, documentary evidence and next action. DAFT and DAFT-2 share PSI-47 metadata; lexical documentary matches do not establish experimental identity. Local index historical downloaded-file counts do not imply those files exist on this machine.
+
+Bounded new acquisition: PSI-68 and PSI-107 official metadata, append-only raw receipts and digests. Prioritized backlog: validate available BASS/FLEX-2/Saffire-II/III/SAME/SAME-R/SPICE table schemas, row identities, scientific roles and evidence references before canonical approval; then acquire missing ACME and scoped scientific datasets. Refresh official inventory and revisions monthly, append changed versions, freeze unseen first-pass evaluations. This is coverage of a defined 19-investigation universe, not all NASA knowledge.

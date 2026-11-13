@@ -1,0 +1,421 @@
+{
+  "cases": [
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi03",
+      "namespace": "baseline",
+      "query": "SIBAL Fabric microgravity"
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "BETWEEN",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": 0.01,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": null,
+              "tolerance": null,
+              "upper": 0.11
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "comp01",
+      "namespace": "baseline",
+      "query": "Find experiments using PMMA in microgravity with airflow between 0.01 and 0.11 m/s"
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "APPROX",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": true,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": 0.01,
+              "tolerance": 0.005,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "comp11",
+      "namespace": "baseline",
+      "query": "Find experiments using PMMA in microgravity with airflow about 0.01 +/- 0.005 m/s"
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "psi-98",
+            "relation": "belongsToInvestigation"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "ExperimentalRun"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi05",
+      "namespace": "baseline",
+      "query": "SAFFIRE-I experiments"
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": {
+          "dimensions": [],
+          "operands": [
+            "psi-98-S1",
+            "psi-98-S2"
+          ]
+        },
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "psi-98",
+            "relation": "belongsToInvestigation"
+          }
+        ],
+        "operation": "COMPARE",
+        "property_constraints": [],
+        "requested_information": [
+          "ExperimentalRun"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi12",
+      "namespace": "baseline",
+      "query": "Compare Saffire-I S1 and S2"
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "BETWEEN",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": 0.01,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": null,
+              "tolerance": null,
+              "upper": 0.11
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [
+          "psi-98"
+        ],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": [
+          "unregistered-condition"
+        ]
+      },
+      "id": "comp21",
+      "namespace": "baseline",
+      "query": "Find experiments using PMMA in microgravity with airflow between 0.01 and 0.11 m/s from psi-98 with unregistered-condition"
+    },
+    {
+      "expected": {
+        "ambiguities": [
+          "acrylic"
+        ],
+        "clarification_required": true,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi19",
+      "namespace": "baseline",
+      "query": "What about acrylic fires?"
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": [
+          "xenon"
+        ]
+      },
+      "id": "qi22",
+      "namespace": "baseline",
+      "query": "xenon combustion"
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi42",
+      "namespace": "baseline",
+      "query": "PMMA and SIBAL under microgravity"
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "SafetyImplication",
+          "Requirement"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi16",
+      "namespace": "baseline",
+      "query": "Find NASA requirements"
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "SafetyImplication",
+          "Guidance"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi17",
+      "namespace": "baseline",
+      "query": "Find NASA guidance"
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "SafetyImplication",
+          "OpenQuestion"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi18",
+      "namespace": "baseline",
+      "query": "NASA open questions"
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [
+          "20205000063"
+        ],
+        "targets": [
+          "Document"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "e2e-holdout-document",
+      "namespace": "holdout",
+      "query": "Find Document from source 20205000063"
+    },
+    {
+      "expected": null,
+      "id": "e2e-holdout-structured",
+      "namespace": "unavailable",
+      "query": null,
+      "reason": "No CSV experimental table exposed by any eligible structured source in the bounded candidate pool"
+    }
+  ],
+  "version": "phase3c-e2e-v1"
+}

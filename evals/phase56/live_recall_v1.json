@@ -1,0 +1,44 @@
+[
+  {
+    "id": "extinction_start",
+    "message": "What NASA investigations could help me understand flame extinction under reduced-gravity conditions?",
+    "conversation": "extinction",
+    "live": true
+  },
+  {
+    "id": "extinction_more",
+    "message": "Are there other studies involving similar extinction mechanisms or related diagnostics?",
+    "conversation": "extinction",
+    "live": true
+  },
+  {
+    "id": "extinction_conditions",
+    "message": "Which experiments actually match those conditions, and which ones differ?",
+    "conversation": "extinction",
+    "live": true
+  },
+  {
+    "id": "extinction_discovery",
+    "message": "What else did you find that might be useful, even if its relationship is not established?",
+    "conversation": "extinction",
+    "live": true
+  },
+  {
+    "id": "extinction_sources",
+    "message": "Can you explain the most relevant findings and link me to their original sources?",
+    "conversation": "extinction",
+    "live": true
+  },
+  {
+    "id": "soot_diagnostics",
+    "message": "Which diagnostics recorded soot or droplet dimensions, and how did their measurements differ?",
+    "conversation": "diagnostics",
+    "live": true
+  },
+  {
+    "id": "material_scope",
+    "message": "What do the documents say about the difference between material flammability requirements and measured solid-fuel combustion outcomes?",
+    "conversation": "materials",
+    "live": true
+  }
+]

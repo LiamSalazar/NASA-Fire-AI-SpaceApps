@@ -1,0 +1,988 @@
+{
+  "gold_version": "phase1.5-frozen-2026-10-04",
+  "fts_bm25": {
+    "questions": 40,
+    "recall_at_1": 0.625,
+    "recall_at_3": 0.85,
+    "recall_at_5": 0.85,
+    "recall_at_10": 0.9,
+    "mrr": 0.7226,
+    "no_result_rate": 0.0,
+    "by_category": {
+      "documentary": {
+        "questions": 35,
+        "recall_at_1": 0.6286,
+        "recall_at_3": 0.8571,
+        "recall_at_5": 0.8571,
+        "recall_at_10": 0.9143,
+        "mrr": 0.7306
+      },
+      "safety": {
+        "questions": 5,
+        "recall_at_1": 0.6,
+        "recall_at_3": 0.8,
+        "recall_at_5": 0.8,
+        "recall_at_10": 0.8,
+        "mrr": 0.6667
+      }
+    }
+  },
+  "kg_structured": {
+    "questions": 10,
+    "overall_status_correctness": 0.9,
+    "direct_correctness": 1.0,
+    "related_correctness": 1.0,
+    "abstention_correctness": 0.8333,
+    "deterministic_parser_supported_rate": 0.4,
+    "citation_evidence_coverage": 0.5,
+    "status_totals": {
+      "DIRECT": 2,
+      "RELATED": 2,
+      "NO_DIRECT_EVIDENCE": 6
+    }
+  },
+  "combined_current_system": {
+    "lexical_source_recall_at_10": 0.9,
+    "structured_status_correctness": 0.9,
+    "direct_semantics": "unchanged deterministic canonical constraints"
+  },
+  "details": {
+    "lexical": [
+      {
+        "id": "doc-01",
+        "rank": 1,
+        "returned_sources": [
+          "ntrs-20170000230",
+          "ntrs-20220002714",
+          "ntrs-20170002628",
+          "ntrs-20170001636",
+          "ntrs-20220007045",
+          "ntrs-20210022143",
+          "ntrs-20170002628",
+          "ntrs-20170000230",
+          "ntrs-20170000230",
+          "ntrs-20210022143"
+        ],
+        "category": "documentary"
+      },
+      {
+        "id": "doc-02",
+        "rank": 1,
+        "returned_sources": [
+          "ntrs-20150023456",
+          "ntrs-20150023456",
+          "ntrs-20150023456",
+          "ntrs-20150023456",
+          "ntrs-20150023456",
+          "ntrs-20150023456",
+          "ntrs-20150023456",
+          "ntrs-20150023456",
+          "ntrs-20150023456",
+          "ntrs-20150023456"
+        ],
+        "category": "documentary"
+      },
+      {
+        "id": "doc-03",
+        "rank": 1,
+        "returned_sources": [
+          "ntrs-20210011385",
+          "ntrs-20210011385",
+          "ntrs-20210011385",
+          "ntrs-20210011385",
+          "ntrs-20210011385",
+          "ntrs-20210011385",
+          "ntrs-20210011385",
+          "ntrs-20210011385",
+          "ntrs-20210011385",
+          "ntrs-20210011385"
+        ],
+        "category": "documentary"
+      },
+      {
+        "id": "doc-04",
+        "rank": 1,
+        "returned_sources": [
+          "ntrs-20090014827",
+          "ntrs-20030016530",
+          "ntrs-20010117165",
+          "ntrs-20090014827",
+          "ntrs-20130004397",
+          "ntrs-20000056909",
+          "ntrs-20010117165",
+          "ntrs-20010117165",
+          "ntrs-20030016530",
+          "ntrs-20000030674"
+        ],
+        "category": "documentary"
+      },
+      {
+        "id": "doc-05",
+        "rank": 2,
+        "returned_sources": [
+          "ntrs-20140006579",
+          "ntrs-20130000422",
+          "ntrs-20190032657",
+          "ntrs-20070031686",
+          "ntrs-20170007283",
+          "ntrs-20130000422",
+          "ntrs-20130000422",
+          "ntrs-20140006579",
+          "ntrs-20040053578",
+          "ntrs-20140006579"
+        ],
+        "category": "documentary"
+      },
+      {
+        "id": "doc-06",
+        "rank": 1,
+        "returned_sources": [
+          "ntrs-20200000361",
+          "ntrs-20200000361",
+          "ntrs-20200000361",
+          "ntrs-20210021781",
+          "ntrs-20200000361",
+          "ntrs-20210021781",
+          "ntrs-20160000593",
+          "ntrs-20200000361",
+          "ntrs-20250002347",
+          "local-ntrs-20205007829"
+        ],
+        "category": "documentary"
+      },
+      {
+        "id": "doc-07",
+        "rank": null,
+        "returned_sources": [
+          "ntrs-20210022542",
+          "ntrs-20140009169",
+          "ntrs-20140009169",
+          "ntrs-20250002347",
+          "ntrs-20210021781",
+          "ntrs-20210021781",
+          "ntrs-20210021781",
+          "ntrs-20210021781",
+          "ntrs-20200000361",
+          "ntrs-20140009169"
+        ],
+        "category": "documentary"
+      },
+      {
+        "id": "doc-08",
+        "rank": 1,
+        "returned_sources": [
+          "ntrs-20130000677",
+          "ntrs-20170001636",
+          "ntrs-20130001713",
+          "ntrs-20130013749",
+          "ntrs-20130008174",
+          "ntrs-20170000230",
+          "ntrs-20150022123",
+          "ntrs-20140006578",
+          "ntrs-20160010292",
+          "ntrs-20170008805"
+        ],
+        "category": "documentary"
+      },
+      {
+        "id": "doc-09",
+        "rank": 1,
+        "returned_sources": [
+          "ntrs-20150002323",
+          "ntrs-20150002323",
+          "ntrs-20150002323",
+          "ntrs-20040161185",
+          "ntrs-20010073993",
+          "ntrs-20030011376",
+          "ntrs-20040084137",
+          "ntrs-20150023456",
+          "ntrs-20210021781",
+          "ntrs-20150023456"
+        ],
+        "category": "documentary"
+      },
+      {
+        "id": "doc-10",
+        "rank": 1,
+        "returned_sources": [
+          "ntrs-20140004923",
+          "ntrs-20210011385",
+          "ntrs-20140004923",
+          "ntrs-20200000361",
+          "ntrs-20210011385",
+          "ntrs-20210011385",
+          "ntrs-20200000361",
+          "ntrs-20200000361",
+          "ntrs-20160000593",
+          "ntrs-20210011385"
+        ],
+        "category": "documentary"
+      },
+      {
+        "id": "doc-11",
+        "rank": 3,
+        "returned_sources": [
+          "ntrs-19960008394",
+          "ntrs-19960008386",
+          "ntrs-20010074042",
+          "ntrs-19960008394",
+          "ntrs-19930010989",
+          "ntrs-19930011028",
+          "ntrs-20040053504",
+          "ntrs-20040053504",
+          "ntrs-19990053965",
+          "ntrs-20010073993"
+        ],
+        "category": "documentary"
+      },
+      {
+        "id": "doc-12",
+        "rank": 1,
+        "returned_sources": [
+          "ntrs-20050172091",
+          "ntrs-20050177167",
+          "ntrs-19960008386",
+          "ntrs-19960008388",
+          "ntrs-20030075804",
+          "ntrs-19950026508",
+          "ntrs-20030075796",
+          "ntrs-19950026508",
+          "ntrs-19930004527",
+          "ntrs-19950026508"
+        ],
+        "category": "documentary"
+      },
+      {
+        "id": "doc-13",
+        "rank": 1,
+        "returned_sources": [
+          "ntrs-20040053578",
+          "ntrs-20040053504",
+          "ntrs-20040142387",
+          "ntrs-20010074094",
+          "ntrs-20010073993",
+          "ntrs-20040142387",
+          "ntrs-20070031686",
+          "ntrs-20040142387",
+          "ntrs-20040053504",
+          "ntrs-20140006579"
+        ],
+        "category": "documentary"
+      },
+      {
+        "id": "doc-14",
+        "rank": 1,
+        "returned_sources": [
+          "ntrs-19970020584",
+          "ntrs-19970020584",
+          "ntrs-20000030722",
+          "ntrs-19960008386",
+          "ntrs-20010074037",
+          "ntrs-20000056909",
+          "ntrs-20140017780",
+          "ntrs-19960008440",
+          "ntrs-19990053965",
+          "ntrs-19990053965"
+        ],
+        "category": "documentary"
+      },
+      {
+        "id": "doc-15",
+        "rank": 1,
+        "returned_sources": [
+          "ntrs-20170001636",
+          "ntrs-20170002628",
+          "ntrs-20170002628",
+          "ntrs-20170000230",
+          "ntrs-20170000230",
+          "ntrs-20170001636",
+          "ntrs-20140011433",
+          "ntrs-20220002714",
+          "ntrs-20160010292",
+          "ntrs-20150022123"
+        ],
+        "category": "documentary"
+      },
+      {
+        "id": "doc-16",
+        "rank": 2,
+        "returned_sources": [
+          "ntrs-20170002628",
+          "ntrs-20240002981",
+          "ntrs-20260001992",
+          "local-ntrs-20205007829",
+          "ntrs-20205007829",
+          "ntrs-20240002981",
+          "ntrs-20240002981",
+          "ntrs-20170002628",
+          "ntrs-20240002981",
+          "ntrs-20260001992"
+        ],
+        "category": "documentary"
+      },
+      {
+        "id": "doc-17",
+        "rank": null,
+        "returned_sources": [
+          "ntrs-20170002628",
+          "ntrs-20240002981",
+          "ntrs-20260001992",
+          "local-ntrs-20205007829",
+          "ntrs-20205007829",
+          "ntrs-20240002981",
+          "ntrs-20240002981",
+          "ntrs-20170002628",
+          "ntrs-20240002981",
+          "ntrs-20260001992"
+        ],
+        "category": "documentary"
+      },
+      {
+        "id": "doc-18",
+        "rank": 1,
+        "returned_sources": [
+          "ntrs-20220002714",
+          "ntrs-20220002714",
+          "ntrs-20170002628",
+          "ntrs-20170001636",
+          "ntrs-20220002714",
+          "ntrs-20170000230",
+          "ntrs-20150022123",
+          "ntrs-20240002981",
+          "ntrs-20210017780",
+          "ntrs-20170000230"
+        ],
+        "category": "documentary"
+      },
+      {
+        "id": "doc-19",
+        "rank": 1,
+        "returned_sources": [
+          "ntrs-20180005168",
+          "ntrs-20200000557",
+          "ntrs-20180005168",
+          "ntrs-20170001636",
+          "ntrs-20150022123",
+          "ntrs-20220002714",
+          "ntrs-20170000230",
+          "ntrs-20220012861",
+          "ntrs-20210022143",
+          "ntrs-19900003329"
+        ],
+        "category": "documentary"
+      },
+      {
+        "id": "doc-20",
+        "rank": null,
+        "returned_sources": [
+          "ntrs-20130013749",
+          "ntrs-20130000677",
+          "ntrs-20130008174",
+          "ntrs-20170001636",
+          "ntrs-20170008805",
+          "ntrs-20160010292",
+          "ntrs-20150022123",
+          "ntrs-20170000230",
+          "ntrs-20170000230",
+          "ntrs-20170001636"
+        ],
+        "category": "documentary"
+      },
+      {
+        "id": "doc-21",
+        "rank": 1,
+        "returned_sources": [
+          "ntrs-20150022421",
+          "ntrs-20150022123",
+          "ntrs-20160010292",
+          "ntrs-20150022123",
+          "ntrs-20150000894",
+          "ntrs-20170001636",
+          "ntrs-20170002628",
+          "ntrs-20140011433",
+          "ntrs-20170008805",
+          "ntrs-20170008805"
+        ],
+        "category": "documentary"
+      },
+      {
+        "id": "doc-22",
+        "rank": 2,
+        "returned_sources": [
+          "ntrs-20150022421",
+          "ntrs-20150022123",
+          "ntrs-20160010292",
+          "ntrs-20150022123",
+          "ntrs-20150000894",
+          "ntrs-20170001636",
+          "ntrs-20170002628",
+          "ntrs-20140011433",
+          "ntrs-20170008805",
+          "ntrs-20170008805"
+        ],
+        "category": "documentary"
+      },
+      {
+        "id": "doc-23",
+        "rank": 9,
+        "returned_sources": [
+          "ntrs-20030053425",
+          "ntrs-20030053425",
+          "ntrs-20030053425",
+          "ntrs-20030053425",
+          "ntrs-19990063738",
+          "local-ntrs-20205007829",
+          "ntrs-20205007829",
+          "ntrs-20210022143",
+          "ntrs-20170007283",
+          "ntrs-20040053504"
+        ],
+        "category": "documentary"
+      },
+      {
+        "id": "doc-24",
+        "rank": 3,
+        "returned_sources": [
+          "ntrs-20220002714",
+          "ntrs-20170000230",
+          "ntrs-20170002628",
+          "ntrs-20170001636",
+          "ntrs-20220007045",
+          "ntrs-20170002628",
+          "ntrs-20170000230",
+          "ntrs-20170000230",
+          "ntrs-20210022143",
+          "ntrs-20170007283"
+        ],
+        "category": "documentary"
+      },
+      {
+        "id": "doc-25",
+        "rank": 8,
+        "returned_sources": [
+          "ntrs-20130001713",
+          "local-ntrs-20205007829",
+          "ntrs-20205007829",
+          "ntrs-20140011433",
+          "ntrs-20170002628",
+          "ntrs-20170001636",
+          "ntrs-20130013749",
+          "ntrs-20160010292",
+          "ntrs-20170000230",
+          "ntrs-20140011433"
+        ],
+        "category": "documentary"
+      },
+      {
+        "id": "doc-26",
+        "rank": 3,
+        "returned_sources": [
+          "ntrs-20240002981",
+          "ntrs-20240002981",
+          "ntrs-20260001992",
+          "ntrs-20240007488",
+          "ntrs-20170002628",
+          "ntrs-20240002981",
+          "ntrs-20170007283",
+          "ntrs-20240007488",
+          "ntrs-20260001992",
+          "ntrs-20170000230"
+        ],
+        "category": "documentary"
+      },
+      {
+        "id": "doc-27",
+        "rank": 1,
+        "returned_sources": [
+          "ntrs-20170008805",
+          "ntrs-20130000677",
+          "ntrs-20130013749",
+          "ntrs-20130008174",
+          "ntrs-20150022123",
+          "ntrs-20160010292",
+          "ntrs-20170001636",
+          "ntrs-20170002628",
+          "ntrs-20180005168",
+          "ntrs-20170000230"
+        ],
+        "category": "documentary"
+      },
+      {
+        "id": "doc-28",
+        "rank": 1,
+        "returned_sources": [
+          "ntrs-20200000557",
+          "ntrs-20200000557",
+          "ntrs-20210017789",
+          "ntrs-20200000557",
+          "ntrs-20200000557",
+          "ntrs-20200000557",
+          "ntrs-20210017780",
+          "ntrs-20140004923",
+          "ntrs-20200000557",
+          "ntrs-20200000557"
+        ],
+        "category": "documentary"
+      },
+      {
+        "id": "doc-29",
+        "rank": 1,
+        "returned_sources": [
+          "ntrs-20210017838",
+          "ntrs-20210017838",
+          "ntrs-20210017785",
+          "ntrs-20260001992",
+          "ntrs-20240002981",
+          "ntrs-20210017780",
+          "ntrs-20160010292",
+          "ntrs-20140011433",
+          "ntrs-20210017785",
+          "ntrs-20210011385"
+        ],
+        "category": "documentary"
+      },
+      {
+        "id": "doc-30",
+        "rank": 3,
+        "returned_sources": [
+          "ntrs-20210017838",
+          "ntrs-20210017838",
+          "ntrs-20210017785",
+          "ntrs-20260001992",
+          "ntrs-20240002981",
+          "ntrs-20210017780",
+          "ntrs-20160010292",
+          "ntrs-20140011433",
+          "ntrs-20210017785",
+          "ntrs-20210011385"
+        ],
+        "category": "documentary"
+      },
+      {
+        "id": "doc-31",
+        "rank": 1,
+        "returned_sources": [
+          "ntrs-20200000365",
+          "ntrs-20200000365",
+          "ntrs-20170000230",
+          "ntrs-20210022143",
+          "ntrs-20170002628",
+          "ntrs-20040053504",
+          "ntrs-19900003329",
+          "ntrs-20030053427",
+          "ntrs-19870006579",
+          "ntrs-20210023340"
+        ],
+        "category": "documentary"
+      },
+      {
+        "id": "doc-32",
+        "rank": 1,
+        "returned_sources": [
+          "ntrs-20090014812",
+          "ntrs-20130004397",
+          "ntrs-20150023456",
+          "ntrs-20150023456",
+          "ntrs-20150023456",
+          "ntrs-20150023456",
+          "ntrs-20150023456",
+          "ntrs-20140006750",
+          "ntrs-20150023456",
+          "ntrs-20150023456"
+        ],
+        "category": "documentary"
+      },
+      {
+        "id": "doc-33",
+        "rank": 1,
+        "returned_sources": [
+          "ntrs-20130014061",
+          "ntrs-19990053965",
+          "ntrs-20090014812",
+          "ntrs-20150023456",
+          "ntrs-20150023456",
+          "ntrs-20150023456",
+          "ntrs-20040053569",
+          "ntrs-20210023340",
+          "ntrs-20040053504",
+          "ntrs-20150023456"
+        ],
+        "category": "documentary"
+      },
+      {
+        "id": "doc-34",
+        "rank": 1,
+        "returned_sources": [
+          "ntrs-20160000344",
+          "ntrs-20160000344",
+          "ntrs-20170000666",
+          "ntrs-20140006750",
+          "ntrs-20170000666",
+          "ntrs-20260002014",
+          "ntrs-20150023456",
+          "ntrs-20205008449",
+          "ntrs-20150023456",
+          "ntrs-20150023456"
+        ],
+        "category": "documentary"
+      },
+      {
+        "id": "doc-35",
+        "rank": 2,
+        "returned_sources": [
+          "ntrs-20205008449",
+          "ntrs-20140006750",
+          "ntrs-20170000666",
+          "ntrs-20160000344",
+          "ntrs-20190002838",
+          "ntrs-20140006750",
+          "ntrs-20210022617",
+          "ntrs-20190002838",
+          "ntrs-20205008449",
+          "ntrs-20140006750"
+        ],
+        "category": "documentary"
+      },
+      {
+        "id": "safety-36",
+        "rank": 1,
+        "returned_sources": [
+          "ntrs-20205007829",
+          "local-ntrs-20205007829",
+          "ntrs-20205007829",
+          "ntrs-19900003329",
+          "ntrs-19990063738",
+          "ntrs-19990063738",
+          "ntrs-19900003329",
+          "local-ntrs-20205007829",
+          "ntrs-20205007829",
+          "ntrs-19910005065"
+        ],
+        "category": "safety"
+      },
+      {
+        "id": "safety-37",
+        "rank": 1,
+        "returned_sources": [
+          "ntrs-20150020937",
+          "ntrs-20150020937",
+          "ntrs-20030053425",
+          "ntrs-20150020937",
+          "ntrs-20150022421",
+          "ntrs-20040161185",
+          "ntrs-20030053425",
+          "ntrs-20130009351",
+          "ntrs-20030053425",
+          "ntrs-20040084155"
+        ],
+        "category": "safety"
+      },
+      {
+        "id": "safety-38",
+        "rank": null,
+        "returned_sources": [
+          "ntrs-20150020937",
+          "ntrs-20260003546",
+          "ntrs-20150020937",
+          "ntrs-20030053425",
+          "ntrs-20150020937",
+          "ntrs-20150020937",
+          "ntrs-20260003546",
+          "ntrs-20070010766",
+          "ntrs-20110001653",
+          "ntrs-20040084155"
+        ],
+        "category": "safety"
+      },
+      {
+        "id": "safety-39",
+        "rank": 1,
+        "returned_sources": [
+          "ntrs-20205007829",
+          "local-ntrs-20205007829",
+          "ntrs-20205007829",
+          "ntrs-20260003546",
+          "ntrs-20170001636",
+          "ntrs-20210011385",
+          "ntrs-19900003329",
+          "ntrs-19930004527",
+          "ntrs-20150022123",
+          "ntrs-19900004946"
+        ],
+        "category": "safety"
+      },
+      {
+        "id": "safety-40",
+        "rank": 3,
+        "returned_sources": [
+          "ntrs-20240007488",
+          "local-ntrs-20205007829",
+          "ntrs-20205007829",
+          "ntrs-20170002628",
+          "ntrs-20240002981",
+          "ntrs-20150000894",
+          "ntrs-20160010292",
+          "ntrs-20210017780",
+          "ntrs-20140011433",
+          "ntrs-20170002628"
+        ],
+        "category": "safety"
+      }
+    ],
+    "structured": [
+      {
+        "id": "structured-41",
+        "expected": "DIRECT",
+        "actual": "DIRECT",
+        "intent": {
+          "query_mode": "experiment_search",
+          "materials": [],
+          "investigations": [
+            "psi-98"
+          ],
+          "gravity_conditions": [],
+          "oxygen": null,
+          "pressure": null,
+          "flow_velocity": null,
+          "flow_direction": null,
+          "geometries": [],
+          "phenomena": [],
+          "safety_intents": [],
+          "requested_information": [
+            "experiments"
+          ]
+        },
+        "evidence_ids": [
+          "E-psi-98-table-S1",
+          "E-psi-98-table-S2"
+        ]
+      },
+      {
+        "id": "structured-42",
+        "expected": "DIRECT",
+        "actual": "DIRECT",
+        "intent": {
+          "query_mode": "compare",
+          "materials": [],
+          "investigations": [
+            "psi-98"
+          ],
+          "gravity_conditions": [],
+          "oxygen": null,
+          "pressure": null,
+          "flow_velocity": null,
+          "flow_direction": null,
+          "geometries": [],
+          "phenomena": [],
+          "safety_intents": [],
+          "requested_information": [
+            "experiments"
+          ]
+        },
+        "evidence_ids": [
+          "E-psi-98-table-S1",
+          "E-psi-98-table-S2"
+        ]
+      },
+      {
+        "id": "structured-43",
+        "expected": "RELATED",
+        "actual": "RELATED",
+        "intent": {
+          "query_mode": "general_search",
+          "materials": [
+            "SIBAL Fabric"
+          ],
+          "investigations": [],
+          "gravity_conditions": [],
+          "oxygen": null,
+          "pressure": null,
+          "flow_velocity": {
+            "operator": "<=",
+            "value": 0.1,
+            "unit": "m/s"
+          },
+          "flow_direction": null,
+          "geometries": [],
+          "phenomena": [],
+          "safety_intents": [],
+          "requested_information": []
+        },
+        "evidence_ids": [
+          "E-psi-98-table-S1",
+          "E-psi-98-table-S2"
+        ]
+      },
+      {
+        "id": "structured-44",
+        "expected": "RELATED",
+        "actual": "RELATED",
+        "intent": {
+          "query_mode": "general_search",
+          "materials": [
+            "SIBAL Fabric"
+          ],
+          "investigations": [],
+          "gravity_conditions": [
+            "microgravity"
+          ],
+          "oxygen": null,
+          "pressure": null,
+          "flow_velocity": {
+            "operator": "<=",
+            "value": 0.1,
+            "unit": "m/s"
+          },
+          "flow_direction": null,
+          "geometries": [],
+          "phenomena": [],
+          "safety_intents": [],
+          "requested_information": []
+        },
+        "evidence_ids": [
+          "E-psi-98-table-S1",
+          "E-psi-98-table-S2"
+        ]
+      },
+      {
+        "id": "structured-45",
+        "expected": "NO_DIRECT_EVIDENCE",
+        "actual": "RELATED",
+        "intent": {
+          "query_mode": "general_search",
+          "materials": [
+            "PMMA"
+          ],
+          "investigations": [],
+          "gravity_conditions": [
+            "microgravity"
+          ],
+          "oxygen": null,
+          "pressure": null,
+          "flow_velocity": null,
+          "flow_direction": null,
+          "geometries": [],
+          "phenomena": [],
+          "safety_intents": [],
+          "requested_information": []
+        },
+        "evidence_ids": [
+          "E-psi-98-table-S1",
+          "E-psi-98-table-S2"
+        ]
+      },
+      {
+        "id": "structured-46",
+        "expected": "NO_DIRECT_EVIDENCE",
+        "actual": "NO_DIRECT_EVIDENCE",
+        "intent": {
+          "query_mode": "experiment_search",
+          "materials": [],
+          "investigations": [
+            "psi-25"
+          ],
+          "gravity_conditions": [],
+          "oxygen": null,
+          "pressure": null,
+          "flow_velocity": null,
+          "flow_direction": null,
+          "geometries": [],
+          "phenomena": [],
+          "safety_intents": [],
+          "requested_information": [
+            "experiments"
+          ]
+        },
+        "evidence_ids": []
+      },
+      {
+        "id": "structured-47",
+        "expected": "NO_DIRECT_EVIDENCE",
+        "actual": "NO_DIRECT_EVIDENCE",
+        "intent": {
+          "query_mode": "general_search",
+          "materials": [],
+          "investigations": [],
+          "gravity_conditions": [],
+          "oxygen": null,
+          "pressure": null,
+          "flow_velocity": null,
+          "flow_direction": null,
+          "geometries": [],
+          "phenomena": [],
+          "safety_intents": [],
+          "requested_information": []
+        },
+        "evidence_ids": []
+      },
+      {
+        "id": "structured-48",
+        "expected": "NO_DIRECT_EVIDENCE",
+        "actual": "NO_DIRECT_EVIDENCE",
+        "intent": {
+          "query_mode": "safety_search",
+          "materials": [
+            "PMMA"
+          ],
+          "investigations": [],
+          "gravity_conditions": [],
+          "oxygen": null,
+          "pressure": null,
+          "flow_velocity": null,
+          "flow_direction": null,
+          "geometries": [],
+          "phenomena": [],
+          "safety_intents": [
+            "safety_implication",
+            "open_question"
+          ],
+          "requested_information": [
+            "safety"
+          ]
+        },
+        "evidence_ids": []
+      },
+      {
+        "id": "negative-49",
+        "expected": "NO_DIRECT_EVIDENCE",
+        "actual": "NO_DIRECT_EVIDENCE",
+        "intent": {
+          "query_mode": "general_search",
+          "materials": [],
+          "investigations": [],
+          "gravity_conditions": [],
+          "oxygen": null,
+          "pressure": null,
+          "flow_velocity": null,
+          "flow_direction": null,
+          "geometries": [],
+          "phenomena": [],
+          "safety_intents": [],
+          "requested_information": []
+        },
+        "evidence_ids": []
+      },
+      {
+        "id": "negative-50",
+        "expected": "NO_DIRECT_EVIDENCE",
+        "actual": "NO_DIRECT_EVIDENCE",
+        "intent": {
+          "query_mode": "general_search",
+          "materials": [],
+          "investigations": [],
+          "gravity_conditions": [],
+          "oxygen": null,
+          "pressure": null,
+          "flow_velocity": null,
+          "flow_direction": null,
+          "geometries": [],
+          "phenomena": [],
+          "safety_intents": [],
+          "requested_information": []
+        },
+        "evidence_ids": []
+      }
+    ]
+  },
+  "elapsed_seconds": 1.6
+}

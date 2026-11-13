@@ -1,0 +1,71 @@
+[
+  {
+    "id": "droplet_start",
+    "message": "What NASA experiments investigated droplet flame extinction?",
+    "conversation": "droplet"
+  },
+  {
+    "id": "droplet_measurements",
+    "message": "What measurements were recorded during those experiments?",
+    "conversation": "droplet"
+  },
+  {
+    "id": "droplet_conditions",
+    "message": "Which experiments used different flow or oxygen conditions?",
+    "conversation": "droplet"
+  },
+  {
+    "id": "droplet_exploration",
+    "message": "Are there other investigations that might be relevant even if they do not match those conditions?",
+    "conversation": "droplet"
+  },
+  {
+    "id": "droplet_findings",
+    "message": "Explain the documented findings and show the original sources.",
+    "conversation": "droplet"
+  },
+  {
+    "id": "instrumentation",
+    "message": "How were droplet size and flame size distinguished by the imaging diagnostics?"
+  },
+  {
+    "id": "solid",
+    "message": "Which solid-material ignition studies are described, and which statements are research objectives rather than measured outcomes?"
+  },
+  {
+    "id": "smoke",
+    "message": "What do NASA documents say about pre-ignition fire signatures and the uncertainty of detecting them in reduced gravity?"
+  },
+  {
+    "id": "normative",
+    "message": "What does NASA-STD-6001 require for material evaluation, and how does that differ from an experimental observation?"
+  },
+  {
+    "id": "pressure_oxygen",
+    "message": "What pressure ranges and oxygen dilution conditions does the FLEX report document? Keep campaign ranges separate from individual runs."
+  },
+  {
+    "id": "comparison",
+    "message": "Compare Saffire I S1 and S2: describe the documented airflow directions, airflow velocity and any unavailable conditions."
+  },
+  {
+    "id": "gravity",
+    "message": "How do the FLEX report authors explain using microgravity for spherical droplet combustion?"
+  },
+  {
+    "id": "ambiguity",
+    "message": "How is optical extinction in smoke diagnostics different from flame extinction in combustion studies?"
+  },
+  {
+    "id": "unmatched",
+    "message": "What can this corpus establish about combustion in Martian gravity, and what remains unverified?"
+  },
+  {
+    "id": "methodology",
+    "message": "What sources discuss errors or limitations in photographic measurements of droplets?"
+  },
+  {
+    "id": "open_exploration",
+    "message": "Which other NASA investigations could be useful for studying combustion diagnostics? Separate documented methods from exploratory connections."
+  }
+]

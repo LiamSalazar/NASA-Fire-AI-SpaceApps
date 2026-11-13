@@ -1,0 +1,30 @@
+{
+  "version": "phase2-closure-2026-10-04",
+  "purpose": "Small source-backed subset of the frozen structured retrieval gold for ranking after deterministic graph eligibility. It is not a new scientific corpus or ontology mapping.",
+  "cases": [
+    {
+      "id": "graph-structured-41",
+      "frozen_gold_id": "structured-41",
+      "query": "Find Saffire-I experiments.",
+      "expected_evidence_ids": ["E-psi-98-table-S1", "E-psi-98-table-S2"],
+      "source_basis": "Canonical Saffire-I structured runs S1 and S2 and their managed Evidence Registry passages.",
+      "review_status": "SOURCE_BACKED"
+    },
+    {
+      "id": "graph-structured-42",
+      "frozen_gold_id": "structured-42",
+      "query": "Find SIBAL Fabric microgravity experiments.",
+      "expected_evidence_ids": ["E-psi-98-table-S1", "E-psi-98-table-S2"],
+      "source_basis": "Canonical Saffire-I runs S1 and S2 have SIBAL Fabric and microgravity fields with managed Evidence Registry passages.",
+      "review_status": "SOURCE_BACKED"
+    },
+    {
+      "id": "graph-structured-43",
+      "frozen_gold_id": "structured-43",
+      "query": "Find SIBAL Fabric airflow <= 0.10 m/s experiments.",
+      "expected_evidence_ids": ["E-psi-98-table-S1", "E-psi-98-table-S2"],
+      "source_basis": "Canonical Saffire-I runs S1 and S2 are managed structured evidence; ranking must not change DIRECT or RELATED status.",
+      "review_status": "SOURCE_BACKED"
+    }
+  ]
+}

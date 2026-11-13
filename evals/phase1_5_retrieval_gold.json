@@ -1,0 +1,535 @@
+{
+  "version": "phase1.5-frozen-2026-10-04",
+  "questions": [
+    {
+      "id": "doc-01",
+      "question": "Operation and Development Status of the Spacecraft Fire Experiments (Saffire)",
+      "category": "documentary",
+      "family": "saffire",
+      "expected_source_ids": [
+        "ntrs-20170000230"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "doc-02",
+      "question": "Detailed Results from the Flame Extinguishment Experiment (FLEX) March 2009 to December 2011",
+      "category": "documentary",
+      "family": "flex",
+      "expected_source_ids": [
+        "ntrs-20150023456"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "doc-03",
+      "question": "Burning and Suppression of Solids\u2013II  (BASS-II) Summary Report",
+      "category": "documentary",
+      "family": "bass",
+      "expected_source_ids": [
+        "ntrs-20210011385"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "doc-04",
+      "question": "Smoke Point in Co-flow Experiment",
+      "category": "documentary",
+      "family": "spice_slice",
+      "expected_source_ids": [
+        "ntrs-20090014827"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "doc-05",
+      "question": "Particle Morphology and Size Results from the Smoke Aerosol Measurement Experiment-2",
+      "category": "documentary",
+      "family": "same_smoke",
+      "expected_source_ids": [
+        "ntrs-20130000422"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "doc-06",
+      "question": "Solid Fuel Ignition and Extinction (SoFIE) Project on ISS",
+      "category": "documentary",
+      "family": "sofie",
+      "expected_source_ids": [
+        "ntrs-20200000361"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "doc-07",
+      "question": "Advanced Combustion via Microgravity Experiments (ACME) on the International Space Station (ISS)",
+      "category": "documentary",
+      "family": "acme",
+      "expected_source_ids": [
+        "ntrs-20210015913"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "doc-08",
+      "question": "Large Scale Experiments on Spacecraft Fire Safety",
+      "category": "documentary",
+      "family": "flammability_general",
+      "expected_source_ids": [
+        "ntrs-20130000677"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "doc-09",
+      "question": "Physical Science Informatics: Providing Open Science Access to Microheater Array Boiling Experiment Data",
+      "category": "documentary",
+      "family": "psi",
+      "expected_source_ids": [
+        "ntrs-20150002323"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "doc-10",
+      "question": "Opposed-Flow Flame Spread in a Narrow Channel Apparatus over Thin PMMA Sheets",
+      "category": "documentary",
+      "family": "flame_spread",
+      "expected_source_ids": [
+        "ntrs-20140004923"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "doc-11",
+      "question": "Combustion of Interacting Droplet Arrays in a Microgravity Environment",
+      "category": "documentary",
+      "family": "droplet_coolflame",
+      "expected_source_ids": [
+        "ntrs-20010074042"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "doc-12",
+      "question": "Microgravity Smoldering Combustion Takes Flight",
+      "category": "documentary",
+      "family": "smolder_suppression",
+      "expected_source_ids": [
+        "ntrs-20050172091"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "doc-13",
+      "question": "\"Smoke\": Characterization Of Smoke Particulate For Spacecraft Fire Detection",
+      "category": "documentary",
+      "family": "detection_atmosphere",
+      "expected_source_ids": [
+        "ntrs-20040053578"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "doc-14",
+      "question": "Effects of Fuel Preheat on Soot Formation in Microgravity Laminar Diffusion Flames",
+      "category": "documentary",
+      "family": "laminar_flames_soot",
+      "expected_source_ids": [
+        "ntrs-19970020584"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "doc-15",
+      "question": "The Spacecraft Fire Experiment (Saffire) - Objectives, Development and Status",
+      "category": "documentary",
+      "family": "saffire",
+      "expected_source_ids": [
+        "ntrs-20170001636"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "doc-16",
+      "question": "Preliminary Results from the Saffire VI Experiment",
+      "category": "documentary",
+      "family": "saffire",
+      "expected_source_ids": [
+        "ntrs-20240002981"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "doc-17",
+      "question": "Preliminary Results from the Saffire VI Experiment",
+      "category": "documentary",
+      "family": "saffire",
+      "expected_source_ids": [
+        "ntrs-20240007488"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "doc-18",
+      "question": "Model Development of Large-Scale Spacecraft Fires During the Saffire-IV Experiments",
+      "category": "documentary",
+      "family": "saffire",
+      "expected_source_ids": [
+        "ntrs-20220002714"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "doc-19",
+      "question": "Saffire: A Novel Approach to Study of Spacecraft Fire Safety Using Un-Manned Spacecraft",
+      "category": "documentary",
+      "family": "saffire",
+      "expected_source_ids": [
+        "ntrs-20180005168"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "doc-20",
+      "question": "Large-Scale Spacecraft Fire Safety Tests",
+      "category": "documentary",
+      "family": "saffire",
+      "expected_source_ids": [
+        "ntrs-20150000894"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "doc-21",
+      "question": "Buoyant Effects on the Flammability of Silicone Samples Planned for the Spacecraft Fire Experiment (Saffire)",
+      "category": "documentary",
+      "family": "saffire",
+      "expected_source_ids": [
+        "ntrs-20150022421"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "doc-22",
+      "question": "Buoyant Effects on the Flammability of Silicone Samples Planned for the Spacecraft Fire Experiment (Saffire)",
+      "category": "documentary",
+      "family": "saffire",
+      "expected_source_ids": [
+        "ntrs-20150022123"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "doc-23",
+      "question": "Spacecraft Fire Safety Research at NASA Glenn Research Center",
+      "category": "documentary",
+      "family": "saffire",
+      "expected_source_ids": [
+        "ntrs-20170007283"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "doc-24",
+      "question": "Operation and Development Status of the Spacecraft Fire Experiment (Saffire)",
+      "category": "documentary",
+      "family": "saffire",
+      "expected_source_ids": [
+        "ntrs-20170002628"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "doc-25",
+      "question": "Spacecraft Fire Safety Demonstration",
+      "category": "documentary",
+      "family": "saffire",
+      "expected_source_ids": [
+        "ntrs-20160010292"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "doc-26",
+      "question": "Heat and Smoke Emission from Tests on the Saffire VI Experiment",
+      "category": "documentary",
+      "family": "saffire",
+      "expected_source_ids": [
+        "ntrs-20260001992"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "doc-27",
+      "question": "Results of Large-Scale Spacecraft Flammability Tests",
+      "category": "documentary",
+      "family": "saffire",
+      "expected_source_ids": [
+        "ntrs-20170008805"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "doc-28",
+      "question": "Buoyancy Effects on Concurrent Flame Spread Over Thick PMMA",
+      "category": "documentary",
+      "family": "saffire",
+      "expected_source_ids": [
+        "ntrs-20200000557"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "doc-29",
+      "question": "Opposed flame spreading along a structured PMMA-sample in exploration atmosphere under microgravity",
+      "category": "documentary",
+      "family": "saffire",
+      "expected_source_ids": [
+        "ntrs-20210017838"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "doc-30",
+      "question": "Opposed Flame Spreading Along a Structured PMMA Sample in Exploration Atmosphere Under Microgravity",
+      "category": "documentary",
+      "family": "saffire",
+      "expected_source_ids": [
+        "ntrs-20210017785"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "doc-31",
+      "question": "Hazardous Product Detection and Environmental Clean-up Removal in Spacecraft Vehicles from Fire Induced Li-Ion Fires",
+      "category": "documentary",
+      "family": "saffire",
+      "expected_source_ids": [
+        "ntrs-20200000365"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "doc-32",
+      "question": "Multi-User Droplet Combustion Apparatus - Flame Extinguishment Experiment",
+      "category": "documentary",
+      "family": "flex",
+      "expected_source_ids": [
+        "ntrs-20090014812"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "doc-33",
+      "question": "Methanol Droplet Combustion in Oxygen-Inert Environments in Microgravity",
+      "category": "documentary",
+      "family": "flex",
+      "expected_source_ids": [
+        "ntrs-20130014061"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "doc-34",
+      "question": "Aspects of Cool-Flame Supported Droplet Combustion in Microgravity",
+      "category": "documentary",
+      "family": "flex",
+      "expected_source_ids": [
+        "ntrs-20160000344"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "doc-35",
+      "question": "Cool-flame Extinction During N-Alkane Droplet Combustion in Microgravity",
+      "category": "documentary",
+      "family": "flex",
+      "expected_source_ids": [
+        "ntrs-20140006750"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "safety-36",
+      "question": "active fire suppression early detection",
+      "category": "safety",
+      "family": "safety",
+      "expected_source_ids": [
+        "ntrs-20205007829"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "safety-37",
+      "question": "spacecraft flammability configuration assessment guidance",
+      "category": "safety",
+      "family": "safety",
+      "expected_source_ids": [
+        "ntrs-20150020937"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "safety-38",
+      "question": "NASA STD 6001 material tests",
+      "category": "safety",
+      "family": "safety",
+      "expected_source_ids": [
+        "nasa-std-6001"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "safety-39",
+      "question": "additional focused tests fire suppression guidance",
+      "category": "safety",
+      "family": "safety",
+      "expected_source_ids": [
+        "ntrs-20205007829"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "safety-40",
+      "question": "PMMA Saffire fire suppression",
+      "category": "safety",
+      "family": "safety",
+      "expected_source_ids": [
+        "ntrs-20205007829"
+      ],
+      "expected_direct": null,
+      "acceptable_abstention": false
+    },
+    {
+      "id": "structured-41",
+      "question": "Find Saffire-I",
+      "category": "structured",
+      "family": "seed-kg",
+      "expected_source_ids": [],
+      "expected_direct": "DIRECT",
+      "acceptable_abstention": false
+    },
+    {
+      "id": "structured-42",
+      "question": "Compare Saffire runs",
+      "category": "structured",
+      "family": "seed-kg",
+      "expected_source_ids": [],
+      "expected_direct": "DIRECT",
+      "acceptable_abstention": false
+    },
+    {
+      "id": "structured-43",
+      "question": "SIBAL Fabric airflow <= 0.10 m/s",
+      "category": "structured",
+      "family": "seed-kg",
+      "expected_source_ids": [],
+      "expected_direct": "RELATED",
+      "acceptable_abstention": false
+    },
+    {
+      "id": "structured-44",
+      "question": "SIBAL Fabric microgravity airflow <= 0.10 m/s",
+      "category": "structured",
+      "family": "seed-kg",
+      "expected_source_ids": [],
+      "expected_direct": "RELATED",
+      "acceptable_abstention": false
+    },
+    {
+      "id": "structured-45",
+      "question": "PMMA microgravity",
+      "category": "structured",
+      "family": "seed-kg",
+      "expected_source_ids": [],
+      "expected_direct": "NO_DIRECT_EVIDENCE",
+      "acceptable_abstention": true
+    },
+    {
+      "id": "structured-46",
+      "question": "BASS-II",
+      "category": "structured",
+      "family": "seed-kg",
+      "expected_source_ids": [],
+      "expected_direct": "NO_DIRECT_EVIDENCE",
+      "acceptable_abstention": true
+    },
+    {
+      "id": "structured-47",
+      "question": "unobtainium combustion",
+      "category": "structured",
+      "family": "seed-kg",
+      "expected_source_ids": [],
+      "expected_direct": "NO_DIRECT_EVIDENCE",
+      "acceptable_abstention": true
+    },
+    {
+      "id": "structured-48",
+      "question": "PMMA suppression open question",
+      "category": "structured",
+      "family": "seed-kg",
+      "expected_source_ids": [],
+      "expected_direct": "NO_DIRECT_EVIDENCE",
+      "acceptable_abstention": true
+    },
+    {
+      "id": "negative-49",
+      "question": "xenonium droplet combustion",
+      "category": "abstention",
+      "family": "negative",
+      "expected_source_ids": [],
+      "expected_direct": "NO_DIRECT_EVIDENCE",
+      "acceptable_abstention": true
+    },
+    {
+      "id": "negative-50",
+      "question": "airflow velocity versus flame-spread velocity",
+      "category": "abstention",
+      "family": "negative",
+      "expected_source_ids": [],
+      "expected_direct": "NO_DIRECT_EVIDENCE",
+      "acceptable_abstention": true
+    }
+  ]
+}

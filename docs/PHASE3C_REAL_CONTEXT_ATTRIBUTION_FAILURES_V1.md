@@ -1,0 +1,7 @@
+# Scientific attribution failures and negative controls
+
+Rejected model proposals: the flight-PMMA quotation changed the source wording; the flight-silicone proposal used prospective objectives and nonexact quotation. These cannot establish experimental gravity. Two accepted model proposals are redundant, not discoveries. Correct citations with wrong group, scope or run remain rejected in adversarial tests.
+
+The Saffire-I ISS metadata is not used as the burn location. Original intact specimen dimensions do not describe remaining fuel after the concurrent burn. Source-dependent natural-convection ground comparisons are not matched-condition causal experiments. The Saffire-IV interruption source has no verified execution-gravity link, so microgravity is UNKNOWN. Graph connectivity does not establish which observations support a conclusion; the multi-hop question stays RELATED. Broad research-question gravity applicability and acrylic/PMMA exact conceptual identity are unresolved; RAG evidence remains CONTEXTUAL.
+
+No false inheritance was found in the tested source partitions/negative software controls. This is not a zero-error scientific precision estimate: no independent reviewers supplied applicability judgments. Unrestricted whole-corpus or autonomous cross-document interpretations are unvalidated. The 68 BASS pilot IDs link through exact Test ID/sample identity; similar wording alone does not merge studies. The historical 70/342 audit is not independent gold, and tests are not scientists' approval.

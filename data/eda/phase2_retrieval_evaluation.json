@@ -1,0 +1,6339 @@
+{
+  "model": "nvidia/nemotron-3-embed-1b",
+  "query_cache_hits": 0,
+  "query_embeddings": 40,
+  "vector": {
+    "recall_at_1": 0.45,
+    "recall_at_3": 0.7,
+    "recall_at_5": 0.725,
+    "recall_at_10": 0.8,
+    "mrr": 0.5832,
+    "questions": 40
+  },
+  "hybrid_rrf": {
+    "recall_at_1": 0.575,
+    "recall_at_3": 0.75,
+    "recall_at_5": 0.825,
+    "recall_at_10": 0.9,
+    "mrr": 0.6907,
+    "questions": 40
+  },
+  "bm25_reproduced": {
+    "recall_at_1": 0.625,
+    "recall_at_3": 0.85,
+    "recall_at_5": 0.85,
+    "recall_at_10": 0.9,
+    "mrr": 0.7226,
+    "questions": 40
+  },
+  "by_category": {
+    "documentary": {
+      "vector": {
+        "recall_at_1": 0.4,
+        "recall_at_3": 0.6571,
+        "recall_at_5": 0.6857,
+        "recall_at_10": 0.7714,
+        "mrr": 0.5379,
+        "questions": 35
+      },
+      "hybrid": {
+        "recall_at_1": 0.5714,
+        "recall_at_3": 0.7429,
+        "recall_at_5": 0.8,
+        "recall_at_10": 0.8857,
+        "mrr": 0.6837,
+        "questions": 35
+      }
+    },
+    "safety": {
+      "vector": {
+        "recall_at_1": 0.8,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "recall_at_10": 1.0,
+        "mrr": 0.9,
+        "questions": 5
+      },
+      "hybrid": {
+        "recall_at_1": 0.6,
+        "recall_at_3": 0.8,
+        "recall_at_5": 1.0,
+        "recall_at_10": 1.0,
+        "mrr": 0.74,
+        "questions": 5
+      }
+    }
+  },
+  "details": [
+    {
+      "id": "doc-01",
+      "category": "documentary",
+      "bm25_rank": 1,
+      "vector_rank": 2,
+      "hybrid_rank": 1,
+      "bm25": [
+        "E-7f35938982a28c00",
+        "E-ac5321d7f4433dec",
+        "E-5d4bb0be10b6a4a3",
+        "E-1cd91b1ca53399a1",
+        "E-fc0ba1ddd48b2851",
+        "E-19303a14e601b7f8",
+        "E-47a6f8af3eb8b482",
+        "E-eea2bbbaa292164f",
+        "E-3afd1e0aeb04db8d",
+        "E-0f03a54842af440c"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-a0238f9cfbbc8167",
+          "semantic_similarity_score": 0.5412492752075195
+        },
+        {
+          "evidence_id": "E-a9f3ce9ea99cc72f",
+          "semantic_similarity_score": 0.523878812789917
+        },
+        {
+          "evidence_id": "E-3eaa12ae19dc35ae",
+          "semantic_similarity_score": 0.5216869115829468
+        },
+        {
+          "evidence_id": "E-e7260265aa79f3c6",
+          "semantic_similarity_score": 0.521304726600647
+        },
+        {
+          "evidence_id": "E-5d4bb0be10b6a4a3",
+          "semantic_similarity_score": 0.5114935636520386
+        },
+        {
+          "evidence_id": "E-7f35938982a28c00",
+          "semantic_similarity_score": 0.5097404718399048
+        },
+        {
+          "evidence_id": "E-1cd91b1ca53399a1",
+          "semantic_similarity_score": 0.5083780288696289
+        },
+        {
+          "evidence_id": "E-3afd1e0aeb04db8d",
+          "semantic_similarity_score": 0.5009458661079407
+        },
+        {
+          "evidence_id": "E-2797f96d19550759",
+          "semantic_similarity_score": 0.48931950330734253
+        },
+        {
+          "evidence_id": "E-26fbd9d7e6f12ec2",
+          "semantic_similarity_score": 0.48682814836502075
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-7f35938982a28c00",
+          "bm25_rank": 1,
+          "vector_rank": 6,
+          "rrf_score": 0.031544957774465976
+        },
+        {
+          "evidence_id": "E-5d4bb0be10b6a4a3",
+          "bm25_rank": 3,
+          "vector_rank": 5,
+          "rrf_score": 0.03125763125763126
+        },
+        {
+          "evidence_id": "E-1cd91b1ca53399a1",
+          "bm25_rank": 4,
+          "vector_rank": 7,
+          "rrf_score": 0.03055037313432836
+        },
+        {
+          "evidence_id": "E-3afd1e0aeb04db8d",
+          "bm25_rank": 9,
+          "vector_rank": 8,
+          "rrf_score": 0.02919863597612958
+        },
+        {
+          "evidence_id": "E-a0238f9cfbbc8167",
+          "bm25_rank": null,
+          "vector_rank": 1,
+          "rrf_score": 0.01639344262295082
+        },
+        {
+          "evidence_id": "E-a9f3ce9ea99cc72f",
+          "bm25_rank": null,
+          "vector_rank": 2,
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "evidence_id": "E-ac5321d7f4433dec",
+          "bm25_rank": 2,
+          "vector_rank": null,
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "evidence_id": "E-3eaa12ae19dc35ae",
+          "bm25_rank": null,
+          "vector_rank": 3,
+          "rrf_score": 0.015873015873015872
+        },
+        {
+          "evidence_id": "E-e7260265aa79f3c6",
+          "bm25_rank": null,
+          "vector_rank": 4,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-fc0ba1ddd48b2851",
+          "bm25_rank": 5,
+          "vector_rank": null,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-19303a14e601b7f8",
+          "bm25_rank": 6,
+          "vector_rank": null,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-47a6f8af3eb8b482",
+          "bm25_rank": 7,
+          "vector_rank": null,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-eea2bbbaa292164f",
+          "bm25_rank": 8,
+          "vector_rank": null,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-2797f96d19550759",
+          "bm25_rank": null,
+          "vector_rank": 9,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-0f03a54842af440c",
+          "bm25_rank": 10,
+          "vector_rank": null,
+          "rrf_score": 0.014285714285714285
+        },
+        {
+          "evidence_id": "E-26fbd9d7e6f12ec2",
+          "bm25_rank": null,
+          "vector_rank": 10,
+          "rrf_score": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "doc-02",
+      "category": "documentary",
+      "bm25_rank": 1,
+      "vector_rank": 1,
+      "hybrid_rank": 1,
+      "bm25": [
+        "E-127736a7156ef0bb",
+        "E-9430fee2b585638d",
+        "E-5c0169c2f3d4ead8",
+        "E-7e4261533e105fcf",
+        "E-782c1893a500b635",
+        "E-75065006c627ff53",
+        "E-9a9eb90f3c7a51b5",
+        "E-00c8e387381444bf",
+        "E-461f3b21bbb33b68",
+        "E-1d8a72ae3737dbe3"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-5c0169c2f3d4ead8",
+          "semantic_similarity_score": 0.6257052421569824
+        },
+        {
+          "evidence_id": "E-9430fee2b585638d",
+          "semantic_similarity_score": 0.6231540441513062
+        },
+        {
+          "evidence_id": "E-7e4261533e105fcf",
+          "semantic_similarity_score": 0.611235499382019
+        },
+        {
+          "evidence_id": "E-461f3b21bbb33b68",
+          "semantic_similarity_score": 0.6057744026184082
+        },
+        {
+          "evidence_id": "E-782c1893a500b635",
+          "semantic_similarity_score": 0.591198205947876
+        },
+        {
+          "evidence_id": "E-127736a7156ef0bb",
+          "semantic_similarity_score": 0.5739339590072632
+        },
+        {
+          "evidence_id": "E-508b4f8016f24804",
+          "semantic_similarity_score": 0.5538144111633301
+        },
+        {
+          "evidence_id": "E-508b157766f8fa39",
+          "semantic_similarity_score": 0.5487668514251709
+        },
+        {
+          "evidence_id": "E-75065006c627ff53",
+          "semantic_similarity_score": 0.54332035779953
+        },
+        {
+          "evidence_id": "E-42507b7c0d813f49",
+          "semantic_similarity_score": 0.5421223640441895
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-5c0169c2f3d4ead8",
+          "bm25_rank": 3,
+          "vector_rank": 1,
+          "rrf_score": 0.032266458495966696
+        },
+        {
+          "evidence_id": "E-9430fee2b585638d",
+          "bm25_rank": 2,
+          "vector_rank": 2,
+          "rrf_score": 0.03225806451612903
+        },
+        {
+          "evidence_id": "E-127736a7156ef0bb",
+          "bm25_rank": 1,
+          "vector_rank": 6,
+          "rrf_score": 0.031544957774465976
+        },
+        {
+          "evidence_id": "E-7e4261533e105fcf",
+          "bm25_rank": 4,
+          "vector_rank": 3,
+          "rrf_score": 0.03149801587301587
+        },
+        {
+          "evidence_id": "E-782c1893a500b635",
+          "bm25_rank": 5,
+          "vector_rank": 5,
+          "rrf_score": 0.03076923076923077
+        },
+        {
+          "evidence_id": "E-461f3b21bbb33b68",
+          "bm25_rank": 9,
+          "vector_rank": 4,
+          "rrf_score": 0.030117753623188408
+        },
+        {
+          "evidence_id": "E-75065006c627ff53",
+          "bm25_rank": 6,
+          "vector_rank": 9,
+          "rrf_score": 0.02964426877470356
+        },
+        {
+          "evidence_id": "E-508b4f8016f24804",
+          "bm25_rank": null,
+          "vector_rank": 7,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-9a9eb90f3c7a51b5",
+          "bm25_rank": 7,
+          "vector_rank": null,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-00c8e387381444bf",
+          "bm25_rank": 8,
+          "vector_rank": null,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-508b157766f8fa39",
+          "bm25_rank": null,
+          "vector_rank": 8,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-1d8a72ae3737dbe3",
+          "bm25_rank": 10,
+          "vector_rank": null,
+          "rrf_score": 0.014285714285714285
+        },
+        {
+          "evidence_id": "E-42507b7c0d813f49",
+          "bm25_rank": null,
+          "vector_rank": 10,
+          "rrf_score": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "doc-03",
+      "category": "documentary",
+      "bm25_rank": 1,
+      "vector_rank": 1,
+      "hybrid_rank": 1,
+      "bm25": [
+        "E-95bda32d30578f33",
+        "E-5d7c287ee0834975",
+        "E-2dd90ca4a289b23f",
+        "E-c774312e17ccb06d",
+        "E-1e91fc4f3172706f",
+        "E-24cbcbd1e598da3b",
+        "E-0823b85dc054af0c",
+        "E-56acb8edbcfac1f0",
+        "E-68394196fb2736a0",
+        "E-469e0c4ecb12bed5"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-c774312e17ccb06d",
+          "semantic_similarity_score": 0.5750783681869507
+        },
+        {
+          "evidence_id": "E-5d7c287ee0834975",
+          "semantic_similarity_score": 0.5119005441665649
+        },
+        {
+          "evidence_id": "E-95bda32d30578f33",
+          "semantic_similarity_score": 0.4957025349140167
+        },
+        {
+          "evidence_id": "E-1e91fc4f3172706f",
+          "semantic_similarity_score": 0.4864969253540039
+        },
+        {
+          "evidence_id": "E-2dd90ca4a289b23f",
+          "semantic_similarity_score": 0.47272729873657227
+        },
+        {
+          "evidence_id": "E-5411d05d2ffb4e6a",
+          "semantic_similarity_score": 0.46351760625839233
+        },
+        {
+          "evidence_id": "E-c70ffa8629d89a22",
+          "semantic_similarity_score": 0.44764089584350586
+        },
+        {
+          "evidence_id": "E-5212a18ab5fb37c1",
+          "semantic_similarity_score": 0.434273362159729
+        },
+        {
+          "evidence_id": "E-d7c776e6453de44c",
+          "semantic_similarity_score": 0.41344088315963745
+        },
+        {
+          "evidence_id": "E-8579c969dc19765d",
+          "semantic_similarity_score": 0.4107533097267151
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-95bda32d30578f33",
+          "bm25_rank": 1,
+          "vector_rank": 3,
+          "rrf_score": 0.032266458495966696
+        },
+        {
+          "evidence_id": "E-5d7c287ee0834975",
+          "bm25_rank": 2,
+          "vector_rank": 2,
+          "rrf_score": 0.03225806451612903
+        },
+        {
+          "evidence_id": "E-c774312e17ccb06d",
+          "bm25_rank": 4,
+          "vector_rank": 1,
+          "rrf_score": 0.032018442622950824
+        },
+        {
+          "evidence_id": "E-2dd90ca4a289b23f",
+          "bm25_rank": 3,
+          "vector_rank": 5,
+          "rrf_score": 0.03125763125763126
+        },
+        {
+          "evidence_id": "E-1e91fc4f3172706f",
+          "bm25_rank": 5,
+          "vector_rank": 4,
+          "rrf_score": 0.031009615384615385
+        },
+        {
+          "evidence_id": "E-24cbcbd1e598da3b",
+          "bm25_rank": 6,
+          "vector_rank": null,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-5411d05d2ffb4e6a",
+          "bm25_rank": null,
+          "vector_rank": 6,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-0823b85dc054af0c",
+          "bm25_rank": 7,
+          "vector_rank": null,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-c70ffa8629d89a22",
+          "bm25_rank": null,
+          "vector_rank": 7,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-5212a18ab5fb37c1",
+          "bm25_rank": null,
+          "vector_rank": 8,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-56acb8edbcfac1f0",
+          "bm25_rank": 8,
+          "vector_rank": null,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-68394196fb2736a0",
+          "bm25_rank": 9,
+          "vector_rank": null,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-d7c776e6453de44c",
+          "bm25_rank": null,
+          "vector_rank": 9,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-469e0c4ecb12bed5",
+          "bm25_rank": 10,
+          "vector_rank": null,
+          "rrf_score": 0.014285714285714285
+        },
+        {
+          "evidence_id": "E-8579c969dc19765d",
+          "bm25_rank": null,
+          "vector_rank": 10,
+          "rrf_score": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "doc-04",
+      "category": "documentary",
+      "bm25_rank": 1,
+      "vector_rank": 1,
+      "hybrid_rank": 1,
+      "bm25": [
+        "E-c34c762ad3701077",
+        "E-fa7a6b4e68172972",
+        "E-5f460ef790425648",
+        "E-750d70f01cbd0344",
+        "E-535fa1b7a6389f7a",
+        "E-d82ea66cd72b9687",
+        "E-bbc22362c298858b",
+        "E-495cba2bc7ea1133",
+        "E-7fcfb4e5d93b03bf",
+        "E-7dc52bbf436bcc9b"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-c34c762ad3701077",
+          "semantic_similarity_score": 0.4564206004142761
+        },
+        {
+          "evidence_id": "E-5f460ef790425648",
+          "semantic_similarity_score": 0.43245869874954224
+        },
+        {
+          "evidence_id": "E-535fa1b7a6389f7a",
+          "semantic_similarity_score": 0.41772598028182983
+        },
+        {
+          "evidence_id": "E-56ff43ea9d40f462",
+          "semantic_similarity_score": 0.4088289141654968
+        },
+        {
+          "evidence_id": "E-cb6541fe00bc3d9e",
+          "semantic_similarity_score": 0.4029933214187622
+        },
+        {
+          "evidence_id": "E-642e06286cab6113",
+          "semantic_similarity_score": 0.3963435888290405
+        },
+        {
+          "evidence_id": "E-9996ccf099916064",
+          "semantic_similarity_score": 0.38659048080444336
+        },
+        {
+          "evidence_id": "E-468ab815e5b20a43",
+          "semantic_similarity_score": 0.3853920102119446
+        },
+        {
+          "evidence_id": "E-42ff29499f5dbbd3",
+          "semantic_similarity_score": 0.37815457582473755
+        },
+        {
+          "evidence_id": "E-750d70f01cbd0344",
+          "semantic_similarity_score": 0.37650266289711
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-c34c762ad3701077",
+          "bm25_rank": 1,
+          "vector_rank": 1,
+          "rrf_score": 0.03278688524590164
+        },
+        {
+          "evidence_id": "E-5f460ef790425648",
+          "bm25_rank": 3,
+          "vector_rank": 2,
+          "rrf_score": 0.03200204813108039
+        },
+        {
+          "evidence_id": "E-535fa1b7a6389f7a",
+          "bm25_rank": 5,
+          "vector_rank": 3,
+          "rrf_score": 0.03125763125763126
+        },
+        {
+          "evidence_id": "E-750d70f01cbd0344",
+          "bm25_rank": 4,
+          "vector_rank": 10,
+          "rrf_score": 0.029910714285714284
+        },
+        {
+          "evidence_id": "E-fa7a6b4e68172972",
+          "bm25_rank": 2,
+          "vector_rank": null,
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "evidence_id": "E-56ff43ea9d40f462",
+          "bm25_rank": null,
+          "vector_rank": 4,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-cb6541fe00bc3d9e",
+          "bm25_rank": null,
+          "vector_rank": 5,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-642e06286cab6113",
+          "bm25_rank": null,
+          "vector_rank": 6,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-d82ea66cd72b9687",
+          "bm25_rank": 6,
+          "vector_rank": null,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-9996ccf099916064",
+          "bm25_rank": null,
+          "vector_rank": 7,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-bbc22362c298858b",
+          "bm25_rank": 7,
+          "vector_rank": null,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-468ab815e5b20a43",
+          "bm25_rank": null,
+          "vector_rank": 8,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-495cba2bc7ea1133",
+          "bm25_rank": 8,
+          "vector_rank": null,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-42ff29499f5dbbd3",
+          "bm25_rank": null,
+          "vector_rank": 9,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-7fcfb4e5d93b03bf",
+          "bm25_rank": 9,
+          "vector_rank": null,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-7dc52bbf436bcc9b",
+          "bm25_rank": 10,
+          "vector_rank": null,
+          "rrf_score": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "doc-05",
+      "category": "documentary",
+      "bm25_rank": 2,
+      "vector_rank": 7,
+      "hybrid_rank": 4,
+      "bm25": [
+        "E-6b3dc92553f5c1a8",
+        "E-a5819c15b7296371",
+        "E-3175e8adb23d15e5",
+        "E-c116dd3f158c2db0",
+        "E-0ae3874dc135cf49",
+        "E-aea3786917765ace",
+        "E-87091d1e13ab875c",
+        "E-e88d2d24ba3ffeea",
+        "E-f969116103ca7734",
+        "E-7f11eeddef52f25c"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-6b3dc92553f5c1a8",
+          "semantic_similarity_score": 0.5170437097549438
+        },
+        {
+          "evidence_id": "E-93ff764ac6980455",
+          "semantic_similarity_score": 0.5027676820755005
+        },
+        {
+          "evidence_id": "E-f969116103ca7734",
+          "semantic_similarity_score": 0.4976835250854492
+        },
+        {
+          "evidence_id": "E-639fc49b45735388",
+          "semantic_similarity_score": 0.487495481967926
+        },
+        {
+          "evidence_id": "E-c116dd3f158c2db0",
+          "semantic_similarity_score": 0.48656517267227173
+        },
+        {
+          "evidence_id": "E-e88d2d24ba3ffeea",
+          "semantic_similarity_score": 0.4840427339076996
+        },
+        {
+          "evidence_id": "E-aea3786917765ace",
+          "semantic_similarity_score": 0.4839400053024292
+        },
+        {
+          "evidence_id": "E-87091d1e13ab875c",
+          "semantic_similarity_score": 0.4829845428466797
+        },
+        {
+          "evidence_id": "E-6e38b14b3765fa70",
+          "semantic_similarity_score": 0.4804992973804474
+        },
+        {
+          "evidence_id": "E-412efb51b6f60615",
+          "semantic_similarity_score": 0.4745465815067291
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-6b3dc92553f5c1a8",
+          "bm25_rank": 1,
+          "vector_rank": 1,
+          "rrf_score": 0.03278688524590164
+        },
+        {
+          "evidence_id": "E-c116dd3f158c2db0",
+          "bm25_rank": 4,
+          "vector_rank": 5,
+          "rrf_score": 0.031009615384615385
+        },
+        {
+          "evidence_id": "E-f969116103ca7734",
+          "bm25_rank": 9,
+          "vector_rank": 3,
+          "rrf_score": 0.03036576949620428
+        },
+        {
+          "evidence_id": "E-aea3786917765ace",
+          "bm25_rank": 6,
+          "vector_rank": 7,
+          "rrf_score": 0.03007688828584351
+        },
+        {
+          "evidence_id": "E-e88d2d24ba3ffeea",
+          "bm25_rank": 8,
+          "vector_rank": 6,
+          "rrf_score": 0.029857397504456328
+        },
+        {
+          "evidence_id": "E-87091d1e13ab875c",
+          "bm25_rank": 7,
+          "vector_rank": 8,
+          "rrf_score": 0.029631255487269532
+        },
+        {
+          "evidence_id": "E-93ff764ac6980455",
+          "bm25_rank": null,
+          "vector_rank": 2,
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "evidence_id": "E-a5819c15b7296371",
+          "bm25_rank": 2,
+          "vector_rank": null,
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "evidence_id": "E-3175e8adb23d15e5",
+          "bm25_rank": 3,
+          "vector_rank": null,
+          "rrf_score": 0.015873015873015872
+        },
+        {
+          "evidence_id": "E-639fc49b45735388",
+          "bm25_rank": null,
+          "vector_rank": 4,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-0ae3874dc135cf49",
+          "bm25_rank": 5,
+          "vector_rank": null,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-6e38b14b3765fa70",
+          "bm25_rank": null,
+          "vector_rank": 9,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-412efb51b6f60615",
+          "bm25_rank": null,
+          "vector_rank": 10,
+          "rrf_score": 0.014285714285714285
+        },
+        {
+          "evidence_id": "E-7f11eeddef52f25c",
+          "bm25_rank": 10,
+          "vector_rank": null,
+          "rrf_score": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "doc-06",
+      "category": "documentary",
+      "bm25_rank": 1,
+      "vector_rank": 1,
+      "hybrid_rank": 1,
+      "bm25": [
+        "E-3d68b8c9639a1039",
+        "E-5cd2680edc32b966",
+        "E-d15ff8ee7f1b983a",
+        "E-7031ff475dab6a05",
+        "E-751f8e0f5230aa68",
+        "E-3d2a8b7775c1ffb0",
+        "E-c94eda84a67e8889",
+        "E-f3cd44f0f24f60ef",
+        "E-187b4ca1b0f65723",
+        "E-c6a710d56a3fa842"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-3d68b8c9639a1039",
+          "semantic_similarity_score": 0.7076601982116699
+        },
+        {
+          "evidence_id": "E-5cd2680edc32b966",
+          "semantic_similarity_score": 0.5454927682876587
+        },
+        {
+          "evidence_id": "E-d15ff8ee7f1b983a",
+          "semantic_similarity_score": 0.53059983253479
+        },
+        {
+          "evidence_id": "E-751f8e0f5230aa68",
+          "semantic_similarity_score": 0.5008065104484558
+        },
+        {
+          "evidence_id": "E-7792094c59fc27e4",
+          "semantic_similarity_score": 0.48472684621810913
+        },
+        {
+          "evidence_id": "E-535fa1b7a6389f7a",
+          "semantic_similarity_score": 0.48320096731185913
+        },
+        {
+          "evidence_id": "E-c1be1ef139b5de07",
+          "semantic_similarity_score": 0.4821392595767975
+        },
+        {
+          "evidence_id": "E-3d2a8b7775c1ffb0",
+          "semantic_similarity_score": 0.4779231548309326
+        },
+        {
+          "evidence_id": "E-187b4ca1b0f65723",
+          "semantic_similarity_score": 0.47627031803131104
+        },
+        {
+          "evidence_id": "E-dbf0961ef6c21add",
+          "semantic_similarity_score": 0.47305232286453247
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-3d68b8c9639a1039",
+          "bm25_rank": 1,
+          "vector_rank": 1,
+          "rrf_score": 0.03278688524590164
+        },
+        {
+          "evidence_id": "E-5cd2680edc32b966",
+          "bm25_rank": 2,
+          "vector_rank": 2,
+          "rrf_score": 0.03225806451612903
+        },
+        {
+          "evidence_id": "E-d15ff8ee7f1b983a",
+          "bm25_rank": 3,
+          "vector_rank": 3,
+          "rrf_score": 0.031746031746031744
+        },
+        {
+          "evidence_id": "E-751f8e0f5230aa68",
+          "bm25_rank": 5,
+          "vector_rank": 4,
+          "rrf_score": 0.031009615384615385
+        },
+        {
+          "evidence_id": "E-3d2a8b7775c1ffb0",
+          "bm25_rank": 6,
+          "vector_rank": 8,
+          "rrf_score": 0.029857397504456328
+        },
+        {
+          "evidence_id": "E-187b4ca1b0f65723",
+          "bm25_rank": 9,
+          "vector_rank": 9,
+          "rrf_score": 0.028985507246376812
+        },
+        {
+          "evidence_id": "E-7031ff475dab6a05",
+          "bm25_rank": 4,
+          "vector_rank": null,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-7792094c59fc27e4",
+          "bm25_rank": null,
+          "vector_rank": 5,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-535fa1b7a6389f7a",
+          "bm25_rank": null,
+          "vector_rank": 6,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-c1be1ef139b5de07",
+          "bm25_rank": null,
+          "vector_rank": 7,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-c94eda84a67e8889",
+          "bm25_rank": 7,
+          "vector_rank": null,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-f3cd44f0f24f60ef",
+          "bm25_rank": 8,
+          "vector_rank": null,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-c6a710d56a3fa842",
+          "bm25_rank": 10,
+          "vector_rank": null,
+          "rrf_score": 0.014285714285714285
+        },
+        {
+          "evidence_id": "E-dbf0961ef6c21add",
+          "bm25_rank": null,
+          "vector_rank": 10,
+          "rrf_score": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "doc-07",
+      "category": "documentary",
+      "bm25_rank": null,
+      "vector_rank": null,
+      "hybrid_rank": null,
+      "bm25": [
+        "E-318a80a28c0434bd",
+        "E-810d07b6aa364b95",
+        "E-fcb72c40858b3743",
+        "E-187b4ca1b0f65723",
+        "E-21f241798505a9a9",
+        "E-6288b0c6bbc73a44",
+        "E-0b357ddeba49b118",
+        "E-636ab2807159058a",
+        "E-5929e566e3805ee5",
+        "E-2215bd82df4aa44e"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-fcb72c40858b3743",
+          "semantic_similarity_score": 0.6693102121353149
+        },
+        {
+          "evidence_id": "E-810d07b6aa364b95",
+          "semantic_similarity_score": 0.6637489795684814
+        },
+        {
+          "evidence_id": "E-2215bd82df4aa44e",
+          "semantic_similarity_score": 0.6522775888442993
+        },
+        {
+          "evidence_id": "E-6288b0c6bbc73a44",
+          "semantic_similarity_score": 0.6250318288803101
+        },
+        {
+          "evidence_id": "E-3d2a8b7775c1ffb0",
+          "semantic_similarity_score": 0.6101456880569458
+        },
+        {
+          "evidence_id": "E-21f241798505a9a9",
+          "semantic_similarity_score": 0.5944967269897461
+        },
+        {
+          "evidence_id": "E-187b4ca1b0f65723",
+          "semantic_similarity_score": 0.5906926989555359
+        },
+        {
+          "evidence_id": "E-5929e566e3805ee5",
+          "semantic_similarity_score": 0.5844250917434692
+        },
+        {
+          "evidence_id": "E-0b357ddeba49b118",
+          "semantic_similarity_score": 0.580380916595459
+        },
+        {
+          "evidence_id": "E-318a80a28c0434bd",
+          "semantic_similarity_score": 0.5621205568313599
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-fcb72c40858b3743",
+          "bm25_rank": 3,
+          "vector_rank": 1,
+          "rrf_score": 0.032266458495966696
+        },
+        {
+          "evidence_id": "E-810d07b6aa364b95",
+          "bm25_rank": 2,
+          "vector_rank": 2,
+          "rrf_score": 0.03225806451612903
+        },
+        {
+          "evidence_id": "E-6288b0c6bbc73a44",
+          "bm25_rank": 6,
+          "vector_rank": 4,
+          "rrf_score": 0.030776515151515152
+        },
+        {
+          "evidence_id": "E-318a80a28c0434bd",
+          "bm25_rank": 1,
+          "vector_rank": 10,
+          "rrf_score": 0.030679156908665108
+        },
+        {
+          "evidence_id": "E-187b4ca1b0f65723",
+          "bm25_rank": 4,
+          "vector_rank": 7,
+          "rrf_score": 0.03055037313432836
+        },
+        {
+          "evidence_id": "E-21f241798505a9a9",
+          "bm25_rank": 5,
+          "vector_rank": 6,
+          "rrf_score": 0.030536130536130537
+        },
+        {
+          "evidence_id": "E-2215bd82df4aa44e",
+          "bm25_rank": 10,
+          "vector_rank": 3,
+          "rrf_score": 0.030158730158730156
+        },
+        {
+          "evidence_id": "E-0b357ddeba49b118",
+          "bm25_rank": 7,
+          "vector_rank": 9,
+          "rrf_score": 0.029418126757516764
+        },
+        {
+          "evidence_id": "E-5929e566e3805ee5",
+          "bm25_rank": 9,
+          "vector_rank": 8,
+          "rrf_score": 0.02919863597612958
+        },
+        {
+          "evidence_id": "E-3d2a8b7775c1ffb0",
+          "bm25_rank": null,
+          "vector_rank": 5,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-636ab2807159058a",
+          "bm25_rank": 8,
+          "vector_rank": null,
+          "rrf_score": 0.014705882352941176
+        }
+      ]
+    },
+    {
+      "id": "doc-08",
+      "category": "documentary",
+      "bm25_rank": 1,
+      "vector_rank": null,
+      "hybrid_rank": 7,
+      "bm25": [
+        "E-9815fc1d6b05e578",
+        "E-1cd91b1ca53399a1",
+        "E-0f35ead4767983d2",
+        "E-53ae133042881753",
+        "E-f251d033132c03af",
+        "E-eea2bbbaa292164f",
+        "E-b5cd358df9e7355a",
+        "E-21e27d8b66bc1d4d",
+        "E-4f0ca4cae9ec004c",
+        "E-e7260265aa79f3c6"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-ff3189dedc1d89a0",
+          "semantic_similarity_score": 0.7214998006820679
+        },
+        {
+          "evidence_id": "E-1cd91b1ca53399a1",
+          "semantic_similarity_score": 0.7191944718360901
+        },
+        {
+          "evidence_id": "E-7f35938982a28c00",
+          "semantic_similarity_score": 0.7001708149909973
+        },
+        {
+          "evidence_id": "E-b1d57949980f9ebd",
+          "semantic_similarity_score": 0.6939985752105713
+        },
+        {
+          "evidence_id": "E-21e27d8b66bc1d4d",
+          "semantic_similarity_score": 0.6708709001541138
+        },
+        {
+          "evidence_id": "E-2797f96d19550759",
+          "semantic_similarity_score": 0.6694844961166382
+        },
+        {
+          "evidence_id": "E-0f35ead4767983d2",
+          "semantic_similarity_score": 0.654742956161499
+        },
+        {
+          "evidence_id": "E-f251d033132c03af",
+          "semantic_similarity_score": 0.6493105292320251
+        },
+        {
+          "evidence_id": "E-53ae133042881753",
+          "semantic_similarity_score": 0.6460031270980835
+        },
+        {
+          "evidence_id": "E-e7260265aa79f3c6",
+          "semantic_similarity_score": 0.6385635137557983
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-1cd91b1ca53399a1",
+          "bm25_rank": 2,
+          "vector_rank": 2,
+          "rrf_score": 0.03225806451612903
+        },
+        {
+          "evidence_id": "E-0f35ead4767983d2",
+          "bm25_rank": 3,
+          "vector_rank": 7,
+          "rrf_score": 0.030798389007344232
+        },
+        {
+          "evidence_id": "E-53ae133042881753",
+          "bm25_rank": 4,
+          "vector_rank": 9,
+          "rrf_score": 0.030117753623188408
+        },
+        {
+          "evidence_id": "E-21e27d8b66bc1d4d",
+          "bm25_rank": 8,
+          "vector_rank": 5,
+          "rrf_score": 0.030090497737556562
+        },
+        {
+          "evidence_id": "E-f251d033132c03af",
+          "bm25_rank": 5,
+          "vector_rank": 8,
+          "rrf_score": 0.030090497737556562
+        },
+        {
+          "evidence_id": "E-e7260265aa79f3c6",
+          "bm25_rank": 10,
+          "vector_rank": 10,
+          "rrf_score": 0.02857142857142857
+        },
+        {
+          "evidence_id": "E-9815fc1d6b05e578",
+          "bm25_rank": 1,
+          "vector_rank": null,
+          "rrf_score": 0.01639344262295082
+        },
+        {
+          "evidence_id": "E-ff3189dedc1d89a0",
+          "bm25_rank": null,
+          "vector_rank": 1,
+          "rrf_score": 0.01639344262295082
+        },
+        {
+          "evidence_id": "E-7f35938982a28c00",
+          "bm25_rank": null,
+          "vector_rank": 3,
+          "rrf_score": 0.015873015873015872
+        },
+        {
+          "evidence_id": "E-b1d57949980f9ebd",
+          "bm25_rank": null,
+          "vector_rank": 4,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-2797f96d19550759",
+          "bm25_rank": null,
+          "vector_rank": 6,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-eea2bbbaa292164f",
+          "bm25_rank": 6,
+          "vector_rank": null,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-b5cd358df9e7355a",
+          "bm25_rank": 7,
+          "vector_rank": null,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-4f0ca4cae9ec004c",
+          "bm25_rank": 9,
+          "vector_rank": null,
+          "rrf_score": 0.014492753623188406
+        }
+      ]
+    },
+    {
+      "id": "doc-09",
+      "category": "documentary",
+      "bm25_rank": 1,
+      "vector_rank": 1,
+      "hybrid_rank": 1,
+      "bm25": [
+        "E-25c956c94c6bdff9",
+        "E-cabbf6f67ce4d848",
+        "E-29353fa27111060d",
+        "E-0930a04d6d3162f8",
+        "E-ebb2edacc15a1c6b",
+        "E-fb5037840ec66f46",
+        "E-6e73fef59460b332",
+        "E-80845e6d16ff9b4e",
+        "E-3d2a8b7775c1ffb0",
+        "E-e83c8d8786cecc99"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-25c956c94c6bdff9",
+          "semantic_similarity_score": 0.5130824446678162
+        },
+        {
+          "evidence_id": "E-cabbf6f67ce4d848",
+          "semantic_similarity_score": 0.40577808022499084
+        },
+        {
+          "evidence_id": "E-29353fa27111060d",
+          "semantic_similarity_score": 0.3594023585319519
+        },
+        {
+          "evidence_id": "E-0d24a20ee119a669",
+          "semantic_similarity_score": 0.3237915635108948
+        },
+        {
+          "evidence_id": "E-2f6ff78b1c96ab41",
+          "semantic_similarity_score": 0.27063456177711487
+        },
+        {
+          "evidence_id": "E-86ed746a50b4a4ea",
+          "semantic_similarity_score": 0.26837489008903503
+        },
+        {
+          "evidence_id": "E-d3a8ca96e20ff695",
+          "semantic_similarity_score": 0.26314404606819153
+        },
+        {
+          "evidence_id": "E-cfa1162414279fd0",
+          "semantic_similarity_score": 0.2588242292404175
+        },
+        {
+          "evidence_id": "E-31b5573a42bde5d4",
+          "semantic_similarity_score": 0.2494123876094818
+        },
+        {
+          "evidence_id": "E-5ab14de2ac53c20f",
+          "semantic_similarity_score": 0.24852359294891357
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-25c956c94c6bdff9",
+          "bm25_rank": 1,
+          "vector_rank": 1,
+          "rrf_score": 0.03278688524590164
+        },
+        {
+          "evidence_id": "E-cabbf6f67ce4d848",
+          "bm25_rank": 2,
+          "vector_rank": 2,
+          "rrf_score": 0.03225806451612903
+        },
+        {
+          "evidence_id": "E-29353fa27111060d",
+          "bm25_rank": 3,
+          "vector_rank": 3,
+          "rrf_score": 0.031746031746031744
+        },
+        {
+          "evidence_id": "E-0930a04d6d3162f8",
+          "bm25_rank": 4,
+          "vector_rank": null,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-0d24a20ee119a669",
+          "bm25_rank": null,
+          "vector_rank": 4,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-2f6ff78b1c96ab41",
+          "bm25_rank": null,
+          "vector_rank": 5,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-ebb2edacc15a1c6b",
+          "bm25_rank": 5,
+          "vector_rank": null,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-86ed746a50b4a4ea",
+          "bm25_rank": null,
+          "vector_rank": 6,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-fb5037840ec66f46",
+          "bm25_rank": 6,
+          "vector_rank": null,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-6e73fef59460b332",
+          "bm25_rank": 7,
+          "vector_rank": null,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-d3a8ca96e20ff695",
+          "bm25_rank": null,
+          "vector_rank": 7,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-80845e6d16ff9b4e",
+          "bm25_rank": 8,
+          "vector_rank": null,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-cfa1162414279fd0",
+          "bm25_rank": null,
+          "vector_rank": 8,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-31b5573a42bde5d4",
+          "bm25_rank": null,
+          "vector_rank": 9,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-3d2a8b7775c1ffb0",
+          "bm25_rank": 9,
+          "vector_rank": null,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-5ab14de2ac53c20f",
+          "bm25_rank": null,
+          "vector_rank": 10,
+          "rrf_score": 0.014285714285714285
+        },
+        {
+          "evidence_id": "E-e83c8d8786cecc99",
+          "bm25_rank": 10,
+          "vector_rank": null,
+          "rrf_score": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "doc-10",
+      "category": "documentary",
+      "bm25_rank": 1,
+      "vector_rank": 1,
+      "hybrid_rank": 1,
+      "bm25": [
+        "E-288abcbb37f9cca8",
+        "E-b6aafe924307cdd6",
+        "E-46b1d8620c21bc82",
+        "E-5cd2680edc32b966",
+        "E-42bcf33ec390658d",
+        "E-e7de552ef7ceaf87",
+        "E-751f8e0f5230aa68",
+        "E-dbf0961ef6c21add",
+        "E-13900c94131ed745",
+        "E-0823b85dc054af0c"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-46b1d8620c21bc82",
+          "semantic_similarity_score": 0.6391980051994324
+        },
+        {
+          "evidence_id": "E-2f6dbb337fadf900",
+          "semantic_similarity_score": 0.6352088451385498
+        },
+        {
+          "evidence_id": "E-cefb6ab61505b2db",
+          "semantic_similarity_score": 0.6177197694778442
+        },
+        {
+          "evidence_id": "E-eb2f8faa32b8e7b6",
+          "semantic_similarity_score": 0.6173533201217651
+        },
+        {
+          "evidence_id": "E-604efa00d39c0461",
+          "semantic_similarity_score": 0.6084547638893127
+        },
+        {
+          "evidence_id": "E-c4221374894c2466",
+          "semantic_similarity_score": 0.6047324538230896
+        },
+        {
+          "evidence_id": "E-bd975659745641db",
+          "semantic_similarity_score": 0.6009771823883057
+        },
+        {
+          "evidence_id": "E-42bcf33ec390658d",
+          "semantic_similarity_score": 0.5993995666503906
+        },
+        {
+          "evidence_id": "E-62706d15470b4dcf",
+          "semantic_similarity_score": 0.5988052487373352
+        },
+        {
+          "evidence_id": "E-596f5e204817ecd9",
+          "semantic_similarity_score": 0.5963151454925537
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-46b1d8620c21bc82",
+          "bm25_rank": 3,
+          "vector_rank": 1,
+          "rrf_score": 0.032266458495966696
+        },
+        {
+          "evidence_id": "E-42bcf33ec390658d",
+          "bm25_rank": 5,
+          "vector_rank": 8,
+          "rrf_score": 0.030090497737556562
+        },
+        {
+          "evidence_id": "E-288abcbb37f9cca8",
+          "bm25_rank": 1,
+          "vector_rank": null,
+          "rrf_score": 0.01639344262295082
+        },
+        {
+          "evidence_id": "E-2f6dbb337fadf900",
+          "bm25_rank": null,
+          "vector_rank": 2,
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "evidence_id": "E-b6aafe924307cdd6",
+          "bm25_rank": 2,
+          "vector_rank": null,
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "evidence_id": "E-cefb6ab61505b2db",
+          "bm25_rank": null,
+          "vector_rank": 3,
+          "rrf_score": 0.015873015873015872
+        },
+        {
+          "evidence_id": "E-5cd2680edc32b966",
+          "bm25_rank": 4,
+          "vector_rank": null,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-eb2f8faa32b8e7b6",
+          "bm25_rank": null,
+          "vector_rank": 4,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-604efa00d39c0461",
+          "bm25_rank": null,
+          "vector_rank": 5,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-c4221374894c2466",
+          "bm25_rank": null,
+          "vector_rank": 6,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-e7de552ef7ceaf87",
+          "bm25_rank": 6,
+          "vector_rank": null,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-751f8e0f5230aa68",
+          "bm25_rank": 7,
+          "vector_rank": null,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-bd975659745641db",
+          "bm25_rank": null,
+          "vector_rank": 7,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-dbf0961ef6c21add",
+          "bm25_rank": 8,
+          "vector_rank": null,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-13900c94131ed745",
+          "bm25_rank": 9,
+          "vector_rank": null,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-62706d15470b4dcf",
+          "bm25_rank": null,
+          "vector_rank": 9,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-0823b85dc054af0c",
+          "bm25_rank": 10,
+          "vector_rank": null,
+          "rrf_score": 0.014285714285714285
+        },
+        {
+          "evidence_id": "E-596f5e204817ecd9",
+          "bm25_rank": null,
+          "vector_rank": 10,
+          "rrf_score": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "doc-11",
+      "category": "documentary",
+      "bm25_rank": 3,
+      "vector_rank": 6,
+      "hybrid_rank": 2,
+      "bm25": [
+        "E-c0956704aea6e600",
+        "E-bcb1e1f5c9f13ed0",
+        "E-256e4a37cd0abe41",
+        "E-f18bb898694d66d2",
+        "E-acadc8fdd72376f7",
+        "E-018452cee322b2f8",
+        "E-04f7a20304a9eb5b",
+        "E-e01b360ef7d796c4",
+        "E-7e64d984b96db2be",
+        "E-4dff3917cae5a818"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-c0956704aea6e600",
+          "semantic_similarity_score": 0.7490813136100769
+        },
+        {
+          "evidence_id": "E-cfa1162414279fd0",
+          "semantic_similarity_score": 0.710666835308075
+        },
+        {
+          "evidence_id": "E-0b6bdce6b7e56419",
+          "semantic_similarity_score": 0.7009826302528381
+        },
+        {
+          "evidence_id": "E-e4f7b606c6d34004",
+          "semantic_similarity_score": 0.6857247352600098
+        },
+        {
+          "evidence_id": "E-494ce2ff1847e181",
+          "semantic_similarity_score": 0.6855660676956177
+        },
+        {
+          "evidence_id": "E-256e4a37cd0abe41",
+          "semantic_similarity_score": 0.674796998500824
+        },
+        {
+          "evidence_id": "E-208f9736d42283eb",
+          "semantic_similarity_score": 0.6565301418304443
+        },
+        {
+          "evidence_id": "E-91f44700ac1a0f44",
+          "semantic_similarity_score": 0.6549516320228577
+        },
+        {
+          "evidence_id": "E-4dff3917cae5a818",
+          "semantic_similarity_score": 0.6549109220504761
+        },
+        {
+          "evidence_id": "E-fdc0bdc8502ba3d5",
+          "semantic_similarity_score": 0.6486005783081055
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-c0956704aea6e600",
+          "bm25_rank": 1,
+          "vector_rank": 1,
+          "rrf_score": 0.03278688524590164
+        },
+        {
+          "evidence_id": "E-256e4a37cd0abe41",
+          "bm25_rank": 3,
+          "vector_rank": 6,
+          "rrf_score": 0.031024531024531024
+        },
+        {
+          "evidence_id": "E-4dff3917cae5a818",
+          "bm25_rank": 10,
+          "vector_rank": 9,
+          "rrf_score": 0.02877846790890269
+        },
+        {
+          "evidence_id": "E-bcb1e1f5c9f13ed0",
+          "bm25_rank": 2,
+          "vector_rank": null,
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "evidence_id": "E-cfa1162414279fd0",
+          "bm25_rank": null,
+          "vector_rank": 2,
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "evidence_id": "E-0b6bdce6b7e56419",
+          "bm25_rank": null,
+          "vector_rank": 3,
+          "rrf_score": 0.015873015873015872
+        },
+        {
+          "evidence_id": "E-e4f7b606c6d34004",
+          "bm25_rank": null,
+          "vector_rank": 4,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-f18bb898694d66d2",
+          "bm25_rank": 4,
+          "vector_rank": null,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-494ce2ff1847e181",
+          "bm25_rank": null,
+          "vector_rank": 5,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-acadc8fdd72376f7",
+          "bm25_rank": 5,
+          "vector_rank": null,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-018452cee322b2f8",
+          "bm25_rank": 6,
+          "vector_rank": null,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-04f7a20304a9eb5b",
+          "bm25_rank": 7,
+          "vector_rank": null,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-208f9736d42283eb",
+          "bm25_rank": null,
+          "vector_rank": 7,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-91f44700ac1a0f44",
+          "bm25_rank": null,
+          "vector_rank": 8,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-e01b360ef7d796c4",
+          "bm25_rank": 8,
+          "vector_rank": null,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-7e64d984b96db2be",
+          "bm25_rank": 9,
+          "vector_rank": null,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-fdc0bdc8502ba3d5",
+          "bm25_rank": null,
+          "vector_rank": 10,
+          "rrf_score": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "doc-12",
+      "category": "documentary",
+      "bm25_rank": 1,
+      "vector_rank": null,
+      "hybrid_rank": 4,
+      "bm25": [
+        "E-0656b58393e42d0a",
+        "E-91a4480ab6183904",
+        "E-4ab91b27e21d0049",
+        "E-9380b33c55357f1b",
+        "E-e8e0af07a6b6c6fe",
+        "E-aa47e8f1bf8551ff",
+        "E-d1b6ec6a530141f5",
+        "E-7871e4b8eaf59b42",
+        "E-e535f974e09b698f",
+        "E-797614d269f33397"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-7a9c7d23d4a76368",
+          "semantic_similarity_score": 0.5930866003036499
+        },
+        {
+          "evidence_id": "E-872c671fc94d2977",
+          "semantic_similarity_score": 0.5788630843162537
+        },
+        {
+          "evidence_id": "E-f25ecb436df67bc4",
+          "semantic_similarity_score": 0.5689169764518738
+        },
+        {
+          "evidence_id": "E-e8e0af07a6b6c6fe",
+          "semantic_similarity_score": 0.5673644542694092
+        },
+        {
+          "evidence_id": "E-9380b33c55357f1b",
+          "semantic_similarity_score": 0.5664814710617065
+        },
+        {
+          "evidence_id": "E-da251077fcd54864",
+          "semantic_similarity_score": 0.5587567090988159
+        },
+        {
+          "evidence_id": "E-3137bf9136fe4753",
+          "semantic_similarity_score": 0.556144118309021
+        },
+        {
+          "evidence_id": "E-51e19411f7d1f866",
+          "semantic_similarity_score": 0.5547056198120117
+        },
+        {
+          "evidence_id": "E-d1b6ec6a530141f5",
+          "semantic_similarity_score": 0.5489134192466736
+        },
+        {
+          "evidence_id": "E-5bf33c00a90efc23",
+          "semantic_similarity_score": 0.5469809770584106
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-9380b33c55357f1b",
+          "bm25_rank": 4,
+          "vector_rank": 5,
+          "rrf_score": 0.031009615384615385
+        },
+        {
+          "evidence_id": "E-e8e0af07a6b6c6fe",
+          "bm25_rank": 5,
+          "vector_rank": 4,
+          "rrf_score": 0.031009615384615385
+        },
+        {
+          "evidence_id": "E-d1b6ec6a530141f5",
+          "bm25_rank": 7,
+          "vector_rank": 9,
+          "rrf_score": 0.029418126757516764
+        },
+        {
+          "evidence_id": "E-0656b58393e42d0a",
+          "bm25_rank": 1,
+          "vector_rank": null,
+          "rrf_score": 0.01639344262295082
+        },
+        {
+          "evidence_id": "E-7a9c7d23d4a76368",
+          "bm25_rank": null,
+          "vector_rank": 1,
+          "rrf_score": 0.01639344262295082
+        },
+        {
+          "evidence_id": "E-872c671fc94d2977",
+          "bm25_rank": null,
+          "vector_rank": 2,
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "evidence_id": "E-91a4480ab6183904",
+          "bm25_rank": 2,
+          "vector_rank": null,
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "evidence_id": "E-4ab91b27e21d0049",
+          "bm25_rank": 3,
+          "vector_rank": null,
+          "rrf_score": 0.015873015873015872
+        },
+        {
+          "evidence_id": "E-f25ecb436df67bc4",
+          "bm25_rank": null,
+          "vector_rank": 3,
+          "rrf_score": 0.015873015873015872
+        },
+        {
+          "evidence_id": "E-aa47e8f1bf8551ff",
+          "bm25_rank": 6,
+          "vector_rank": null,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-da251077fcd54864",
+          "bm25_rank": null,
+          "vector_rank": 6,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-3137bf9136fe4753",
+          "bm25_rank": null,
+          "vector_rank": 7,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-51e19411f7d1f866",
+          "bm25_rank": null,
+          "vector_rank": 8,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-7871e4b8eaf59b42",
+          "bm25_rank": 8,
+          "vector_rank": null,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-e535f974e09b698f",
+          "bm25_rank": 9,
+          "vector_rank": null,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-5bf33c00a90efc23",
+          "bm25_rank": null,
+          "vector_rank": 10,
+          "rrf_score": 0.014285714285714285
+        },
+        {
+          "evidence_id": "E-797614d269f33397",
+          "bm25_rank": 10,
+          "vector_rank": null,
+          "rrf_score": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "doc-13",
+      "category": "documentary",
+      "bm25_rank": 1,
+      "vector_rank": 2,
+      "hybrid_rank": 1,
+      "bm25": [
+        "E-93ff764ac6980455",
+        "E-be3551c4ea8c3962",
+        "E-69664bf8c635d2ae",
+        "E-c93fb795531eba35",
+        "E-d40ccbecf81fec0b",
+        "E-afcda2a09d83ed04",
+        "E-69e7115b2648332a",
+        "E-9c82d85768807c03",
+        "E-a2754a1de8aba1d2",
+        "E-eedb0ddc93497600"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-7f11eeddef52f25c",
+          "semantic_similarity_score": 0.6987749338150024
+        },
+        {
+          "evidence_id": "E-93ff764ac6980455",
+          "semantic_similarity_score": 0.6903150081634521
+        },
+        {
+          "evidence_id": "E-77ee2495bbe01076",
+          "semantic_similarity_score": 0.6800825595855713
+        },
+        {
+          "evidence_id": "E-be3551c4ea8c3962",
+          "semantic_similarity_score": 0.6644343137741089
+        },
+        {
+          "evidence_id": "E-eedb0ddc93497600",
+          "semantic_similarity_score": 0.6596246957778931
+        },
+        {
+          "evidence_id": "E-bf4e1f197e424699",
+          "semantic_similarity_score": 0.6476719379425049
+        },
+        {
+          "evidence_id": "E-56b7e589e9635749",
+          "semantic_similarity_score": 0.6320524215698242
+        },
+        {
+          "evidence_id": "E-d40ccbecf81fec0b",
+          "semantic_similarity_score": 0.6268551349639893
+        },
+        {
+          "evidence_id": "E-c93fb795531eba35",
+          "semantic_similarity_score": 0.6235473155975342
+        },
+        {
+          "evidence_id": "E-69664bf8c635d2ae",
+          "semantic_similarity_score": 0.6197882890701294
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-93ff764ac6980455",
+          "bm25_rank": 1,
+          "vector_rank": 2,
+          "rrf_score": 0.03252247488101534
+        },
+        {
+          "evidence_id": "E-be3551c4ea8c3962",
+          "bm25_rank": 2,
+          "vector_rank": 4,
+          "rrf_score": 0.031754032258064516
+        },
+        {
+          "evidence_id": "E-69664bf8c635d2ae",
+          "bm25_rank": 3,
+          "vector_rank": 10,
+          "rrf_score": 0.030158730158730156
+        },
+        {
+          "evidence_id": "E-c93fb795531eba35",
+          "bm25_rank": 4,
+          "vector_rank": 9,
+          "rrf_score": 0.030117753623188408
+        },
+        {
+          "evidence_id": "E-d40ccbecf81fec0b",
+          "bm25_rank": 5,
+          "vector_rank": 8,
+          "rrf_score": 0.030090497737556562
+        },
+        {
+          "evidence_id": "E-eedb0ddc93497600",
+          "bm25_rank": 10,
+          "vector_rank": 5,
+          "rrf_score": 0.02967032967032967
+        },
+        {
+          "evidence_id": "E-7f11eeddef52f25c",
+          "bm25_rank": null,
+          "vector_rank": 1,
+          "rrf_score": 0.01639344262295082
+        },
+        {
+          "evidence_id": "E-77ee2495bbe01076",
+          "bm25_rank": null,
+          "vector_rank": 3,
+          "rrf_score": 0.015873015873015872
+        },
+        {
+          "evidence_id": "E-afcda2a09d83ed04",
+          "bm25_rank": 6,
+          "vector_rank": null,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-bf4e1f197e424699",
+          "bm25_rank": null,
+          "vector_rank": 6,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-56b7e589e9635749",
+          "bm25_rank": null,
+          "vector_rank": 7,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-69e7115b2648332a",
+          "bm25_rank": 7,
+          "vector_rank": null,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-9c82d85768807c03",
+          "bm25_rank": 8,
+          "vector_rank": null,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-a2754a1de8aba1d2",
+          "bm25_rank": 9,
+          "vector_rank": null,
+          "rrf_score": 0.014492753623188406
+        }
+      ]
+    },
+    {
+      "id": "doc-14",
+      "category": "documentary",
+      "bm25_rank": 1,
+      "vector_rank": 1,
+      "hybrid_rank": 1,
+      "bm25": [
+        "E-0de68411559fad26",
+        "E-ca0f67da0cb3cd57",
+        "E-b30992bdef055bba",
+        "E-7d9dfa09f2e5c707",
+        "E-cb6541fe00bc3d9e",
+        "E-d82ea66cd72b9687",
+        "E-29661ba79facf6f4",
+        "E-64d90dc52d9b0e66",
+        "E-8949d0e647757406",
+        "E-479d2913ad1ce3db"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-0de68411559fad26",
+          "semantic_similarity_score": 0.7190811634063721
+        },
+        {
+          "evidence_id": "E-ca0f67da0cb3cd57",
+          "semantic_similarity_score": 0.6471855640411377
+        },
+        {
+          "evidence_id": "E-b30992bdef055bba",
+          "semantic_similarity_score": 0.619526743888855
+        },
+        {
+          "evidence_id": "E-5c7cfe41b59b73b8",
+          "semantic_similarity_score": 0.6169627904891968
+        },
+        {
+          "evidence_id": "E-29661ba79facf6f4",
+          "semantic_similarity_score": 0.6059004068374634
+        },
+        {
+          "evidence_id": "E-f9c847b7a9a90453",
+          "semantic_similarity_score": 0.5989125967025757
+        },
+        {
+          "evidence_id": "E-d4f72baac81698c6",
+          "semantic_similarity_score": 0.5938488841056824
+        },
+        {
+          "evidence_id": "E-a27c70727b062551",
+          "semantic_similarity_score": 0.5931219458580017
+        },
+        {
+          "evidence_id": "E-345eb68f0f0ff64d",
+          "semantic_similarity_score": 0.5912989377975464
+        },
+        {
+          "evidence_id": "E-4c934f4821be0ee6",
+          "semantic_similarity_score": 0.5899539589881897
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-0de68411559fad26",
+          "bm25_rank": 1,
+          "vector_rank": 1,
+          "rrf_score": 0.03278688524590164
+        },
+        {
+          "evidence_id": "E-ca0f67da0cb3cd57",
+          "bm25_rank": 2,
+          "vector_rank": 2,
+          "rrf_score": 0.03225806451612903
+        },
+        {
+          "evidence_id": "E-b30992bdef055bba",
+          "bm25_rank": 3,
+          "vector_rank": 3,
+          "rrf_score": 0.031746031746031744
+        },
+        {
+          "evidence_id": "E-29661ba79facf6f4",
+          "bm25_rank": 7,
+          "vector_rank": 5,
+          "rrf_score": 0.030309988518943745
+        },
+        {
+          "evidence_id": "E-5c7cfe41b59b73b8",
+          "bm25_rank": null,
+          "vector_rank": 4,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-7d9dfa09f2e5c707",
+          "bm25_rank": 4,
+          "vector_rank": null,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-cb6541fe00bc3d9e",
+          "bm25_rank": 5,
+          "vector_rank": null,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-d82ea66cd72b9687",
+          "bm25_rank": 6,
+          "vector_rank": null,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-f9c847b7a9a90453",
+          "bm25_rank": null,
+          "vector_rank": 6,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-d4f72baac81698c6",
+          "bm25_rank": null,
+          "vector_rank": 7,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-64d90dc52d9b0e66",
+          "bm25_rank": 8,
+          "vector_rank": null,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-a27c70727b062551",
+          "bm25_rank": null,
+          "vector_rank": 8,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-345eb68f0f0ff64d",
+          "bm25_rank": null,
+          "vector_rank": 9,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-8949d0e647757406",
+          "bm25_rank": 9,
+          "vector_rank": null,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-479d2913ad1ce3db",
+          "bm25_rank": 10,
+          "vector_rank": null,
+          "rrf_score": 0.014285714285714285
+        },
+        {
+          "evidence_id": "E-4c934f4821be0ee6",
+          "bm25_rank": null,
+          "vector_rank": 10,
+          "rrf_score": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "doc-15",
+      "category": "documentary",
+      "bm25_rank": 1,
+      "vector_rank": 2,
+      "hybrid_rank": 1,
+      "bm25": [
+        "E-1cd91b1ca53399a1",
+        "E-47a6f8af3eb8b482",
+        "E-5d4bb0be10b6a4a3",
+        "E-7f35938982a28c00",
+        "E-eea2bbbaa292164f",
+        "E-3eaa12ae19dc35ae",
+        "E-1406065c07367b7e",
+        "E-ac5321d7f4433dec",
+        "E-4f0ca4cae9ec004c",
+        "E-bf84dd01ec8c3224"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-a0238f9cfbbc8167",
+          "semantic_similarity_score": 0.5430307984352112
+        },
+        {
+          "evidence_id": "E-3eaa12ae19dc35ae",
+          "semantic_similarity_score": 0.5398668646812439
+        },
+        {
+          "evidence_id": "E-e7260265aa79f3c6",
+          "semantic_similarity_score": 0.5394029021263123
+        },
+        {
+          "evidence_id": "E-1cd91b1ca53399a1",
+          "semantic_similarity_score": 0.5359573364257812
+        },
+        {
+          "evidence_id": "E-7f35938982a28c00",
+          "semantic_similarity_score": 0.5200929641723633
+        },
+        {
+          "evidence_id": "E-4f0ca4cae9ec004c",
+          "semantic_similarity_score": 0.517265260219574
+        },
+        {
+          "evidence_id": "E-47a6f8af3eb8b482",
+          "semantic_similarity_score": 0.5151972770690918
+        },
+        {
+          "evidence_id": "E-a9f3ce9ea99cc72f",
+          "semantic_similarity_score": 0.5139533281326294
+        },
+        {
+          "evidence_id": "E-b5cd358df9e7355a",
+          "semantic_similarity_score": 0.5028554797172546
+        },
+        {
+          "evidence_id": "E-1406065c07367b7e",
+          "semantic_similarity_score": 0.49646231532096863
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-1cd91b1ca53399a1",
+          "bm25_rank": 1,
+          "vector_rank": 4,
+          "rrf_score": 0.032018442622950824
+        },
+        {
+          "evidence_id": "E-3eaa12ae19dc35ae",
+          "bm25_rank": 6,
+          "vector_rank": 2,
+          "rrf_score": 0.03128054740957967
+        },
+        {
+          "evidence_id": "E-47a6f8af3eb8b482",
+          "bm25_rank": 2,
+          "vector_rank": 7,
+          "rrf_score": 0.031054405392392875
+        },
+        {
+          "evidence_id": "E-7f35938982a28c00",
+          "bm25_rank": 4,
+          "vector_rank": 5,
+          "rrf_score": 0.031009615384615385
+        },
+        {
+          "evidence_id": "E-4f0ca4cae9ec004c",
+          "bm25_rank": 9,
+          "vector_rank": 6,
+          "rrf_score": 0.02964426877470356
+        },
+        {
+          "evidence_id": "E-1406065c07367b7e",
+          "bm25_rank": 7,
+          "vector_rank": 10,
+          "rrf_score": 0.029211087420042643
+        },
+        {
+          "evidence_id": "E-a0238f9cfbbc8167",
+          "bm25_rank": null,
+          "vector_rank": 1,
+          "rrf_score": 0.01639344262295082
+        },
+        {
+          "evidence_id": "E-5d4bb0be10b6a4a3",
+          "bm25_rank": 3,
+          "vector_rank": null,
+          "rrf_score": 0.015873015873015872
+        },
+        {
+          "evidence_id": "E-e7260265aa79f3c6",
+          "bm25_rank": null,
+          "vector_rank": 3,
+          "rrf_score": 0.015873015873015872
+        },
+        {
+          "evidence_id": "E-eea2bbbaa292164f",
+          "bm25_rank": 5,
+          "vector_rank": null,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-a9f3ce9ea99cc72f",
+          "bm25_rank": null,
+          "vector_rank": 8,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-ac5321d7f4433dec",
+          "bm25_rank": 8,
+          "vector_rank": null,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-b5cd358df9e7355a",
+          "bm25_rank": null,
+          "vector_rank": 9,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-bf84dd01ec8c3224",
+          "bm25_rank": 10,
+          "vector_rank": null,
+          "rrf_score": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "doc-16",
+      "category": "documentary",
+      "bm25_rank": 2,
+      "vector_rank": 1,
+      "hybrid_rank": 1,
+      "bm25": [
+        "E-47a6f8af3eb8b482",
+        "E-0b7f0cce99b8702c",
+        "E-a2609c6c94dd50e7",
+        "E-c6a710d56a3fa842",
+        "E-26fbd9d7e6f12ec2",
+        "E-c41ccf58cc62cb0f",
+        "E-94610094592c08b0",
+        "E-5d4bb0be10b6a4a3",
+        "E-ced24261432d978d",
+        "E-7d529ba0087c899b"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-0b7f0cce99b8702c",
+          "semantic_similarity_score": 0.4172031879425049
+        },
+        {
+          "evidence_id": "E-ced24261432d978d",
+          "semantic_similarity_score": 0.3353178799152374
+        },
+        {
+          "evidence_id": "E-b0d06252b9301e84",
+          "semantic_similarity_score": 0.33368825912475586
+        },
+        {
+          "evidence_id": "E-2797f96d19550759",
+          "semantic_similarity_score": 0.3286895155906677
+        },
+        {
+          "evidence_id": "E-50a83ff264dd8e62",
+          "semantic_similarity_score": 0.32428932189941406
+        },
+        {
+          "evidence_id": "E-94610094592c08b0",
+          "semantic_similarity_score": 0.31262946128845215
+        },
+        {
+          "evidence_id": "E-5d4bb0be10b6a4a3",
+          "semantic_similarity_score": 0.29978257417678833
+        },
+        {
+          "evidence_id": "E-0ef42db1737d4408",
+          "semantic_similarity_score": 0.2973847985267639
+        },
+        {
+          "evidence_id": "E-3afd1e0aeb04db8d",
+          "semantic_similarity_score": 0.2939819097518921
+        },
+        {
+          "evidence_id": "E-c6a710d56a3fa842",
+          "semantic_similarity_score": 0.290437251329422
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-0b7f0cce99b8702c",
+          "bm25_rank": 2,
+          "vector_rank": 1,
+          "rrf_score": 0.03252247488101534
+        },
+        {
+          "evidence_id": "E-ced24261432d978d",
+          "bm25_rank": 9,
+          "vector_rank": 2,
+          "rrf_score": 0.030621785881252923
+        },
+        {
+          "evidence_id": "E-94610094592c08b0",
+          "bm25_rank": 7,
+          "vector_rank": 6,
+          "rrf_score": 0.03007688828584351
+        },
+        {
+          "evidence_id": "E-c6a710d56a3fa842",
+          "bm25_rank": 4,
+          "vector_rank": 10,
+          "rrf_score": 0.029910714285714284
+        },
+        {
+          "evidence_id": "E-5d4bb0be10b6a4a3",
+          "bm25_rank": 8,
+          "vector_rank": 7,
+          "rrf_score": 0.029631255487269532
+        },
+        {
+          "evidence_id": "E-47a6f8af3eb8b482",
+          "bm25_rank": 1,
+          "vector_rank": null,
+          "rrf_score": 0.01639344262295082
+        },
+        {
+          "evidence_id": "E-a2609c6c94dd50e7",
+          "bm25_rank": 3,
+          "vector_rank": null,
+          "rrf_score": 0.015873015873015872
+        },
+        {
+          "evidence_id": "E-b0d06252b9301e84",
+          "bm25_rank": null,
+          "vector_rank": 3,
+          "rrf_score": 0.015873015873015872
+        },
+        {
+          "evidence_id": "E-2797f96d19550759",
+          "bm25_rank": null,
+          "vector_rank": 4,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-26fbd9d7e6f12ec2",
+          "bm25_rank": 5,
+          "vector_rank": null,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-50a83ff264dd8e62",
+          "bm25_rank": null,
+          "vector_rank": 5,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-c41ccf58cc62cb0f",
+          "bm25_rank": 6,
+          "vector_rank": null,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-0ef42db1737d4408",
+          "bm25_rank": null,
+          "vector_rank": 8,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-3afd1e0aeb04db8d",
+          "bm25_rank": null,
+          "vector_rank": 9,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-7d529ba0087c899b",
+          "bm25_rank": 10,
+          "vector_rank": null,
+          "rrf_score": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "doc-17",
+      "category": "documentary",
+      "bm25_rank": null,
+      "vector_rank": 3,
+      "hybrid_rank": 8,
+      "bm25": [
+        "E-47a6f8af3eb8b482",
+        "E-0b7f0cce99b8702c",
+        "E-a2609c6c94dd50e7",
+        "E-c6a710d56a3fa842",
+        "E-26fbd9d7e6f12ec2",
+        "E-c41ccf58cc62cb0f",
+        "E-94610094592c08b0",
+        "E-5d4bb0be10b6a4a3",
+        "E-ced24261432d978d",
+        "E-7d529ba0087c899b"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-0b7f0cce99b8702c",
+          "semantic_similarity_score": 0.4172031581401825
+        },
+        {
+          "evidence_id": "E-ced24261432d978d",
+          "semantic_similarity_score": 0.3353178799152374
+        },
+        {
+          "evidence_id": "E-b0d06252b9301e84",
+          "semantic_similarity_score": 0.33368825912475586
+        },
+        {
+          "evidence_id": "E-2797f96d19550759",
+          "semantic_similarity_score": 0.3286895155906677
+        },
+        {
+          "evidence_id": "E-50a83ff264dd8e62",
+          "semantic_similarity_score": 0.32428935170173645
+        },
+        {
+          "evidence_id": "E-94610094592c08b0",
+          "semantic_similarity_score": 0.31262946128845215
+        },
+        {
+          "evidence_id": "E-5d4bb0be10b6a4a3",
+          "semantic_similarity_score": 0.29978257417678833
+        },
+        {
+          "evidence_id": "E-0ef42db1737d4408",
+          "semantic_similarity_score": 0.2973848283290863
+        },
+        {
+          "evidence_id": "E-3afd1e0aeb04db8d",
+          "semantic_similarity_score": 0.2939819097518921
+        },
+        {
+          "evidence_id": "E-c6a710d56a3fa842",
+          "semantic_similarity_score": 0.2904372811317444
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-0b7f0cce99b8702c",
+          "bm25_rank": 2,
+          "vector_rank": 1,
+          "rrf_score": 0.03252247488101534
+        },
+        {
+          "evidence_id": "E-ced24261432d978d",
+          "bm25_rank": 9,
+          "vector_rank": 2,
+          "rrf_score": 0.030621785881252923
+        },
+        {
+          "evidence_id": "E-94610094592c08b0",
+          "bm25_rank": 7,
+          "vector_rank": 6,
+          "rrf_score": 0.03007688828584351
+        },
+        {
+          "evidence_id": "E-c6a710d56a3fa842",
+          "bm25_rank": 4,
+          "vector_rank": 10,
+          "rrf_score": 0.029910714285714284
+        },
+        {
+          "evidence_id": "E-5d4bb0be10b6a4a3",
+          "bm25_rank": 8,
+          "vector_rank": 7,
+          "rrf_score": 0.029631255487269532
+        },
+        {
+          "evidence_id": "E-47a6f8af3eb8b482",
+          "bm25_rank": 1,
+          "vector_rank": null,
+          "rrf_score": 0.01639344262295082
+        },
+        {
+          "evidence_id": "E-a2609c6c94dd50e7",
+          "bm25_rank": 3,
+          "vector_rank": null,
+          "rrf_score": 0.015873015873015872
+        },
+        {
+          "evidence_id": "E-b0d06252b9301e84",
+          "bm25_rank": null,
+          "vector_rank": 3,
+          "rrf_score": 0.015873015873015872
+        },
+        {
+          "evidence_id": "E-2797f96d19550759",
+          "bm25_rank": null,
+          "vector_rank": 4,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-26fbd9d7e6f12ec2",
+          "bm25_rank": 5,
+          "vector_rank": null,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-50a83ff264dd8e62",
+          "bm25_rank": null,
+          "vector_rank": 5,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-c41ccf58cc62cb0f",
+          "bm25_rank": 6,
+          "vector_rank": null,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-0ef42db1737d4408",
+          "bm25_rank": null,
+          "vector_rank": 8,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-3afd1e0aeb04db8d",
+          "bm25_rank": null,
+          "vector_rank": 9,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-7d529ba0087c899b",
+          "bm25_rank": 10,
+          "vector_rank": null,
+          "rrf_score": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "doc-18",
+      "category": "documentary",
+      "bm25_rank": 1,
+      "vector_rank": 1,
+      "hybrid_rank": 1,
+      "bm25": [
+        "E-9646accdb910f79c",
+        "E-ac5321d7f4433dec",
+        "E-47a6f8af3eb8b482",
+        "E-3eaa12ae19dc35ae",
+        "E-51a26c345bdcfad4",
+        "E-1ac66b2fe73347e1",
+        "E-bf84dd01ec8c3224",
+        "E-ced24261432d978d",
+        "E-d886f86c81a2d7dc",
+        "E-7f35938982a28c00"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-9646accdb910f79c",
+          "semantic_similarity_score": 0.6403869390487671
+        },
+        {
+          "evidence_id": "E-47a6f8af3eb8b482",
+          "semantic_similarity_score": 0.5734997987747192
+        },
+        {
+          "evidence_id": "E-e7f72712fe87b163",
+          "semantic_similarity_score": 0.5689490437507629
+        },
+        {
+          "evidence_id": "E-7d529ba0087c899b",
+          "semantic_similarity_score": 0.5679680109024048
+        },
+        {
+          "evidence_id": "E-51a26c345bdcfad4",
+          "semantic_similarity_score": 0.5610092878341675
+        },
+        {
+          "evidence_id": "E-e7260265aa79f3c6",
+          "semantic_similarity_score": 0.5565825700759888
+        },
+        {
+          "evidence_id": "E-2797f96d19550759",
+          "semantic_similarity_score": 0.5561325550079346
+        },
+        {
+          "evidence_id": "E-ac5321d7f4433dec",
+          "semantic_similarity_score": 0.5551141500473022
+        },
+        {
+          "evidence_id": "E-20d4518a07dc9870",
+          "semantic_similarity_score": 0.5530465841293335
+        },
+        {
+          "evidence_id": "E-1cd91b1ca53399a1",
+          "semantic_similarity_score": 0.5521318316459656
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-9646accdb910f79c",
+          "bm25_rank": 1,
+          "vector_rank": 1,
+          "rrf_score": 0.03278688524590164
+        },
+        {
+          "evidence_id": "E-47a6f8af3eb8b482",
+          "bm25_rank": 3,
+          "vector_rank": 2,
+          "rrf_score": 0.03200204813108039
+        },
+        {
+          "evidence_id": "E-ac5321d7f4433dec",
+          "bm25_rank": 2,
+          "vector_rank": 8,
+          "rrf_score": 0.030834914611005692
+        },
+        {
+          "evidence_id": "E-51a26c345bdcfad4",
+          "bm25_rank": 5,
+          "vector_rank": 5,
+          "rrf_score": 0.03076923076923077
+        },
+        {
+          "evidence_id": "E-e7f72712fe87b163",
+          "bm25_rank": null,
+          "vector_rank": 3,
+          "rrf_score": 0.015873015873015872
+        },
+        {
+          "evidence_id": "E-3eaa12ae19dc35ae",
+          "bm25_rank": 4,
+          "vector_rank": null,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-7d529ba0087c899b",
+          "bm25_rank": null,
+          "vector_rank": 4,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-1ac66b2fe73347e1",
+          "bm25_rank": 6,
+          "vector_rank": null,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-e7260265aa79f3c6",
+          "bm25_rank": null,
+          "vector_rank": 6,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-2797f96d19550759",
+          "bm25_rank": null,
+          "vector_rank": 7,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-bf84dd01ec8c3224",
+          "bm25_rank": 7,
+          "vector_rank": null,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-ced24261432d978d",
+          "bm25_rank": 8,
+          "vector_rank": null,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-20d4518a07dc9870",
+          "bm25_rank": null,
+          "vector_rank": 9,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-d886f86c81a2d7dc",
+          "bm25_rank": 9,
+          "vector_rank": null,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-1cd91b1ca53399a1",
+          "bm25_rank": null,
+          "vector_rank": 10,
+          "rrf_score": 0.014285714285714285
+        },
+        {
+          "evidence_id": "E-7f35938982a28c00",
+          "bm25_rank": 10,
+          "vector_rank": null,
+          "rrf_score": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "doc-19",
+      "category": "documentary",
+      "bm25_rank": 1,
+      "vector_rank": 1,
+      "hybrid_rank": 1,
+      "bm25": [
+        "E-a0238f9cfbbc8167",
+        "E-664ef3fd5b955fac",
+        "E-ad149b6a9ce7f2f8",
+        "E-1cd91b1ca53399a1",
+        "E-b5cd358df9e7355a",
+        "E-9646accdb910f79c",
+        "E-7f35938982a28c00",
+        "E-18c496f0304c63ce",
+        "E-1bc02b1c4951599f",
+        "E-a2fd2d10315f6e83"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-a0238f9cfbbc8167",
+          "semantic_similarity_score": 0.631499171257019
+        },
+        {
+          "evidence_id": "E-1cd91b1ca53399a1",
+          "semantic_similarity_score": 0.5993174314498901
+        },
+        {
+          "evidence_id": "E-7f35938982a28c00",
+          "semantic_similarity_score": 0.598082423210144
+        },
+        {
+          "evidence_id": "E-e7260265aa79f3c6",
+          "semantic_similarity_score": 0.595221757888794
+        },
+        {
+          "evidence_id": "E-2797f96d19550759",
+          "semantic_similarity_score": 0.5932161211967468
+        },
+        {
+          "evidence_id": "E-18c496f0304c63ce",
+          "semantic_similarity_score": 0.5831121206283569
+        },
+        {
+          "evidence_id": "E-b1d57949980f9ebd",
+          "semantic_similarity_score": 0.5701130628585815
+        },
+        {
+          "evidence_id": "E-22f80c01b125023f",
+          "semantic_similarity_score": 0.5628288984298706
+        },
+        {
+          "evidence_id": "E-3eaa12ae19dc35ae",
+          "semantic_similarity_score": 0.5627375841140747
+        },
+        {
+          "evidence_id": "E-9fd9db48ef93c314",
+          "semantic_similarity_score": 0.5603259801864624
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-a0238f9cfbbc8167",
+          "bm25_rank": 1,
+          "vector_rank": 1,
+          "rrf_score": 0.03278688524590164
+        },
+        {
+          "evidence_id": "E-1cd91b1ca53399a1",
+          "bm25_rank": 4,
+          "vector_rank": 2,
+          "rrf_score": 0.031754032258064516
+        },
+        {
+          "evidence_id": "E-7f35938982a28c00",
+          "bm25_rank": 7,
+          "vector_rank": 3,
+          "rrf_score": 0.030798389007344232
+        },
+        {
+          "evidence_id": "E-18c496f0304c63ce",
+          "bm25_rank": 8,
+          "vector_rank": 6,
+          "rrf_score": 0.029857397504456328
+        },
+        {
+          "evidence_id": "E-664ef3fd5b955fac",
+          "bm25_rank": 2,
+          "vector_rank": null,
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "evidence_id": "E-ad149b6a9ce7f2f8",
+          "bm25_rank": 3,
+          "vector_rank": null,
+          "rrf_score": 0.015873015873015872
+        },
+        {
+          "evidence_id": "E-e7260265aa79f3c6",
+          "bm25_rank": null,
+          "vector_rank": 4,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-2797f96d19550759",
+          "bm25_rank": null,
+          "vector_rank": 5,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-b5cd358df9e7355a",
+          "bm25_rank": 5,
+          "vector_rank": null,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-9646accdb910f79c",
+          "bm25_rank": 6,
+          "vector_rank": null,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-b1d57949980f9ebd",
+          "bm25_rank": null,
+          "vector_rank": 7,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-22f80c01b125023f",
+          "bm25_rank": null,
+          "vector_rank": 8,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-1bc02b1c4951599f",
+          "bm25_rank": 9,
+          "vector_rank": null,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-3eaa12ae19dc35ae",
+          "bm25_rank": null,
+          "vector_rank": 9,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-9fd9db48ef93c314",
+          "bm25_rank": null,
+          "vector_rank": 10,
+          "rrf_score": 0.014285714285714285
+        },
+        {
+          "evidence_id": "E-a2fd2d10315f6e83",
+          "bm25_rank": 10,
+          "vector_rank": null,
+          "rrf_score": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "doc-20",
+      "category": "documentary",
+      "bm25_rank": null,
+      "vector_rank": null,
+      "hybrid_rank": null,
+      "bm25": [
+        "E-53ae133042881753",
+        "E-9815fc1d6b05e578",
+        "E-f251d033132c03af",
+        "E-1cd91b1ca53399a1",
+        "E-e7260265aa79f3c6",
+        "E-4f0ca4cae9ec004c",
+        "E-b5cd358df9e7355a",
+        "E-eea2bbbaa292164f",
+        "E-7f35938982a28c00",
+        "E-3eaa12ae19dc35ae"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-ff3189dedc1d89a0",
+          "semantic_similarity_score": 0.6845372915267944
+        },
+        {
+          "evidence_id": "E-1cd91b1ca53399a1",
+          "semantic_similarity_score": 0.6765637993812561
+        },
+        {
+          "evidence_id": "E-7f35938982a28c00",
+          "semantic_similarity_score": 0.6550830006599426
+        },
+        {
+          "evidence_id": "E-f251d033132c03af",
+          "semantic_similarity_score": 0.646737813949585
+        },
+        {
+          "evidence_id": "E-2797f96d19550759",
+          "semantic_similarity_score": 0.6401084661483765
+        },
+        {
+          "evidence_id": "E-b1d57949980f9ebd",
+          "semantic_similarity_score": 0.635776698589325
+        },
+        {
+          "evidence_id": "E-e7260265aa79f3c6",
+          "semantic_similarity_score": 0.6253321170806885
+        },
+        {
+          "evidence_id": "E-21e27d8b66bc1d4d",
+          "semantic_similarity_score": 0.6129705905914307
+        },
+        {
+          "evidence_id": "E-9815fc1d6b05e578",
+          "semantic_similarity_score": 0.6125660538673401
+        },
+        {
+          "evidence_id": "E-53ae133042881753",
+          "semantic_similarity_score": 0.6114504337310791
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-1cd91b1ca53399a1",
+          "bm25_rank": 4,
+          "vector_rank": 2,
+          "rrf_score": 0.031754032258064516
+        },
+        {
+          "evidence_id": "E-f251d033132c03af",
+          "bm25_rank": 3,
+          "vector_rank": 4,
+          "rrf_score": 0.03149801587301587
+        },
+        {
+          "evidence_id": "E-53ae133042881753",
+          "bm25_rank": 1,
+          "vector_rank": 10,
+          "rrf_score": 0.030679156908665108
+        },
+        {
+          "evidence_id": "E-9815fc1d6b05e578",
+          "bm25_rank": 2,
+          "vector_rank": 9,
+          "rrf_score": 0.030621785881252923
+        },
+        {
+          "evidence_id": "E-7f35938982a28c00",
+          "bm25_rank": 9,
+          "vector_rank": 3,
+          "rrf_score": 0.03036576949620428
+        },
+        {
+          "evidence_id": "E-e7260265aa79f3c6",
+          "bm25_rank": 5,
+          "vector_rank": 7,
+          "rrf_score": 0.030309988518943745
+        },
+        {
+          "evidence_id": "E-ff3189dedc1d89a0",
+          "bm25_rank": null,
+          "vector_rank": 1,
+          "rrf_score": 0.01639344262295082
+        },
+        {
+          "evidence_id": "E-2797f96d19550759",
+          "bm25_rank": null,
+          "vector_rank": 5,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-4f0ca4cae9ec004c",
+          "bm25_rank": 6,
+          "vector_rank": null,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-b1d57949980f9ebd",
+          "bm25_rank": null,
+          "vector_rank": 6,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-b5cd358df9e7355a",
+          "bm25_rank": 7,
+          "vector_rank": null,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-21e27d8b66bc1d4d",
+          "bm25_rank": null,
+          "vector_rank": 8,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-eea2bbbaa292164f",
+          "bm25_rank": 8,
+          "vector_rank": null,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-3eaa12ae19dc35ae",
+          "bm25_rank": 10,
+          "vector_rank": null,
+          "rrf_score": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "doc-21",
+      "category": "documentary",
+      "bm25_rank": 1,
+      "vector_rank": 1,
+      "hybrid_rank": 1,
+      "bm25": [
+        "E-fea883d9cd34107b",
+        "E-aa483ffadc29830c",
+        "E-81123adcd59c0ce9",
+        "E-b8d0ad5a78bb8743",
+        "E-3b50e3df3f58a009",
+        "E-9df910ff0e083254",
+        "E-47a6f8af3eb8b482",
+        "E-7f5ae3ee7c9d6e11",
+        "E-e7260265aa79f3c6",
+        "E-49fde889c36ce643"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-fea883d9cd34107b",
+          "semantic_similarity_score": 0.7139828205108643
+        },
+        {
+          "evidence_id": "E-aa483ffadc29830c",
+          "semantic_similarity_score": 0.664749264717102
+        },
+        {
+          "evidence_id": "E-b8d0ad5a78bb8743",
+          "semantic_similarity_score": 0.6206777095794678
+        },
+        {
+          "evidence_id": "E-81123adcd59c0ce9",
+          "semantic_similarity_score": 0.615898847579956
+        },
+        {
+          "evidence_id": "E-49fde889c36ce643",
+          "semantic_similarity_score": 0.6080731153488159
+        },
+        {
+          "evidence_id": "E-4aecac9309638330",
+          "semantic_similarity_score": 0.5638493299484253
+        },
+        {
+          "evidence_id": "E-3b50e3df3f58a009",
+          "semantic_similarity_score": 0.5533809661865234
+        },
+        {
+          "evidence_id": "E-b4218d2ff4b7713d",
+          "semantic_similarity_score": 0.5526527166366577
+        },
+        {
+          "evidence_id": "E-e7260265aa79f3c6",
+          "semantic_similarity_score": 0.548171877861023
+        },
+        {
+          "evidence_id": "E-a0238f9cfbbc8167",
+          "semantic_similarity_score": 0.537500262260437
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-fea883d9cd34107b",
+          "bm25_rank": 1,
+          "vector_rank": 1,
+          "rrf_score": 0.03278688524590164
+        },
+        {
+          "evidence_id": "E-aa483ffadc29830c",
+          "bm25_rank": 2,
+          "vector_rank": 2,
+          "rrf_score": 0.03225806451612903
+        },
+        {
+          "evidence_id": "E-81123adcd59c0ce9",
+          "bm25_rank": 3,
+          "vector_rank": 4,
+          "rrf_score": 0.03149801587301587
+        },
+        {
+          "evidence_id": "E-b8d0ad5a78bb8743",
+          "bm25_rank": 4,
+          "vector_rank": 3,
+          "rrf_score": 0.03149801587301587
+        },
+        {
+          "evidence_id": "E-3b50e3df3f58a009",
+          "bm25_rank": 5,
+          "vector_rank": 7,
+          "rrf_score": 0.030309988518943745
+        },
+        {
+          "evidence_id": "E-49fde889c36ce643",
+          "bm25_rank": 10,
+          "vector_rank": 5,
+          "rrf_score": 0.02967032967032967
+        },
+        {
+          "evidence_id": "E-e7260265aa79f3c6",
+          "bm25_rank": 9,
+          "vector_rank": 9,
+          "rrf_score": 0.028985507246376812
+        },
+        {
+          "evidence_id": "E-4aecac9309638330",
+          "bm25_rank": null,
+          "vector_rank": 6,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-9df910ff0e083254",
+          "bm25_rank": 6,
+          "vector_rank": null,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-47a6f8af3eb8b482",
+          "bm25_rank": 7,
+          "vector_rank": null,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-7f5ae3ee7c9d6e11",
+          "bm25_rank": 8,
+          "vector_rank": null,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-b4218d2ff4b7713d",
+          "bm25_rank": null,
+          "vector_rank": 8,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-a0238f9cfbbc8167",
+          "bm25_rank": null,
+          "vector_rank": 10,
+          "rrf_score": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "doc-22",
+      "category": "documentary",
+      "bm25_rank": 2,
+      "vector_rank": 2,
+      "hybrid_rank": 2,
+      "bm25": [
+        "E-fea883d9cd34107b",
+        "E-aa483ffadc29830c",
+        "E-81123adcd59c0ce9",
+        "E-b8d0ad5a78bb8743",
+        "E-3b50e3df3f58a009",
+        "E-9df910ff0e083254",
+        "E-47a6f8af3eb8b482",
+        "E-7f5ae3ee7c9d6e11",
+        "E-e7260265aa79f3c6",
+        "E-49fde889c36ce643"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-fea883d9cd34107b",
+          "semantic_similarity_score": 0.7139828205108643
+        },
+        {
+          "evidence_id": "E-aa483ffadc29830c",
+          "semantic_similarity_score": 0.6647493839263916
+        },
+        {
+          "evidence_id": "E-b8d0ad5a78bb8743",
+          "semantic_similarity_score": 0.6206777095794678
+        },
+        {
+          "evidence_id": "E-81123adcd59c0ce9",
+          "semantic_similarity_score": 0.615898847579956
+        },
+        {
+          "evidence_id": "E-49fde889c36ce643",
+          "semantic_similarity_score": 0.6080732345581055
+        },
+        {
+          "evidence_id": "E-4aecac9309638330",
+          "semantic_similarity_score": 0.5638493895530701
+        },
+        {
+          "evidence_id": "E-3b50e3df3f58a009",
+          "semantic_similarity_score": 0.5533809661865234
+        },
+        {
+          "evidence_id": "E-b4218d2ff4b7713d",
+          "semantic_similarity_score": 0.5526528358459473
+        },
+        {
+          "evidence_id": "E-e7260265aa79f3c6",
+          "semantic_similarity_score": 0.548171877861023
+        },
+        {
+          "evidence_id": "E-a0238f9cfbbc8167",
+          "semantic_similarity_score": 0.537500262260437
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-fea883d9cd34107b",
+          "bm25_rank": 1,
+          "vector_rank": 1,
+          "rrf_score": 0.03278688524590164
+        },
+        {
+          "evidence_id": "E-aa483ffadc29830c",
+          "bm25_rank": 2,
+          "vector_rank": 2,
+          "rrf_score": 0.03225806451612903
+        },
+        {
+          "evidence_id": "E-81123adcd59c0ce9",
+          "bm25_rank": 3,
+          "vector_rank": 4,
+          "rrf_score": 0.03149801587301587
+        },
+        {
+          "evidence_id": "E-b8d0ad5a78bb8743",
+          "bm25_rank": 4,
+          "vector_rank": 3,
+          "rrf_score": 0.03149801587301587
+        },
+        {
+          "evidence_id": "E-3b50e3df3f58a009",
+          "bm25_rank": 5,
+          "vector_rank": 7,
+          "rrf_score": 0.030309988518943745
+        },
+        {
+          "evidence_id": "E-49fde889c36ce643",
+          "bm25_rank": 10,
+          "vector_rank": 5,
+          "rrf_score": 0.02967032967032967
+        },
+        {
+          "evidence_id": "E-e7260265aa79f3c6",
+          "bm25_rank": 9,
+          "vector_rank": 9,
+          "rrf_score": 0.028985507246376812
+        },
+        {
+          "evidence_id": "E-4aecac9309638330",
+          "bm25_rank": null,
+          "vector_rank": 6,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-9df910ff0e083254",
+          "bm25_rank": 6,
+          "vector_rank": null,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-47a6f8af3eb8b482",
+          "bm25_rank": 7,
+          "vector_rank": null,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-7f5ae3ee7c9d6e11",
+          "bm25_rank": 8,
+          "vector_rank": null,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-b4218d2ff4b7713d",
+          "bm25_rank": null,
+          "vector_rank": 8,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-a0238f9cfbbc8167",
+          "bm25_rank": null,
+          "vector_rank": 10,
+          "rrf_score": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "doc-23",
+      "category": "documentary",
+      "bm25_rank": 9,
+      "vector_rank": null,
+      "hybrid_rank": 12,
+      "bm25": [
+        "E-52e93b55ed769f90",
+        "E-9ca63c37cc78b768",
+        "E-a2c0d0bfbc098435",
+        "E-cebf7efaabc60933",
+        "E-d6906dd66e7b863b",
+        "E-ff28a8901b861362",
+        "E-e542829f687750e6",
+        "E-835d5b37dbbb1470",
+        "E-0ae3874dc135cf49",
+        "E-345bc689dc379cf8"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-52e93b55ed769f90",
+          "semantic_similarity_score": 0.6328952312469482
+        },
+        {
+          "evidence_id": "E-ff3189dedc1d89a0",
+          "semantic_similarity_score": 0.6126915216445923
+        },
+        {
+          "evidence_id": "E-cebf7efaabc60933",
+          "semantic_similarity_score": 0.6058229804039001
+        },
+        {
+          "evidence_id": "E-9ca63c37cc78b768",
+          "semantic_similarity_score": 0.6015142202377319
+        },
+        {
+          "evidence_id": "E-a2c0d0bfbc098435",
+          "semantic_similarity_score": 0.6010478138923645
+        },
+        {
+          "evidence_id": "E-e542829f687750e6",
+          "semantic_similarity_score": 0.5978186130523682
+        },
+        {
+          "evidence_id": "E-7f35938982a28c00",
+          "semantic_similarity_score": 0.5912530422210693
+        },
+        {
+          "evidence_id": "E-7e7e9394f7deaca4",
+          "semantic_similarity_score": 0.5872247219085693
+        },
+        {
+          "evidence_id": "E-c15529a690fc746b",
+          "semantic_similarity_score": 0.5864502191543579
+        },
+        {
+          "evidence_id": "E-21e27d8b66bc1d4d",
+          "semantic_similarity_score": 0.5836901664733887
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-52e93b55ed769f90",
+          "bm25_rank": 1,
+          "vector_rank": 1,
+          "rrf_score": 0.03278688524590164
+        },
+        {
+          "evidence_id": "E-9ca63c37cc78b768",
+          "bm25_rank": 2,
+          "vector_rank": 4,
+          "rrf_score": 0.031754032258064516
+        },
+        {
+          "evidence_id": "E-cebf7efaabc60933",
+          "bm25_rank": 4,
+          "vector_rank": 3,
+          "rrf_score": 0.03149801587301587
+        },
+        {
+          "evidence_id": "E-a2c0d0bfbc098435",
+          "bm25_rank": 3,
+          "vector_rank": 5,
+          "rrf_score": 0.03125763125763126
+        },
+        {
+          "evidence_id": "E-e542829f687750e6",
+          "bm25_rank": 7,
+          "vector_rank": 6,
+          "rrf_score": 0.03007688828584351
+        },
+        {
+          "evidence_id": "E-ff3189dedc1d89a0",
+          "bm25_rank": null,
+          "vector_rank": 2,
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "evidence_id": "E-d6906dd66e7b863b",
+          "bm25_rank": 5,
+          "vector_rank": null,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-ff28a8901b861362",
+          "bm25_rank": 6,
+          "vector_rank": null,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-7f35938982a28c00",
+          "bm25_rank": null,
+          "vector_rank": 7,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-7e7e9394f7deaca4",
+          "bm25_rank": null,
+          "vector_rank": 8,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-835d5b37dbbb1470",
+          "bm25_rank": 8,
+          "vector_rank": null,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-0ae3874dc135cf49",
+          "bm25_rank": 9,
+          "vector_rank": null,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-c15529a690fc746b",
+          "bm25_rank": null,
+          "vector_rank": 9,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-21e27d8b66bc1d4d",
+          "bm25_rank": null,
+          "vector_rank": 10,
+          "rrf_score": 0.014285714285714285
+        },
+        {
+          "evidence_id": "E-345bc689dc379cf8",
+          "bm25_rank": 10,
+          "vector_rank": null,
+          "rrf_score": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "doc-24",
+      "category": "documentary",
+      "bm25_rank": 3,
+      "vector_rank": 2,
+      "hybrid_rank": 1,
+      "bm25": [
+        "E-ac5321d7f4433dec",
+        "E-7f35938982a28c00",
+        "E-5d4bb0be10b6a4a3",
+        "E-1cd91b1ca53399a1",
+        "E-fc0ba1ddd48b2851",
+        "E-47a6f8af3eb8b482",
+        "E-eea2bbbaa292164f",
+        "E-3afd1e0aeb04db8d",
+        "E-19303a14e601b7f8",
+        "E-c1be1ef139b5de07"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-a0238f9cfbbc8167",
+          "semantic_similarity_score": 0.5324801802635193
+        },
+        {
+          "evidence_id": "E-5d4bb0be10b6a4a3",
+          "semantic_similarity_score": 0.5184958577156067
+        },
+        {
+          "evidence_id": "E-a9f3ce9ea99cc72f",
+          "semantic_similarity_score": 0.5156638622283936
+        },
+        {
+          "evidence_id": "E-e7260265aa79f3c6",
+          "semantic_similarity_score": 0.5103545188903809
+        },
+        {
+          "evidence_id": "E-3afd1e0aeb04db8d",
+          "semantic_similarity_score": 0.4992024302482605
+        },
+        {
+          "evidence_id": "E-3eaa12ae19dc35ae",
+          "semantic_similarity_score": 0.49839329719543457
+        },
+        {
+          "evidence_id": "E-1cd91b1ca53399a1",
+          "semantic_similarity_score": 0.4892861545085907
+        },
+        {
+          "evidence_id": "E-7f35938982a28c00",
+          "semantic_similarity_score": 0.4832223653793335
+        },
+        {
+          "evidence_id": "E-2797f96d19550759",
+          "semantic_similarity_score": 0.47159263491630554
+        },
+        {
+          "evidence_id": "E-4f0ca4cae9ec004c",
+          "semantic_similarity_score": 0.47042739391326904
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-5d4bb0be10b6a4a3",
+          "bm25_rank": 3,
+          "vector_rank": 2,
+          "rrf_score": 0.03200204813108039
+        },
+        {
+          "evidence_id": "E-7f35938982a28c00",
+          "bm25_rank": 2,
+          "vector_rank": 8,
+          "rrf_score": 0.030834914611005692
+        },
+        {
+          "evidence_id": "E-1cd91b1ca53399a1",
+          "bm25_rank": 4,
+          "vector_rank": 7,
+          "rrf_score": 0.03055037313432836
+        },
+        {
+          "evidence_id": "E-3afd1e0aeb04db8d",
+          "bm25_rank": 8,
+          "vector_rank": 5,
+          "rrf_score": 0.030090497737556562
+        },
+        {
+          "evidence_id": "E-a0238f9cfbbc8167",
+          "bm25_rank": null,
+          "vector_rank": 1,
+          "rrf_score": 0.01639344262295082
+        },
+        {
+          "evidence_id": "E-ac5321d7f4433dec",
+          "bm25_rank": 1,
+          "vector_rank": null,
+          "rrf_score": 0.01639344262295082
+        },
+        {
+          "evidence_id": "E-a9f3ce9ea99cc72f",
+          "bm25_rank": null,
+          "vector_rank": 3,
+          "rrf_score": 0.015873015873015872
+        },
+        {
+          "evidence_id": "E-e7260265aa79f3c6",
+          "bm25_rank": null,
+          "vector_rank": 4,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-fc0ba1ddd48b2851",
+          "bm25_rank": 5,
+          "vector_rank": null,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-3eaa12ae19dc35ae",
+          "bm25_rank": null,
+          "vector_rank": 6,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-47a6f8af3eb8b482",
+          "bm25_rank": 6,
+          "vector_rank": null,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-eea2bbbaa292164f",
+          "bm25_rank": 7,
+          "vector_rank": null,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-19303a14e601b7f8",
+          "bm25_rank": 9,
+          "vector_rank": null,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-2797f96d19550759",
+          "bm25_rank": null,
+          "vector_rank": 9,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-4f0ca4cae9ec004c",
+          "bm25_rank": null,
+          "vector_rank": 10,
+          "rrf_score": 0.014285714285714285
+        },
+        {
+          "evidence_id": "E-c1be1ef139b5de07",
+          "bm25_rank": 10,
+          "vector_rank": null,
+          "rrf_score": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "doc-25",
+      "category": "documentary",
+      "bm25_rank": 8,
+      "vector_rank": null,
+      "hybrid_rank": 13,
+      "bm25": [
+        "E-0108370362cd95d4",
+        "E-ff28a8901b861362",
+        "E-e542829f687750e6",
+        "E-1406065c07367b7e",
+        "E-47a6f8af3eb8b482",
+        "E-3eaa12ae19dc35ae",
+        "E-53ae133042881753",
+        "E-4f0ca4cae9ec004c",
+        "E-7f35938982a28c00",
+        "E-af89b486136608e4"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-7f35938982a28c00",
+          "semantic_similarity_score": 0.6355546712875366
+        },
+        {
+          "evidence_id": "E-2797f96d19550759",
+          "semantic_similarity_score": 0.626126766204834
+        },
+        {
+          "evidence_id": "E-97b7f28d5d16c550",
+          "semantic_similarity_score": 0.6212483644485474
+        },
+        {
+          "evidence_id": "E-1cd91b1ca53399a1",
+          "semantic_similarity_score": 0.6096832752227783
+        },
+        {
+          "evidence_id": "E-ff3189dedc1d89a0",
+          "semantic_similarity_score": 0.6070382595062256
+        },
+        {
+          "evidence_id": "E-3eaa12ae19dc35ae",
+          "semantic_similarity_score": 0.6065409183502197
+        },
+        {
+          "evidence_id": "E-e542829f687750e6",
+          "semantic_similarity_score": 0.5978943109512329
+        },
+        {
+          "evidence_id": "E-62f1f708b5503419",
+          "semantic_similarity_score": 0.5976183414459229
+        },
+        {
+          "evidence_id": "E-b1d57949980f9ebd",
+          "semantic_similarity_score": 0.5925877094268799
+        },
+        {
+          "evidence_id": "E-22f80c01b125023f",
+          "semantic_similarity_score": 0.5924070477485657
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-7f35938982a28c00",
+          "bm25_rank": 9,
+          "vector_rank": 1,
+          "rrf_score": 0.030886196246139225
+        },
+        {
+          "evidence_id": "E-e542829f687750e6",
+          "bm25_rank": 3,
+          "vector_rank": 7,
+          "rrf_score": 0.030798389007344232
+        },
+        {
+          "evidence_id": "E-3eaa12ae19dc35ae",
+          "bm25_rank": 6,
+          "vector_rank": 6,
+          "rrf_score": 0.030303030303030304
+        },
+        {
+          "evidence_id": "E-0108370362cd95d4",
+          "bm25_rank": 1,
+          "vector_rank": null,
+          "rrf_score": 0.01639344262295082
+        },
+        {
+          "evidence_id": "E-2797f96d19550759",
+          "bm25_rank": null,
+          "vector_rank": 2,
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "evidence_id": "E-ff28a8901b861362",
+          "bm25_rank": 2,
+          "vector_rank": null,
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "evidence_id": "E-97b7f28d5d16c550",
+          "bm25_rank": null,
+          "vector_rank": 3,
+          "rrf_score": 0.015873015873015872
+        },
+        {
+          "evidence_id": "E-1406065c07367b7e",
+          "bm25_rank": 4,
+          "vector_rank": null,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-1cd91b1ca53399a1",
+          "bm25_rank": null,
+          "vector_rank": 4,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-47a6f8af3eb8b482",
+          "bm25_rank": 5,
+          "vector_rank": null,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-ff3189dedc1d89a0",
+          "bm25_rank": null,
+          "vector_rank": 5,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-53ae133042881753",
+          "bm25_rank": 7,
+          "vector_rank": null,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-4f0ca4cae9ec004c",
+          "bm25_rank": 8,
+          "vector_rank": null,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-62f1f708b5503419",
+          "bm25_rank": null,
+          "vector_rank": 8,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-b1d57949980f9ebd",
+          "bm25_rank": null,
+          "vector_rank": 9,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-22f80c01b125023f",
+          "bm25_rank": null,
+          "vector_rank": 10,
+          "rrf_score": 0.014285714285714285
+        },
+        {
+          "evidence_id": "E-af89b486136608e4",
+          "bm25_rank": 10,
+          "vector_rank": null,
+          "rrf_score": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "doc-26",
+      "category": "documentary",
+      "bm25_rank": 3,
+      "vector_rank": 10,
+      "hybrid_rank": 6,
+      "bm25": [
+        "E-50a83ff264dd8e62",
+        "E-94610094592c08b0",
+        "E-a2609c6c94dd50e7",
+        "E-b0d06252b9301e84",
+        "E-47a6f8af3eb8b482",
+        "E-ced24261432d978d",
+        "E-c1be1ef139b5de07",
+        "E-2de1289f8a1d102b",
+        "E-0ef42db1737d4408",
+        "E-1ac66b2fe73347e1"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-ced24261432d978d",
+          "semantic_similarity_score": 0.5144716501235962
+        },
+        {
+          "evidence_id": "E-50a83ff264dd8e62",
+          "semantic_similarity_score": 0.5000600814819336
+        },
+        {
+          "evidence_id": "E-f511b16b8a0da206",
+          "semantic_similarity_score": 0.49207693338394165
+        },
+        {
+          "evidence_id": "E-2de1289f8a1d102b",
+          "semantic_similarity_score": 0.48724809288978577
+        },
+        {
+          "evidence_id": "E-e7f72712fe87b163",
+          "semantic_similarity_score": 0.4551889896392822
+        },
+        {
+          "evidence_id": "E-94610094592c08b0",
+          "semantic_similarity_score": 0.45452433824539185
+        },
+        {
+          "evidence_id": "E-b0d06252b9301e84",
+          "semantic_similarity_score": 0.4353020489215851
+        },
+        {
+          "evidence_id": "E-9646accdb910f79c",
+          "semantic_similarity_score": 0.4282371401786804
+        },
+        {
+          "evidence_id": "E-2797f96d19550759",
+          "semantic_similarity_score": 0.4279181957244873
+        },
+        {
+          "evidence_id": "E-0ef42db1737d4408",
+          "semantic_similarity_score": 0.42633193731307983
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-50a83ff264dd8e62",
+          "bm25_rank": 1,
+          "vector_rank": 2,
+          "rrf_score": 0.03252247488101534
+        },
+        {
+          "evidence_id": "E-ced24261432d978d",
+          "bm25_rank": 6,
+          "vector_rank": 1,
+          "rrf_score": 0.031544957774465976
+        },
+        {
+          "evidence_id": "E-94610094592c08b0",
+          "bm25_rank": 2,
+          "vector_rank": 6,
+          "rrf_score": 0.03128054740957967
+        },
+        {
+          "evidence_id": "E-b0d06252b9301e84",
+          "bm25_rank": 4,
+          "vector_rank": 7,
+          "rrf_score": 0.03055037313432836
+        },
+        {
+          "evidence_id": "E-2de1289f8a1d102b",
+          "bm25_rank": 8,
+          "vector_rank": 4,
+          "rrf_score": 0.030330882352941176
+        },
+        {
+          "evidence_id": "E-0ef42db1737d4408",
+          "bm25_rank": 9,
+          "vector_rank": 10,
+          "rrf_score": 0.02877846790890269
+        },
+        {
+          "evidence_id": "E-a2609c6c94dd50e7",
+          "bm25_rank": 3,
+          "vector_rank": null,
+          "rrf_score": 0.015873015873015872
+        },
+        {
+          "evidence_id": "E-f511b16b8a0da206",
+          "bm25_rank": null,
+          "vector_rank": 3,
+          "rrf_score": 0.015873015873015872
+        },
+        {
+          "evidence_id": "E-47a6f8af3eb8b482",
+          "bm25_rank": 5,
+          "vector_rank": null,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-e7f72712fe87b163",
+          "bm25_rank": null,
+          "vector_rank": 5,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-c1be1ef139b5de07",
+          "bm25_rank": 7,
+          "vector_rank": null,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-9646accdb910f79c",
+          "bm25_rank": null,
+          "vector_rank": 8,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-2797f96d19550759",
+          "bm25_rank": null,
+          "vector_rank": 9,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-1ac66b2fe73347e1",
+          "bm25_rank": 10,
+          "vector_rank": null,
+          "rrf_score": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "doc-27",
+      "category": "documentary",
+      "bm25_rank": 1,
+      "vector_rank": 3,
+      "hybrid_rank": 1,
+      "bm25": [
+        "E-e7260265aa79f3c6",
+        "E-9815fc1d6b05e578",
+        "E-53ae133042881753",
+        "E-f251d033132c03af",
+        "E-b5cd358df9e7355a",
+        "E-4f0ca4cae9ec004c",
+        "E-1cd91b1ca53399a1",
+        "E-2d05c82ccf800956",
+        "E-a0238f9cfbbc8167",
+        "E-7f35938982a28c00"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-2797f96d19550759",
+          "semantic_similarity_score": 0.5967215299606323
+        },
+        {
+          "evidence_id": "E-9815fc1d6b05e578",
+          "semantic_similarity_score": 0.5952057242393494
+        },
+        {
+          "evidence_id": "E-e7260265aa79f3c6",
+          "semantic_similarity_score": 0.5928254723548889
+        },
+        {
+          "evidence_id": "E-f251d033132c03af",
+          "semantic_similarity_score": 0.5858196020126343
+        },
+        {
+          "evidence_id": "E-1cd91b1ca53399a1",
+          "semantic_similarity_score": 0.5770882368087769
+        },
+        {
+          "evidence_id": "E-984acc55a4219303",
+          "semantic_similarity_score": 0.5735270380973816
+        },
+        {
+          "evidence_id": "E-ff3189dedc1d89a0",
+          "semantic_similarity_score": 0.5727350115776062
+        },
+        {
+          "evidence_id": "E-7f35938982a28c00",
+          "semantic_similarity_score": 0.5657911896705627
+        },
+        {
+          "evidence_id": "E-9bc62f6f13fb11e2",
+          "semantic_similarity_score": 0.560194730758667
+        },
+        {
+          "evidence_id": "E-b1d57949980f9ebd",
+          "semantic_similarity_score": 0.5586525797843933
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-e7260265aa79f3c6",
+          "bm25_rank": 1,
+          "vector_rank": 3,
+          "rrf_score": 0.032266458495966696
+        },
+        {
+          "evidence_id": "E-9815fc1d6b05e578",
+          "bm25_rank": 2,
+          "vector_rank": 2,
+          "rrf_score": 0.03225806451612903
+        },
+        {
+          "evidence_id": "E-f251d033132c03af",
+          "bm25_rank": 4,
+          "vector_rank": 4,
+          "rrf_score": 0.03125
+        },
+        {
+          "evidence_id": "E-1cd91b1ca53399a1",
+          "bm25_rank": 7,
+          "vector_rank": 5,
+          "rrf_score": 0.030309988518943745
+        },
+        {
+          "evidence_id": "E-7f35938982a28c00",
+          "bm25_rank": 10,
+          "vector_rank": 8,
+          "rrf_score": 0.028991596638655463
+        },
+        {
+          "evidence_id": "E-2797f96d19550759",
+          "bm25_rank": null,
+          "vector_rank": 1,
+          "rrf_score": 0.01639344262295082
+        },
+        {
+          "evidence_id": "E-53ae133042881753",
+          "bm25_rank": 3,
+          "vector_rank": null,
+          "rrf_score": 0.015873015873015872
+        },
+        {
+          "evidence_id": "E-b5cd358df9e7355a",
+          "bm25_rank": 5,
+          "vector_rank": null,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-4f0ca4cae9ec004c",
+          "bm25_rank": 6,
+          "vector_rank": null,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-984acc55a4219303",
+          "bm25_rank": null,
+          "vector_rank": 6,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-ff3189dedc1d89a0",
+          "bm25_rank": null,
+          "vector_rank": 7,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-2d05c82ccf800956",
+          "bm25_rank": 8,
+          "vector_rank": null,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-9bc62f6f13fb11e2",
+          "bm25_rank": null,
+          "vector_rank": 9,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-a0238f9cfbbc8167",
+          "bm25_rank": 9,
+          "vector_rank": null,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-b1d57949980f9ebd",
+          "bm25_rank": null,
+          "vector_rank": 10,
+          "rrf_score": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "doc-28",
+      "category": "documentary",
+      "bm25_rank": 1,
+      "vector_rank": 2,
+      "hybrid_rank": 2,
+      "bm25": [
+        "E-4084124e9dc2a202",
+        "E-f5f5f6f334b3f399",
+        "E-b36e3627203ab9c9",
+        "E-41b92789e34ef65f",
+        "E-f061e56a9c1a1f69",
+        "E-50e88271b00a372a",
+        "E-d886f86c81a2d7dc",
+        "E-46b1d8620c21bc82",
+        "E-9831fc98c2f27285",
+        "E-8d206261599f35bb"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-cefb6ab61505b2db",
+          "semantic_similarity_score": 0.6282700300216675
+        },
+        {
+          "evidence_id": "E-9831fc98c2f27285",
+          "semantic_similarity_score": 0.6114597320556641
+        },
+        {
+          "evidence_id": "E-a5e1e874a2a8294d",
+          "semantic_similarity_score": 0.5928788781166077
+        },
+        {
+          "evidence_id": "E-bd975659745641db",
+          "semantic_similarity_score": 0.5866270065307617
+        },
+        {
+          "evidence_id": "E-50e88271b00a372a",
+          "semantic_similarity_score": 0.5755683779716492
+        },
+        {
+          "evidence_id": "E-b36e3627203ab9c9",
+          "semantic_similarity_score": 0.572562575340271
+        },
+        {
+          "evidence_id": "E-596f5e204817ecd9",
+          "semantic_similarity_score": 0.5659505128860474
+        },
+        {
+          "evidence_id": "E-f061e56a9c1a1f69",
+          "semantic_similarity_score": 0.5553645491600037
+        },
+        {
+          "evidence_id": "E-4084124e9dc2a202",
+          "semantic_similarity_score": 0.5496475696563721
+        },
+        {
+          "evidence_id": "E-09133915d00e22f7",
+          "semantic_similarity_score": 0.5464538931846619
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-b36e3627203ab9c9",
+          "bm25_rank": 3,
+          "vector_rank": 6,
+          "rrf_score": 0.031024531024531024
+        },
+        {
+          "evidence_id": "E-4084124e9dc2a202",
+          "bm25_rank": 1,
+          "vector_rank": 9,
+          "rrf_score": 0.030886196246139225
+        },
+        {
+          "evidence_id": "E-9831fc98c2f27285",
+          "bm25_rank": 9,
+          "vector_rank": 2,
+          "rrf_score": 0.030621785881252923
+        },
+        {
+          "evidence_id": "E-50e88271b00a372a",
+          "bm25_rank": 6,
+          "vector_rank": 5,
+          "rrf_score": 0.030536130536130537
+        },
+        {
+          "evidence_id": "E-f061e56a9c1a1f69",
+          "bm25_rank": 5,
+          "vector_rank": 8,
+          "rrf_score": 0.030090497737556562
+        },
+        {
+          "evidence_id": "E-cefb6ab61505b2db",
+          "bm25_rank": null,
+          "vector_rank": 1,
+          "rrf_score": 0.01639344262295082
+        },
+        {
+          "evidence_id": "E-f5f5f6f334b3f399",
+          "bm25_rank": 2,
+          "vector_rank": null,
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "evidence_id": "E-a5e1e874a2a8294d",
+          "bm25_rank": null,
+          "vector_rank": 3,
+          "rrf_score": 0.015873015873015872
+        },
+        {
+          "evidence_id": "E-41b92789e34ef65f",
+          "bm25_rank": 4,
+          "vector_rank": null,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-bd975659745641db",
+          "bm25_rank": null,
+          "vector_rank": 4,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-596f5e204817ecd9",
+          "bm25_rank": null,
+          "vector_rank": 7,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-d886f86c81a2d7dc",
+          "bm25_rank": 7,
+          "vector_rank": null,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-46b1d8620c21bc82",
+          "bm25_rank": 8,
+          "vector_rank": null,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-09133915d00e22f7",
+          "bm25_rank": null,
+          "vector_rank": 10,
+          "rrf_score": 0.014285714285714285
+        },
+        {
+          "evidence_id": "E-8d206261599f35bb",
+          "bm25_rank": 10,
+          "vector_rank": null,
+          "rrf_score": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "doc-29",
+      "category": "documentary",
+      "bm25_rank": 1,
+      "vector_rank": 1,
+      "hybrid_rank": 1,
+      "bm25": [
+        "E-61500713a3540640",
+        "E-8a8a94435e199247",
+        "E-ec0bd3175b39dd2e",
+        "E-7d529ba0087c899b",
+        "E-c41ccf58cc62cb0f",
+        "E-3107de84c43dbb38",
+        "E-81123adcd59c0ce9",
+        "E-7f5ae3ee7c9d6e11",
+        "E-1586c68e47227380",
+        "E-adec006ac1131566"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-61500713a3540640",
+          "semantic_similarity_score": 0.6654016971588135
+        },
+        {
+          "evidence_id": "E-ec0bd3175b39dd2e",
+          "semantic_similarity_score": 0.656862735748291
+        },
+        {
+          "evidence_id": "E-a4d5ef327f1bc75e",
+          "semantic_similarity_score": 0.6318612098693848
+        },
+        {
+          "evidence_id": "E-62706d15470b4dcf",
+          "semantic_similarity_score": 0.6029773354530334
+        },
+        {
+          "evidence_id": "E-e46fe5384e39b62f",
+          "semantic_similarity_score": 0.6006190776824951
+        },
+        {
+          "evidence_id": "E-5caab50fae55205e",
+          "semantic_similarity_score": 0.5985993146896362
+        },
+        {
+          "evidence_id": "E-9831fc98c2f27285",
+          "semantic_similarity_score": 0.5960437655448914
+        },
+        {
+          "evidence_id": "E-cefb6ab61505b2db",
+          "semantic_similarity_score": 0.5895205736160278
+        },
+        {
+          "evidence_id": "E-7a160a81ec34ddcb",
+          "semantic_similarity_score": 0.586959719657898
+        },
+        {
+          "evidence_id": "E-7ab386873c223183",
+          "semantic_similarity_score": 0.5845903158187866
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-61500713a3540640",
+          "bm25_rank": 1,
+          "vector_rank": 1,
+          "rrf_score": 0.03278688524590164
+        },
+        {
+          "evidence_id": "E-ec0bd3175b39dd2e",
+          "bm25_rank": 3,
+          "vector_rank": 2,
+          "rrf_score": 0.03200204813108039
+        },
+        {
+          "evidence_id": "E-8a8a94435e199247",
+          "bm25_rank": 2,
+          "vector_rank": null,
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "evidence_id": "E-a4d5ef327f1bc75e",
+          "bm25_rank": null,
+          "vector_rank": 3,
+          "rrf_score": 0.015873015873015872
+        },
+        {
+          "evidence_id": "E-62706d15470b4dcf",
+          "bm25_rank": null,
+          "vector_rank": 4,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-7d529ba0087c899b",
+          "bm25_rank": 4,
+          "vector_rank": null,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-c41ccf58cc62cb0f",
+          "bm25_rank": 5,
+          "vector_rank": null,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-e46fe5384e39b62f",
+          "bm25_rank": null,
+          "vector_rank": 5,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-3107de84c43dbb38",
+          "bm25_rank": 6,
+          "vector_rank": null,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-5caab50fae55205e",
+          "bm25_rank": null,
+          "vector_rank": 6,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-81123adcd59c0ce9",
+          "bm25_rank": 7,
+          "vector_rank": null,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-9831fc98c2f27285",
+          "bm25_rank": null,
+          "vector_rank": 7,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-7f5ae3ee7c9d6e11",
+          "bm25_rank": 8,
+          "vector_rank": null,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-cefb6ab61505b2db",
+          "bm25_rank": null,
+          "vector_rank": 8,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-1586c68e47227380",
+          "bm25_rank": 9,
+          "vector_rank": null,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-7a160a81ec34ddcb",
+          "bm25_rank": null,
+          "vector_rank": 9,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-7ab386873c223183",
+          "bm25_rank": null,
+          "vector_rank": 10,
+          "rrf_score": 0.014285714285714285
+        },
+        {
+          "evidence_id": "E-adec006ac1131566",
+          "bm25_rank": 10,
+          "vector_rank": null,
+          "rrf_score": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "doc-30",
+      "category": "documentary",
+      "bm25_rank": 3,
+      "vector_rank": 2,
+      "hybrid_rank": 2,
+      "bm25": [
+        "E-61500713a3540640",
+        "E-8a8a94435e199247",
+        "E-ec0bd3175b39dd2e",
+        "E-7d529ba0087c899b",
+        "E-c41ccf58cc62cb0f",
+        "E-3107de84c43dbb38",
+        "E-81123adcd59c0ce9",
+        "E-7f5ae3ee7c9d6e11",
+        "E-1586c68e47227380",
+        "E-adec006ac1131566"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-61500713a3540640",
+          "semantic_similarity_score": 0.6648114323616028
+        },
+        {
+          "evidence_id": "E-ec0bd3175b39dd2e",
+          "semantic_similarity_score": 0.6557545065879822
+        },
+        {
+          "evidence_id": "E-a4d5ef327f1bc75e",
+          "semantic_similarity_score": 0.6301122903823853
+        },
+        {
+          "evidence_id": "E-62706d15470b4dcf",
+          "semantic_similarity_score": 0.6046912670135498
+        },
+        {
+          "evidence_id": "E-9831fc98c2f27285",
+          "semantic_similarity_score": 0.5970408916473389
+        },
+        {
+          "evidence_id": "E-e46fe5384e39b62f",
+          "semantic_similarity_score": 0.5968188047409058
+        },
+        {
+          "evidence_id": "E-7a160a81ec34ddcb",
+          "semantic_similarity_score": 0.5896308422088623
+        },
+        {
+          "evidence_id": "E-68394196fb2736a0",
+          "semantic_similarity_score": 0.583371102809906
+        },
+        {
+          "evidence_id": "E-5caab50fae55205e",
+          "semantic_similarity_score": 0.5832067728042603
+        },
+        {
+          "evidence_id": "E-220f85042bd8fd5b",
+          "semantic_similarity_score": 0.5818561315536499
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-61500713a3540640",
+          "bm25_rank": 1,
+          "vector_rank": 1,
+          "rrf_score": 0.03278688524590164
+        },
+        {
+          "evidence_id": "E-ec0bd3175b39dd2e",
+          "bm25_rank": 3,
+          "vector_rank": 2,
+          "rrf_score": 0.03200204813108039
+        },
+        {
+          "evidence_id": "E-8a8a94435e199247",
+          "bm25_rank": 2,
+          "vector_rank": null,
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "evidence_id": "E-a4d5ef327f1bc75e",
+          "bm25_rank": null,
+          "vector_rank": 3,
+          "rrf_score": 0.015873015873015872
+        },
+        {
+          "evidence_id": "E-62706d15470b4dcf",
+          "bm25_rank": null,
+          "vector_rank": 4,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-7d529ba0087c899b",
+          "bm25_rank": 4,
+          "vector_rank": null,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-9831fc98c2f27285",
+          "bm25_rank": null,
+          "vector_rank": 5,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-c41ccf58cc62cb0f",
+          "bm25_rank": 5,
+          "vector_rank": null,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-3107de84c43dbb38",
+          "bm25_rank": 6,
+          "vector_rank": null,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-e46fe5384e39b62f",
+          "bm25_rank": null,
+          "vector_rank": 6,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-7a160a81ec34ddcb",
+          "bm25_rank": null,
+          "vector_rank": 7,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-81123adcd59c0ce9",
+          "bm25_rank": 7,
+          "vector_rank": null,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-68394196fb2736a0",
+          "bm25_rank": null,
+          "vector_rank": 8,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-7f5ae3ee7c9d6e11",
+          "bm25_rank": 8,
+          "vector_rank": null,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-1586c68e47227380",
+          "bm25_rank": 9,
+          "vector_rank": null,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-5caab50fae55205e",
+          "bm25_rank": null,
+          "vector_rank": 9,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-220f85042bd8fd5b",
+          "bm25_rank": null,
+          "vector_rank": 10,
+          "rrf_score": 0.014285714285714285
+        },
+        {
+          "evidence_id": "E-adec006ac1131566",
+          "bm25_rank": 10,
+          "vector_rank": null,
+          "rrf_score": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "doc-31",
+      "category": "documentary",
+      "bm25_rank": 1,
+      "vector_rank": 1,
+      "hybrid_rank": 1,
+      "bm25": [
+        "E-d87cadc7730fc697",
+        "E-62958e225cd4961c",
+        "E-1ac66b2fe73347e1",
+        "E-0f03a54842af440c",
+        "E-47a6f8af3eb8b482",
+        "E-d38b04a1088ace66",
+        "E-4aaeb0bc7500b8f4",
+        "E-72a36f404070f4f2",
+        "E-932b8a034eb2aef2",
+        "E-778ddbbf32b1ad1d"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-d87cadc7730fc697",
+          "semantic_similarity_score": 0.5665975213050842
+        },
+        {
+          "evidence_id": "E-0f03a54842af440c",
+          "semantic_similarity_score": 0.5297659635543823
+        },
+        {
+          "evidence_id": "E-835d5b37dbbb1470",
+          "semantic_similarity_score": 0.5257443189620972
+        },
+        {
+          "evidence_id": "E-1ac66b2fe73347e1",
+          "semantic_similarity_score": 0.5127180218696594
+        },
+        {
+          "evidence_id": "E-bf4e1f197e424699",
+          "semantic_similarity_score": 0.5072295069694519
+        },
+        {
+          "evidence_id": "E-ntrs-20205007829-7-0",
+          "semantic_similarity_score": 0.5064326524734497
+        },
+        {
+          "evidence_id": "E-16dfd2f75543e142",
+          "semantic_similarity_score": 0.5023722052574158
+        },
+        {
+          "evidence_id": "E-2d05c82ccf800956",
+          "semantic_similarity_score": 0.5002514123916626
+        },
+        {
+          "evidence_id": "E-387419de63a91cfd",
+          "semantic_similarity_score": 0.4969876706600189
+        },
+        {
+          "evidence_id": "E-e211d37399567011",
+          "semantic_similarity_score": 0.4926067590713501
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-d87cadc7730fc697",
+          "bm25_rank": 1,
+          "vector_rank": 1,
+          "rrf_score": 0.03278688524590164
+        },
+        {
+          "evidence_id": "E-0f03a54842af440c",
+          "bm25_rank": 4,
+          "vector_rank": 2,
+          "rrf_score": 0.031754032258064516
+        },
+        {
+          "evidence_id": "E-1ac66b2fe73347e1",
+          "bm25_rank": 3,
+          "vector_rank": 4,
+          "rrf_score": 0.03149801587301587
+        },
+        {
+          "evidence_id": "E-62958e225cd4961c",
+          "bm25_rank": 2,
+          "vector_rank": null,
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "evidence_id": "E-835d5b37dbbb1470",
+          "bm25_rank": null,
+          "vector_rank": 3,
+          "rrf_score": 0.015873015873015872
+        },
+        {
+          "evidence_id": "E-47a6f8af3eb8b482",
+          "bm25_rank": 5,
+          "vector_rank": null,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-bf4e1f197e424699",
+          "bm25_rank": null,
+          "vector_rank": 5,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-d38b04a1088ace66",
+          "bm25_rank": 6,
+          "vector_rank": null,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-ntrs-20205007829-7-0",
+          "bm25_rank": null,
+          "vector_rank": 6,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-16dfd2f75543e142",
+          "bm25_rank": null,
+          "vector_rank": 7,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-4aaeb0bc7500b8f4",
+          "bm25_rank": 7,
+          "vector_rank": null,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-2d05c82ccf800956",
+          "bm25_rank": null,
+          "vector_rank": 8,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-72a36f404070f4f2",
+          "bm25_rank": 8,
+          "vector_rank": null,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-387419de63a91cfd",
+          "bm25_rank": null,
+          "vector_rank": 9,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-932b8a034eb2aef2",
+          "bm25_rank": 9,
+          "vector_rank": null,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-778ddbbf32b1ad1d",
+          "bm25_rank": 10,
+          "vector_rank": null,
+          "rrf_score": 0.014285714285714285
+        },
+        {
+          "evidence_id": "E-e211d37399567011",
+          "bm25_rank": null,
+          "vector_rank": 10,
+          "rrf_score": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "doc-32",
+      "category": "documentary",
+      "bm25_rank": 1,
+      "vector_rank": null,
+      "hybrid_rank": 1,
+      "bm25": [
+        "E-a84460c5f02aafb1",
+        "E-535fa1b7a6389f7a",
+        "E-782c1893a500b635",
+        "E-1c3b9260ea88a50c",
+        "E-8584bd4b1874be84",
+        "E-75065006c627ff53",
+        "E-00c8e387381444bf",
+        "E-9f8f18d1d4c5ee24",
+        "E-3524630f596cf006",
+        "E-e1f982b90ef3a9da"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-f589e56379204fff",
+          "semantic_similarity_score": 0.5396095514297485
+        },
+        {
+          "evidence_id": "E-4e7cec94bfd5d73f",
+          "semantic_similarity_score": 0.526892900466919
+        },
+        {
+          "evidence_id": "E-2734e8cb65b20c39",
+          "semantic_similarity_score": 0.5232151746749878
+        },
+        {
+          "evidence_id": "E-d87e2c3f8b93079e",
+          "semantic_similarity_score": 0.5029072165489197
+        },
+        {
+          "evidence_id": "E-abc79b45c056b9dc",
+          "semantic_similarity_score": 0.5012896656990051
+        },
+        {
+          "evidence_id": "E-9ea5af6269190482",
+          "semantic_similarity_score": 0.4982960820198059
+        },
+        {
+          "evidence_id": "E-a97dbc057ecc66ac",
+          "semantic_similarity_score": 0.49751147627830505
+        },
+        {
+          "evidence_id": "E-49e7dd26eb6f00aa",
+          "semantic_similarity_score": 0.49746930599212646
+        },
+        {
+          "evidence_id": "E-aef6e55f0d7eb595",
+          "semantic_similarity_score": 0.4962261915206909
+        },
+        {
+          "evidence_id": "E-5a10c7da7acc41c9",
+          "semantic_similarity_score": 0.49533113837242126
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-a84460c5f02aafb1",
+          "bm25_rank": 1,
+          "vector_rank": null,
+          "rrf_score": 0.01639344262295082
+        },
+        {
+          "evidence_id": "E-f589e56379204fff",
+          "bm25_rank": null,
+          "vector_rank": 1,
+          "rrf_score": 0.01639344262295082
+        },
+        {
+          "evidence_id": "E-4e7cec94bfd5d73f",
+          "bm25_rank": null,
+          "vector_rank": 2,
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "evidence_id": "E-535fa1b7a6389f7a",
+          "bm25_rank": 2,
+          "vector_rank": null,
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "evidence_id": "E-2734e8cb65b20c39",
+          "bm25_rank": null,
+          "vector_rank": 3,
+          "rrf_score": 0.015873015873015872
+        },
+        {
+          "evidence_id": "E-782c1893a500b635",
+          "bm25_rank": 3,
+          "vector_rank": null,
+          "rrf_score": 0.015873015873015872
+        },
+        {
+          "evidence_id": "E-1c3b9260ea88a50c",
+          "bm25_rank": 4,
+          "vector_rank": null,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-d87e2c3f8b93079e",
+          "bm25_rank": null,
+          "vector_rank": 4,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-8584bd4b1874be84",
+          "bm25_rank": 5,
+          "vector_rank": null,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-abc79b45c056b9dc",
+          "bm25_rank": null,
+          "vector_rank": 5,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-75065006c627ff53",
+          "bm25_rank": 6,
+          "vector_rank": null,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-9ea5af6269190482",
+          "bm25_rank": null,
+          "vector_rank": 6,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-00c8e387381444bf",
+          "bm25_rank": 7,
+          "vector_rank": null,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-a97dbc057ecc66ac",
+          "bm25_rank": null,
+          "vector_rank": 7,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-49e7dd26eb6f00aa",
+          "bm25_rank": null,
+          "vector_rank": 8,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-9f8f18d1d4c5ee24",
+          "bm25_rank": 8,
+          "vector_rank": null,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-3524630f596cf006",
+          "bm25_rank": 9,
+          "vector_rank": null,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-aef6e55f0d7eb595",
+          "bm25_rank": null,
+          "vector_rank": 9,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-5a10c7da7acc41c9",
+          "bm25_rank": null,
+          "vector_rank": 10,
+          "rrf_score": 0.014285714285714285
+        },
+        {
+          "evidence_id": "E-e1f982b90ef3a9da",
+          "bm25_rank": 10,
+          "vector_rank": null,
+          "rrf_score": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "doc-33",
+      "category": "documentary",
+      "bm25_rank": 1,
+      "vector_rank": 1,
+      "hybrid_rank": 1,
+      "bm25": [
+        "E-819e68721d43c095",
+        "E-182975f4c54ee6d5",
+        "E-7a2fe9934cf0b942",
+        "E-6492bd8029739984",
+        "E-b039ce1006fc2a5c",
+        "E-f99d940ffbc38e65",
+        "E-49780308ba110c4f",
+        "E-08facb48f20ae0f4",
+        "E-27ebc0597511a34a",
+        "E-af138e0d6ff7669a"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-819e68721d43c095",
+          "semantic_similarity_score": 0.7190114855766296
+        },
+        {
+          "evidence_id": "E-a20224fcffb4c956",
+          "semantic_similarity_score": 0.6542364358901978
+        },
+        {
+          "evidence_id": "E-a3eac11f5018ec63",
+          "semantic_similarity_score": 0.6541805267333984
+        },
+        {
+          "evidence_id": "E-477b6eccb482786b",
+          "semantic_similarity_score": 0.6521241664886475
+        },
+        {
+          "evidence_id": "E-9d75d633d399eb7c",
+          "semantic_similarity_score": 0.6496505737304688
+        },
+        {
+          "evidence_id": "E-331bdc6ce5203683",
+          "semantic_similarity_score": 0.6488001942634583
+        },
+        {
+          "evidence_id": "E-2ff929697960e3f9",
+          "semantic_similarity_score": 0.6479194164276123
+        },
+        {
+          "evidence_id": "E-954e5543f91aefa4",
+          "semantic_similarity_score": 0.6388325095176697
+        },
+        {
+          "evidence_id": "E-8136343980c3ad6b",
+          "semantic_similarity_score": 0.6353708505630493
+        },
+        {
+          "evidence_id": "E-924efe2611593099",
+          "semantic_similarity_score": 0.6325391530990601
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-819e68721d43c095",
+          "bm25_rank": 1,
+          "vector_rank": 1,
+          "rrf_score": 0.03278688524590164
+        },
+        {
+          "evidence_id": "E-182975f4c54ee6d5",
+          "bm25_rank": 2,
+          "vector_rank": null,
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "evidence_id": "E-a20224fcffb4c956",
+          "bm25_rank": null,
+          "vector_rank": 2,
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "evidence_id": "E-7a2fe9934cf0b942",
+          "bm25_rank": 3,
+          "vector_rank": null,
+          "rrf_score": 0.015873015873015872
+        },
+        {
+          "evidence_id": "E-a3eac11f5018ec63",
+          "bm25_rank": null,
+          "vector_rank": 3,
+          "rrf_score": 0.015873015873015872
+        },
+        {
+          "evidence_id": "E-477b6eccb482786b",
+          "bm25_rank": null,
+          "vector_rank": 4,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-6492bd8029739984",
+          "bm25_rank": 4,
+          "vector_rank": null,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-9d75d633d399eb7c",
+          "bm25_rank": null,
+          "vector_rank": 5,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-b039ce1006fc2a5c",
+          "bm25_rank": 5,
+          "vector_rank": null,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-331bdc6ce5203683",
+          "bm25_rank": null,
+          "vector_rank": 6,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-f99d940ffbc38e65",
+          "bm25_rank": 6,
+          "vector_rank": null,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-2ff929697960e3f9",
+          "bm25_rank": null,
+          "vector_rank": 7,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-49780308ba110c4f",
+          "bm25_rank": 7,
+          "vector_rank": null,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-08facb48f20ae0f4",
+          "bm25_rank": 8,
+          "vector_rank": null,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-954e5543f91aefa4",
+          "bm25_rank": null,
+          "vector_rank": 8,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-27ebc0597511a34a",
+          "bm25_rank": 9,
+          "vector_rank": null,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-8136343980c3ad6b",
+          "bm25_rank": null,
+          "vector_rank": 9,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-924efe2611593099",
+          "bm25_rank": null,
+          "vector_rank": 10,
+          "rrf_score": 0.014285714285714285
+        },
+        {
+          "evidence_id": "E-af138e0d6ff7669a",
+          "bm25_rank": 10,
+          "vector_rank": null,
+          "rrf_score": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "doc-34",
+      "category": "documentary",
+      "bm25_rank": 1,
+      "vector_rank": null,
+      "hybrid_rank": 3,
+      "bm25": [
+        "E-883a50eb6490cf38",
+        "E-34dd1ddf18f8146a",
+        "E-a7bfe0c96bb06651",
+        "E-422e6fb99deb7fb3",
+        "E-efb2e5e861dc18e0",
+        "E-f990c7d0583c78bb",
+        "E-c9c050e98f584893",
+        "E-2cef4b6b967fa33d",
+        "E-fb2fd8bb5e51ca56",
+        "E-e484935fe5175199"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-a7bfe0c96bb06651",
+          "semantic_similarity_score": 0.687584400177002
+        },
+        {
+          "evidence_id": "E-7a98635e865aa214",
+          "semantic_similarity_score": 0.6649258136749268
+        },
+        {
+          "evidence_id": "E-efb2e5e861dc18e0",
+          "semantic_similarity_score": 0.6410050392150879
+        },
+        {
+          "evidence_id": "E-345bc689dc379cf8",
+          "semantic_similarity_score": 0.6187310218811035
+        },
+        {
+          "evidence_id": "E-68c1338c28e9022f",
+          "semantic_similarity_score": 0.6167678833007812
+        },
+        {
+          "evidence_id": "E-afc527de10b3b0f5",
+          "semantic_similarity_score": 0.6139197945594788
+        },
+        {
+          "evidence_id": "E-9f8f18d1d4c5ee24",
+          "semantic_similarity_score": 0.6133313179016113
+        },
+        {
+          "evidence_id": "E-5a49aa2cc5fd1b80",
+          "semantic_similarity_score": 0.6104574203491211
+        },
+        {
+          "evidence_id": "E-a83e746859e88033",
+          "semantic_similarity_score": 0.6095563769340515
+        },
+        {
+          "evidence_id": "E-da251077fcd54864",
+          "semantic_similarity_score": 0.6072767972946167
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-a7bfe0c96bb06651",
+          "bm25_rank": 3,
+          "vector_rank": 1,
+          "rrf_score": 0.032266458495966696
+        },
+        {
+          "evidence_id": "E-efb2e5e861dc18e0",
+          "bm25_rank": 5,
+          "vector_rank": 3,
+          "rrf_score": 0.03125763125763126
+        },
+        {
+          "evidence_id": "E-883a50eb6490cf38",
+          "bm25_rank": 1,
+          "vector_rank": null,
+          "rrf_score": 0.01639344262295082
+        },
+        {
+          "evidence_id": "E-34dd1ddf18f8146a",
+          "bm25_rank": 2,
+          "vector_rank": null,
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "evidence_id": "E-7a98635e865aa214",
+          "bm25_rank": null,
+          "vector_rank": 2,
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "evidence_id": "E-345bc689dc379cf8",
+          "bm25_rank": null,
+          "vector_rank": 4,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-422e6fb99deb7fb3",
+          "bm25_rank": 4,
+          "vector_rank": null,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-68c1338c28e9022f",
+          "bm25_rank": null,
+          "vector_rank": 5,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-afc527de10b3b0f5",
+          "bm25_rank": null,
+          "vector_rank": 6,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-f990c7d0583c78bb",
+          "bm25_rank": 6,
+          "vector_rank": null,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-9f8f18d1d4c5ee24",
+          "bm25_rank": null,
+          "vector_rank": 7,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-c9c050e98f584893",
+          "bm25_rank": 7,
+          "vector_rank": null,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-2cef4b6b967fa33d",
+          "bm25_rank": 8,
+          "vector_rank": null,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-5a49aa2cc5fd1b80",
+          "bm25_rank": null,
+          "vector_rank": 8,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-a83e746859e88033",
+          "bm25_rank": null,
+          "vector_rank": 9,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-fb2fd8bb5e51ca56",
+          "bm25_rank": 9,
+          "vector_rank": null,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-da251077fcd54864",
+          "bm25_rank": null,
+          "vector_rank": 10,
+          "rrf_score": 0.014285714285714285
+        },
+        {
+          "evidence_id": "E-e484935fe5175199",
+          "bm25_rank": 10,
+          "vector_rank": null,
+          "rrf_score": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "doc-35",
+      "category": "documentary",
+      "bm25_rank": 2,
+      "vector_rank": 4,
+      "hybrid_rank": 2,
+      "bm25": [
+        "E-2cef4b6b967fa33d",
+        "E-422e6fb99deb7fb3",
+        "E-a7bfe0c96bb06651",
+        "E-883a50eb6490cf38",
+        "E-7924da2353a564bd",
+        "E-adfce5a6b3f36ac5",
+        "E-3971866d0dd99b6a",
+        "E-a4d1d21cc5514c34",
+        "E-d6f69837b3773c94",
+        "E-9f8f18d1d4c5ee24"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-a7bfe0c96bb06651",
+          "semantic_similarity_score": 0.6506025791168213
+        },
+        {
+          "evidence_id": "E-7a98635e865aa214",
+          "semantic_similarity_score": 0.6471974849700928
+        },
+        {
+          "evidence_id": "E-efb2e5e861dc18e0",
+          "semantic_similarity_score": 0.6299134492874146
+        },
+        {
+          "evidence_id": "E-422e6fb99deb7fb3",
+          "semantic_similarity_score": 0.6242481470108032
+        },
+        {
+          "evidence_id": "E-34dd1ddf18f8146a",
+          "semantic_similarity_score": 0.6176856756210327
+        },
+        {
+          "evidence_id": "E-2cef4b6b967fa33d",
+          "semantic_similarity_score": 0.6137519478797913
+        },
+        {
+          "evidence_id": "E-9f8f18d1d4c5ee24",
+          "semantic_similarity_score": 0.6088438034057617
+        },
+        {
+          "evidence_id": "E-adfce5a6b3f36ac5",
+          "semantic_similarity_score": 0.5986586809158325
+        },
+        {
+          "evidence_id": "E-561a8ea6f9837a00",
+          "semantic_similarity_score": 0.595089316368103
+        },
+        {
+          "evidence_id": "E-3971866d0dd99b6a",
+          "semantic_similarity_score": 0.5860009789466858
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-a7bfe0c96bb06651",
+          "bm25_rank": 3,
+          "vector_rank": 1,
+          "rrf_score": 0.032266458495966696
+        },
+        {
+          "evidence_id": "E-422e6fb99deb7fb3",
+          "bm25_rank": 2,
+          "vector_rank": 4,
+          "rrf_score": 0.031754032258064516
+        },
+        {
+          "evidence_id": "E-2cef4b6b967fa33d",
+          "bm25_rank": 1,
+          "vector_rank": 6,
+          "rrf_score": 0.031544957774465976
+        },
+        {
+          "evidence_id": "E-adfce5a6b3f36ac5",
+          "bm25_rank": 6,
+          "vector_rank": 8,
+          "rrf_score": 0.029857397504456328
+        },
+        {
+          "evidence_id": "E-3971866d0dd99b6a",
+          "bm25_rank": 7,
+          "vector_rank": 10,
+          "rrf_score": 0.029211087420042643
+        },
+        {
+          "evidence_id": "E-9f8f18d1d4c5ee24",
+          "bm25_rank": 10,
+          "vector_rank": 7,
+          "rrf_score": 0.029211087420042643
+        },
+        {
+          "evidence_id": "E-7a98635e865aa214",
+          "bm25_rank": null,
+          "vector_rank": 2,
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "evidence_id": "E-efb2e5e861dc18e0",
+          "bm25_rank": null,
+          "vector_rank": 3,
+          "rrf_score": 0.015873015873015872
+        },
+        {
+          "evidence_id": "E-883a50eb6490cf38",
+          "bm25_rank": 4,
+          "vector_rank": null,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-34dd1ddf18f8146a",
+          "bm25_rank": null,
+          "vector_rank": 5,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-7924da2353a564bd",
+          "bm25_rank": 5,
+          "vector_rank": null,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-a4d1d21cc5514c34",
+          "bm25_rank": 8,
+          "vector_rank": null,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-561a8ea6f9837a00",
+          "bm25_rank": null,
+          "vector_rank": 9,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-d6f69837b3773c94",
+          "bm25_rank": 9,
+          "vector_rank": null,
+          "rrf_score": 0.014492753623188406
+        }
+      ]
+    },
+    {
+      "id": "safety-36",
+      "category": "safety",
+      "bm25_rank": 1,
+      "vector_rank": 1,
+      "hybrid_rank": 1,
+      "bm25": [
+        "E-safety-suppression-system-implication",
+        "E-16dfd2f75543e142",
+        "E-ntrs-20205007829-7-0",
+        "E-3fcb7098f0f76590",
+        "E-66bd74b3123841b9",
+        "E-bdab618a9a93f13d",
+        "E-a77fdfbb40bcaa7e",
+        "E-83735850498f2703",
+        "E-408ec1939d45c1e6",
+        "E-94824dfc5a56ba52"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-safety-suppression-system-implication",
+          "semantic_similarity_score": 0.6506171226501465
+        },
+        {
+          "evidence_id": "E-ntrs-20205007829-7-0",
+          "semantic_similarity_score": 0.4790968894958496
+        },
+        {
+          "evidence_id": "E-16dfd2f75543e142",
+          "semantic_similarity_score": 0.4782968759536743
+        },
+        {
+          "evidence_id": "E-66bd74b3123841b9",
+          "semantic_similarity_score": 0.4305528998374939
+        },
+        {
+          "evidence_id": "E-c6d22dabd0982625",
+          "semantic_similarity_score": 0.42452484369277954
+        },
+        {
+          "evidence_id": "E-cd80ae8e07f08149",
+          "semantic_similarity_score": 0.40984511375427246
+        },
+        {
+          "evidence_id": "E-3a603220e2ee9216",
+          "semantic_similarity_score": 0.4038403630256653
+        },
+        {
+          "evidence_id": "E-a4d4cc2ac9bb5e11",
+          "semantic_similarity_score": 0.39716285467147827
+        },
+        {
+          "evidence_id": "E-1a319d0c6bde28c6",
+          "semantic_similarity_score": 0.39217478036880493
+        },
+        {
+          "evidence_id": "E-406fd31e32559c2b",
+          "semantic_similarity_score": 0.3906954526901245
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-safety-suppression-system-implication",
+          "bm25_rank": 1,
+          "vector_rank": 1,
+          "rrf_score": 0.03278688524590164
+        },
+        {
+          "evidence_id": "E-16dfd2f75543e142",
+          "bm25_rank": 2,
+          "vector_rank": 3,
+          "rrf_score": 0.03200204813108039
+        },
+        {
+          "evidence_id": "E-ntrs-20205007829-7-0",
+          "bm25_rank": 3,
+          "vector_rank": 2,
+          "rrf_score": 0.03200204813108039
+        },
+        {
+          "evidence_id": "E-66bd74b3123841b9",
+          "bm25_rank": 5,
+          "vector_rank": 4,
+          "rrf_score": 0.031009615384615385
+        },
+        {
+          "evidence_id": "E-3fcb7098f0f76590",
+          "bm25_rank": 4,
+          "vector_rank": null,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-c6d22dabd0982625",
+          "bm25_rank": null,
+          "vector_rank": 5,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-bdab618a9a93f13d",
+          "bm25_rank": 6,
+          "vector_rank": null,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-cd80ae8e07f08149",
+          "bm25_rank": null,
+          "vector_rank": 6,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-3a603220e2ee9216",
+          "bm25_rank": null,
+          "vector_rank": 7,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-a77fdfbb40bcaa7e",
+          "bm25_rank": 7,
+          "vector_rank": null,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-83735850498f2703",
+          "bm25_rank": 8,
+          "vector_rank": null,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-a4d4cc2ac9bb5e11",
+          "bm25_rank": null,
+          "vector_rank": 8,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-1a319d0c6bde28c6",
+          "bm25_rank": null,
+          "vector_rank": 9,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-408ec1939d45c1e6",
+          "bm25_rank": 9,
+          "vector_rank": null,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-406fd31e32559c2b",
+          "bm25_rank": null,
+          "vector_rank": 10,
+          "rrf_score": 0.014285714285714285
+        },
+        {
+          "evidence_id": "E-94824dfc5a56ba52",
+          "bm25_rank": 10,
+          "vector_rank": null,
+          "rrf_score": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "safety-37",
+      "category": "safety",
+      "bm25_rank": 1,
+      "vector_rank": 2,
+      "hybrid_rank": 2,
+      "bm25": [
+        "E-f7ca2ef83e1ce895",
+        "E-a9fde6c0cd4e5b2d",
+        "E-2eac6667111085d2",
+        "E-da2e78037f918862",
+        "E-b4218d2ff4b7713d",
+        "E-e3287ad91cbd292b",
+        "E-c204c6a5da25e3e3",
+        "E-c3bd18e7107576bf",
+        "E-cf2bd3a07f8bb6a2",
+        "E-d882505b59d9ea5d"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-2eac6667111085d2",
+          "semantic_similarity_score": 0.5727991461753845
+        },
+        {
+          "evidence_id": "E-22c18a051082d69d",
+          "semantic_similarity_score": 0.5529134273529053
+        },
+        {
+          "evidence_id": "E-a9fde6c0cd4e5b2d",
+          "semantic_similarity_score": 0.55119788646698
+        },
+        {
+          "evidence_id": "E-da2e78037f918862",
+          "semantic_similarity_score": 0.5487223863601685
+        },
+        {
+          "evidence_id": "E-cd059d8c9ba31dc3",
+          "semantic_similarity_score": 0.5452704429626465
+        },
+        {
+          "evidence_id": "E-f32e22029ee1d3fa",
+          "semantic_similarity_score": 0.530646026134491
+        },
+        {
+          "evidence_id": "E-e406a2ec3d3659af",
+          "semantic_similarity_score": 0.5241603255271912
+        },
+        {
+          "evidence_id": "E-55a1cb2a457d1ae7",
+          "semantic_similarity_score": 0.5190109014511108
+        },
+        {
+          "evidence_id": "E-7f1934b5bc382927",
+          "semantic_similarity_score": 0.5168224573135376
+        },
+        {
+          "evidence_id": "E-d6906dd66e7b863b",
+          "semantic_similarity_score": 0.5115852952003479
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-2eac6667111085d2",
+          "bm25_rank": 3,
+          "vector_rank": 1,
+          "rrf_score": 0.032266458495966696
+        },
+        {
+          "evidence_id": "E-a9fde6c0cd4e5b2d",
+          "bm25_rank": 2,
+          "vector_rank": 3,
+          "rrf_score": 0.03200204813108039
+        },
+        {
+          "evidence_id": "E-da2e78037f918862",
+          "bm25_rank": 4,
+          "vector_rank": 4,
+          "rrf_score": 0.03125
+        },
+        {
+          "evidence_id": "E-f7ca2ef83e1ce895",
+          "bm25_rank": 1,
+          "vector_rank": null,
+          "rrf_score": 0.01639344262295082
+        },
+        {
+          "evidence_id": "E-22c18a051082d69d",
+          "bm25_rank": null,
+          "vector_rank": 2,
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "evidence_id": "E-b4218d2ff4b7713d",
+          "bm25_rank": 5,
+          "vector_rank": null,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-cd059d8c9ba31dc3",
+          "bm25_rank": null,
+          "vector_rank": 5,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-e3287ad91cbd292b",
+          "bm25_rank": 6,
+          "vector_rank": null,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-f32e22029ee1d3fa",
+          "bm25_rank": null,
+          "vector_rank": 6,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-c204c6a5da25e3e3",
+          "bm25_rank": 7,
+          "vector_rank": null,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-e406a2ec3d3659af",
+          "bm25_rank": null,
+          "vector_rank": 7,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-55a1cb2a457d1ae7",
+          "bm25_rank": null,
+          "vector_rank": 8,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-c3bd18e7107576bf",
+          "bm25_rank": 8,
+          "vector_rank": null,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-7f1934b5bc382927",
+          "bm25_rank": null,
+          "vector_rank": 9,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-cf2bd3a07f8bb6a2",
+          "bm25_rank": 9,
+          "vector_rank": null,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-d6906dd66e7b863b",
+          "bm25_rank": null,
+          "vector_rank": 10,
+          "rrf_score": 0.014285714285714285
+        },
+        {
+          "evidence_id": "E-d882505b59d9ea5d",
+          "bm25_rank": 10,
+          "vector_rank": null,
+          "rrf_score": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "safety-38",
+      "category": "safety",
+      "bm25_rank": null,
+      "vector_rank": 1,
+      "hybrid_rank": 5,
+      "bm25": [
+        "E-f7ca2ef83e1ce895",
+        "E-8f743beaccf2b268",
+        "E-d5c70416dd3d49a3",
+        "E-d5eab4fb3aec71b7",
+        "E-f32e22029ee1d3fa",
+        "E-d10fbb51f004ed32",
+        "E-5c56506e5c3bd981",
+        "E-dafb5e00283085d1",
+        "E-a6dae136bd71039e",
+        "E-d882505b59d9ea5d"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-d7a85a06bc793021",
+          "semantic_similarity_score": 0.5285254716873169
+        },
+        {
+          "evidence_id": "E-safety-std-6001-applicability",
+          "semantic_similarity_score": 0.5265616178512573
+        },
+        {
+          "evidence_id": "E-d5eab4fb3aec71b7",
+          "semantic_similarity_score": 0.5139349699020386
+        },
+        {
+          "evidence_id": "E-dafb5e00283085d1",
+          "semantic_similarity_score": 0.47656112909317017
+        },
+        {
+          "evidence_id": "E-a6dae136bd71039e",
+          "semantic_similarity_score": 0.47656112909317017
+        },
+        {
+          "evidence_id": "E-ba724355990ad8ce",
+          "semantic_similarity_score": 0.4762706756591797
+        },
+        {
+          "evidence_id": "E-69cffb63dd49fdcd",
+          "semantic_similarity_score": 0.46963217854499817
+        },
+        {
+          "evidence_id": "E-f7ca2ef83e1ce895",
+          "semantic_similarity_score": 0.4670044779777527
+        },
+        {
+          "evidence_id": "E-bee8c853e7687885",
+          "semantic_similarity_score": 0.4665815830230713
+        },
+        {
+          "evidence_id": "E-ed7c856ed6799dd8",
+          "semantic_similarity_score": 0.4659005403518677
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-d5eab4fb3aec71b7",
+          "bm25_rank": 4,
+          "vector_rank": 3,
+          "rrf_score": 0.03149801587301587
+        },
+        {
+          "evidence_id": "E-f7ca2ef83e1ce895",
+          "bm25_rank": 1,
+          "vector_rank": 8,
+          "rrf_score": 0.031099324975891997
+        },
+        {
+          "evidence_id": "E-dafb5e00283085d1",
+          "bm25_rank": 8,
+          "vector_rank": 4,
+          "rrf_score": 0.030330882352941176
+        },
+        {
+          "evidence_id": "E-a6dae136bd71039e",
+          "bm25_rank": 9,
+          "vector_rank": 5,
+          "rrf_score": 0.029877369007803793
+        },
+        {
+          "evidence_id": "E-d7a85a06bc793021",
+          "bm25_rank": null,
+          "vector_rank": 1,
+          "rrf_score": 0.01639344262295082
+        },
+        {
+          "evidence_id": "E-8f743beaccf2b268",
+          "bm25_rank": 2,
+          "vector_rank": null,
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "evidence_id": "E-safety-std-6001-applicability",
+          "bm25_rank": null,
+          "vector_rank": 2,
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "evidence_id": "E-d5c70416dd3d49a3",
+          "bm25_rank": 3,
+          "vector_rank": null,
+          "rrf_score": 0.015873015873015872
+        },
+        {
+          "evidence_id": "E-f32e22029ee1d3fa",
+          "bm25_rank": 5,
+          "vector_rank": null,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-ba724355990ad8ce",
+          "bm25_rank": null,
+          "vector_rank": 6,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-d10fbb51f004ed32",
+          "bm25_rank": 6,
+          "vector_rank": null,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-5c56506e5c3bd981",
+          "bm25_rank": 7,
+          "vector_rank": null,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-69cffb63dd49fdcd",
+          "bm25_rank": null,
+          "vector_rank": 7,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-bee8c853e7687885",
+          "bm25_rank": null,
+          "vector_rank": 9,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-d882505b59d9ea5d",
+          "bm25_rank": 10,
+          "vector_rank": null,
+          "rrf_score": 0.014285714285714285
+        },
+        {
+          "evidence_id": "E-ed7c856ed6799dd8",
+          "bm25_rank": null,
+          "vector_rank": 10,
+          "rrf_score": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "safety-39",
+      "category": "safety",
+      "bm25_rank": 1,
+      "vector_rank": 1,
+      "hybrid_rank": 1,
+      "bm25": [
+        "E-safety-saffire-suppression-open-question",
+        "E-ae9ebc14b3783086",
+        "E-3bffec52ba3d9db2",
+        "E-19b93c109b36ae2d",
+        "E-3eaa12ae19dc35ae",
+        "E-ecb4090800f37a74",
+        "E-cd80ae8e07f08149",
+        "E-bf54948027680217",
+        "E-bf84dd01ec8c3224",
+        "E-5196df2408cd7657"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-safety-saffire-suppression-open-question",
+          "semantic_similarity_score": 0.5282548069953918
+        },
+        {
+          "evidence_id": "E-42b557d262621edd",
+          "semantic_similarity_score": 0.38273507356643677
+        },
+        {
+          "evidence_id": "E-3238e84bb5529d18",
+          "semantic_similarity_score": 0.38125747442245483
+        },
+        {
+          "evidence_id": "E-e0084a5224420668",
+          "semantic_similarity_score": 0.3795525133609772
+        },
+        {
+          "evidence_id": "E-3bffec52ba3d9db2",
+          "semantic_similarity_score": 0.377889484167099
+        },
+        {
+          "evidence_id": "E-a434909b42c0973c",
+          "semantic_similarity_score": 0.37769410014152527
+        },
+        {
+          "evidence_id": "E-2454cfae251fce61",
+          "semantic_similarity_score": 0.37739095091819763
+        },
+        {
+          "evidence_id": "E-801583adc3a98414",
+          "semantic_similarity_score": 0.36744022369384766
+        },
+        {
+          "evidence_id": "E-ae9ebc14b3783086",
+          "semantic_similarity_score": 0.3591946065425873
+        },
+        {
+          "evidence_id": "E-ff66fa56b629f7cd",
+          "semantic_similarity_score": 0.3558018207550049
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-safety-saffire-suppression-open-question",
+          "bm25_rank": 1,
+          "vector_rank": 1,
+          "rrf_score": 0.03278688524590164
+        },
+        {
+          "evidence_id": "E-3bffec52ba3d9db2",
+          "bm25_rank": 3,
+          "vector_rank": 5,
+          "rrf_score": 0.03125763125763126
+        },
+        {
+          "evidence_id": "E-ae9ebc14b3783086",
+          "bm25_rank": 2,
+          "vector_rank": 9,
+          "rrf_score": 0.030621785881252923
+        },
+        {
+          "evidence_id": "E-42b557d262621edd",
+          "bm25_rank": null,
+          "vector_rank": 2,
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "evidence_id": "E-3238e84bb5529d18",
+          "bm25_rank": null,
+          "vector_rank": 3,
+          "rrf_score": 0.015873015873015872
+        },
+        {
+          "evidence_id": "E-19b93c109b36ae2d",
+          "bm25_rank": 4,
+          "vector_rank": null,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-e0084a5224420668",
+          "bm25_rank": null,
+          "vector_rank": 4,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-3eaa12ae19dc35ae",
+          "bm25_rank": 5,
+          "vector_rank": null,
+          "rrf_score": 0.015384615384615385
+        },
+        {
+          "evidence_id": "E-a434909b42c0973c",
+          "bm25_rank": null,
+          "vector_rank": 6,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-ecb4090800f37a74",
+          "bm25_rank": 6,
+          "vector_rank": null,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-2454cfae251fce61",
+          "bm25_rank": null,
+          "vector_rank": 7,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-cd80ae8e07f08149",
+          "bm25_rank": 7,
+          "vector_rank": null,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-801583adc3a98414",
+          "bm25_rank": null,
+          "vector_rank": 8,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-bf54948027680217",
+          "bm25_rank": 8,
+          "vector_rank": null,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-bf84dd01ec8c3224",
+          "bm25_rank": 9,
+          "vector_rank": null,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-5196df2408cd7657",
+          "bm25_rank": 10,
+          "vector_rank": null,
+          "rrf_score": 0.014285714285714285
+        },
+        {
+          "evidence_id": "E-ff66fa56b629f7cd",
+          "bm25_rank": null,
+          "vector_rank": 10,
+          "rrf_score": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "safety-40",
+      "category": "safety",
+      "bm25_rank": 3,
+      "vector_rank": 1,
+      "hybrid_rank": 1,
+      "bm25": [
+        "E-b0d06252b9301e84",
+        "E-ae9ebc14b3783086",
+        "E-3bffec52ba3d9db2",
+        "E-47a6f8af3eb8b482",
+        "E-2797f96d19550759",
+        "E-3b50e3df3f58a009",
+        "E-81123adcd59c0ce9",
+        "E-3107de84c43dbb38",
+        "E-7f5ae3ee7c9d6e11",
+        "E-772994a1417846a7"
+      ],
+      "vector": [
+        {
+          "evidence_id": "E-3bffec52ba3d9db2",
+          "semantic_similarity_score": 0.5089467763900757
+        },
+        {
+          "evidence_id": "E-ae9ebc14b3783086",
+          "semantic_similarity_score": 0.5084762573242188
+        },
+        {
+          "evidence_id": "E-3107de84c43dbb38",
+          "semantic_similarity_score": 0.4661655128002167
+        },
+        {
+          "evidence_id": "E-0e52259627637b67",
+          "semantic_similarity_score": 0.4517859220504761
+        },
+        {
+          "evidence_id": "E-81123adcd59c0ce9",
+          "semantic_similarity_score": 0.4452921152114868
+        },
+        {
+          "evidence_id": "E-2de1289f8a1d102b",
+          "semantic_similarity_score": 0.44428932666778564
+        },
+        {
+          "evidence_id": "E-6d1dcc03c5647e12",
+          "semantic_similarity_score": 0.44142788648605347
+        },
+        {
+          "evidence_id": "E-cf90bf6996c63f80",
+          "semantic_similarity_score": 0.4409562647342682
+        },
+        {
+          "evidence_id": "E-382165f1a4516fa8",
+          "semantic_similarity_score": 0.4383108615875244
+        },
+        {
+          "evidence_id": "E-2797f96d19550759",
+          "semantic_similarity_score": 0.43747442960739136
+        }
+      ],
+      "rrf": [
+        {
+          "evidence_id": "E-3bffec52ba3d9db2",
+          "bm25_rank": 3,
+          "vector_rank": 1,
+          "rrf_score": 0.032266458495966696
+        },
+        {
+          "evidence_id": "E-ae9ebc14b3783086",
+          "bm25_rank": 2,
+          "vector_rank": 2,
+          "rrf_score": 0.03225806451612903
+        },
+        {
+          "evidence_id": "E-3107de84c43dbb38",
+          "bm25_rank": 8,
+          "vector_rank": 3,
+          "rrf_score": 0.03057889822595705
+        },
+        {
+          "evidence_id": "E-81123adcd59c0ce9",
+          "bm25_rank": 7,
+          "vector_rank": 5,
+          "rrf_score": 0.030309988518943745
+        },
+        {
+          "evidence_id": "E-2797f96d19550759",
+          "bm25_rank": 5,
+          "vector_rank": 10,
+          "rrf_score": 0.02967032967032967
+        },
+        {
+          "evidence_id": "E-b0d06252b9301e84",
+          "bm25_rank": 1,
+          "vector_rank": null,
+          "rrf_score": 0.01639344262295082
+        },
+        {
+          "evidence_id": "E-0e52259627637b67",
+          "bm25_rank": null,
+          "vector_rank": 4,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-47a6f8af3eb8b482",
+          "bm25_rank": 4,
+          "vector_rank": null,
+          "rrf_score": 0.015625
+        },
+        {
+          "evidence_id": "E-2de1289f8a1d102b",
+          "bm25_rank": null,
+          "vector_rank": 6,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-3b50e3df3f58a009",
+          "bm25_rank": 6,
+          "vector_rank": null,
+          "rrf_score": 0.015151515151515152
+        },
+        {
+          "evidence_id": "E-6d1dcc03c5647e12",
+          "bm25_rank": null,
+          "vector_rank": 7,
+          "rrf_score": 0.014925373134328358
+        },
+        {
+          "evidence_id": "E-cf90bf6996c63f80",
+          "bm25_rank": null,
+          "vector_rank": 8,
+          "rrf_score": 0.014705882352941176
+        },
+        {
+          "evidence_id": "E-382165f1a4516fa8",
+          "bm25_rank": null,
+          "vector_rank": 9,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-7f5ae3ee7c9d6e11",
+          "bm25_rank": 9,
+          "vector_rank": null,
+          "rrf_score": 0.014492753623188406
+        },
+        {
+          "evidence_id": "E-772994a1417846a7",
+          "bm25_rank": 10,
+          "vector_rank": null,
+          "rrf_score": 0.014285714285714285
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+@prefix fs: <https://example.org/nasa-fire-safety#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+fs: a owl:Ontology ; rdfs:label "NASA Fire Safety Evidence Ontology v0.1" .
+fs:Investigation a owl:Class . fs:ExperimentalRun a owl:Class . fs:Sample a owl:Class . fs:Material a owl:Class . fs:Geometry a owl:Class .
+fs:ExperimentalCondition a owl:Class . fs:AtmosphereCondition a owl:Class ; rdfs:subClassOf fs:ExperimentalCondition . fs:FlowCondition a owl:Class ; rdfs:subClassOf fs:ExperimentalCondition . fs:GravityCondition a owl:Class ; rdfs:subClassOf fs:ExperimentalCondition . fs:PressureCondition a owl:Class ; rdfs:subClassOf fs:ExperimentalCondition .
+fs:Intervention a owl:Class . fs:Observation a owl:Class . fs:Measurement a owl:Class . fs:CombustionPhenomenon a owl:Class . fs:Ignition a owl:Class ; rdfs:subClassOf fs:CombustionPhenomenon . fs:FlameGrowth a owl:Class ; rdfs:subClassOf fs:CombustionPhenomenon . fs:FlameSpread a owl:Class ; rdfs:subClassOf fs:CombustionPhenomenon . fs:StableBurning a owl:Class ; rdfs:subClassOf fs:CombustionPhenomenon . fs:Quenching a owl:Class ; rdfs:subClassOf fs:CombustionPhenomenon . fs:Blowoff a owl:Class ; rdfs:subClassOf fs:CombustionPhenomenon . fs:Extinction a owl:Class ; rdfs:subClassOf fs:CombustionPhenomenon .
+fs:NASAConclusion a owl:Class . fs:SafetyKnowledge a owl:Class . fs:NormativeStatement a owl:Class ; rdfs:subClassOf fs:SafetyKnowledge . fs:Requirement a owl:Class ; rdfs:subClassOf fs:NormativeStatement . fs:Guidance a owl:Class ; rdfs:subClassOf fs:NormativeStatement . fs:DesignCriterion a owl:Class ; rdfs:subClassOf fs:NormativeStatement . fs:TestCriterion a owl:Class ; rdfs:subClassOf fs:NormativeStatement . fs:SafetyImplication a owl:Class ; rdfs:subClassOf fs:SafetyKnowledge . fs:NASAIdentifiedOpenQuestion a owl:Class ; rdfs:subClassOf fs:SafetyKnowledge . fs:Publication a owl:Class . fs:NASAStandard a owl:Class .
+fs:hasRun a owl:ObjectProperty . fs:usesSample a owl:ObjectProperty . fs:madeOf a owl:ObjectProperty . fs:hasCondition a owl:ObjectProperty . fs:hasIntervention a owl:ObjectProperty . fs:hasObservation a owl:ObjectProperty . fs:observesPhenomenon a owl:ObjectProperty . fs:hasMeasurement a owl:ObjectProperty . fs:concerns a owl:ObjectProperty . fs:reportedBy a owl:ObjectProperty . fs:belongTo a owl:ObjectProperty . fs:evidenceRef a owl:DatatypeProperty . fs:conditionType a owl:DatatypeProperty . fs:value a owl:DatatypeProperty . fs:canonicalValue a owl:DatatypeProperty .
+
+# Existing source literal predicates, declared without authority-changing domains/ranges.
+fs:reportedValue a owl:DatatypeProperty ; rdfs:comment "Original source value, retaining numeric or textual representation." .
+fs:reportedUnit a owl:DatatypeProperty ; rdfs:comment "Original reported unit; declaration does not validate its dimensional meaning." .
+fs:canonicalUnit a owl:DatatypeProperty .
+fs:reportedLowerValue a owl:DatatypeProperty .
+fs:reportedUpperValue a owl:DatatypeProperty .
+fs:canonicalLowerValue a owl:DatatypeProperty .
+fs:canonicalUpperValue a owl:DatatypeProperty .
+fs:isApproximate a owl:DatatypeProperty .
+fs:geometry a owl:DatatypeProperty ; rdfs:comment "Literal specimen geometry description; no geometric inference or class membership is entailed." .
+fs:scopeApplicability a owl:DatatypeProperty .
+fs:text a owl:DatatypeProperty .
+fs:title a owl:DatatypeProperty .

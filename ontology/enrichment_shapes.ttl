@@ -1,0 +1,17 @@
+@prefix fs: <https://example.org/nasa-fire-safety#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+fs:SourceLiteralShape a sh:NodeShape ;
+ sh:targetSubjectsOf fs:reportedValue, fs:reportedUnit, fs:canonicalUnit, fs:geometry, fs:text, fs:title, fs:scopeApplicability, fs:reportedLowerValue, fs:reportedUpperValue, fs:canonicalLowerValue, fs:canonicalUpperValue, fs:isApproximate ;
+ sh:property [ sh:path fs:reportedValue ; sh:nodeKind sh:Literal ] ;
+ sh:property [ sh:path fs:reportedUnit ; sh:datatype xsd:string ] ;
+ sh:property [ sh:path fs:canonicalUnit ; sh:datatype xsd:string ] ;
+ sh:property [ sh:path fs:geometry ; sh:datatype xsd:string ] ;
+ sh:property [ sh:path fs:text ; sh:datatype xsd:string ] ;
+ sh:property [ sh:path fs:title ; sh:datatype xsd:string ] ;
+ sh:property [ sh:path fs:scopeApplicability ; sh:datatype xsd:string ] ;
+ sh:property [ sh:path fs:reportedLowerValue ; sh:nodeKind sh:Literal ] ;
+ sh:property [ sh:path fs:reportedUpperValue ; sh:nodeKind sh:Literal ] ;
+ sh:property [ sh:path fs:canonicalLowerValue ; sh:nodeKind sh:Literal ] ;
+ sh:property [ sh:path fs:canonicalUpperValue ; sh:nodeKind sh:Literal ] ;
+ sh:property [ sh:path fs:isApproximate ; sh:datatype xsd:boolean ] .

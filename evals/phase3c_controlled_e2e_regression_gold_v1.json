@@ -1,0 +1,738 @@
+{
+  "version": "phase3c-controlled-e2e-regression-gold-v1",
+  "status": "EXPOSED_REGRESSION_WITH_REVIEW_REQUIRED_CASES",
+  "source": "artifacts/phase3c_final_repair_e2e_cases_v6.jsonl",
+  "source_digest": "1ae1aedb44634c78d202516ad76c22a7c37f4098d92398ef9e6cfbfa4b4ef5e2",
+  "source_registry_absent_20140011119": true,
+  "human_relevance_review_performed": false,
+  "cases": [
+    {
+      "case_id": "qi03",
+      "query": "SIBAL Fabric microgravity",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "required_evidence_ids": [
+        "E-psi-98-table-S1",
+        "E-psi-98-table-S2"
+      ],
+      "expected_no_direct": false,
+      "no_direct_basis": null,
+      "relevance_status": "OBJECTIVE_SCOREABLE",
+      "scoreable_identity_case": true,
+      "review_required": false,
+      "gold_digest": "908f948127dca185fac4ec9b7e0e82541f528d025a4da7e9e4ad375d6dadea89"
+    },
+    {
+      "case_id": "qi11",
+      "query": "SIBAL Fabric microgravity flow velocity >= 20 cm/s",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "GTE",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "cm/s",
+              "reported_value": 20.0,
+              "tolerance": null,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": [
+          "flow"
+        ]
+      },
+      "required_evidence_ids": [
+        "E-psi-98-table-S1",
+        "E-psi-98-table-S2"
+      ],
+      "expected_no_direct": false,
+      "no_direct_basis": null,
+      "relevance_status": "OBJECTIVE_SCOREABLE",
+      "scoreable_identity_case": true,
+      "review_required": false,
+      "gold_digest": "908f948127dca185fac4ec9b7e0e82541f528d025a4da7e9e4ad375d6dadea89"
+    },
+    {
+      "case_id": "qi12",
+      "query": "Compare Saffire-I S1 and S2",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": {
+          "dimensions": [],
+          "operands": [
+            "psi-98-S1",
+            "psi-98-S2"
+          ]
+        },
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "psi-98",
+            "relation": "belongsToInvestigation"
+          }
+        ],
+        "operation": "COMPARE",
+        "property_constraints": [],
+        "requested_information": [
+          "ExperimentalRun"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "required_evidence_ids": [
+        "E-psi-98-table-S1",
+        "E-psi-98-table-S2"
+      ],
+      "expected_no_direct": false,
+      "no_direct_basis": null,
+      "relevance_status": "OBJECTIVE_SCOREABLE",
+      "scoreable_identity_case": true,
+      "review_required": false,
+      "gold_digest": "908f948127dca185fac4ec9b7e0e82541f528d025a4da7e9e4ad375d6dadea89"
+    },
+    {
+      "case_id": "qi14",
+      "query": "What did NASA observe about suppression?",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "ReportedObservation",
+          "SafetyImplication"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "required_evidence_ids": [
+        "E-safety-saffire-observation"
+      ],
+      "expected_no_direct": false,
+      "no_direct_basis": null,
+      "relevance_status": "OBJECTIVE_SCOREABLE",
+      "scoreable_identity_case": true,
+      "review_required": false,
+      "gold_digest": "908f948127dca185fac4ec9b7e0e82541f528d025a4da7e9e4ad375d6dadea89"
+    },
+    {
+      "case_id": "qi16",
+      "query": "Find NASA requirements",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "SafetyImplication",
+          "Requirement"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "required_evidence_ids": [
+        "E-safety-std-6001-applicability"
+      ],
+      "expected_no_direct": false,
+      "no_direct_basis": null,
+      "relevance_status": "OBJECTIVE_SCOREABLE",
+      "scoreable_identity_case": true,
+      "review_required": false,
+      "gold_digest": "908f948127dca185fac4ec9b7e0e82541f528d025a4da7e9e4ad375d6dadea89"
+    },
+    {
+      "case_id": "qi17",
+      "query": "Find NASA guidance",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "SafetyImplication",
+          "Guidance"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "required_evidence_ids": [
+        "E-safety-configuration-guidance"
+      ],
+      "expected_no_direct": false,
+      "no_direct_basis": null,
+      "relevance_status": "OBJECTIVE_SCOREABLE",
+      "scoreable_identity_case": true,
+      "review_required": false,
+      "gold_digest": "908f948127dca185fac4ec9b7e0e82541f528d025a4da7e9e4ad375d6dadea89"
+    },
+    {
+      "case_id": "qi18",
+      "query": "NASA open questions",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "SafetyImplication",
+          "OpenQuestion"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "required_evidence_ids": [
+        "E-safety-saffire-suppression-open-question"
+      ],
+      "expected_no_direct": false,
+      "no_direct_basis": null,
+      "relevance_status": "OBJECTIVE_SCOREABLE",
+      "scoreable_identity_case": true,
+      "review_required": false,
+      "gold_digest": "908f948127dca185fac4ec9b7e0e82541f528d025a4da7e9e4ad375d6dadea89"
+    },
+    {
+      "case_id": "qi19",
+      "query": "What about acrylic fires?",
+      "expected_intent": {
+        "ambiguities": [
+          "acrylic"
+        ],
+        "clarification_required": true,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "required_evidence_ids": [],
+      "expected_no_direct": true,
+      "no_direct_basis": "Frozen gold intent requires clarification or retains an unresolved term; no canonical direct evidence is eligible.",
+      "relevance_status": "OBJECTIVE_SCOREABLE",
+      "scoreable_identity_case": false,
+      "review_required": false,
+      "gold_digest": "908f948127dca185fac4ec9b7e0e82541f528d025a4da7e9e4ad375d6dadea89"
+    },
+    {
+      "case_id": "qi20",
+      "query": "velocity effects",
+      "expected_intent": {
+        "ambiguities": [
+          "velocity"
+        ],
+        "clarification_required": true,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "required_evidence_ids": [],
+      "expected_no_direct": true,
+      "no_direct_basis": "Frozen gold intent requires clarification or retains an unresolved term; no canonical direct evidence is eligible.",
+      "relevance_status": "OBJECTIVE_SCOREABLE",
+      "scoreable_identity_case": false,
+      "review_required": false,
+      "gold_digest": "908f948127dca185fac4ec9b7e0e82541f528d025a4da7e9e4ad375d6dadea89"
+    },
+    {
+      "case_id": "qi22",
+      "query": "xenon combustion",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": [
+          "xenon"
+        ]
+      },
+      "required_evidence_ids": [],
+      "expected_no_direct": true,
+      "no_direct_basis": "Frozen gold intent requires clarification or retains an unresolved term; no canonical direct evidence is eligible.",
+      "relevance_status": "OBJECTIVE_SCOREABLE",
+      "scoreable_identity_case": false,
+      "review_required": false,
+      "gold_digest": "908f948127dca185fac4ec9b7e0e82541f528d025a4da7e9e4ad375d6dadea89"
+    },
+    {
+      "case_id": "qi24",
+      "query": "Show PMMA tests",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "required_evidence_ids": [],
+      "expected_no_direct": false,
+      "no_direct_basis": null,
+      "relevance_status": "REVIEW_REQUIRED",
+      "scoreable_identity_case": false,
+      "review_required": true,
+      "gold_digest": "908f948127dca185fac4ec9b7e0e82541f528d025a4da7e9e4ad375d6dadea89"
+    },
+    {
+      "case_id": "qi27",
+      "query": "What has NASA reported about suppressing PMMA fires in microgravity?",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "SafetyImplication"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "required_evidence_ids": [],
+      "expected_no_direct": false,
+      "no_direct_basis": null,
+      "relevance_status": "REVIEW_REQUIRED",
+      "scoreable_identity_case": false,
+      "review_required": true,
+      "gold_digest": "908f948127dca185fac4ec9b7e0e82541f528d025a4da7e9e4ad375d6dadea89"
+    },
+    {
+      "case_id": "qi31",
+      "query": "PMMA requirement",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "SafetyImplication",
+          "Requirement"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "required_evidence_ids": [],
+      "expected_no_direct": false,
+      "no_direct_basis": null,
+      "relevance_status": "REVIEW_REQUIRED",
+      "scoreable_identity_case": false,
+      "review_required": true,
+      "gold_digest": "908f948127dca185fac4ec9b7e0e82541f528d025a4da7e9e4ad375d6dadea89"
+    },
+    {
+      "case_id": "qi32",
+      "query": "PMMA guidance",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "SafetyImplication",
+          "Guidance"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "required_evidence_ids": [],
+      "expected_no_direct": false,
+      "no_direct_basis": null,
+      "relevance_status": "REVIEW_REQUIRED",
+      "scoreable_identity_case": false,
+      "review_required": true,
+      "gold_digest": "908f948127dca185fac4ec9b7e0e82541f528d025a4da7e9e4ad375d6dadea89"
+    },
+    {
+      "case_id": "qi33",
+      "query": "suppression open question",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "SafetyImplication",
+          "OpenQuestion"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "required_evidence_ids": [],
+      "expected_no_direct": false,
+      "no_direct_basis": null,
+      "relevance_status": "REVIEW_REQUIRED",
+      "scoreable_identity_case": false,
+      "review_required": true,
+      "gold_digest": "908f948127dca185fac4ec9b7e0e82541f528d025a4da7e9e4ad375d6dadea89"
+    },
+    {
+      "case_id": "qi42",
+      "query": "PMMA and SIBAL under microgravity",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "required_evidence_ids": [],
+      "expected_no_direct": false,
+      "no_direct_basis": null,
+      "relevance_status": "REVIEW_REQUIRED",
+      "scoreable_identity_case": false,
+      "review_required": true,
+      "gold_digest": "908f948127dca185fac4ec9b7e0e82541f528d025a4da7e9e4ad375d6dadea89"
+    },
+    {
+      "case_id": "qi45",
+      "query": "NASA conclusions",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "NASAConclusion"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "required_evidence_ids": [
+        "E-safety-saffire-suppression-conclusion"
+      ],
+      "expected_no_direct": false,
+      "no_direct_basis": null,
+      "relevance_status": "OBJECTIVE_SCOREABLE",
+      "scoreable_identity_case": true,
+      "review_required": false,
+      "gold_digest": "908f948127dca185fac4ec9b7e0e82541f528d025a4da7e9e4ad375d6dadea89"
+    },
+    {
+      "case_id": "comp01",
+      "query": "Find experiments using PMMA in microgravity with airflow between 0.01 and 0.11 m/s",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "BETWEEN",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": 0.01,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": null,
+              "tolerance": null,
+              "upper": 0.11
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "required_evidence_ids": [],
+      "expected_no_direct": false,
+      "no_direct_basis": null,
+      "relevance_status": "REVIEW_REQUIRED",
+      "scoreable_identity_case": false,
+      "review_required": true,
+      "gold_digest": "908f948127dca185fac4ec9b7e0e82541f528d025a4da7e9e4ad375d6dadea89"
+    },
+    {
+      "case_id": "comp11",
+      "query": "Find experiments using PMMA in microgravity with airflow about 0.01 +/- 0.005 m/s",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "APPROX",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": true,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": 0.01,
+              "tolerance": 0.005,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "required_evidence_ids": [],
+      "expected_no_direct": false,
+      "no_direct_basis": null,
+      "relevance_status": "REVIEW_REQUIRED",
+      "scoreable_identity_case": false,
+      "review_required": true,
+      "gold_digest": "908f948127dca185fac4ec9b7e0e82541f528d025a4da7e9e4ad375d6dadea89"
+    },
+    {
+      "case_id": "corrective-unseen-document",
+      "query": "Find Document from source 20140011119",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [
+          "20140011119"
+        ],
+        "targets": [
+          "Document"
+        ],
+        "unresolved_mentions": []
+      },
+      "required_evidence_ids": [],
+      "expected_no_direct": true,
+      "no_direct_basis": "Exact source ID absent from frozen local source registry at gold-freeze time; this is corpus-scoped, not a claim NASA has no such source.",
+      "relevance_status": "OBJECTIVE_SCOREABLE",
+      "scoreable_identity_case": false,
+      "review_required": false,
+      "gold_digest": "908f948127dca185fac4ec9b7e0e82541f528d025a4da7e9e4ad375d6dadea89"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> . @prefix fs: <https://example.org/nasa-fire-safety#> .
+fs:EvidenceBackedShape a sh:NodeShape ; sh:targetClass fs:Investigation, fs:ExperimentalRun, fs:Observation, fs:NASAConclusion, fs:NormativeStatement, fs:NASAIdentifiedOpenQuestion ; sh:property [ sh:path fs:evidenceRef ; sh:minCount 1 ] .
+fs:RunShape a sh:NodeShape ; sh:targetClass fs:ExperimentalRun ; sh:property [ sh:path fs:usesSample ; sh:minCount 1 ] .
+fs:GenericMeasurementShape a sh:NodeShape ; sh:targetClass fs:Measurement ; sh:property [ sh:path fs:measuredProperty ; sh:minCount 1 ] ; sh:property [ sh:path fs:evidenceRef ; sh:minCount 1 ] .
+fs:StagingCandidateShape a sh:NodeShape ; sh:targetClass fs:SemanticCandidate ; sh:property [ sh:path fs:rawLabel ; sh:minCount 1 ] ; sh:property [ sh:path fs:evidenceRef ; sh:minCount 1 ] .

@@ -1,0 +1,697 @@
+{
+  "gold_digest": "b569ee866502530ec06cef2657c93045c5ef409f42b467f0be8eda6646e4f102",
+  "model": "nvidia/nemotron-3.5-lightning-30b-a3b",
+  "results": [
+    {
+      "case_id": "qi01",
+      "latency_ms": 4767.0,
+      "ok": true,
+      "validated": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [
+          "microgravity"
+        ],
+        "investigations": [],
+        "materials": [
+          "PMMA"
+        ],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": []
+      }
+    },
+    {
+      "case_id": "qi02",
+      "latency_ms": 6962.2,
+      "ok": true,
+      "validated": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [
+          "microgravity"
+        ],
+        "investigations": [],
+        "materials": [
+          "PMMA"
+        ],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": []
+      }
+    },
+    {
+      "case_id": "qi03",
+      "latency_ms": 2548.8,
+      "ok": true,
+      "validated": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [
+          "microgravity"
+        ],
+        "investigations": [],
+        "materials": [
+          "SIBAL Fabric"
+        ],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": []
+      }
+    },
+    {
+      "case_id": "qi04",
+      "latency_ms": 2320.4,
+      "ok": true,
+      "validated": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [
+          "microgravity"
+        ],
+        "investigations": [],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": []
+      }
+    },
+    {
+      "case_id": "qi05",
+      "latency_ms": 2319.7,
+      "ok": true,
+      "validated": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "experiment_search",
+        "requested_information": [],
+        "safety_intents": []
+      }
+    },
+    {
+      "case_id": "qi06",
+      "latency_ms": 4878.6,
+      "ok": true,
+      "validated": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "experiment_search",
+        "requested_information": [],
+        "safety_intents": []
+      }
+    },
+    {
+      "case_id": "qi07",
+      "latency_ms": 2930.4,
+      "ok": true,
+      "validated": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "experiment_search",
+        "requested_information": [],
+        "safety_intents": []
+      }
+    },
+    {
+      "case_id": "qi08",
+      "latency_ms": 4764.1,
+      "ok": true,
+      "validated": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "experiment_search",
+        "requested_information": [],
+        "safety_intents": []
+      }
+    },
+    {
+      "case_id": "qi09",
+      "error": "ProviderFailure",
+      "latency_ms": 615492.4,
+      "ok": false
+    },
+    {
+      "case_id": "qi10",
+      "error": "ProviderFailure",
+      "latency_ms": 11201.8,
+      "ok": false
+    },
+    {
+      "case_id": "qi11",
+      "error": "ProviderFailure",
+      "latency_ms": 4345.8,
+      "ok": false
+    },
+    {
+      "case_id": "qi12",
+      "latency_ms": 2499.3,
+      "ok": true,
+      "validated": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "compare",
+        "requested_information": [],
+        "safety_intents": []
+      }
+    },
+    {
+      "case_id": "qi13",
+      "latency_ms": 3173.5,
+      "ok": true,
+      "validated": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "compare",
+        "requested_information": [],
+        "safety_intents": []
+      }
+    },
+    {
+      "case_id": "qi14",
+      "latency_ms": 2880.1,
+      "ok": true,
+      "validated": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": []
+      }
+    },
+    {
+      "case_id": "qi15",
+      "latency_ms": 2277.9,
+      "ok": true,
+      "validated": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [
+          "PMMA"
+        ],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "experiment_search",
+        "requested_information": [],
+        "safety_intents": []
+      }
+    },
+    {
+      "case_id": "qi16",
+      "latency_ms": 4588.4,
+      "ok": true,
+      "validated": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "safety_search",
+        "requested_information": [],
+        "safety_intents": []
+      }
+    },
+    {
+      "case_id": "qi17",
+      "latency_ms": 1977.5,
+      "ok": true,
+      "validated": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "safety_search",
+        "requested_information": [],
+        "safety_intents": []
+      }
+    },
+    {
+      "case_id": "qi18",
+      "latency_ms": 4475.2,
+      "ok": true,
+      "validated": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": []
+      }
+    },
+    {
+      "case_id": "qi19",
+      "latency_ms": 2356.1,
+      "ok": true,
+      "validated": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": []
+      }
+    },
+    {
+      "case_id": "qi20",
+      "latency_ms": 8147.7,
+      "ok": true,
+      "validated": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": []
+      }
+    },
+    {
+      "case_id": "qi21",
+      "latency_ms": 3921.3,
+      "ok": true,
+      "validated": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": []
+      }
+    },
+    {
+      "case_id": "qi22",
+      "latency_ms": 9023.2,
+      "ok": true,
+      "validated": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": []
+      }
+    },
+    {
+      "case_id": "qi23",
+      "latency_ms": 3307.4,
+      "ok": true,
+      "validated": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": []
+      }
+    },
+    {
+      "case_id": "qi24",
+      "latency_ms": 603775.7,
+      "ok": true,
+      "validated": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [
+          "PMMA"
+        ],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": []
+      }
+    },
+    {
+      "case_id": "qi25",
+      "latency_ms": 11722.9,
+      "ok": true,
+      "validated": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [
+          "PMMA"
+        ],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "experiment_search",
+        "requested_information": [],
+        "safety_intents": []
+      }
+    },
+    {
+      "case_id": "qi26",
+      "latency_ms": 5926.9,
+      "ok": true,
+      "validated": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [
+          "microgravity"
+        ],
+        "investigations": [],
+        "materials": [
+          "SIBAL Fabric"
+        ],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": []
+      }
+    },
+    {
+      "case_id": "qi27",
+      "latency_ms": 5841.6,
+      "ok": true,
+      "validated": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [
+          "microgravity"
+        ],
+        "investigations": [],
+        "materials": [
+          "PMMA"
+        ],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "safety_search",
+        "requested_information": [],
+        "safety_intents": []
+      }
+    },
+    {
+      "case_id": "qi31",
+      "latency_ms": 5251.6,
+      "ok": true,
+      "validated": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [
+          "PMMA"
+        ],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "safety_search",
+        "requested_information": [],
+        "safety_intents": []
+      }
+    },
+    {
+      "case_id": "qi32",
+      "latency_ms": 9539.9,
+      "ok": true,
+      "validated": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [
+          "PMMA"
+        ],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "safety_search",
+        "requested_information": [],
+        "safety_intents": []
+      }
+    },
+    {
+      "case_id": "qi33",
+      "latency_ms": 3990.8,
+      "ok": true,
+      "validated": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": []
+      }
+    },
+    {
+      "case_id": "qi34",
+      "error": "ProviderFailure",
+      "latency_ms": 2452.6,
+      "ok": false
+    },
+    {
+      "case_id": "qi35",
+      "error": "ProviderFailure",
+      "latency_ms": 603567.9,
+      "ok": false
+    },
+    {
+      "case_id": "qi37",
+      "error": "ProviderFailure",
+      "latency_ms": 621745.0,
+      "ok": false
+    },
+    {
+      "case_id": "qi42",
+      "latency_ms": 3455.0,
+      "ok": true,
+      "validated": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [
+          "microgravity"
+        ],
+        "investigations": [],
+        "materials": [
+          "PMMA",
+          "SIBAL Fabric"
+        ],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": []
+      }
+    },
+    {
+      "case_id": "qi44",
+      "latency_ms": 1852.4,
+      "ok": true,
+      "validated": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": []
+      }
+    },
+    {
+      "case_id": "qi45",
+      "latency_ms": 2763.6,
+      "ok": true,
+      "validated": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "experiment_search",
+        "requested_information": [],
+        "safety_intents": []
+      }
+    },
+    {
+      "case_id": "qi48",
+      "latency_ms": 2323.2,
+      "ok": true,
+      "validated": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [
+          "microgravity"
+        ],
+        "investigations": [],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": []
+      }
+    },
+    {
+      "case_id": "qi49",
+      "latency_ms": 603587.7,
+      "ok": true,
+      "validated": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [
+          "PMMA"
+        ],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": []
+      }
+    },
+    {
+      "case_id": "qi50",
+      "error": "ProviderFailure",
+      "latency_ms": 3378.7,
+      "ok": false
+    }
+  ]
+}

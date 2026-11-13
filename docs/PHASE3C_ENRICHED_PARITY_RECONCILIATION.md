@@ -1,0 +1,7 @@
+# Enriched parity reconciliation
+
+Fresh frozen-contract 39-case suite: DIRECT 29/39, RELATED 28/39, exact evidence identity 6/39. The historic enriched comparison was 28/39, 28/39 and 6/39. Parity is agreement with the legacy path, not scientific accuracy. qi49's experimental substitution is corrected using the original question without editing frozen gold.
+
+The complete per-case v2 reconciliation preserves query, frozen intent/gold, historical before/enriched identities, new A/B/C identities, added/removed candidates, native-resolution probe, constraints, evidence identities and unresolved review disposition. The deterministic native probe uses raw alias/information discovery and does not claim a full provider interpretation of every numeric query. Four difficult interpretation questions have actual new provider receipts. A/B use the same original evidence universe; C labels newly published structured identities and PDF crosswalks separately.
+
+BASS's frozen PSI-25 intent still retrieves BASS-II for parity; corrected native intent retrieves PSI-26. qi14/18/27 preserve disputed epistemic gold independently. No expansion is called beneficial merely for matching material. All unresolved scientific discrepancies remain REVIEW_REQUIRED. Dynamic-property regression 230/230 and post-freeze extensibility 125/125 pass. The 20-case scientific suite recovers 8/8 designated source identities and 0/4 designated false-DIRECT cases in A/B/C; these are technical objective checks, not expert precision.

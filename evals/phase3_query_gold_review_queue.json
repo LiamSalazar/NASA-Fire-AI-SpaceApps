@@ -1,0 +1,1242 @@
+{
+  "items": [
+    {
+      "candidate_values": {
+        "ambiguous_terms": [
+          "flow is ambiguous: flow:airflow_velocity"
+        ],
+        "clarification_required": true,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [
+          "microgravity"
+        ],
+        "investigations": [],
+        "materials": [
+          "PMMA"
+        ],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": {
+            "operator": "<",
+            "unit": "cm/s",
+            "value": 10.0
+          },
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": [
+          "flow"
+        ]
+      },
+      "case_id": "qi09",
+      "current_deterministic_parser_result": {
+        "flow_direction": null,
+        "flow_velocity": {
+          "operator": "<",
+          "unit": "cm/s",
+          "value": 10.0
+        },
+        "geometries": [],
+        "gravity_conditions": [
+          "microgravity"
+        ],
+        "investigations": [],
+        "materials": [
+          "PMMA"
+        ],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": []
+      },
+      "field": "expected",
+      "query": "PMMA microgravity airflow below 10 cm/s",
+      "reason": "ambiguity, unsupported context, or semantic scope requires domain review",
+      "relevant_canonical_concepts": [],
+      "review_choice": null
+    },
+    {
+      "candidate_values": {
+        "ambiguous_terms": [
+          "flow is ambiguous: flow:airflow_velocity"
+        ],
+        "clarification_required": true,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [
+          "microgravity"
+        ],
+        "investigations": [],
+        "materials": [
+          "PMMA"
+        ],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": {
+            "operator": "<=",
+            "unit": "m/s",
+            "value": 0.1
+          },
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": [
+          "flow"
+        ]
+      },
+      "case_id": "qi10",
+      "current_deterministic_parser_result": {
+        "flow_direction": null,
+        "flow_velocity": {
+          "operator": "<=",
+          "unit": "m/s",
+          "value": 0.1
+        },
+        "geometries": [],
+        "gravity_conditions": [
+          "microgravity"
+        ],
+        "investigations": [],
+        "materials": [
+          "PMMA"
+        ],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": []
+      },
+      "field": "expected",
+      "query": "PMMA low-g air flow at most 0.1 m/s",
+      "reason": "ambiguity, unsupported context, or semantic scope requires domain review",
+      "relevant_canonical_concepts": [],
+      "review_choice": null
+    },
+    {
+      "candidate_values": {
+        "ambiguous_terms": [
+          "flow is ambiguous: flow:airflow_velocity"
+        ],
+        "clarification_required": true,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [
+          "microgravity"
+        ],
+        "investigations": [],
+        "materials": [
+          "SIBAL Fabric"
+        ],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": {
+            "operator": ">=",
+            "unit": "cm/s",
+            "value": 20.0
+          },
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": [
+          "flow"
+        ]
+      },
+      "case_id": "qi11",
+      "current_deterministic_parser_result": {
+        "flow_direction": null,
+        "flow_velocity": {
+          "operator": ">=",
+          "unit": "cm/s",
+          "value": 20.0
+        },
+        "geometries": [],
+        "gravity_conditions": [
+          "microgravity"
+        ],
+        "investigations": [],
+        "materials": [
+          "SIBAL Fabric"
+        ],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": []
+      },
+      "field": "expected",
+      "query": "SIBAL Fabric microgravity flow velocity >= 20 cm/s",
+      "reason": "ambiguity, unsupported context, or semantic scope requires domain review",
+      "relevant_canonical_concepts": [],
+      "review_choice": null
+    },
+    {
+      "candidate_values": {
+        "ambiguous_terms": [
+          "acrylic is ambiguous: material:pmma"
+        ],
+        "clarification_required": true,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": [
+          "acrylic"
+        ]
+      },
+      "case_id": "qi19",
+      "current_deterministic_parser_result": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": []
+      },
+      "field": "expected",
+      "query": "What about acrylic fires?",
+      "reason": "ambiguity, unsupported context, or semantic scope requires domain review",
+      "relevant_canonical_concepts": [],
+      "review_choice": null
+    },
+    {
+      "candidate_values": {
+        "ambiguous_terms": [
+          "velocity is ambiguous: airflow velocity or flame-spread velocity"
+        ],
+        "clarification_required": true,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": [
+          "velocity"
+        ]
+      },
+      "case_id": "qi20",
+      "current_deterministic_parser_result": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": []
+      },
+      "field": "expected",
+      "query": "velocity effects",
+      "reason": "ambiguity, unsupported context, or semantic scope requires domain review",
+      "relevant_canonical_concepts": [],
+      "review_choice": null
+    },
+    {
+      "candidate_values": {
+        "ambiguous_terms": [
+          "flow is ambiguous: flow:airflow_velocity"
+        ],
+        "clarification_required": true,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": [
+          "flow"
+        ]
+      },
+      "case_id": "qi21",
+      "current_deterministic_parser_result": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": []
+      },
+      "field": "expected",
+      "query": "flow effects",
+      "reason": "ambiguity, unsupported context, or semantic scope requires domain review",
+      "relevant_canonical_concepts": [],
+      "review_choice": null
+    },
+    {
+      "candidate_values": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": [
+          "xenon"
+        ]
+      },
+      "case_id": "qi22",
+      "current_deterministic_parser_result": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": []
+      },
+      "field": "expected",
+      "query": "xenon combustion",
+      "reason": "ambiguity, unsupported context, or semantic scope requires domain review",
+      "relevant_canonical_concepts": [],
+      "review_choice": null
+    },
+    {
+      "candidate_values": {
+        "ambiguous_terms": [
+          "flow is ambiguous: flow:airflow_velocity"
+        ],
+        "clarification_required": true,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "compare",
+        "requested_information": [
+          "experiments"
+        ],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": [
+          "flow"
+        ]
+      },
+      "case_id": "qi28",
+      "current_deterministic_parser_result": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "compare",
+        "requested_information": [
+          "experiments"
+        ],
+        "safety_intents": []
+      },
+      "field": "expected",
+      "query": "Compare concurrent and opposed flow",
+      "reason": "ambiguity, unsupported context, or semantic scope requires domain review",
+      "relevant_canonical_concepts": [],
+      "review_choice": null
+    },
+    {
+      "candidate_values": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [
+          "microgravity"
+        ],
+        "investigations": [
+          "psi-98"
+        ],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "experiment_search",
+        "requested_information": [
+          "experiments"
+        ],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "case_id": "qi29",
+      "current_deterministic_parser_result": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [
+          "microgravity"
+        ],
+        "investigations": [
+          "psi-98"
+        ],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "experiment_search",
+        "requested_information": [
+          "experiments"
+        ],
+        "safety_intents": []
+      },
+      "field": "expected",
+      "query": "Saffire microgravity results",
+      "reason": "ambiguity, unsupported context, or semantic scope requires domain review",
+      "relevant_canonical_concepts": [],
+      "review_choice": null
+    },
+    {
+      "candidate_values": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [
+          "microgravity"
+        ],
+        "investigations": [
+          "psi-25"
+        ],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "experiment_search",
+        "requested_information": [
+          "experiments"
+        ],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "case_id": "qi30",
+      "current_deterministic_parser_result": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [
+          "microgravity"
+        ],
+        "investigations": [
+          "psi-25"
+        ],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "experiment_search",
+        "requested_information": [
+          "experiments"
+        ],
+        "safety_intents": []
+      },
+      "field": "expected",
+      "query": "BASS microgravity results",
+      "reason": "ambiguity, unsupported context, or semantic scope requires domain review",
+      "relevant_canonical_concepts": [],
+      "review_choice": null
+    },
+    {
+      "candidate_values": {
+        "ambiguous_terms": [
+          "flow is ambiguous: flow:airflow_velocity"
+        ],
+        "clarification_required": true,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": {
+            "operator": "<",
+            "unit": "cm/s",
+            "value": 20.0
+          },
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": [
+          "flow"
+        ]
+      },
+      "case_id": "qi34",
+      "current_deterministic_parser_result": {
+        "flow_direction": null,
+        "flow_velocity": {
+          "operator": "<",
+          "unit": "cm/s",
+          "value": 20.0
+        },
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": []
+      },
+      "field": "expected",
+      "query": "airflow < 20 cm/s",
+      "reason": "ambiguity, unsupported context, or semantic scope requires domain review",
+      "relevant_canonical_concepts": [],
+      "review_choice": null
+    },
+    {
+      "candidate_values": {
+        "ambiguous_terms": [
+          "flow is ambiguous: flow:airflow_velocity"
+        ],
+        "clarification_required": true,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": {
+            "operator": "<=",
+            "unit": "m/s",
+            "value": 0.1
+          },
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": [
+          "flow"
+        ]
+      },
+      "case_id": "qi35",
+      "current_deterministic_parser_result": {
+        "flow_direction": null,
+        "flow_velocity": {
+          "operator": "<=",
+          "unit": "m/s",
+          "value": 0.1
+        },
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": []
+      },
+      "field": "expected",
+      "query": "air flow no more than 0.10 m/s",
+      "reason": "ambiguity, unsupported context, or semantic scope requires domain review",
+      "relevant_canonical_concepts": [],
+      "review_choice": null
+    },
+    {
+      "candidate_values": {
+        "ambiguous_terms": [
+          "flow is ambiguous: flow:airflow_velocity"
+        ],
+        "clarification_required": true,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": [
+          "flow"
+        ]
+      },
+      "case_id": "qi36",
+      "current_deterministic_parser_result": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": []
+      },
+      "field": "expected",
+      "query": "roughly 0.2 m/s airflow",
+      "reason": "ambiguity, unsupported context, or semantic scope requires domain review",
+      "relevant_canonical_concepts": [],
+      "review_choice": null
+    },
+    {
+      "candidate_values": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "case_id": "qi38",
+      "current_deterministic_parser_result": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": []
+      },
+      "field": "expected",
+      "query": "between 21.5 and 21.7% oxygen",
+      "reason": "ambiguity, unsupported context, or semantic scope requires domain review",
+      "relevant_canonical_concepts": [],
+      "review_choice": null
+    },
+    {
+      "candidate_values": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [
+          "psi-98-S1"
+        ],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [
+          "psi-98"
+        ],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "case_id": "qi39",
+      "current_deterministic_parser_result": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [
+          "psi-98"
+        ],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": []
+      },
+      "field": "expected",
+      "query": "S1",
+      "reason": "ambiguity, unsupported context, or semantic scope requires domain review",
+      "relevant_canonical_concepts": [],
+      "review_choice": null
+    },
+    {
+      "candidate_values": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [
+          "psi-98-S2"
+        ],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [
+          "psi-98"
+        ],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "case_id": "qi40",
+      "current_deterministic_parser_result": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [
+          "psi-98"
+        ],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": []
+      },
+      "field": "expected",
+      "query": "What was different about S2?",
+      "reason": "ambiguity, unsupported context, or semantic scope requires domain review",
+      "relevant_canonical_concepts": [],
+      "review_choice": null
+    },
+    {
+      "candidate_values": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "experiment_search",
+        "requested_information": [
+          "observations"
+        ],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "case_id": "qi41",
+      "current_deterministic_parser_result": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "experiment_search",
+        "requested_information": [
+          "observations"
+        ],
+        "safety_intents": []
+      },
+      "field": "expected",
+      "query": "What did it observe?",
+      "reason": "ambiguity, unsupported context, or semantic scope requires domain review",
+      "relevant_canonical_concepts": [],
+      "review_choice": null
+    },
+    {
+      "candidate_values": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "safety_search",
+        "requested_information": [
+          "safety"
+        ],
+        "safety_intents": [
+          "safety_implication"
+        ],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "case_id": "qi43",
+      "current_deterministic_parser_result": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "safety_search",
+        "requested_information": [
+          "safety"
+        ],
+        "safety_intents": [
+          "safety_implication"
+        ]
+      },
+      "field": "expected",
+      "query": "suppression versus extinction",
+      "reason": "ambiguity, unsupported context, or semantic scope requires domain review",
+      "relevant_canonical_concepts": [],
+      "review_choice": null
+    },
+    {
+      "candidate_values": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "case_id": "qi44",
+      "current_deterministic_parser_result": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": []
+      },
+      "field": "expected",
+      "query": "reported observations",
+      "reason": "ambiguity, unsupported context, or semantic scope requires domain review",
+      "relevant_canonical_concepts": [],
+      "review_choice": null
+    },
+    {
+      "candidate_values": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "experiment_search",
+        "requested_information": [
+          "conclusions"
+        ],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "case_id": "qi45",
+      "current_deterministic_parser_result": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "experiment_search",
+        "requested_information": [
+          "conclusions"
+        ],
+        "safety_intents": []
+      },
+      "field": "expected",
+      "query": "NASA conclusions",
+      "reason": "ambiguity, unsupported context, or semantic scope requires domain review",
+      "relevant_canonical_concepts": [],
+      "review_choice": null
+    },
+    {
+      "candidate_values": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [
+          "psi-98"
+        ],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "experiment_search",
+        "requested_information": [
+          "experiments"
+        ],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "case_id": "qi46",
+      "current_deterministic_parser_result": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [
+          "psi-98"
+        ],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "experiment_search",
+        "requested_information": [
+          "experiments"
+        ],
+        "safety_intents": []
+      },
+      "field": "expected",
+      "query": "measurements from Saffire",
+      "reason": "ambiguity, unsupported context, or semantic scope requires domain review",
+      "relevant_canonical_concepts": [],
+      "review_choice": null
+    },
+    {
+      "candidate_values": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [
+          "PMMA"
+        ],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "case_id": "qi47",
+      "current_deterministic_parser_result": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [
+          "PMMA"
+        ],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": []
+      },
+      "field": "expected",
+      "query": "publications about PMMA",
+      "reason": "ambiguity, unsupported context, or semantic scope requires domain review",
+      "relevant_canonical_concepts": [],
+      "review_choice": null
+    },
+    {
+      "candidate_values": {
+        "ambiguous_terms": [
+          "acrylic is ambiguous: material:pmma"
+        ],
+        "clarification_required": true,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [
+          "PMMA"
+        ],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": [
+          "acrylic"
+        ]
+      },
+      "case_id": "qi49",
+      "current_deterministic_parser_result": {
+        "flow_direction": null,
+        "flow_velocity": null,
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [
+          "PMMA"
+        ],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": []
+      },
+      "field": "expected",
+      "query": "Does acrylic mean PMMA?",
+      "reason": "ambiguity, unsupported context, or semantic scope requires domain review",
+      "relevant_canonical_concepts": [],
+      "review_choice": null
+    },
+    {
+      "candidate_values": {
+        "ambiguous_terms": [
+          "flow is ambiguous: flow:airflow_velocity"
+        ],
+        "clarification_required": true,
+        "comparison_targets": [
+          "psi-98-S1",
+          "psi-98-S2"
+        ],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [
+          "psi-98"
+        ],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": {
+            "operator": "=",
+            "unit": "cm/s",
+            "value": 20.0
+          },
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "compare",
+        "requested_information": [
+          "experiments"
+        ],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": [
+          "flow"
+        ]
+      },
+      "case_id": "qi50",
+      "current_deterministic_parser_result": {
+        "flow_direction": null,
+        "flow_velocity": {
+          "operator": "=",
+          "unit": "cm/s",
+          "value": 20.0
+        },
+        "geometries": [],
+        "gravity_conditions": [],
+        "investigations": [
+          "psi-98"
+        ],
+        "materials": [],
+        "oxygen": null,
+        "phenomena": [],
+        "pressure": null,
+        "query_mode": "compare",
+        "requested_information": [
+          "experiments"
+        ],
+        "safety_intents": []
+      },
+      "field": "expected",
+      "query": "Compare Saffire-I S1 and S2 at airflow 20 cm/s",
+      "reason": "ambiguity, unsupported context, or semantic scope requires domain review",
+      "relevant_canonical_concepts": [],
+      "review_choice": null
+    }
+  ],
+  "version": "candidate-v1"
+}

@@ -1,0 +1,15 @@
+[
+  {"id":"solid", "question":"Investigations of flame spread over solid materials in microgravity", "must_abstain":true},
+  {"id":"comparison", "question":"Compare Saffire I S1 and S2", "must_abstain":false},
+  {"id":"lunar", "question":"PMMA in a lunar habitat with oxygen 22.2 %", "must_abstain":true},
+  {"id":"aerosol", "question":"SAME-R smoke detection", "must_abstain":true},
+  {"id":"droplet", "question":"FLEX extinction", "must_abstain":true},
+  {"id":"normative", "question":"NASA-STD-6001 requirements", "must_abstain":true},
+  {"id":"unknown", "question":"PMMA unknown-property 83 kPa", "must_abstain":true},
+  {"id":"contradiction", "question":"PMMA oxygen 22.2 % and oxygen 21 %", "must_abstain":true},
+  {"id":"exact", "question":"Saffire I airflow 20 cm/s", "must_abstain":false},
+  {"id":"changed", "question":"Saffire I airflow 30 cm/s", "must_abstain":true},
+  {"id":"simulation", "question":"FLEX predicted pressure 100 kPa", "must_abstain":true},
+  {"id":"paraphrase", "question":"List SAFFIRE-I using air flow at most 0.2 m/s", "must_abstain":false},
+  {"id":"unmapped", "question":"ACME flame behavior", "must_abstain":true}
+]

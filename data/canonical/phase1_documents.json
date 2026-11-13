@@ -1,0 +1,28 @@
+[
+  {
+    "type": "PublicationRecord",
+    "id": "ntrs-20150023456",
+    "title": "FLEX Experiment Data Archive",
+    "nasa_id": "20150023456",
+    "url": "https://ntrs.nasa.gov/api/citations/20150023456/downloads/20150023456.pdf?attachment=true",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-00bba1dba4baf0f0",
+        "source_id": "ntrs-20150023456"
+      }
+    ]
+  },
+  {
+    "type": "PublicationRecord",
+    "id": "ntrs-20200000361",
+    "title": "Solid Fuel Ignition and Extinction (SoFIE) Project on ISS",
+    "nasa_id": "20200000361",
+    "url": "https://ntrs.nasa.gov/api/citations/20200000361/downloads/20200000361.pdf?attachment=true",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-113f8cab761cc6f4",
+        "source_id": "ntrs-20200000361"
+      }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+# Phase 3C bounded NASA corpus coverage
+
+Runtime: 282 sources, 286 documents, 6055 passages. Only 8/282 source records have canonical scientific records. This is representation presence, not exhaustive extraction coverage or relevance precision.
+
+Discovery used two bounded NTRS metadata queries (20-result ceilings); three distinct metadata identities were recorded. Two already managed publications received primary-PDF acquisition and verified physical-page extraction: [20210017780](https://ntrs.nasa.gov/citations/20210017780), 14 physical pages; [20220012861](https://ntrs.nasa.gov/citations/20220012861), nine pages. The second concerns two-color pyrometry, not a generic suppression experiment. Both remain isolated from runtime publication. Discovery receipts include authoritative URLs and raw digests. These exposed development sources are not blind holdouts.
+
+The [official PSI combustion list](https://www.nasa.gov/physical-sciences-informatics-psi/psi-investigations-by-research-area/) defines an additional relevant acquisition backlog. This iteration has not reconciled every investigation/revision against all sources; NASA-wide completeness is unmeasured. Next refresh: reconcile PSI investigation IDs, paginate scoped NTRS queries, compare NASA standards revision metadata, deduplicate by publication ID/DOI/digest, prioritize missing experimental and safety evidence. Freeze genuinely unseen sources before inspecting their content.
+
+Official PSI snapshot: 19 combustion investigations; exact canonical title representation 2/19. Machine-readable priority backlog: phase3c_knowledge_psi_inventory_v1.json. The two PDFs correspond to existing ingested text sources (2 and 11 passages respectively), so they are provenance/extraction improvements, not two newly discovered publications. No blind unseen-publication generalization was measured.

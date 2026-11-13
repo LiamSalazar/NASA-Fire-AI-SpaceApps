@@ -1,0 +1,10 @@
+{
+  "index_id": "phase2-concepts",
+  "model_id": "nvidia/nemotron-3-embed-1b",
+  "embedding_preprocessing_version": "phase2-v1",
+  "corpus_snapshot_digest": "6fd7184bdfb8d88a91209b8e4ae9b1116cf73eb7ffae7b1c34556054b0cc8b10",
+  "creation_timestamp": 1791145635.6315684,
+  "index_kind": "canonical-controlled-concepts",
+  "number_of_vectors": 10,
+  "embedding_dimension": 2048
+}

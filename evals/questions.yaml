@@ -1,0 +1,69 @@
+- id: q01
+  question: Find BASS-II
+  expected_status: DIRECT
+- id: q02
+  question: Find Saffire-I
+  expected_status: DIRECT
+- id: q03
+  question: spacecraft fire safety exploration
+  expected_source: ntrs-20205007829
+- id: q04
+  question: flammability configuration
+  expected_source: ntrs-20150020937
+- id: q05
+  question: NASA STD 6001
+  expected_source: nasa-std-6001
+- id: q06
+  question: PMMA at oxygen below 18 percent
+  expected_status: NO_DIRECT_EVIDENCE
+- id: q07
+  question: microgravity PMMA
+  expected_status: NO_DIRECT_EVIDENCE
+- id: q08
+  question: fire safety needs
+  expected_source: ntrs-20205007829
+- id: q09
+  question: material configuration
+  expected_source: ntrs-20150020937
+- id: q10
+  question: ignition
+- id: q11
+  question: flame spread
+- id: q12
+  question: extinction
+- id: q13
+  question: safety implication
+- id: q14
+  question: guidance
+- id: q15
+  question: open question
+- id: q16
+  question: polymethyl methacrylate microgravity
+  expected_concepts: [PMMA, microgravity]
+- id: q17
+  question: SIBAL Fabric airflow <= 0.10 m/s
+  expected_related: [psi-98-S1, psi-98-S2]
+- id: q18
+  question: Compare Saffire runs
+  expected_direct: [psi-98-S1, psi-98-S2]
+- id: q19
+  question: What guidance is indexed?
+  expected_mode: safety_search
+- id: q20
+  question: PMMA suppression open question
+  expected_open_question: true
+- id: q21
+  question: acrylic combustion
+  expected_resolution: ambiguous
+- id: q22
+  question: unobtainium combustion
+  expected_resolution: unknown
+- id: q23
+  question: BASS-II
+  expected_concepts: [psi-25]
+- id: q24
+  question: requirement NASA STD 6001
+  expected_mode: safety_search
+- id: q25
+  question: SIBAL Fabric microgravity airflow <= 0.10 m/s
+  expected_no_direct: true

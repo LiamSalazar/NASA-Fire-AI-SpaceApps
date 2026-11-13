@@ -1,0 +1,15 @@
+@prefix sem: <https://example.org/nasa-fire-safety/semantic/> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix qk: <http://qudt.org/vocab/quantitykind/> .
+
+# Alignment hints are not scientific equivalence assertions or imported ontologies.
+sem:ReportedObservation skos:relatedMatch sosa:Observation .
+sem:ExperimentalRun skos:relatedMatch sosa:Procedure .
+sem:AirflowVelocity skos:relatedMatch qk:Velocity .
+sem:OxygenConcentration skos:relatedMatch qk:DimensionlessRatio .
+sem:Pressure skos:relatedMatch qk:Pressure .
+sem:SemanticValue skos:relatedMatch qudt:QuantityValue .
+sem:Publication skos:relatedMatch prov:Entity .

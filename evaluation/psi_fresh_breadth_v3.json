@@ -1,0 +1,41 @@
+{
+  "kind": "fresh-current-engine-breadth",
+  "boundary": "Seven predetermined, source-grounded scientific conversations frozen before their execution. No expected answer enters production. Model and provider remain the configured NVIDIA default.",
+  "cases": [
+    {
+      "id": "fresh-acme-findings",
+      "question": "Compare the CLD and E-FIELD results in the ACME ISS overview: what soot-related findings are reported, what configurations were studied, and which findings are explicitly preliminary?",
+      "followup_of": null
+    },
+    {
+      "id": "fresh-glovebox-hardware",
+      "question": "Which instruments did SPICE and SLICE share in the Microgravity Science Glovebox, and which quantities were displayed or recorded in the video overlay?",
+      "followup_of": null
+    },
+    {
+      "id": "fresh-aerosol-comparison",
+      "question": "Compare the original SAME sample 1 and SAME-R test 51a records: which material, duration or aging entries are available in each? Preserve the source units and do not assume identical experimental conditions.",
+      "followup_of": null
+    },
+    {
+      "id": "fresh-saffire-comparison",
+      "question": "Compare the original Saffire-I S1 and Saffire-III S2 records for specimen dimensions and flow direction. State each result with its own experiment and sample.",
+      "followup_of": null
+    },
+    {
+      "id": "fresh-droplet-configurations",
+      "question": "What diameter, temperature and pressure alternatives does FLEX-2 report for pure ethanol and for the propanol/glycerol mixtures? Do these configuration summaries identify physical runs?",
+      "followup_of": null
+    },
+    {
+      "id": "fresh-smoke-model-status",
+      "question": "Does the PSI-115 final report present its particle formation and growth results as simulations or as new measured smoke observations? Explain the reported gravity cases and the scope of the source.",
+      "followup_of": null
+    },
+    {
+      "id": "fresh-acme-followup",
+      "question": "In that ACME overview, what is reported about n-butane cool flames in CFI-G, and which imaging signal is used? Keep this separate from the earlier CLD and E-FIELD findings.",
+      "followup_of": "fresh-acme-findings"
+    }
+  ]
+}

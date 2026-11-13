@@ -1,0 +1,55 @@
+[
+  {
+    "id": "mist_objectives",
+    "message": "In the SoFIE presentation, what is MIST trying to map, and are these aims or completed measurements?",
+    "conversation": "solid_holdout"
+  },
+  {
+    "id": "solid_shapes",
+    "message": "How do the fuel geometries differ between MIST, RTDFS and GEL in that presentation?",
+    "conversation": "solid_holdout"
+  },
+  {
+    "id": "nca_method",
+    "message": "What does the Narrow Channel Apparatus proposal say about controlling buoyancy and the variables to study?"
+  },
+  {
+    "id": "gel_dimensions",
+    "message": "Compare the variables in the GEL growth and extinction objectives. Does the presentation supply measured limits?"
+  },
+  {
+    "id": "roadmap_purpose",
+    "message": "Why did the spacecraft fire safety roadmap acquire co-coordinators, and what role is assigned to test data?"
+  },
+  {
+    "id": "risk_scope",
+    "message": "What uncertainty about material screening and ignition is stated in Spacecraft Fire Safety Needs for Exploration?"
+  },
+  {
+    "id": "configuration_scope",
+    "message": "Who is the Flammability Configuration Analysis document meant to assist, and does it allow alternative approaches?"
+  },
+  {
+    "id": "camera_comparison",
+    "message": "According to the FLEX report, do the color and hydroxyl-filter images give the same flame diameters? Explain the reported comparison.",
+    "conversation": "optics_holdout"
+  },
+  {
+    "id": "camera_followup",
+    "message": "Which camera tracks the droplet instead, and what is the stated intent of the filtered camera?",
+    "conversation": "optics_holdout"
+  },
+  {
+    "id": "topic_change",
+    "message": "Now switch to solid fuels: what does SoFIE share through CIR?",
+    "conversation": "optics_holdout"
+  },
+  {
+    "id": "explore_solids",
+    "message": "What additional solid combustion investigations in the catalogue could I examine? Keep candidate relevance unverified."
+  },
+  {
+    "id": "missing_threshold",
+    "message": "Does the available evidence establish a safe oxygen threshold for every material in a lunar habitat?"
+  }
+]

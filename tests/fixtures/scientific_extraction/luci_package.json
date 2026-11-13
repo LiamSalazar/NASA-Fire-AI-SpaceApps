@@ -1,0 +1,852 @@
+{
+  "id": "research-88a2411be5fc53d76df5",
+  "version": 2,
+  "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+  "purpose": "The Lunar Combustion Investigation (LUCI) demonstrates the feasibility of conducting material flammability experiments in partial-g.  A spinning Blue Origin New Shepard sounding rocket yields Lunar gravity by using centrifugal acceleration.  These are the first-ever, extended-duration (greater than 25 seconds) combustion tests performed in simulated Lunar gravity.  A steady vehicle rotation of 11 RPM is established, with an effective radius of rotation of 1.22 m at the experiment location.  Two samples are burned simultaneously in air at normal pressure.  The first sample is a cotton-fiberglass composite fabric sheet and the second a 4-mm diameter rod of acrylic plastic (polymethyl methacrylate).  Flame images from two orthogonal cameras are used to determine flame spread and growth rates, and the burn lasts for over two and a half minutes.  The oxygen concentration in the chamber is measured.  As the burns progress, the oxygen concentration drops, enabling a limiting value for extinction to be defined.  The effect of Coriolis force is discussed.  Results from this experiment are compared to related 1-g work, drop tower tests, aircraft experiments, and modeling.  The results are applicable to NASA’s exploration efforts in that they guide the selection of fire-safe materials and environments and ensure safety of future spacecraft and Lunar habitats.  The data also provides fundamental understanding of fires.  Finally, the experiment is a steppingstone to the ultimate goal of performing burn tests on the Lunar surface in the Flammability of Materials on the Moon (FM2) experiment which is planned to launch in late 2026. ",
+  "creator": "developer-evaluation",
+  "inputs": [
+    {
+      "name": "20250010653.pdf",
+      "sha256": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "bytes": 2906408,
+      "stored_input": "data/submissions/bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79.pdf"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "E-3d0d479957889ee0ebba3428",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 1,
+      "text": "Lunar Combustion Investigation: Flammability Results \nfrom a Rotating Sounding Rocket\nPaul V. Ferkul1, Michael C. Johnston2, Nathan Kralik3, and Ya-Ting Liao3 \nUniversities Space Research Association1\nNASA Johnson Space Center 2 \nCase Western Reserve University 3\n2025 Annual Meeting\nPhoenix, Arizona\nDecember 3-6, 2025\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 1
+      }
+    },
+    {
+      "evidence_id": "E-0acbeed7a437e765685d020a",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 2,
+      "text": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket\nObjectives\nDemonstrate the feasibility of conducting material flammability experiments in partial-g on the spinning Blue Origin \nNew Shepard vehicle which simulates Lunar gravity with centrifugal force\nObtain data from the flight that will support other simulated Lunar-g experiments in drop towers and parabolic \nflight, actual Lunar-g experiments, and computer models.\nOutcome\nThe LUCI scientific objectives were achieved.  Material flammability testing at partial-g is feasible using a spinning \nvehicle.  Conducting large scale flammability testing would require additional programmatic support.  This might be \nconsidered should more Lunar-g flights become available using New Shepard.\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 2
+      }
+    },
+    {
+      "evidence_id": "E-fff11db50ab02d9c3c5437c1",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 3,
+      "text": "Page 3\nOverview\nConduct partial-g fire tests on the Blue Origin sounding rocket.\n \nHypothesis: some materials burning in partial-g are more flammable than on Earth.  This has \nimportant implications for the current 1-g material screening method used by NASA.  \nFuel samples burned in pairs; cameras and other sensors record flame characteristics.\nOxygen limits for upward and downward spread at partial-g will be compared to 1-g values.  \nMeasured flame characteristics in 1-g and partial-g will be compared to detailed model predictions.  \nThese comparisons will refine pressure-gravity scaling relations and will be applied to other g-levels.\n  \nThe work directly addresses knowledge gaps in flammability and crew safety as defined in several \nNASA strategic documents.\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 3
+      }
+    },
+    {
+      "evidence_id": "E-b901ec1e461ebf942f146e18",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 4,
+      "text": "Schematic\nCentrifugal gravity is into the page; this \nwould be looking outward from the \naxis of rotation of the vehicle toward \nthe cylindrical hull of the rocket.  The \nflames would generally rise out of the \npage, or towards the axis of rotation.\nTwo samples: Fabric 5 cm wide x 30 cm \nlong and 4-mm-DIA acrylic, (PMMA); \nignited with slight pause between \nthem.  \nSensors: Chamber oxygen \nconcentration, pressure, temperature, \nand centrifugal acceleration.\nCombustion enclosure/chamber\nSensors\nLocker\nFlame\nFront view\nFlame\nEdge view\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 4
+      }
+    },
+    {
+      "evidence_id": "E-49e271d94011afe76cb7c262",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 5,
+      "text": "Schematic\nCentrifugal gravity is into the page; this \nwould be looking outward from the \naxis of rotation of the vehicle toward \nthe cylindrical hull of the rocket.  The \nflames would generally rise out of the \npage, or towards the axis of rotation.\nTwo samples: Fabric 5 cm wide x 30 cm \nlong and 4-mm-DIA acrylic, (PMMA); \nignited with slight pause between \nthem.  \nSensors: Chamber oxygen \nconcentration, pressure, temperature, \nand centrifugal acceleration.\nCombustion enclosure/chamber\nLocker\nBurning Fabric\nFront view\nSample #2: Acrylic \n(PMMA) Rod\nBurning Fabric\nEdge view\nBurning Rod\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 5
+      }
+    },
+    {
+      "evidence_id": "E-a4517b58edb7fb6b7246f801",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 6,
+      "text": "6\nGlenn Research Center\nZIN Technologies\nHardware\nEMI Shielding\nBlue Origin Locker\nChamber Assembly\nLid Assembly\nTop Level Assembly\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 6
+      }
+    },
+    {
+      "evidence_id": "E-b3ed9a7463f43f22a17be8ec",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 7,
+      "text": "7\nGlenn Research Center\nZIN Technologies\nTop Level Assembly\nIn Payload Locker\nOut of Payload Locker\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 7
+      }
+    },
+    {
+      "evidence_id": "E-9984369871f9b119c39685ae",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 8,
+      "text": "8\nGlenn Research Center\nZIN Technologies\nCombustion Chamber Lid Assembly  \nLid is the main attachment point for \nAll Payload Avionics and Diagnostics \n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 8
+      }
+    },
+    {
+      "evidence_id": "E-d621160208181545c2e7acf1",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 9,
+      "text": "Page 9\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 9
+      }
+    },
+    {
+      "evidence_id": "E-138c0efdbdc2243a724f2a16",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 10,
+      "text": "Page 10\nThe effective floor of our hardware (orientated so that the \ncentrifugal g-vector points downward toward the floor) \nmeasures about 41 cm x 48 cm.  The available height in the \ng-direction is about 53 cm.  \nNOTE: How we orient our samples depends on the specific \nlocker location.  It is required that the principle vertical \naxes of the burn samples be aligned with the radial lines. \n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 10
+      }
+    },
+    {
+      "evidence_id": "E-48cf0943c2230d21f4c2a9ab",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 11,
+      "text": "+x\n+y\n+z\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 11
+      }
+    },
+    {
+      "evidence_id": "E-6a062578a8bc9b381a5d6bf0",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 12,
+      "text": "•\nBlue Origin New Shepard sounding rocket yields Lunar gravity by using centrifugal acceleration.\n•\nThese are the first-ever, extended-duration (greater than 25 seconds) combustion tests performed in simulated Lunar gravity.  \n•\nA steady vehicle rotation of 11 RPM is established, with an effective radius of rotation of 1.22 m at the experiment location.  \n•\nTwo samples are burned simultaneously in air at normal pressure: Cotton-fiberglass composite fabric sheet and a 4-mm diameter \nrod of acrylic plastic (polymethyl methacrylate).  \n•\nFlame images from two orthogonal cameras are used to determine flame spread and growth rates, and the burn lasts for over \ntwo and a half minutes.  \n•\nThe oxygen concentration in the chamber is measured.  As the burns progress, the oxygen concentration drops, enabling a \nlimiting value for extinction to be defined.  \n•\nThe effect of Coriolis force is discussed.  \n•\nResults from this experiment are compared to related 1-g work, drop tower tests, aircraft experiments, and modeling.  \n•\nThe results are applicable to NASA’s exploration efforts in that they guide the selection of fire-safe materials and environments \nand ensure safety of future spacecraft and Lunar habitats.  The data also provides fundamental understanding of fires.  \n•\nFinally, the experiment is a steppingstone to the ultimate goal of performing burn tests on the Lunar surface in the Flammability \nof Materials on the Moon (FM2) experiment which is planned to launch in late 2026. \n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 12
+      }
+    },
+    {
+      "evidence_id": "E-b1a9f6a613faf9d539c3c1bb",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 13,
+      "text": "History\n• ZIN technologies brought on board October 2021\n• Initial Planned launch was Spring 2023, Launch provider delay initially delayed launch into late Summer early Fall 2024, until \nit finally launched Feb 4 2025\n• First mission sequence test was performed in July 2023\n• Due to launch slip some improvements were made and last mission sequence test was ran in February 2024 before \nbeing shelved prior to flight. \nObjectives\n• Burn SIBAL fabric & PMMA \n• Conduct first-ever, long duration observation and measurement of flame spread in a partial-g environment\n• Verify this platform is a viable means to obtain material flammability data in Lunar-g and will include an assessment of \nthe Coriolis force on results\n• Provide guidance for sample selection and test definition for a Lunar in-situ experiment\nData\n• First Flight\n• Measurements of flame spread rate and output of other diagnostics, including g-level vs. time for the two samples\n• Sample closeout photos and photos before and after each test\n• Data from 1-g burns\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 13
+      }
+    },
+    {
+      "evidence_id": "E-adf573cd07a7eddfa35cb8d4",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 14,
+      "text": "",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 14
+      }
+    },
+    {
+      "evidence_id": "E-5057e47c92b450e2d94ad8c9",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 15,
+      "text": "",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 15
+      }
+    },
+    {
+      "evidence_id": "E-e701476789b9bf6dd3395377",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 16,
+      "text": "LUCI samples 30 s after ignition.  Left: Edge view of SIBAL fabric (cotton-fiberglass blend) burning downward in Lunar-g 30 s \nafter ignition.  The flame spread for over a minute.  Right:4-mm-diameter PMMA rod burning upward in air in Lunar-g, 30 s \nafter ignition.  The flame eventually grows to engulf the entire rod.\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 16
+      }
+    },
+    {
+      "evidence_id": "E-d5b5c13caefae1761b25a868",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 17,
+      "text": "PMMA rod after 90 seconds of burning in Lunar g.  \nTwo orthogonal camera views are shown.  The one on \nthe right demonstrates how the Coriolis force pulls the \nflame away from the axis of the fuel, which is aligned \nwith the direction of the centrifugal acceleration.\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 17
+      }
+    },
+    {
+      "evidence_id": "E-d3aebe64259ea519e1693467",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 18,
+      "text": "Potential Follow-on Objectives\n• Evaluate the hypothesis that some materials burning in partial-g environments may be more flammable \ncompared to 1-g.\n• Compare upward and downward oxygen limits to 1-g values\n• Evaluate flame size, strength, intensity, and spread compared to 1-g\n• Develop a numerical model\n• Assess the applicability of the model by comparing to the test data obtained.  \n• Determine applicability of the pressure-gravity scaling relations for upward spread rates. \n• Refine model using experiment results\n• Provide a bridge between current 1-g material screen method and actual behavior in reduced gravity.\nData\n• Flammability limits (%O2) for a subset of materials in Lunar-g\n• Measurements of the flame spread rate over materials in exploration atmospheres\n• Sample closeout photos, and photos before and after each test\n• Data from 1-g burns\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 18
+      }
+    },
+    {
+      "evidence_id": "E-36fba4ad2dd3a80446e482de",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 19,
+      "text": "LUCI: SIBAL fabric\n•\nFlame base spread rate = .92 mm/s.\n•\nFlame tip spread rate = 1.1 mm/s\n•\nFlame tip spreads very slightly faster \nthan flame base, indicating a slowly \nshrinking flame length.\n•\nSpread rates for char front, flame base, \nand flame tip are all linear (steady state \nspread).\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 19
+      }
+    },
+    {
+      "evidence_id": "E-d21d6576e58973f04cbb79b6",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 20,
+      "text": "LUCI: PMMA\n𝑥𝑓𝑏\n𝑥𝑓𝑡\nSample\nFlame\ng\n𝑙𝑓\n𝑉𝑓\n•\nFlame length increases \n~linearly until flame tip becomes \nobscured by sample holder \n(could not measure flame length \naccurately beyond this point).\n•\nTotal base spread of ~6cm until \nextinction.\n•\nFlame base spread rate is not \nconstant; steady spread was not \nachieved.\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 20
+      }
+    },
+    {
+      "evidence_id": "E-b7874f30c44529988c9a2b4d",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 21,
+      "text": "LUCI: PMMA\n𝑥𝑓𝑏\n𝑥𝑓𝑡\nSample\nFlame\ng\n𝑙𝑓\n𝑉𝑓\n•\nFlame tip spread is \napproximately linear.\n•\nFlame spread rate = 1.5 \nmm/s.\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 21
+      }
+    },
+    {
+      "evidence_id": "E-ace382bc90bbdf2808dfba14",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 22,
+      "text": "LUCI: PMMA\n𝑥𝑓𝑏\n𝑥𝑓𝑡\nSample\nFlame\ng\n𝑙𝑓\n𝑉𝑓\n•\nO2% decreases from 20% to \n14.3%.\n•\nO2% rises back to 15.8% \nlikely due to the decrease in \ngravity (and thus buoyant \nflow) which occurred at 125s.\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 22
+      }
+    },
+    {
+      "evidence_id": "E-a55ec34c0f83d6c8b98b529c",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 23,
+      "text": "LUCI 1-G Updates\n• Results have been obtained and plotted with partial-g results for \ncomparison.\n• Fits of the data were created where possible and useful, and more \nfits can be created in the future if necessary.\n• Results are not as clean as partial-g, the program does not read \nthe flame spread as cleanly, and the flame burns out much \nquicker, resulting in fewer total data points.\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 23
+      }
+    },
+    {
+      "evidence_id": "E-43050973b6a89b18f7e5ea5e",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 24,
+      "text": "1-G Results: SIBAL fabric\n•\nFlame length is not completely \nconstant; flame shrinks more than \npartial-g burn.\n•\nFlame width decreases suddenly at \n~24 seconds, and goes to 0 within 4 \nseconds.\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 24
+      }
+    },
+    {
+      "evidence_id": "E-a08131327d6385587996348e",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 25,
+      "text": "1-G Results: SIBAL fabric\n•\nFlame tip spread rate is \n~double flame base spread \nrate.\n•\nSmall fluctuations in the \ntracking result in inexact fits \nfor the spread data, therefore \nthis is only an approximate \nrelationship.\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 25
+      }
+    },
+    {
+      "evidence_id": "E-007124915589abdd7abc5e6e",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 26,
+      "text": "1-G Results: SIBAL\n•\nGravity (in g’s) remains \nconstant at Earth’s gravity.\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 26
+      }
+    },
+    {
+      "evidence_id": "E-dc9e4c8b9ff90290439d6f6a",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 27,
+      "text": "1-G Results: SIBAL\n•\nO2% varies slightly but is \nroughly constant at 20%.\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 27
+      }
+    },
+    {
+      "evidence_id": "E-94f2c30163d61cfbf33f137a",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 28,
+      "text": "1-G Results: PMMA\n𝑥𝑓𝑏\n𝑥𝑓𝑡\nSample\nFlame\ng\n𝑙𝑓\n𝑉𝑓\n•\nBase was not accurately \ntracked towards the end of \nthe experiment; from \nobservation it remained at a \n~constant location.\n•\nFlame tip spread was \n~linear until tip becomes \nobscured by sample holder.\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 28
+      }
+    },
+    {
+      "evidence_id": "E-4e83b44eb58f230065e2b311",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 29,
+      "text": "1-G Results: PMMA\n•\nFlame tip grows at a rate of \n~ 3.95 mm/s at the beginning \nof the burn.\n•\nFlame base location is \n~constant, so this can be \napproximated as flame \ngrowth rate (flame length).\n𝑥𝑓𝑏\n𝑥𝑓𝑡\nSample\nFlame\ng\n𝑙𝑓\n𝑉𝑓\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 29
+      }
+    },
+    {
+      "evidence_id": "E-883f133a5745d0142df1e007",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 30,
+      "text": "1-G Results: PMMA\n𝑥𝑓𝑏\n𝑥𝑓𝑡\nSample\nFlame\ng\n𝑙𝑓\n𝑉𝑓\n•\nGravity remains constant at \nEarth’s gravity for duration of \nburn.\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 30
+      }
+    },
+    {
+      "evidence_id": "E-d4940e2063b4c03f3303beea",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 31,
+      "text": "𝑥𝑓𝑏\n𝑥𝑓𝑡\nSample\nFlame\ng\n𝑙𝑓\n𝑉𝑓\n•\nO2% rises quickly in the \nbeginning, then decreases \n~linearly from 21% to 14.5%.\nResults: PMMA\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 31
+      }
+    },
+    {
+      "evidence_id": "E-92e5fd01ba0fa39b833981b3",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 32,
+      "text": "Combined Results: SIBAL\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 32
+      }
+    },
+    {
+      "evidence_id": "E-7b2423e2b4112606572b7b6e",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 33,
+      "text": "SIBAL Flame Spread Fit Comparison\nFlame Spread Rates (from linear fits):\nPartial-\nG\n(mm/s)\n1-G\n(mm/s)\nRatio\nFlame \nBase\n.9\n1.5\n.6\nFlame \nTip\n1.1\n2.8\n.39\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 33
+      }
+    },
+    {
+      "evidence_id": "E-369175d9bd5f5634f84a0c6b",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 34,
+      "text": "SIBAL Flame Width Comparison\n•\nFlame extinction for 1-g \nexperiment occurs quicker \n(flame width decrease is \nsteeper than partial-g).\n•\n1-g extinction happens ~ 45 \nseconds sooner than partial-g \nextinction\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 34
+      }
+    },
+    {
+      "evidence_id": "E-a77a2a0b6c4c5ef905224f73",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 35,
+      "text": "Combined Results: PMMA\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 35
+      }
+    },
+    {
+      "evidence_id": "E-01e78ac4900b35ec6ddd9644",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 36,
+      "text": "PMMA Flame Tip Comparison\nPartial-G\n(cm/s)\n1-G\n(cm/s)\nRatio\n.15\n.40\n.38\nFlame Tip Spread (from linear fits):\n𝑥𝑓𝑏\n𝑥𝑓𝑡\nSample\nFlame\ng\n𝑙𝑓\n𝑉𝑓\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 36
+      }
+    },
+    {
+      "evidence_id": "E-ab863beddb4ab0a2517976fa",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 37,
+      "text": "The LUCI project achieved the first-ever, extended duration combustion tests (greater than 25 seconds) in simulated \nLunar gravity.  The results are applicable to NASA’s exploration efforts in that they guide the selection of fire-safe \nmaterials and environments and ensure safety of future spacecraft and Lunar habitats.  The data also provides \nfundamental understanding of fires burning at reduced gravity for comparison to sophisticated numerical models.  \nFinally, the experiment is a steppingstone to the ultimate goal of performing burn tests on the Lunar surface in the \nFlammability of Materials on the Moon (FM2) experiment which will fly on a SpaceX Human Lander System \nunmanned test flight. \n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 37
+      }
+    },
+    {
+      "evidence_id": "E-7e8d8e958dbe85901540a377",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 38,
+      "text": "Backups\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 38
+      }
+    },
+    {
+      "evidence_id": "E-8e152fd5cc3f08cf75f79651",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 39,
+      "text": "LUCI Partial-G Recap: SIBAL\n•\nSemi-steady spread is achieved, \nduring which the constant flame \nwidth and length are observed (~3.2 \ncm and ~1.5 cm respectively).\n•\nFlame length and width both \ndecrease during extinction (final ~40 \nseconds). \n•\nChar propagation and flame base \npropagation are ~parallel, indicating \n~constant preheat length.\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 39
+      }
+    },
+    {
+      "evidence_id": "E-d5f9930ae7882641030769e0",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 40,
+      "text": "LUCI Partial-G Recap: SIBAL\n•\nPreheat Length: difference between \nflame base and char front fit \nequations.\n•\nBoth flame length and preheat length \ndecrease very slowly over time (~ 1.25 \ncm and ~0.4 cm total respectively).\n•\nPreheat length shrink rate = -0.094 \nmm/s.\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 40
+      }
+    },
+    {
+      "evidence_id": "E-591e163edaa75d5ac8c895d0",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 41,
+      "text": "LUCI Partial-G Recap: SIBAL\n•\nGravity (in g’s) remains \nconstant at lunar gravity.\n•\nFlame extinction must be \ncaused by other factors.\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 41
+      }
+    },
+    {
+      "evidence_id": "E-dc4b3c3fe52caaa86c554e24",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 42,
+      "text": "LUCI: SIBAL fabric\n•\nO2 concentration \ndecreases from ~20% to \n~18%.\n•\nO2% decreases at a roughly \nconstant rate over the entire \nexperiment.\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 42
+      }
+    },
+    {
+      "evidence_id": "E-d6e291dc28d06c4dea34e721",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 43,
+      "text": "LUCI: PMMA\n•\nFlame base spread is \napproximately quadratic.\n•\nInstantaneous spread rate \n(red line) is plotted derivative \nof fit equation (linear \nrelation).\n•\nFlame spread rate increases \nlinearly from 0 to ~.6 mm/s \n(before gravity starts dropping \nat t = 125s)\n𝑥𝑓𝑏\n𝑥𝑓𝑡\nSample\nFlame\ng\n𝑙𝑓\n𝑉𝑓\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 43
+      }
+    },
+    {
+      "evidence_id": "E-f4f95c94998d43684aa6df08",
+      "source_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483",
+      "document_id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:document",
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "filename": "20250010653.pdf",
+      "page": 44,
+      "text": "LUCI: PMMA\n𝑥𝑓𝑏\n𝑥𝑓𝑡\nSample\nFlame\ng\n𝑙𝑓\n𝑉𝑓\n•\nGravity remains ~constant for \nduration of the burn.\n",
+      "checksum": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+      "locator": {
+        "file": "20250010653.pdf",
+        "page": 44
+      }
+    }
+  ],
+  "tables": [],
+  "entities": [
+    {
+      "id": "research-88a2411be5fc53d76df5",
+      "label": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "class_id": "Investigation",
+      "evidence_ids": [
+        "E-3d0d479957889ee0ebba3428"
+      ]
+    }
+  ],
+  "relations": [],
+  "values": [],
+  "statements": [
+    {
+      "id": "research-88a2411be5fc53d76df5:bb0aadd2f9543483:statement:878e496142f11d95",
+      "text": "LUCI Partial-G Recap: SIBAL\n•\nSemi-steady spread is achieved, \nduring which the constant flame \nwidth and length are observed (~3.2 \ncm and ~1.5 cm respectively).",
+      "class_id": "ReportedObservation",
+      "epistemic": "measured_observation",
+      "scope": [],
+      "origin": "prose",
+      "evidence_ids": [
+        "E-8e152fd5cc3f08cf75f79651"
+      ],
+      "included": true
+    }
+  ],
+  "extensions": [],
+  "decisions": {},
+  "corrections": [],
+  "exclusions": [],
+  "contexts": [],
+  "contract_digest": "3c77f8decad9f0aa727329a1d2d3d7abe982f0ac8e106e199f394c2e1ea246bd",
+  "source_provenance": {
+    "publisher_origin": "NASA NTRS",
+    "source_url": "https://ntrs.nasa.gov/api/citations/20250010653/downloads/ASGSR%202025-LUCI-Ferkul-Presentation-v2-20250010653.pdf",
+    "nasa_id": "20250010653",
+    "metadata": {
+      "copyright": {
+        "disclosedInvention": false,
+        "submissionId": 20250010653,
+        "containsThirdPartyMaterial": false,
+        "containsIndication": false,
+        "id": "074793724c704506a5a531ab86d9e8fb",
+        "determinationType": "GOV_PERMITTED",
+        "thirdPartyContentCondition": "NOT_SET"
+      },
+      "subjectCategories": [
+        "Chemistry and Materials (General)"
+      ],
+      "keywords": [
+        "flammability",
+        "lunar gravity",
+        "combustion"
+      ],
+      "exportControl": {
+        "isExportControl": "NO",
+        "submissionId": 20250010653,
+        "ear": "NO",
+        "id": "34341b8eca47416dbfba5e2d2dc62bba",
+        "category": [
+          {
+            "submissionExportControlId": "34341b8eca47416dbfba5e2d2dc62bba",
+            "id": "9c019c4474a446c7bb5f8c9a52b994e3",
+            "category": 0
+          }
+        ],
+        "itar": "NO"
+      },
+      "distributionDate": "2025-12-06T05:00:00.0000000+00:00",
+      "fundingNumbers": [
+        {
+          "number": "619352.06.07.01.01",
+          "submissionId": 20250010653,
+          "id": "ad1d86ad2df34a9a8bd51f165082ecd5",
+          "type": "WBS"
+        }
+      ],
+      "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+      "stiType": "PRESENTATION",
+      "distribution": "PUBLIC",
+      "submittedDate": "2025-11-21T21:07:25.6604030+00:00",
+      "authorAffiliations": [
+        {
+          "organizationId": "0be91b7a68665cf882c2ccee8ad03aff",
+          "sequence": 0,
+          "submissionId": 20250010653,
+          "meta": {
+            "author": {
+              "orcidId": "",
+              "name": "Paul V Ferkul"
+            },
+            "organization": {
+              "name": "Universities Space Research Association",
+              "location": "Columbia, United States"
+            }
+          },
+          "id": "c18b825c5e344f299766935c8a766000",
+          "userType": "CONTRACTOR_GRANTEE",
+          "userId": "e1b28b8eccc546bf8ff8d69e271adf75"
+        },
+        {
+          "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+          "sequence": 1,
+          "submissionId": 20250010653,
+          "meta": {
+            "author": {
+              "orcidId": "",
+              "name": "Michael C Johnston"
+            },
+            "organization": {
+              "name": "Johnson Space Center",
+              "location": "Houston, United States"
+            }
+          },
+          "id": "d7f08fc3fb8a4121b299cb393e45b255",
+          "userType": "CIVIL",
+          "userId": "995f4be0e19649eca742e40fb9d52045"
+        },
+        {
+          "organizationId": "ef57c2628ac159568c05f9b33526619e",
+          "sequence": 2,
+          "submissionId": 20250010653,
+          "meta": {
+            "author": {
+              "name": "Nathan Kralik"
+            },
+            "organization": {
+              "name": "Case Western Reserve University",
+              "location": "Cleveland, United States"
+            }
+          },
+          "id": "c65e95fbe42c4a37863c6d4ce1223080",
+          "userType": "OTHER"
+        },
+        {
+          "organizationId": "ef57c2628ac159568c05f9b33526619e",
+          "sequence": 3,
+          "submissionId": 20250010653,
+          "meta": {
+            "author": {
+              "name": "Ya-Ting Liao"
+            },
+            "organization": {
+              "name": "Case Western Reserve University",
+              "location": "Cleveland, United States"
+            }
+          },
+          "id": "a8983f8c0ecd42f9bc256e8f22c309d9",
+          "userType": "OTHER"
+        }
+      ],
+      "stiTypeDetails": "Presentation",
+      "technicalReviewType": "SINGLE_EXPERT",
+      "modified": "2025-11-26T18:35:29.3619940+00:00",
+      "id": 20250010653,
+      "created": "2025-11-21T20:59:54.1835640+00:00",
+      "center": {
+        "code": "GRC",
+        "name": "Glenn Research Center",
+        "id": "19eeb25fa404421d9eaa5f876e853e3c"
+      },
+      "onlyAbstract": false,
+      "sensitiveInformation": 2,
+      "abstract": "The Lunar Combustion Investigation (LUCI) demonstrates the feasibility of conducting material flammability experiments in partial-g.  A spinning Blue Origin New Shepard sounding rocket yields Lunar gravity by using centrifugal acceleration.  These are the first-ever, extended-duration (greater than 25 seconds) combustion tests performed in simulated Lunar gravity.  A steady vehicle rotation of 11 RPM is established, with an effective radius of rotation of 1.22 m at the experiment location.  Two samples are burned simultaneously in air at normal pressure.  The first sample is a cotton-fiberglass composite fabric sheet and the second a 4-mm diameter rod of acrylic plastic (polymethyl methacrylate).  Flame images from two orthogonal cameras are used to determine flame spread and growth rates, and the burn lasts for over two and a half minutes.  The oxygen concentration in the chamber is measured.  As the burns progress, the oxygen concentration drops, enabling a limiting value for extinction to be defined.  The effect of Coriolis force is discussed.  Results from this experiment are compared to related 1-g work, drop tower tests, aircraft experiments, and modeling.  The results are applicable to NASA’s exploration efforts in that they guide the selection of fire-safe materials and environments and ensure safety of future spacecraft and Lunar habitats.  The data also provides fundamental understanding of fires.  Finally, the experiment is a steppingstone to the ultimate goal of performing burn tests on the Lunar surface in the Flammability of Materials on the Moon (FM2) experiment which is planned to launch in late 2026. ",
+      "isLessonsLearned": false,
+      "disseminated": "DOCUMENT_AND_METADATA",
+      "cui": {
+        "isCui": false,
+        "submissionId": 20250010653,
+        "id": "1c40279784454547a550e8cbae2285b2"
+      },
+      "meetings": [
+        {
+          "country": "US",
+          "submissionId": 20250010653,
+          "endDate": "2025-12-06T05:00:00.0000000+00:00",
+          "sponsors": [
+            {
+              "organizationId": "42ca85bbf3b75cad8841938b20f13730",
+              "meta": {
+                "organization": {
+                  "name": "American Society for Gravitational and Space Research",
+                  "location": "Springfield, Virginia, United States"
+                }
+              },
+              "meetingId": "68bec0aed1c94159a5ad46cf2c66d845",
+              "id": "18615d954f9e4b7faef2fc6938bd771a"
+            }
+          ],
+          "name": "American Society for Space and Gravitational Research (ASGSR)",
+          "location": "Phoenix, AZ",
+          "id": "68bec0aed1c94159a5ad46cf2c66d845",
+          "url": "https://asgsr.org/asgsr-2025-phoenix/",
+          "startDate": "2025-12-03T05:00:00.0000000+00:00"
+        }
+      ],
+      "status": "CURATED",
+      "related": [],
+      "downloads": [
+        {
+          "draft": false,
+          "mimetype": "application/pdf",
+          "name": "ASGSR 2025-LUCI-Ferkul-Presentation-v2-20250010653.pdf",
+          "type": "STI",
+          "links": {
+            "original": "/api/citations/20250010653/downloads/ASGSR%202025-LUCI-Ferkul-Presentation-v2-20250010653.pdf",
+            "pdf": "/api/citations/20250010653/downloads/ASGSR%202025-LUCI-Ferkul-Presentation-v2-20250010653.pdf",
+            "fulltext": "/api/citations/20250010653/downloads/ASGSR%202025-LUCI-Ferkul-Presentation-v2-20250010653.pdf.txt"
+          }
+        }
+      ],
+      "downloadsAvailable": true,
+      "index": "submissions-2026-10-08-04-13"
+    },
+    "sha256": "bb0aadd2f9543483467b86796e6aa19f4e13c3f8169eec96134015f95ed61d79",
+    "eligibility": "OFFICIAL_NASA_DOMAIN_DOCUMENT",
+    "scientific_review": "NONE"
+  }
+}

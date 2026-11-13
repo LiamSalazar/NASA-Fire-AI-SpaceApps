@@ -1,0 +1,149 @@
+{
+  "status": "Frozen fresh cases after v1 exposure; v1 is retained as exposed regression evidence. Not independently scientist adjudicated.",
+  "targets": [
+    {
+      "id": "foma_identity",
+      "case_ids": [
+        "foma_hardware"
+      ],
+      "evidence_id": "E-hackathon-f617ec6a7c0c690dda349c6e",
+      "proposition": "The Fuel and Oxidizer Mixing Apparatus (FOMA) provides chamber ambient-environment control.",
+      "review": "Original registered NASA source inspected before staged-examination implementation. Implementing-agent review, not independent scientist adjudication."
+    },
+    {
+      "id": "foma_components",
+      "case_ids": [
+        "foma_hardware"
+      ],
+      "evidence_id": "E-hackathon-f617ec6a7c0c690dda349c6e",
+      "proposition": "FOMA consists of gas bottles and an ISS nitrogen connection through valves, pressure transducers and mass flow controllers to the combustion chamber.",
+      "review": "Original registered NASA source inspected before staged-examination implementation. Implementing-agent review, not independent scientist adjudication."
+    },
+    {
+      "id": "chamber_evacuation",
+      "case_ids": [
+        "foma_followup"
+      ],
+      "evidence_id": "E-hackathon-f617ec6a7c0c690dda349c6e",
+      "proposition": "Chamber contents can be evacuated with a vacuum pump connected to the ISS overboard vent.",
+      "review": "Original registered NASA source inspected before staged-examination implementation. Implementing-agent review, not independent scientist adjudication."
+    },
+    {
+      "id": "free_deployment",
+      "case_ids": [
+        "droplet_deployment"
+      ],
+      "evidence_id": "E-hackathon-ade91b0303eeadb3c554002f",
+      "proposition": "FLEX fluid is dispensed between opposed needles, which stretch the liquid and rapidly retract before ignition, ideally leaving a motionless free droplet.",
+      "review": "Original registered NASA source inspected before staged-examination implementation. Implementing-agent review, not independent scientist adjudication."
+    },
+    {
+      "id": "fiber_translation",
+      "case_ids": [
+        "droplet_deployment"
+      ],
+      "evidence_id": "E-hackathon-ade91b0303eeadb3c554002f",
+      "proposition": "Fiber-supported droplets use an 80-\u00b5m support fiber; after ignition the computer translates the fiber parallel to its orientation at prescribed speed and duration.",
+      "review": "Original registered NASA source inspected before staged-examination implementation. Implementing-agent review, not independent scientist adjudication."
+    },
+    {
+      "id": "radiometer_purpose",
+      "case_ids": [
+        "diagnostic_limits"
+      ],
+      "evidence_id": "E-hackathon-ade91b0303eeadb3c554002f",
+      "proposition": "The two MDCA radiometers detect total flame radiative output and, with a filter, examine water-vapor emission.",
+      "review": "Original registered NASA source inspected before staged-examination implementation. Implementing-agent review, not independent scientist adjudication."
+    },
+    {
+      "id": "radiometer_limit",
+      "case_ids": [
+        "diagnostic_limits"
+      ],
+      "evidence_id": "E-hackathon-ade91b0303eeadb3c554002f",
+      "proposition": "For the reported tests the radiometers were not sensitive enough for reliable quantitative output, so their data are not reported.",
+      "review": "Original registered NASA source inspected before staged-examination implementation. Implementing-agent review, not independent scientist adjudication."
+    },
+    {
+      "id": "gravity_heads",
+      "case_ids": [
+        "gravity_monitoring"
+      ],
+      "evidence_id": "E-hackathon-67a31b45bdbda0e94eda3ec3",
+      "proposition": "The CIR rack had accelerometer heads to monitor the gravitational and vibrational environment during testing.",
+      "review": "Original registered NASA source inspected before staged-examination implementation. Implementing-agent review, not independent scientist adjudication."
+    },
+    {
+      "id": "rtdfs_computation",
+      "case_ids": [
+        "rtdfs_roles"
+      ],
+      "evidence_id": "E-hackathon-b662054653ad552283765408",
+      "proposition": "The RTDFS slide labels the thin-PMMA flame side views as computational flames, not measured photographs.",
+      "review": "Original registered NASA source inspected before staged-examination implementation. Implementing-agent review, not independent scientist adjudication."
+    },
+    {
+      "id": "rtdfs_terrestrial",
+      "case_ids": [
+        "rtdfs_roles"
+      ],
+      "evidence_id": "E-hackathon-b662054653ad552283765408",
+      "proposition": "The RTDFS objectives include complementary 1-g tests alongside experiments, theory and computational modeling of radiative quenching.",
+      "review": "Original registered NASA source inspected before staged-examination implementation. Implementing-agent review, not independent scientist adjudication."
+    },
+    {
+      "id": "mist_radiant",
+      "case_ids": [
+        "mist_gel_focus"
+      ],
+      "evidence_id": "E-hackathon-29d4394a7fe193a123e74ea0",
+      "proposition": "MIST objectives include ignition and extinction maps of a PMMA cylinder as a function of flow, oxygen and external radiant flux.",
+      "review": "Original registered NASA source inspected before staged-examination implementation. Implementing-agent review, not independent scientist adjudication."
+    },
+    {
+      "id": "gel_internal",
+      "case_ids": [
+        "mist_gel_focus"
+      ],
+      "evidence_id": "E-hackathon-9f1f598a5b4750abe661181b",
+      "proposition": "GEL objectives include flame growth and extinction characteristics as functions of flow velocity, oxygen percentage, pressure and internal heating.",
+      "review": "Original registered NASA source inspected before staged-examination implementation. Implementing-agent review, not independent scientist adjudication."
+    },
+    {
+      "id": "suppression_duration",
+      "case_ids": [
+        "suppression_example"
+      ],
+      "evidence_id": "E-hackathon-1c7dd42fb07846d8e87b4a1c",
+      "proposition": "Flow was turned off for 20 seconds for the Saffire-IV PMMA sample.",
+      "review": "Original registered NASA source inspected before staged-examination implementation. Implementing-agent review, not independent scientist adjudication."
+    },
+    {
+      "id": "suppression_observation",
+      "case_ids": [
+        "suppression_example"
+      ],
+      "evidence_id": "E-hackathon-1c7dd42fb07846d8e87b4a1c",
+      "proposition": "The fire did not extinguish and began to grow when flow was turned back on.",
+      "review": "Original registered NASA source inspected before staged-examination implementation. Implementing-agent review, not independent scientist adjudication."
+    },
+    {
+      "id": "cleanup_possibility",
+      "case_ids": [
+        "postfire_uncertainty"
+      ],
+      "evidence_id": "E-hackathon-9809a7175ad03af64519844b",
+      "proposition": "The document states a possibility that with effective mitigations and appropriate cleanup the vehicle could be restored and the mission could continue.",
+      "review": "Original registered NASA source inspected before staged-examination implementation. Implementing-agent review, not independent scientist adjudication."
+    },
+    {
+      "id": "failed_materials_evaluation",
+      "case_ids": [
+        "configuration_requirements"
+      ],
+      "evidence_id": "E-hackathon-5fa6ef74c847498ac8eb77aa",
+      "proposition": "JSC 29353B describes NASA-STD-6001 as requiring system flammability evaluation for materials failing the tests; flight hardware must comply with testing or be assessed to prohibit fire propagation based on its design or configuration.",
+      "review": "Original registered NASA source inspected before staged-examination implementation. Implementing-agent review, not independent scientist adjudication."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "kind": "FROZEN_FINAL_QUERY_GENERALIZATION_RESERVE_V6",
+  "freeze_commit": "a992dd3",
+  "freeze_snapshot_id": "6052e3cb9c5f952a49e9b26520cb820aa9a6ac15c5b6a59f344446908980e79e",
+  "boundary": "Ten agent-authored source-inspected questions frozen before the next corrective implementation, not independent human adjudication. No generation has been executed for these question relationships. Expected needs remain evaluation-only; source knowledge may be curated.",
+  "cases": [
+    {
+      "id": "reserved-efield",
+      "question": "For E-FIELD test day 18106, report the recorded burner/test-type description, mesh polarity, fuel-bottle and fuel-concentration entries, and number of flames ignited. Keep these as test-day information.",
+      "followup_of": null
+    },
+    {
+      "id": "reserved-bre",
+      "question": "For the BRE entry dated 4 April 2019, quote burner size, fuel bottle, the listed oxygen concentrations and ignition count. Explain whether those oxygen entries describe one simultaneous mixture or a day-summary set.",
+      "followup_of": null
+    },
+    {
+      "id": "reserved-flex",
+      "question": "For FLEX identifier C03M701, give the separate FLEX Test number, fuel, ambient pressure, initial droplet diameter, visible-flame extinction diameter, burn time and termination. Preserve the original pressure unit and the ambiguous CO column label if mentioning composition.",
+      "followup_of": null
+    },
+    {
+      "id": "reserved-saffire-composite",
+      "question": "Quote the paired specimen thickness and length entries for Saffire-II sample 2-7, its material entry, airflow and burn duration. Preserve the paired text and avoid assigning one dimension to each material without source support.",
+      "followup_of": null
+    },
+    {
+      "id": "reserved-bass-identities",
+      "question": "For BASS As Run Test number 9, quote the other Test number, Sample number, material description and GMT day. Keep the identifier types distinct even when their numeric values coincide.",
+      "followup_of": null
+    },
+    {
+      "id": "reserved-daft-pressure",
+      "question": "For DAFT session D1, can this registered session supply a chamber pressure? Describe what it actually records about the aerosol material, hardware, sampled location and day, without borrowing pressure from another experiment.",
+      "followup_of": null
+    },
+    {
+      "id": "reserved-flex-uncertainties",
+      "question": "In the archived FLEX report, distinguish the LLUV and MDCA color-camera flame-size measurements. What flame boundary do they represent, what uncertainties are reported for the two analyses, and how do the color-camera diameters compare with LLUV? Keep the camera scopes separate.",
+      "followup_of": null
+    },
+    {
+      "id": "reserved-gox-method",
+      "question": "In NASA-STD-6001B with Change 3, what does Test 17 require when determining a pressure at which a material is not flammable in GOX? Include rod dimensions, mounting and ignition, the recorded burn quantity and the specimen/consumption condition. Treat these as requirements.",
+      "followup_of": null
+    },
+    {
+      "id": "reserved-two-models",
+      "question": "Compare the documented modeling approaches of PSI-115 and PSI-117: what physical process does each model, which computational approach is described, and how does each relate to the earlier SAME or FLEX work? Keep numerical predictions distinct from new ISS observations.",
+      "followup_of": null
+    },
+    {
+      "id": "reserved-bass-film-limits",
+      "question": "What approximate extinction velocities does the BASS-II RTDFS report associate with its 100, 200, 300 and 400 micrometer films, and what qualifications does it give about interpreting those velocities? Keep this film-study result separate from rod or cylinder tests.",
+      "followup_of": null
+    }
+  ]
+}

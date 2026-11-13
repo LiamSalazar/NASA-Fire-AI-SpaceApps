@@ -1,0 +1,230 @@
+{
+  "version": "phase2-closure-2026-10-04",
+  "cases": [
+    {
+      "id": "discovery-doc-01",
+      "frozen_gold_id": "doc-01",
+      "query": "Operation and Development Status of the Spacecraft Fire Experiments (Saffire)",
+      "relevant_evidence_ids": [
+        "E-7f35938982a28c00"
+      ],
+      "relevant_source_ids": [
+        "ntrs-20170000230"
+      ],
+      "why_potentially_relevant": "Frozen source-backed documentary retrieval gold identifies the NASA source as relevant to the query.",
+      "why_not_direct": "The query has no deterministic structured experiment match in the current QueryIntent/KG model.",
+      "why_not_related": "No explicit structured overlap/difference relation is established for this documentary query.",
+      "review_status": "SOURCE_BACKED_FROM_FROZEN_RETRIEVAL_GOLD"
+    },
+    {
+      "id": "discovery-doc-02",
+      "frozen_gold_id": "doc-02",
+      "query": "Detailed Results from the Flame Extinguishment Experiment (FLEX) March 2009 to December 2011",
+      "relevant_evidence_ids": [
+        "E-9430fee2b585638d"
+      ],
+      "relevant_source_ids": [
+        "ntrs-20150023456"
+      ],
+      "why_potentially_relevant": "Frozen source-backed documentary retrieval gold identifies the NASA source as relevant to the query.",
+      "why_not_direct": "The query has no deterministic structured experiment match in the current QueryIntent/KG model.",
+      "why_not_related": "No explicit structured overlap/difference relation is established for this documentary query.",
+      "review_status": "SOURCE_BACKED_FROM_FROZEN_RETRIEVAL_GOLD"
+    },
+    {
+      "id": "discovery-doc-03",
+      "frozen_gold_id": "doc-03",
+      "query": "Burning and Suppression of Solids\u2013II  (BASS-II) Summary Report",
+      "relevant_evidence_ids": [
+        "E-c774312e17ccb06d"
+      ],
+      "relevant_source_ids": [
+        "ntrs-20210011385"
+      ],
+      "why_potentially_relevant": "Frozen source-backed documentary retrieval gold identifies the NASA source as relevant to the query.",
+      "why_not_direct": "The query has no deterministic structured experiment match in the current QueryIntent/KG model.",
+      "why_not_related": "No explicit structured overlap/difference relation is established for this documentary query.",
+      "review_status": "SOURCE_BACKED_FROM_FROZEN_RETRIEVAL_GOLD"
+    },
+    {
+      "id": "discovery-doc-04",
+      "frozen_gold_id": "doc-04",
+      "query": "Smoke Point in Co-flow Experiment",
+      "relevant_evidence_ids": [
+        "E-c34c762ad3701077"
+      ],
+      "relevant_source_ids": [
+        "ntrs-20090014827"
+      ],
+      "why_potentially_relevant": "Frozen source-backed documentary retrieval gold identifies the NASA source as relevant to the query.",
+      "why_not_direct": "The query has no deterministic structured experiment match in the current QueryIntent/KG model.",
+      "why_not_related": "No explicit structured overlap/difference relation is established for this documentary query.",
+      "review_status": "SOURCE_BACKED_FROM_FROZEN_RETRIEVAL_GOLD"
+    },
+    {
+      "id": "discovery-doc-05",
+      "frozen_gold_id": "doc-05",
+      "query": "Particle Morphology and Size Results from the Smoke Aerosol Measurement Experiment-2",
+      "relevant_evidence_ids": [
+        "E-a5819c15b7296371"
+      ],
+      "relevant_source_ids": [
+        "ntrs-20130000422"
+      ],
+      "why_potentially_relevant": "Frozen source-backed documentary retrieval gold identifies the NASA source as relevant to the query.",
+      "why_not_direct": "The query has no deterministic structured experiment match in the current QueryIntent/KG model.",
+      "why_not_related": "No explicit structured overlap/difference relation is established for this documentary query.",
+      "review_status": "SOURCE_BACKED_FROM_FROZEN_RETRIEVAL_GOLD"
+    },
+    {
+      "id": "discovery-doc-06",
+      "frozen_gold_id": "doc-06",
+      "query": "Solid Fuel Ignition and Extinction (SoFIE) Project on ISS",
+      "relevant_evidence_ids": [
+        "E-3d68b8c9639a1039"
+      ],
+      "relevant_source_ids": [
+        "ntrs-20200000361"
+      ],
+      "why_potentially_relevant": "Frozen source-backed documentary retrieval gold identifies the NASA source as relevant to the query.",
+      "why_not_direct": "The query has no deterministic structured experiment match in the current QueryIntent/KG model.",
+      "why_not_related": "No explicit structured overlap/difference relation is established for this documentary query.",
+      "review_status": "SOURCE_BACKED_FROM_FROZEN_RETRIEVAL_GOLD"
+    },
+    {
+      "id": "discovery-doc-07",
+      "frozen_gold_id": "doc-07",
+      "query": "Advanced Combustion via Microgravity Experiments (ACME) on the International Space Station (ISS)",
+      "relevant_evidence_ids": [
+        "E-a689148c4a5414c1"
+      ],
+      "relevant_source_ids": [
+        "ntrs-20210015913"
+      ],
+      "why_potentially_relevant": "Frozen source-backed documentary retrieval gold identifies the NASA source as relevant to the query.",
+      "why_not_direct": "The query has no deterministic structured experiment match in the current QueryIntent/KG model.",
+      "why_not_related": "No explicit structured overlap/difference relation is established for this documentary query.",
+      "review_status": "SOURCE_BACKED_FROM_FROZEN_RETRIEVAL_GOLD"
+    },
+    {
+      "id": "discovery-doc-08",
+      "frozen_gold_id": "doc-08",
+      "query": "Large Scale Experiments on Spacecraft Fire Safety",
+      "relevant_evidence_ids": [
+        "E-9815fc1d6b05e578"
+      ],
+      "relevant_source_ids": [
+        "ntrs-20130000677"
+      ],
+      "why_potentially_relevant": "Frozen source-backed documentary retrieval gold identifies the NASA source as relevant to the query.",
+      "why_not_direct": "The query has no deterministic structured experiment match in the current QueryIntent/KG model.",
+      "why_not_related": "No explicit structured overlap/difference relation is established for this documentary query.",
+      "review_status": "SOURCE_BACKED_FROM_FROZEN_RETRIEVAL_GOLD"
+    },
+    {
+      "id": "discovery-doc-09",
+      "frozen_gold_id": "doc-09",
+      "query": "Physical Science Informatics: Providing Open Science Access to Microheater Array Boiling Experiment Data",
+      "relevant_evidence_ids": [
+        "E-25c956c94c6bdff9"
+      ],
+      "relevant_source_ids": [
+        "ntrs-20150002323"
+      ],
+      "why_potentially_relevant": "Frozen source-backed documentary retrieval gold identifies the NASA source as relevant to the query.",
+      "why_not_direct": "The query has no deterministic structured experiment match in the current QueryIntent/KG model.",
+      "why_not_related": "No explicit structured overlap/difference relation is established for this documentary query.",
+      "review_status": "SOURCE_BACKED_FROM_FROZEN_RETRIEVAL_GOLD"
+    },
+    {
+      "id": "discovery-doc-10",
+      "frozen_gold_id": "doc-10",
+      "query": "Opposed-Flow Flame Spread in a Narrow Channel Apparatus over Thin PMMA Sheets",
+      "relevant_evidence_ids": [
+        "E-288abcbb37f9cca8"
+      ],
+      "relevant_source_ids": [
+        "ntrs-20140004923"
+      ],
+      "why_potentially_relevant": "Frozen source-backed documentary retrieval gold identifies the NASA source as relevant to the query.",
+      "why_not_direct": "The query has no deterministic structured experiment match in the current QueryIntent/KG model.",
+      "why_not_related": "No explicit structured overlap/difference relation is established for this documentary query.",
+      "review_status": "SOURCE_BACKED_FROM_FROZEN_RETRIEVAL_GOLD"
+    },
+    {
+      "id": "discovery-doc-11",
+      "frozen_gold_id": "doc-11",
+      "query": "Combustion of Interacting Droplet Arrays in a Microgravity Environment",
+      "relevant_evidence_ids": [
+        "E-256e4a37cd0abe41"
+      ],
+      "relevant_source_ids": [
+        "ntrs-20010074042"
+      ],
+      "why_potentially_relevant": "Frozen source-backed documentary retrieval gold identifies the NASA source as relevant to the query.",
+      "why_not_direct": "The query has no deterministic structured experiment match in the current QueryIntent/KG model.",
+      "why_not_related": "No explicit structured overlap/difference relation is established for this documentary query.",
+      "review_status": "SOURCE_BACKED_FROM_FROZEN_RETRIEVAL_GOLD"
+    },
+    {
+      "id": "discovery-doc-12",
+      "frozen_gold_id": "doc-12",
+      "query": "Microgravity Smoldering Combustion Takes Flight",
+      "relevant_evidence_ids": [
+        "E-0656b58393e42d0a"
+      ],
+      "relevant_source_ids": [
+        "ntrs-20050172091"
+      ],
+      "why_potentially_relevant": "Frozen source-backed documentary retrieval gold identifies the NASA source as relevant to the query.",
+      "why_not_direct": "The query has no deterministic structured experiment match in the current QueryIntent/KG model.",
+      "why_not_related": "No explicit structured overlap/difference relation is established for this documentary query.",
+      "review_status": "SOURCE_BACKED_FROM_FROZEN_RETRIEVAL_GOLD"
+    },
+    {
+      "id": "discovery-doc-13",
+      "frozen_gold_id": "doc-13",
+      "query": "\"Smoke\": Characterization Of Smoke Particulate For Spacecraft Fire Detection",
+      "relevant_evidence_ids": [
+        "E-93ff764ac6980455"
+      ],
+      "relevant_source_ids": [
+        "ntrs-20040053578"
+      ],
+      "why_potentially_relevant": "Frozen source-backed documentary retrieval gold identifies the NASA source as relevant to the query.",
+      "why_not_direct": "The query has no deterministic structured experiment match in the current QueryIntent/KG model.",
+      "why_not_related": "No explicit structured overlap/difference relation is established for this documentary query.",
+      "review_status": "SOURCE_BACKED_FROM_FROZEN_RETRIEVAL_GOLD"
+    },
+    {
+      "id": "discovery-doc-14",
+      "frozen_gold_id": "doc-14",
+      "query": "Effects of Fuel Preheat on Soot Formation in Microgravity Laminar Diffusion Flames",
+      "relevant_evidence_ids": [
+        "E-0de68411559fad26"
+      ],
+      "relevant_source_ids": [
+        "ntrs-19970020584"
+      ],
+      "why_potentially_relevant": "Frozen source-backed documentary retrieval gold identifies the NASA source as relevant to the query.",
+      "why_not_direct": "The query has no deterministic structured experiment match in the current QueryIntent/KG model.",
+      "why_not_related": "No explicit structured overlap/difference relation is established for this documentary query.",
+      "review_status": "SOURCE_BACKED_FROM_FROZEN_RETRIEVAL_GOLD"
+    },
+    {
+      "id": "discovery-doc-15",
+      "frozen_gold_id": "doc-15",
+      "query": "The Spacecraft Fire Experiment (Saffire) - Objectives, Development and Status",
+      "relevant_evidence_ids": [
+        "E-1cd91b1ca53399a1"
+      ],
+      "relevant_source_ids": [
+        "ntrs-20170001636"
+      ],
+      "why_potentially_relevant": "Frozen source-backed documentary retrieval gold identifies the NASA source as relevant to the query.",
+      "why_not_direct": "The query has no deterministic structured experiment match in the current QueryIntent/KG model.",
+      "why_not_related": "No explicit structured overlap/difference relation is established for this documentary query.",
+      "review_status": "SOURCE_BACKED_FROM_FROZEN_RETRIEVAL_GOLD"
+    }
+  ]
+}

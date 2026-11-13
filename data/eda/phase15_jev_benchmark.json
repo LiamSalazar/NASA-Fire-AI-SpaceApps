@@ -1,0 +1,1590 @@
+{
+  "gold_cases": 30,
+  "rule_baseline": {
+    "accuracy": 0.8667,
+    "macro_precision": 0.637,
+    "macro_recall": 0.6952,
+    "macro_f1": 0.6576,
+    "per_class": {
+      "DesignCriterion": {
+        "support": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "Guidance": {
+        "support": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Intervention": {
+        "support": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "NASAConclusion": {
+        "support": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "NASAIdentifiedOpenQuestion": {
+        "support": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "NONE": {
+        "support": 21,
+        "precision": 0.8696,
+        "recall": 0.9524,
+        "f1": 0.9091
+      },
+      "ReportedExperimentalObservation": {
+        "support": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "Requirement": {
+        "support": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "SafetyImplication": {
+        "support": 1,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6667
+      },
+      "TestCriterion": {
+        "support": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    },
+    "confusion_matrix": {
+      "DesignCriterion": {
+        "DesignCriterion": 0,
+        "Guidance": 0,
+        "Intervention": 0,
+        "NASAConclusion": 0,
+        "NASAIdentifiedOpenQuestion": 0,
+        "NONE": 1,
+        "ReportedExperimentalObservation": 0,
+        "Requirement": 0,
+        "SafetyImplication": 0,
+        "TestCriterion": 0
+      },
+      "Guidance": {
+        "DesignCriterion": 0,
+        "Guidance": 1,
+        "Intervention": 0,
+        "NASAConclusion": 0,
+        "NASAIdentifiedOpenQuestion": 0,
+        "NONE": 0,
+        "ReportedExperimentalObservation": 0,
+        "Requirement": 0,
+        "SafetyImplication": 0,
+        "TestCriterion": 0
+      },
+      "Intervention": {
+        "DesignCriterion": 0,
+        "Guidance": 0,
+        "Intervention": 1,
+        "NASAConclusion": 0,
+        "NASAIdentifiedOpenQuestion": 0,
+        "NONE": 0,
+        "ReportedExperimentalObservation": 0,
+        "Requirement": 0,
+        "SafetyImplication": 0,
+        "TestCriterion": 0
+      },
+      "NASAConclusion": {
+        "DesignCriterion": 0,
+        "Guidance": 0,
+        "Intervention": 0,
+        "NASAConclusion": 0,
+        "NASAIdentifiedOpenQuestion": 0,
+        "NONE": 1,
+        "ReportedExperimentalObservation": 0,
+        "Requirement": 0,
+        "SafetyImplication": 0,
+        "TestCriterion": 0
+      },
+      "NASAIdentifiedOpenQuestion": {
+        "DesignCriterion": 0,
+        "Guidance": 0,
+        "Intervention": 0,
+        "NASAConclusion": 0,
+        "NASAIdentifiedOpenQuestion": 1,
+        "NONE": 0,
+        "ReportedExperimentalObservation": 0,
+        "Requirement": 0,
+        "SafetyImplication": 0,
+        "TestCriterion": 0
+      },
+      "NONE": {
+        "DesignCriterion": 0,
+        "Guidance": 0,
+        "Intervention": 0,
+        "NASAConclusion": 0,
+        "NASAIdentifiedOpenQuestion": 0,
+        "NONE": 20,
+        "ReportedExperimentalObservation": 0,
+        "Requirement": 0,
+        "SafetyImplication": 1,
+        "TestCriterion": 0
+      },
+      "ReportedExperimentalObservation": {
+        "DesignCriterion": 0,
+        "Guidance": 0,
+        "Intervention": 0,
+        "NASAConclusion": 0,
+        "NASAIdentifiedOpenQuestion": 0,
+        "NONE": 0,
+        "ReportedExperimentalObservation": 1,
+        "Requirement": 0,
+        "SafetyImplication": 0,
+        "TestCriterion": 0
+      },
+      "Requirement": {
+        "DesignCriterion": 0,
+        "Guidance": 0,
+        "Intervention": 0,
+        "NASAConclusion": 0,
+        "NASAIdentifiedOpenQuestion": 0,
+        "NONE": 0,
+        "ReportedExperimentalObservation": 0,
+        "Requirement": 1,
+        "SafetyImplication": 0,
+        "TestCriterion": 0
+      },
+      "SafetyImplication": {
+        "DesignCriterion": 0,
+        "Guidance": 0,
+        "Intervention": 0,
+        "NASAConclusion": 0,
+        "NASAIdentifiedOpenQuestion": 0,
+        "NONE": 0,
+        "ReportedExperimentalObservation": 0,
+        "Requirement": 0,
+        "SafetyImplication": 1,
+        "TestCriterion": 0
+      },
+      "TestCriterion": {
+        "DesignCriterion": 0,
+        "Guidance": 0,
+        "Intervention": 0,
+        "NASAConclusion": 0,
+        "NASAIdentifiedOpenQuestion": 0,
+        "NONE": 1,
+        "ReportedExperimentalObservation": 0,
+        "Requirement": 0,
+        "SafetyImplication": 0,
+        "TestCriterion": 0
+      }
+    }
+  },
+  "status": "EXECUTED",
+  "requested_model": "jev-latest",
+  "models_response": {
+    "models": [
+      {
+        "name": "jev-latest",
+        "description": "The latest iteration of TypeSafe's System One Model: Jev",
+        "release_date": "2026-09-10T18:38:01.391457+00:00"
+      },
+      {
+        "name": "jev-preview",
+        "description": "A preview version of `jev-latest`: should be better in most ways",
+        "release_date": "2026-09-10T18:39:06.057655+00:00"
+      }
+    ]
+  },
+  "jev": {
+    "accuracy": 0.7333,
+    "macro_precision": 0.5083,
+    "macro_recall": 0.7714,
+    "macro_f1": 0.5733,
+    "per_class": {
+      "DesignCriterion": {
+        "support": 1,
+        "precision": 0.3333,
+        "recall": 1.0,
+        "f1": 0.5
+      },
+      "Guidance": {
+        "support": 1,
+        "precision": 0.25,
+        "recall": 1.0,
+        "f1": 0.4
+      },
+      "Intervention": {
+        "support": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "NASAConclusion": {
+        "support": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "NASAIdentifiedOpenQuestion": {
+        "support": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "NONE": {
+        "support": 21,
+        "precision": 1.0,
+        "recall": 0.7143,
+        "f1": 0.8333
+      },
+      "ReportedExperimentalObservation": {
+        "support": 1,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6667
+      },
+      "Requirement": {
+        "support": 1,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6667
+      },
+      "SafetyImplication": {
+        "support": 1,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6667
+      },
+      "TestCriterion": {
+        "support": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    },
+    "confusion_matrix": {
+      "DesignCriterion": {
+        "DesignCriterion": 1,
+        "Guidance": 0,
+        "Intervention": 0,
+        "NASAConclusion": 0,
+        "NASAIdentifiedOpenQuestion": 0,
+        "NONE": 0,
+        "ReportedExperimentalObservation": 0,
+        "Requirement": 0,
+        "SafetyImplication": 0,
+        "TestCriterion": 0
+      },
+      "Guidance": {
+        "DesignCriterion": 0,
+        "Guidance": 1,
+        "Intervention": 0,
+        "NASAConclusion": 0,
+        "NASAIdentifiedOpenQuestion": 0,
+        "NONE": 0,
+        "ReportedExperimentalObservation": 0,
+        "Requirement": 0,
+        "SafetyImplication": 0,
+        "TestCriterion": 0
+      },
+      "Intervention": {
+        "DesignCriterion": 0,
+        "Guidance": 0,
+        "Intervention": 1,
+        "NASAConclusion": 0,
+        "NASAIdentifiedOpenQuestion": 0,
+        "NONE": 0,
+        "ReportedExperimentalObservation": 0,
+        "Requirement": 0,
+        "SafetyImplication": 0,
+        "TestCriterion": 0
+      },
+      "NASAConclusion": {
+        "DesignCriterion": 0,
+        "Guidance": 0,
+        "Intervention": 0,
+        "NASAConclusion": 0,
+        "NASAIdentifiedOpenQuestion": 0,
+        "NONE": 0,
+        "ReportedExperimentalObservation": 1,
+        "Requirement": 0,
+        "SafetyImplication": 0,
+        "TestCriterion": 0
+      },
+      "NASAIdentifiedOpenQuestion": {
+        "DesignCriterion": 0,
+        "Guidance": 0,
+        "Intervention": 0,
+        "NASAConclusion": 0,
+        "NASAIdentifiedOpenQuestion": 1,
+        "NONE": 0,
+        "ReportedExperimentalObservation": 0,
+        "Requirement": 0,
+        "SafetyImplication": 0,
+        "TestCriterion": 0
+      },
+      "NONE": {
+        "DesignCriterion": 2,
+        "Guidance": 3,
+        "Intervention": 0,
+        "NASAConclusion": 0,
+        "NASAIdentifiedOpenQuestion": 0,
+        "NONE": 15,
+        "ReportedExperimentalObservation": 0,
+        "Requirement": 0,
+        "SafetyImplication": 1,
+        "TestCriterion": 0
+      },
+      "ReportedExperimentalObservation": {
+        "DesignCriterion": 0,
+        "Guidance": 0,
+        "Intervention": 0,
+        "NASAConclusion": 0,
+        "NASAIdentifiedOpenQuestion": 0,
+        "NONE": 0,
+        "ReportedExperimentalObservation": 1,
+        "Requirement": 0,
+        "SafetyImplication": 0,
+        "TestCriterion": 0
+      },
+      "Requirement": {
+        "DesignCriterion": 0,
+        "Guidance": 0,
+        "Intervention": 0,
+        "NASAConclusion": 0,
+        "NASAIdentifiedOpenQuestion": 0,
+        "NONE": 0,
+        "ReportedExperimentalObservation": 0,
+        "Requirement": 1,
+        "SafetyImplication": 0,
+        "TestCriterion": 0
+      },
+      "SafetyImplication": {
+        "DesignCriterion": 0,
+        "Guidance": 0,
+        "Intervention": 0,
+        "NASAConclusion": 0,
+        "NASAIdentifiedOpenQuestion": 0,
+        "NONE": 0,
+        "ReportedExperimentalObservation": 0,
+        "Requirement": 0,
+        "SafetyImplication": 1,
+        "TestCriterion": 0
+      },
+      "TestCriterion": {
+        "DesignCriterion": 0,
+        "Guidance": 0,
+        "Intervention": 0,
+        "NASAConclusion": 0,
+        "NASAIdentifiedOpenQuestion": 0,
+        "NONE": 0,
+        "ReportedExperimentalObservation": 0,
+        "Requirement": 1,
+        "SafetyImplication": 0,
+        "TestCriterion": 0
+      }
+    }
+  },
+  "triage": {
+    "accuracy": 0.9333,
+    "precision": 0.8889,
+    "recall": 0.8889,
+    "f1": 0.8889,
+    "false_positive_rate": 0.0476,
+    "false_negative_rate": 0.1111,
+    "counts": {
+      "tp": 8,
+      "fp": 1,
+      "tn": 20,
+      "fn": 1
+    }
+  },
+  "api_calls": 31,
+  "latency_seconds": {
+    "median": 0.309,
+    "max": 0.41
+  },
+  "usage": {
+    "input_tokens": 19666,
+    "output_tokens": 4343
+  },
+  "confidence": {
+    "count": 30,
+    "mean": 0.8103,
+    "correct_mean": 0.9241,
+    "incorrect_mean": 0.4975,
+    "high_confidence_errors": 2
+  },
+  "class_specific": {
+    "open_question_false_positive_rate": 0.0,
+    "reported_observation_false_positive_rate": 0.5,
+    "safety_implication_precision": 0.5,
+    "none_precision": 1.0,
+    "none_recall": 0.7143
+  },
+  "outputs": [
+    {
+      "gold_case_id": "reviewed-saffire-iv-flow-off-20s",
+      "prediction": "Intervention",
+      "confidence": 0.77,
+      "triage_probability": 0.87,
+      "latency_seconds": 0.316,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "contains_candidate_claim": {
+            "type": "noul",
+            "noul": 0.87
+          },
+          "epistemic_type": {
+            "type": "choice",
+            "choice": "Intervention",
+            "confidence": 0.77,
+            "probabilities": {
+              "NASAIdentifiedOpenQuestion": 0.0,
+              "TestCriterion": 0.0,
+              "NASAConclusion": 0.0,
+              "Intervention": 0.8,
+              "ReportedExperimentalObservation": 0.19,
+              "DesignCriterion": 0.0,
+              "Requirement": 0.0,
+              "NONE": 0.01,
+              "Guidance": 0.0,
+              "SafetyImplication": 0.0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 669,
+          "output_tokens": 146
+        }
+      }
+    },
+    {
+      "gold_case_id": "reviewed-saffire-iv-flow-off-observation",
+      "prediction": "ReportedExperimentalObservation",
+      "confidence": 0.98,
+      "triage_probability": 0.88,
+      "latency_seconds": 0.41,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "contains_candidate_claim": {
+            "type": "noul",
+            "noul": 0.88
+          },
+          "epistemic_type": {
+            "type": "choice",
+            "choice": "ReportedExperimentalObservation",
+            "confidence": 0.98,
+            "probabilities": {
+              "Intervention": 0.0,
+              "NASAConclusion": 0.0,
+              "Requirement": 0.0,
+              "NASAIdentifiedOpenQuestion": 0.0,
+              "TestCriterion": 0.0,
+              "DesignCriterion": 0.0,
+              "ReportedExperimentalObservation": 0.99,
+              "Guidance": 0.0,
+              "NONE": 0.01,
+              "SafetyImplication": 0.0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 668,
+          "output_tokens": 152
+        }
+      }
+    },
+    {
+      "gold_case_id": "reviewed-saffire-suppression-conclusion",
+      "prediction": "ReportedExperimentalObservation",
+      "confidence": 0.32,
+      "triage_probability": 0.87,
+      "latency_seconds": 0.307,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "contains_candidate_claim": {
+            "type": "noul",
+            "noul": 0.87
+          },
+          "epistemic_type": {
+            "type": "choice",
+            "choice": "ReportedExperimentalObservation",
+            "confidence": 0.32,
+            "probabilities": {
+              "NASAConclusion": 0.3,
+              "DesignCriterion": 0.0,
+              "TestCriterion": 0.0,
+              "NASAIdentifiedOpenQuestion": 0.0,
+              "Guidance": 0.0,
+              "SafetyImplication": 0.02,
+              "Requirement": 0.04,
+              "ReportedExperimentalObservation": 0.4,
+              "Intervention": 0.02,
+              "NONE": 0.22
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 682,
+          "output_tokens": 152
+        }
+      }
+    },
+    {
+      "gold_case_id": "reviewed-saffire-suppression-open-question",
+      "prediction": "NASAIdentifiedOpenQuestion",
+      "confidence": 0.61,
+      "triage_probability": 0.8,
+      "latency_seconds": 0.41,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "contains_candidate_claim": {
+            "type": "noul",
+            "noul": 0.8
+          },
+          "epistemic_type": {
+            "type": "choice",
+            "choice": "NASAIdentifiedOpenQuestion",
+            "confidence": 0.61,
+            "probabilities": {
+              "NONE": 0.09,
+              "Intervention": 0.0,
+              "TestCriterion": 0.02,
+              "NASAConclusion": 0.0,
+              "Guidance": 0.04,
+              "SafetyImplication": 0.0,
+              "ReportedExperimentalObservation": 0.0,
+              "Requirement": 0.2,
+              "NASAIdentifiedOpenQuestion": 0.65,
+              "DesignCriterion": 0.0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 661,
+          "output_tokens": 151
+        }
+      }
+    },
+    {
+      "gold_case_id": "reviewed-suppression-system-implication",
+      "prediction": "SafetyImplication",
+      "confidence": 0.96,
+      "triage_probability": 0.76,
+      "latency_seconds": 0.307,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "contains_candidate_claim": {
+            "type": "noul",
+            "noul": 0.76
+          },
+          "epistemic_type": {
+            "type": "choice",
+            "choice": "SafetyImplication",
+            "confidence": 0.96,
+            "probabilities": {
+              "NONE": 0.03,
+              "TestCriterion": 0.0,
+              "DesignCriterion": 0.0,
+              "NASAIdentifiedOpenQuestion": 0.0,
+              "NASAConclusion": 0.0,
+              "SafetyImplication": 0.97,
+              "Requirement": 0.0,
+              "Intervention": 0.0,
+              "ReportedExperimentalObservation": 0.0,
+              "Guidance": 0.0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 680,
+          "output_tokens": 147
+        }
+      }
+    },
+    {
+      "gold_case_id": "reviewed-std-6001-applicability",
+      "prediction": "Requirement",
+      "confidence": 0.99,
+      "triage_probability": 0.74,
+      "latency_seconds": 0.307,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "contains_candidate_claim": {
+            "type": "noul",
+            "noul": 0.74
+          },
+          "epistemic_type": {
+            "type": "choice",
+            "choice": "Requirement",
+            "confidence": 0.99,
+            "probabilities": {
+              "TestCriterion": 0.0,
+              "Guidance": 0.0,
+              "NASAConclusion": 0.0,
+              "Requirement": 0.99,
+              "NONE": 0.01,
+              "Intervention": 0.0,
+              "NASAIdentifiedOpenQuestion": 0.0,
+              "ReportedExperimentalObservation": 0.0,
+              "SafetyImplication": 0.0,
+              "DesignCriterion": 0.0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 685,
+          "output_tokens": 143
+        }
+      }
+    },
+    {
+      "gold_case_id": "reviewed-std-6001-worst-case-test",
+      "prediction": "Requirement",
+      "confidence": 0.6,
+      "triage_probability": 0.87,
+      "latency_seconds": 0.307,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "contains_candidate_claim": {
+            "type": "noul",
+            "noul": 0.87
+          },
+          "epistemic_type": {
+            "type": "choice",
+            "choice": "Requirement",
+            "confidence": 0.6,
+            "probabilities": {
+              "NONE": 0.0,
+              "NASAConclusion": 0.0,
+              "SafetyImplication": 0.0,
+              "Intervention": 0.0,
+              "TestCriterion": 0.36,
+              "Requirement": 0.64,
+              "Guidance": 0.0,
+              "NASAIdentifiedOpenQuestion": 0.0,
+              "ReportedExperimentalObservation": 0.0,
+              "DesignCriterion": 0.0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 669,
+          "output_tokens": 143
+        }
+      }
+    },
+    {
+      "gold_case_id": "reviewed-configuration-guidance",
+      "prediction": "Guidance",
+      "confidence": 0.85,
+      "triage_probability": 0.24,
+      "latency_seconds": 0.335,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "contains_candidate_claim": {
+            "type": "noul",
+            "noul": 0.24
+          },
+          "epistemic_type": {
+            "type": "choice",
+            "choice": "Guidance",
+            "confidence": 0.85,
+            "probabilities": {
+              "ReportedExperimentalObservation": 0.0,
+              "TestCriterion": 0.0,
+              "Guidance": 0.87,
+              "Requirement": 0.0,
+              "Intervention": 0.0,
+              "DesignCriterion": 0.0,
+              "NONE": 0.13,
+              "NASAConclusion": 0.0,
+              "SafetyImplication": 0.0,
+              "NASAIdentifiedOpenQuestion": 0.0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 666,
+          "output_tokens": 144
+        }
+      }
+    },
+    {
+      "gold_case_id": "reviewed-configuration-design-criterion",
+      "prediction": "DesignCriterion",
+      "confidence": 0.52,
+      "triage_probability": 0.74,
+      "latency_seconds": 0.382,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "contains_candidate_claim": {
+            "type": "noul",
+            "noul": 0.74
+          },
+          "epistemic_type": {
+            "type": "choice",
+            "choice": "DesignCriterion",
+            "confidence": 0.52,
+            "probabilities": {
+              "TestCriterion": 0.0,
+              "Guidance": 0.01,
+              "NASAConclusion": 0.0,
+              "Requirement": 0.09,
+              "NASAIdentifiedOpenQuestion": 0.0,
+              "Intervention": 0.0,
+              "NONE": 0.1,
+              "ReportedExperimentalObservation": 0.0,
+              "SafetyImplication": 0.22,
+              "DesignCriterion": 0.5700000000000001
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 688,
+          "output_tokens": 147
+        }
+      }
+    },
+    {
+      "gold_case_id": "reviewed-negative-01",
+      "prediction": "SafetyImplication",
+      "confidence": 0.91,
+      "triage_probability": 0.71,
+      "latency_seconds": 0.307,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "contains_candidate_claim": {
+            "type": "noul",
+            "noul": 0.71
+          },
+          "epistemic_type": {
+            "type": "choice",
+            "choice": "SafetyImplication",
+            "confidence": 0.91,
+            "probabilities": {
+              "Intervention": 0.0,
+              "SafetyImplication": 0.93,
+              "NASAIdentifiedOpenQuestion": 0.0,
+              "NONE": 0.07,
+              "Requirement": 0.0,
+              "DesignCriterion": 0.0,
+              "Guidance": 0.0,
+              "TestCriterion": 0.0,
+              "ReportedExperimentalObservation": 0.0,
+              "NASAConclusion": 0.0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 657,
+          "output_tokens": 147
+        }
+      }
+    },
+    {
+      "gold_case_id": "reviewed-negative-02",
+      "prediction": "Guidance",
+      "confidence": 0.18,
+      "triage_probability": 0.22,
+      "latency_seconds": 0.307,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "contains_candidate_claim": {
+            "type": "noul",
+            "noul": 0.22
+          },
+          "epistemic_type": {
+            "type": "choice",
+            "choice": "Guidance",
+            "confidence": 0.18,
+            "probabilities": {
+              "TestCriterion": 0.08,
+              "NASAConclusion": 0.0,
+              "ReportedExperimentalObservation": 0.0,
+              "Guidance": 0.27,
+              "DesignCriterion": 0.02,
+              "NONE": 0.22,
+              "Intervention": 0.1,
+              "Requirement": 0.19,
+              "SafetyImplication": 0.08,
+              "NASAIdentifiedOpenQuestion": 0.04
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 660,
+          "output_tokens": 144
+        }
+      }
+    },
+    {
+      "gold_case_id": "reviewed-negative-03",
+      "prediction": "NONE",
+      "confidence": 0.79,
+      "triage_probability": 0.06,
+      "latency_seconds": 0.348,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "contains_candidate_claim": {
+            "type": "noul",
+            "noul": 0.06
+          },
+          "epistemic_type": {
+            "type": "choice",
+            "choice": "NONE",
+            "confidence": 0.79,
+            "probabilities": {
+              "DesignCriterion": 0.0,
+              "SafetyImplication": 0.0,
+              "Guidance": 0.01,
+              "TestCriterion": 0.06,
+              "ReportedExperimentalObservation": 0.0,
+              "Intervention": 0.0,
+              "NASAIdentifiedOpenQuestion": 0.1,
+              "NONE": 0.81,
+              "NASAConclusion": 0.0,
+              "Requirement": 0.01
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 641,
+          "output_tokens": 143
+        }
+      }
+    },
+    {
+      "gold_case_id": "reviewed-negative-04",
+      "prediction": "NONE",
+      "confidence": 1.0,
+      "triage_probability": 0.03,
+      "latency_seconds": 0.369,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "contains_candidate_claim": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "epistemic_type": {
+            "type": "choice",
+            "choice": "NONE",
+            "confidence": 1.0,
+            "probabilities": {
+              "Guidance": 0.0,
+              "Intervention": 0.0,
+              "SafetyImplication": 0.0,
+              "DesignCriterion": 0.0,
+              "ReportedExperimentalObservation": 0.0,
+              "NASAIdentifiedOpenQuestion": 0.0,
+              "NASAConclusion": 0.0,
+              "Requirement": 0.0,
+              "NONE": 1.0,
+              "TestCriterion": 0.0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 637,
+          "output_tokens": 143
+        }
+      }
+    },
+    {
+      "gold_case_id": "reviewed-negative-05",
+      "prediction": "NONE",
+      "confidence": 0.96,
+      "triage_probability": 0.06,
+      "latency_seconds": 0.307,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "contains_candidate_claim": {
+            "type": "noul",
+            "noul": 0.06
+          },
+          "epistemic_type": {
+            "type": "choice",
+            "choice": "NONE",
+            "confidence": 0.96,
+            "probabilities": {
+              "Guidance": 0.0,
+              "Intervention": 0.0,
+              "SafetyImplication": 0.0,
+              "DesignCriterion": 0.0,
+              "ReportedExperimentalObservation": 0.03,
+              "NASAIdentifiedOpenQuestion": 0.0,
+              "NASAConclusion": 0.0,
+              "Requirement": 0.0,
+              "NONE": 0.97,
+              "TestCriterion": 0.0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 646,
+          "output_tokens": 143
+        }
+      }
+    },
+    {
+      "gold_case_id": "reviewed-negative-06",
+      "prediction": "NONE",
+      "confidence": 1.0,
+      "triage_probability": 0.03,
+      "latency_seconds": 0.307,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "contains_candidate_claim": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "epistemic_type": {
+            "type": "choice",
+            "choice": "NONE",
+            "confidence": 1.0,
+            "probabilities": {
+              "Requirement": 0.0,
+              "NASAConclusion": 0.0,
+              "Intervention": 0.0,
+              "DesignCriterion": 0.0,
+              "NASAIdentifiedOpenQuestion": 0.0,
+              "SafetyImplication": 0.0,
+              "Guidance": 0.0,
+              "NONE": 1.0,
+              "ReportedExperimentalObservation": 0.0,
+              "TestCriterion": 0.0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 638,
+          "output_tokens": 143
+        }
+      }
+    },
+    {
+      "gold_case_id": "reviewed-negative-07",
+      "prediction": "Guidance",
+      "confidence": 0.24,
+      "triage_probability": 0.12,
+      "latency_seconds": 0.41,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "contains_candidate_claim": {
+            "type": "noul",
+            "noul": 0.12
+          },
+          "epistemic_type": {
+            "type": "choice",
+            "choice": "Guidance",
+            "confidence": 0.24,
+            "probabilities": {
+              "SafetyImplication": 0.0,
+              "Intervention": 0.01,
+              "NASAIdentifiedOpenQuestion": 0.03,
+              "NONE": 0.23,
+              "Requirement": 0.2,
+              "DesignCriterion": 0.21,
+              "Guidance": 0.32,
+              "TestCriterion": 0.0,
+              "ReportedExperimentalObservation": 0.0,
+              "NASAConclusion": 0.0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 642,
+          "output_tokens": 144
+        }
+      }
+    },
+    {
+      "gold_case_id": "reviewed-negative-08",
+      "prediction": "NONE",
+      "confidence": 1.0,
+      "triage_probability": 0.05,
+      "latency_seconds": 0.307,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "contains_candidate_claim": {
+            "type": "noul",
+            "noul": 0.05
+          },
+          "epistemic_type": {
+            "type": "choice",
+            "choice": "NONE",
+            "confidence": 1.0,
+            "probabilities": {
+              "NONE": 1.0,
+              "Intervention": 0.0,
+              "Requirement": 0.0,
+              "SafetyImplication": 0.0,
+              "NASAConclusion": 0.0,
+              "NASAIdentifiedOpenQuestion": 0.0,
+              "TestCriterion": 0.0,
+              "ReportedExperimentalObservation": 0.0,
+              "DesignCriterion": 0.0,
+              "Guidance": 0.0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 650,
+          "output_tokens": 143
+        }
+      }
+    },
+    {
+      "gold_case_id": "reviewed-negative-09",
+      "prediction": "NONE",
+      "confidence": 1.0,
+      "triage_probability": 0.03,
+      "latency_seconds": 0.307,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "contains_candidate_claim": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "epistemic_type": {
+            "type": "choice",
+            "choice": "NONE",
+            "confidence": 1.0,
+            "probabilities": {
+              "NASAConclusion": 0.0,
+              "Guidance": 0.0,
+              "Intervention": 0.0,
+              "NASAIdentifiedOpenQuestion": 0.0,
+              "SafetyImplication": 0.0,
+              "TestCriterion": 0.0,
+              "ReportedExperimentalObservation": 0.0,
+              "DesignCriterion": 0.0,
+              "NONE": 1.0,
+              "Requirement": 0.0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 648,
+          "output_tokens": 143
+        }
+      }
+    },
+    {
+      "gold_case_id": "reviewed-negative-10",
+      "prediction": "DesignCriterion",
+      "confidence": 0.48,
+      "triage_probability": 0.44,
+      "latency_seconds": 0.304,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "contains_candidate_claim": {
+            "type": "noul",
+            "noul": 0.44
+          },
+          "epistemic_type": {
+            "type": "choice",
+            "choice": "DesignCriterion",
+            "confidence": 0.48,
+            "probabilities": {
+              "Requirement": 0.03,
+              "Intervention": 0.0,
+              "NASAConclusion": 0.01,
+              "DesignCriterion": 0.52,
+              "NASAIdentifiedOpenQuestion": 0.0,
+              "SafetyImplication": 0.12,
+              "Guidance": 0.02,
+              "NONE": 0.27,
+              "ReportedExperimentalObservation": 0.0,
+              "TestCriterion": 0.03
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 645,
+          "output_tokens": 147
+        }
+      }
+    },
+    {
+      "gold_case_id": "reviewed-negative-11",
+      "prediction": "NONE",
+      "confidence": 0.98,
+      "triage_probability": 0.08,
+      "latency_seconds": 0.311,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "contains_candidate_claim": {
+            "type": "noul",
+            "noul": 0.08
+          },
+          "epistemic_type": {
+            "type": "choice",
+            "choice": "NONE",
+            "confidence": 0.98,
+            "probabilities": {
+              "Intervention": 0.0,
+              "NASAIdentifiedOpenQuestion": 0.0,
+              "ReportedExperimentalObservation": 0.0,
+              "SafetyImplication": 0.0,
+              "TestCriterion": 0.0,
+              "Requirement": 0.0,
+              "NONE": 0.99,
+              "NASAConclusion": 0.0,
+              "Guidance": 0.01,
+              "DesignCriterion": 0.0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 653,
+          "output_tokens": 143
+        }
+      }
+    },
+    {
+      "gold_case_id": "reviewed-negative-12",
+      "prediction": "Guidance",
+      "confidence": 0.86,
+      "triage_probability": 0.19,
+      "latency_seconds": 0.41,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "contains_candidate_claim": {
+            "type": "noul",
+            "noul": 0.19
+          },
+          "epistemic_type": {
+            "type": "choice",
+            "choice": "Guidance",
+            "confidence": 0.86,
+            "probabilities": {
+              "Requirement": 0.06,
+              "ReportedExperimentalObservation": 0.0,
+              "NASAIdentifiedOpenQuestion": 0.0,
+              "TestCriterion": 0.0,
+              "Intervention": 0.03,
+              "Guidance": 0.88,
+              "DesignCriterion": 0.0,
+              "NASAConclusion": 0.0,
+              "NONE": 0.03,
+              "SafetyImplication": 0.0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 647,
+          "output_tokens": 144
+        }
+      }
+    },
+    {
+      "gold_case_id": "reviewed-negative-13",
+      "prediction": "NONE",
+      "confidence": 1.0,
+      "triage_probability": 0.04,
+      "latency_seconds": 0.307,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "contains_candidate_claim": {
+            "type": "noul",
+            "noul": 0.04
+          },
+          "epistemic_type": {
+            "type": "choice",
+            "choice": "NONE",
+            "confidence": 1.0,
+            "probabilities": {
+              "Requirement": 0.0,
+              "Intervention": 0.0,
+              "DesignCriterion": 0.0,
+              "NASAIdentifiedOpenQuestion": 0.0,
+              "ReportedExperimentalObservation": 0.0,
+              "NASAConclusion": 0.0,
+              "NONE": 1.0,
+              "Guidance": 0.0,
+              "SafetyImplication": 0.0,
+              "TestCriterion": 0.0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 652,
+          "output_tokens": 143
+        }
+      }
+    },
+    {
+      "gold_case_id": "reviewed-negative-14",
+      "prediction": "DesignCriterion",
+      "confidence": 0.39,
+      "triage_probability": 0.17,
+      "latency_seconds": 0.277,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "contains_candidate_claim": {
+            "type": "noul",
+            "noul": 0.17
+          },
+          "epistemic_type": {
+            "type": "choice",
+            "choice": "DesignCriterion",
+            "confidence": 0.39,
+            "probabilities": {
+              "TestCriterion": 0.01,
+              "ReportedExperimentalObservation": 0.0,
+              "NASAConclusion": 0.01,
+              "Guidance": 0.0,
+              "DesignCriterion": 0.46,
+              "NONE": 0.42,
+              "Intervention": 0.0,
+              "Requirement": 0.1,
+              "SafetyImplication": 0.0,
+              "NASAIdentifiedOpenQuestion": 0.0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 644,
+          "output_tokens": 147
+        }
+      }
+    },
+    {
+      "gold_case_id": "reviewed-negative-15",
+      "prediction": "NONE",
+      "confidence": 1.0,
+      "triage_probability": 0.04,
+      "latency_seconds": 0.337,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "contains_candidate_claim": {
+            "type": "noul",
+            "noul": 0.04
+          },
+          "epistemic_type": {
+            "type": "choice",
+            "choice": "NONE",
+            "confidence": 1.0,
+            "probabilities": {
+              "Intervention": 0.0,
+              "NASAConclusion": 0.0,
+              "TestCriterion": 0.0,
+              "NASAIdentifiedOpenQuestion": 0.0,
+              "Requirement": 0.0,
+              "Guidance": 0.0,
+              "ReportedExperimentalObservation": 0.0,
+              "DesignCriterion": 0.0,
+              "NONE": 1.0,
+              "SafetyImplication": 0.0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 640,
+          "output_tokens": 143
+        }
+      }
+    },
+    {
+      "gold_case_id": "reviewed-negative-16",
+      "prediction": "NONE",
+      "confidence": 0.94,
+      "triage_probability": 0.05,
+      "latency_seconds": 0.308,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "contains_candidate_claim": {
+            "type": "noul",
+            "noul": 0.05
+          },
+          "epistemic_type": {
+            "type": "choice",
+            "choice": "NONE",
+            "confidence": 0.94,
+            "probabilities": {
+              "Intervention": 0.0,
+              "Guidance": 0.0,
+              "SafetyImplication": 0.0,
+              "ReportedExperimentalObservation": 0.0,
+              "DesignCriterion": 0.0,
+              "NASAConclusion": 0.01,
+              "Requirement": 0.0,
+              "NONE": 0.94,
+              "TestCriterion": 0.0,
+              "NASAIdentifiedOpenQuestion": 0.05
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 641,
+          "output_tokens": 143
+        }
+      }
+    },
+    {
+      "gold_case_id": "reviewed-negative-17",
+      "prediction": "NONE",
+      "confidence": 0.99,
+      "triage_probability": 0.03,
+      "latency_seconds": 0.348,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "contains_candidate_claim": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "epistemic_type": {
+            "type": "choice",
+            "choice": "NONE",
+            "confidence": 0.99,
+            "probabilities": {
+              "Guidance": 0.0,
+              "NASAConclusion": 0.0,
+              "SafetyImplication": 0.0,
+              "Requirement": 0.0,
+              "NASAIdentifiedOpenQuestion": 0.0,
+              "TestCriterion": 0.0,
+              "NONE": 0.99,
+              "ReportedExperimentalObservation": 0.0,
+              "Intervention": 0.0,
+              "DesignCriterion": 0.01
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 637,
+          "output_tokens": 143
+        }
+      }
+    },
+    {
+      "gold_case_id": "reviewed-negative-18",
+      "prediction": "NONE",
+      "confidence": 1.0,
+      "triage_probability": 0.04,
+      "latency_seconds": 0.375,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "contains_candidate_claim": {
+            "type": "noul",
+            "noul": 0.04
+          },
+          "epistemic_type": {
+            "type": "choice",
+            "choice": "NONE",
+            "confidence": 1.0,
+            "probabilities": {
+              "NONE": 1.0,
+              "Intervention": 0.0,
+              "ReportedExperimentalObservation": 0.0,
+              "Requirement": 0.0,
+              "NASAIdentifiedOpenQuestion": 0.0,
+              "DesignCriterion": 0.0,
+              "NASAConclusion": 0.0,
+              "SafetyImplication": 0.0,
+              "Guidance": 0.0,
+              "TestCriterion": 0.0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 642,
+          "output_tokens": 143
+        }
+      }
+    },
+    {
+      "gold_case_id": "reviewed-negative-19",
+      "prediction": "NONE",
+      "confidence": 0.99,
+      "triage_probability": 0.05,
+      "latency_seconds": 0.402,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "contains_candidate_claim": {
+            "type": "noul",
+            "noul": 0.05
+          },
+          "epistemic_type": {
+            "type": "choice",
+            "choice": "NONE",
+            "confidence": 0.99,
+            "probabilities": {
+              "SafetyImplication": 0.0,
+              "DesignCriterion": 0.0,
+              "Guidance": 0.0,
+              "ReportedExperimentalObservation": 0.0,
+              "TestCriterion": 0.0,
+              "Intervention": 0.0,
+              "NASAIdentifiedOpenQuestion": 0.0,
+              "NONE": 1.0,
+              "NASAConclusion": 0.0,
+              "Requirement": 0.0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 642,
+          "output_tokens": 143
+        }
+      }
+    },
+    {
+      "gold_case_id": "reviewed-negative-20",
+      "prediction": "NONE",
+      "confidence": 1.0,
+      "triage_probability": 0.04,
+      "latency_seconds": 0.296,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "contains_candidate_claim": {
+            "type": "noul",
+            "noul": 0.04
+          },
+          "epistemic_type": {
+            "type": "choice",
+            "choice": "NONE",
+            "confidence": 1.0,
+            "probabilities": {
+              "NASAConclusion": 0.0,
+              "SafetyImplication": 0.0,
+              "Guidance": 0.0,
+              "ReportedExperimentalObservation": 0.0,
+              "Intervention": 0.0,
+              "DesignCriterion": 0.0,
+              "NASAIdentifiedOpenQuestion": 0.0,
+              "Requirement": 0.0,
+              "TestCriterion": 0.0,
+              "NONE": 1.0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 651,
+          "output_tokens": 143
+        }
+      }
+    },
+    {
+      "gold_case_id": "reviewed-negative-title-01",
+      "prediction": "NONE",
+      "confidence": 1.0,
+      "triage_probability": 0.04,
+      "latency_seconds": 0.318,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "contains_candidate_claim": {
+            "type": "noul",
+            "noul": 0.04
+          },
+          "epistemic_type": {
+            "type": "choice",
+            "choice": "NONE",
+            "confidence": 1.0,
+            "probabilities": {
+              "NASAConclusion": 0.0,
+              "Intervention": 0.0,
+              "SafetyImplication": 0.0,
+              "NASAIdentifiedOpenQuestion": 0.0,
+              "Requirement": 0.0,
+              "TestCriterion": 0.0,
+              "ReportedExperimentalObservation": 0.0,
+              "DesignCriterion": 0.0,
+              "NONE": 1.0,
+              "Guidance": 0.0
+            }
+          }
+        },
+        "usage": {
+          "input_tokens": 685,
+          "output_tokens": 143
+        }
+      }
+    }
+  ],
+  "threshold_experiment": {
+    "note": "Exploratory only; no threshold was productionized.",
+    "counts": {
+      "0.2": {
+        "tp": 9,
+        "fp": 3,
+        "tn": 18,
+        "fn": 0
+      },
+      "0.35": {
+        "tp": 8,
+        "fp": 2,
+        "tn": 19,
+        "fn": 1
+      },
+      "0.5": {
+        "tp": 8,
+        "fp": 1,
+        "tn": 20,
+        "fn": 1
+      },
+      "0.65": {
+        "tp": 8,
+        "fp": 1,
+        "tn": 20,
+        "fn": 1
+      },
+      "0.8": {
+        "tp": 5,
+        "fp": 0,
+        "tn": 21,
+        "fn": 4
+      }
+    }
+  },
+  "nemotron_audit_comparison": {
+    "shared_audited_negative_cases": 20,
+    "nemotron_proposed_non_none_candidates": 20,
+    "jev_epistemic_none": 14,
+    "jev_epistemic_false_positives": 6,
+    "note": "Historical Nemotron audit is a shared-negative comparison, not a new full 30-case live benchmark."
+  }
+}

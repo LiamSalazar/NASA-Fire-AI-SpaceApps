@@ -1,0 +1,112 @@
+{
+  "boundary": "Grade actual communicated scoped meaning and original citations. No word-overlap score; all essential needs remain frozen including difficult causal/scope limitations.",
+  "questions": [
+    {
+      "id": "post-aerosol-records",
+      "question": "Compare SAME samples 2 and 3 for material, air flow, weight-loss rate and aging duration. Keep the recorded units and each sample association. Do these rows alone justify attributing a rate difference to aging?",
+      "expected_sources": [
+        "psi-102"
+      ],
+      "essential_needs": [
+        "Both source samples are Teflon",
+        "Both air flows are 5 cm/s",
+        "Sample 2 weight-loss rate 1 mg/min and aging duration 1 minute",
+        "Sample 3 weight-loss rate 2 mg/min and aging duration 20 minutes",
+        "No new causal explanation inferred from these records alone"
+      ]
+    },
+    {
+      "id": "post-slice-sessions",
+      "question": "What fuel and calibration information is recorded in the SLICE entries dated 9 February 2012 and 13 February 2012? Describe the scope of those source entries.",
+      "expected_sources": [
+        "psi-106"
+      ],
+      "essential_needs": [
+        "9 February entry 100% CH4",
+        "13 February entry 40% CH4 balance N2",
+        "13 February includes two pyrometry calibration tests and two fan calibrations",
+        "Entries are source sessions; no invented individual-run enumeration"
+      ]
+    },
+    {
+      "id": "post-bass-gases",
+      "question": "For BASS-II B5, quote the material description as written, the initial and final CO and CO2 entries, and the radiometer gain setting.",
+      "expected_sources": [
+        "psi-25"
+      ],
+      "essential_needs": [
+        "Material cell literal 200 micron  2 cm wide, without inserting a material identity",
+        "Initial CO 0 ppm and final CO 12 ppm",
+        "Initial and final CO2 both 0.43 percent by volume",
+        "Radiometer gain 50, as a setting"
+      ]
+    },
+    {
+      "id": "post-bass-followup",
+      "question": "For that same B5 record, what are the calibrated initial and final oxygen concentrations? Keep oxygen separate from the CO and CO2 entries.",
+      "expected_sources": [
+        "psi-25"
+      ],
+      "essential_needs": [
+        "BASS-II B5 scope retained from preceding turn",
+        "Calibrated initial oxygen 22.2 percent by volume",
+        "Calibrated final oxygen 21.9 percent by volume",
+        "Oxygen values are not substituted for CO or CO2"
+      ]
+    },
+    {
+      "id": "post-isooctane",
+      "question": "For pure isooctane, what gas-mixture choices, oxygen fractions and flow-velocity range does FLEX-2 list? Explain what the configuration summary establishes about physical run identities.",
+      "expected_sources": [
+        "psi-68"
+      ],
+      "essential_needs": [
+        "Pure isooctane configuration scope",
+        "Ambient choices O2/N2 or O2/He",
+        "Oxygen mole fractions 0.17, 0.21, 0.25 and 0.3",
+        "Flow velocity 0.1 to 5 cm/s",
+        "No invented identified physical runs or Cartesian condition combinations"
+      ]
+    },
+    {
+      "id": "post-standard-method",
+      "question": "In NASA-STD-6001B with Change 3, what information does Test 2 provide, how is heat-release rate determined, and is a pass/fail criterion specified for that test?",
+      "expected_sources": [
+        "nasa-std-6001b-change3"
+      ],
+      "essential_needs": [
+        "Test 2 is Heat and Visible Smoke Release Rates and provides supplemental flammability information",
+        "Information includes effective heat of combustion, time to ignition, heat-release rate, smoke obscuration and total heat released",
+        "Heat-release rate determined from oxygen-consumption measurement",
+        "No pass/fail criterion associated with Test 2; results may contribute to fire-risk assessment"
+      ]
+    },
+    {
+      "id": "post-cfig-camera",
+      "question": "What does the ACME ISS overview report about the fuel and flame configuration associated with the CFI-G cool-flame images, the camera filtering, and the size comparison with hot flames?",
+      "expected_sources": [
+        "ntrs-20220005205"
+      ],
+      "essential_needs": [
+        "Cool flames discovered during normal-flame CFI-G tests with n-butane",
+        "Intensified camera filtered for formaldehyde emissions",
+        "Reported cool flames smaller than corresponding hot flames",
+        "Report-specific findings not transferred to every fuel or configuration"
+      ]
+    },
+    {
+      "id": "post-burner-methods",
+      "question": "Compare the inverse-flame configuration described for Flame Design with the way BRE emulates condensed-phase burning in the ACME ISS overview. Explain what each method investigates.",
+      "expected_sources": [
+        "ntrs-20220005205"
+      ],
+      "essential_needs": [
+        "Flame Design studies normal and inverse ethylene/oxygen flame configurations and soot inception/flow direction",
+        "In an inverse flame oxidizer exits the burner into an atmosphere of gaseous fuel",
+        "BRE uses a flat porous burner with gaseous fuel to emulate burning of solids and liquids",
+        "BRE measures thermal feedback and matches combustion/gasification heats, surface temperature and smoke point",
+        "Emulation and methods are not described as direct observations of actual solid samples"
+      ]
+    }
+  ]
+}

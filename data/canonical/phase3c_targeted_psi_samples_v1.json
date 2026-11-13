@@ -1,0 +1,268 @@
+[
+  {
+    "type": "SampleRecord",
+    "id": "psi-99-reported-sample-2-1",
+    "source_id": "psi-99",
+    "reported_sample_id": "2-1",
+    "reported_material_description": "Silicone",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-99-0c78b6ecea3bdc76-row-2",
+        "source_id": "psi-99"
+      }
+    ],
+    "scientific_scope": "source sample identity and original label only; no derived measurements, run equivalence or canonical material mapping"
+  },
+  {
+    "type": "SampleRecord",
+    "id": "psi-99-reported-sample-2-2",
+    "source_id": "psi-99",
+    "reported_sample_id": "2-2",
+    "reported_material_description": "Silicone",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-99-0c78b6ecea3bdc76-row-3",
+        "source_id": "psi-99"
+      }
+    ],
+    "scientific_scope": "source sample identity and original label only; no derived measurements, run equivalence or canonical material mapping"
+  },
+  {
+    "type": "SampleRecord",
+    "id": "psi-99-reported-sample-2-3",
+    "source_id": "psi-99",
+    "reported_sample_id": "2-3",
+    "reported_material_description": "Silicone",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-99-0c78b6ecea3bdc76-row-4",
+        "source_id": "psi-99"
+      }
+    ],
+    "scientific_scope": "source sample identity and original label only; no derived measurements, run equivalence or canonical material mapping"
+  },
+  {
+    "type": "SampleRecord",
+    "id": "psi-99-reported-sample-2-4",
+    "source_id": "psi-99",
+    "reported_sample_id": "2-4",
+    "reported_material_description": "Silicone",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-99-0c78b6ecea3bdc76-row-5",
+        "source_id": "psi-99"
+      }
+    ],
+    "scientific_scope": "source sample identity and original label only; no derived measurements, run equivalence or canonical material mapping"
+  },
+  {
+    "type": "SampleRecord",
+    "id": "psi-99-reported-sample-2-5",
+    "source_id": "psi-99",
+    "reported_sample_id": "2-5",
+    "reported_material_description": "Cotton-Fiberglass (SIBAL)",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-99-0c78b6ecea3bdc76-row-6",
+        "source_id": "psi-99"
+      }
+    ],
+    "scientific_scope": "source sample identity and original label only; no derived measurements, run equivalence or canonical material mapping"
+  },
+  {
+    "type": "SampleRecord",
+    "id": "psi-99-reported-sample-2-6",
+    "source_id": "psi-99",
+    "reported_sample_id": "2-6",
+    "reported_material_description": "",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-99-0c78b6ecea3bdc76-row-7",
+        "source_id": "psi-99"
+      }
+    ],
+    "scientific_scope": "source sample identity and original label only; no derived measurements, run equivalence or canonical material mapping"
+  },
+  {
+    "type": "SampleRecord",
+    "id": "psi-99-reported-sample-2-7",
+    "source_id": "psi-99",
+    "reported_sample_id": "2-7",
+    "reported_material_description": "PMMA & Nomex",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-99-0c78b6ecea3bdc76-row-8",
+        "source_id": "psi-99"
+      }
+    ],
+    "scientific_scope": "source sample identity and original label only; no derived measurements, run equivalence or canonical material mapping"
+  },
+  {
+    "type": "SampleRecord",
+    "id": "psi-99-reported-sample-2-8",
+    "source_id": "psi-99",
+    "reported_sample_id": "2-8",
+    "reported_material_description": "PMMA",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-99-0c78b6ecea3bdc76-row-9",
+        "source_id": "psi-99"
+      }
+    ],
+    "scientific_scope": "source sample identity and original label only; no derived measurements, run equivalence or canonical material mapping"
+  },
+  {
+    "type": "SampleRecord",
+    "id": "psi-99-reported-sample-2-9",
+    "source_id": "psi-99",
+    "reported_sample_id": "2-9",
+    "reported_material_description": "",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-99-0c78b6ecea3bdc76-row-10",
+        "source_id": "psi-99"
+      }
+    ],
+    "scientific_scope": "source sample identity and original label only; no derived measurements, run equivalence or canonical material mapping"
+  },
+  {
+    "type": "SampleRecord",
+    "id": "psi-100-reported-sample-S1",
+    "source_id": "psi-100",
+    "reported_sample_id": "S1",
+    "reported_material_description": "SIBAL Fabric",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-100-74d31e50e86bee56-row-2",
+        "source_id": "psi-100"
+      }
+    ],
+    "scientific_scope": "source sample identity and original label only; no derived measurements, run equivalence or canonical material mapping"
+  },
+  {
+    "type": "SampleRecord",
+    "id": "psi-100-reported-sample-S2",
+    "source_id": "psi-100",
+    "reported_sample_id": "S2",
+    "reported_material_description": "SIBAL Fabric",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-100-74d31e50e86bee56-row-3",
+        "source_id": "psi-100"
+      }
+    ],
+    "scientific_scope": "source sample identity and original label only; no derived measurements, run equivalence or canonical material mapping"
+  },
+  {
+    "type": "SampleRecord",
+    "id": "psi-102-reported-sample-1",
+    "source_id": "psi-102",
+    "reported_sample_id": "1",
+    "reported_material_description": "Teflon",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-102-d596badb840f338e-row-2",
+        "source_id": "psi-102"
+      }
+    ],
+    "scientific_scope": "source sample identity and original label only; no derived measurements, run equivalence or canonical material mapping"
+  },
+  {
+    "type": "SampleRecord",
+    "id": "psi-102-reported-sample-2",
+    "source_id": "psi-102",
+    "reported_sample_id": "2",
+    "reported_material_description": "Teflon",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-102-d596badb840f338e-row-3",
+        "source_id": "psi-102"
+      }
+    ],
+    "scientific_scope": "source sample identity and original label only; no derived measurements, run equivalence or canonical material mapping"
+  },
+  {
+    "type": "SampleRecord",
+    "id": "psi-102-reported-sample-3",
+    "source_id": "psi-102",
+    "reported_sample_id": "3",
+    "reported_material_description": "Teflon",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-102-d596badb840f338e-row-4",
+        "source_id": "psi-102"
+      }
+    ],
+    "scientific_scope": "source sample identity and original label only; no derived measurements, run equivalence or canonical material mapping"
+  },
+  {
+    "type": "SampleRecord",
+    "id": "psi-102-reported-sample-4",
+    "source_id": "psi-102",
+    "reported_sample_id": "4",
+    "reported_material_description": "Teflon",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-102-d596badb840f338e-row-5",
+        "source_id": "psi-102"
+      }
+    ],
+    "scientific_scope": "source sample identity and original label only; no derived measurements, run equivalence or canonical material mapping"
+  },
+  {
+    "type": "SampleRecord",
+    "id": "psi-102-reported-sample-5",
+    "source_id": "psi-102",
+    "reported_sample_id": "5",
+    "reported_material_description": "Kapton: same conditions as 1-4",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-102-d596badb840f338e-row-6",
+        "source_id": "psi-102"
+      }
+    ],
+    "scientific_scope": "source sample identity and original label only; no derived measurements, run equivalence or canonical material mapping"
+  },
+  {
+    "type": "SampleRecord",
+    "id": "psi-102-reported-sample-6",
+    "source_id": "psi-102",
+    "reported_sample_id": "6",
+    "reported_material_description": "Silicone Rubber: same conditions as 1-4",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-102-d596badb840f338e-row-7",
+        "source_id": "psi-102"
+      }
+    ],
+    "scientific_scope": "source sample identity and original label only; no derived measurements, run equivalence or canonical material mapping"
+  },
+  {
+    "type": "SampleRecord",
+    "id": "psi-102-reported-sample-7",
+    "source_id": "psi-102",
+    "reported_sample_id": "7",
+    "reported_material_description": "Lampwick: same conditions as 1-4",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-102-d596badb840f338e-row-8",
+        "source_id": "psi-102"
+      }
+    ],
+    "scientific_scope": "source sample identity and original label only; no derived measurements, run equivalence or canonical material mapping"
+  },
+  {
+    "type": "SampleRecord",
+    "id": "psi-102-reported-sample-8",
+    "source_id": "psi-102",
+    "reported_sample_id": "8",
+    "reported_material_description": "Dibutyl Phthalate: same conditions as 1-4",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-102-d596badb840f338e-row-9",
+        "source_id": "psi-102"
+      }
+    ],
+    "scientific_scope": "source sample identity and original label only; no derived measurements, run equivalence or canonical material mapping"
+  }
+]

@@ -1,0 +1,9 @@
+# Live Nemotron/Jev enrichment evaluation
+
+Uses existing ignored/untracked .env with restrictive permissions, shared dotenv precedence and unchanged provider adapters. Both fresh minimal connectivity requests succeeded. New calls: `{"NVIDIA": 13, "Jev": 9}`; provider failures 0; monetary cost unavailable. Token usage and measured medians are in live_summary. Fresh extraction, unknown specimen normalization, graph-route proposal checked against the native graph, broad planning and selective reranking are included; model proposals publish zero scientific facts.
+
+A–E pilot: three previously exposed cases, identical runtime snapshot and budget 40; A uses existing V2/ontology baseline, B adds source enrichment and existing relational traversal, C adds controlled planning, D selective reranking, E optional Jev. Budget-matched lexical candidates are included. This layered pilot cannot separately attribute B's effects to traversal versus enrichment. Objective identities recover 2/2 in each variant. D/E can reuse compatible responses within the same campaign; warm E latency is not evidence of faster cold inference. Full-versus-selective utility comparison was not run.
+
+Five extraction passages produce 4 source-span-valid candidates, 3 rejects. One initial equivalent expansion is rejected by revised semantic validation. Reranking invalid judgments: 1. Jev classifies explicit observations versus implications as advisory; no independent review-workload or relevance benefit was measured. Precision@5 and scientific incremental value remain unmeasured without expert labels. Both providers remain optional/experimental.
+
+The graph-planning call was service-valid but selected hasMaterial from a specimen; that edge does not exist, and the executor returned zero paths. The deterministic madeOf route succeeds. Unknown film normalization correctly abstained. These negative outcomes are recorded in phase3c_enrichment_errors_v1.json.

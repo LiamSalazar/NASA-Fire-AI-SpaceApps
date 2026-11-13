@@ -1,0 +1,1347 @@
+{
+  "cases": [
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "Publication"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "Publication"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "newcomp01",
+      "kind": "publication_material_gravity",
+      "query": "Find publications about PMMA in microgravity",
+      "review_status": "DETERMINISTIC_TEMPLATE_NOT_EXPERT_REVIEWED",
+      "supported": true
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "LTE",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": 0.08,
+              "tolerance": null,
+              "upper": null
+            }
+          },
+          {
+            "operator": "BETWEEN",
+            "property_id": "OxygenConcentration",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": 21.5,
+              "raw_expression": null,
+              "reported_unit": "%",
+              "reported_value": null,
+              "tolerance": null,
+              "upper": 21.7
+            }
+          }
+        ],
+        "requested_information": [
+          "Measurement"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "newcomp02",
+      "kind": "measurement_two_properties",
+      "query": "Find measurements for PMMA with airflow no greater than 0.08 m/s and oxygen between 21.5 and 21.7 percent",
+      "review_status": "DETERMINISTIC_TEMPLATE_NOT_EXPERT_REVIEWED",
+      "supported": true
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "psi-98",
+            "relation": "belongsToInvestigation"
+          },
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "NASAConclusion"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "newcomp03",
+      "kind": "conclusion_investigation_material",
+      "query": "Find NASA conclusions for PMMA in Saffire-I",
+      "review_status": "DETERMINISTIC_TEMPLATE_NOT_EXPERT_REVIEWED",
+      "supported": true
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "LTE",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": 0.08,
+              "tolerance": null,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [
+          "Requirement"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "newcomp04",
+      "kind": "requirement_numeric_material",
+      "query": "Find requirements for PMMA at airflow no greater than 0.08 m/s",
+      "review_status": "DETERMINISTIC_TEMPLATE_NOT_EXPERT_REVIEWED",
+      "supported": true
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": {
+          "dimensions": [],
+          "operands": [
+            "psi-98-S1",
+            "psi-98-S2"
+          ]
+        },
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "psi-98",
+            "relation": "belongsToInvestigation"
+          }
+        ],
+        "operation": "COMPARE",
+        "property_constraints": [
+          {
+            "operator": "LTE",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": 0.08,
+              "tolerance": null,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "newcomp05",
+      "kind": "comparison_numeric_investigation",
+      "query": "Compare Saffire-I S1 and Saffire-I S2 at airflow no greater than 0.08 m/s",
+      "review_status": "DETERMINISTIC_TEMPLATE_NOT_EXPERT_REVIEWED",
+      "supported": true
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "LTE",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": 0.08,
+              "tolerance": null,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": [
+          "quasarcoat"
+        ]
+      },
+      "id": "newcomp06",
+      "kind": "unknown_known_numeric",
+      "query": "Find PMMA experiments in microgravity with airflow no greater than 0.08 m/s and quasarcoat",
+      "review_status": "DETERMINISTIC_TEMPLATE_NOT_EXPERT_REVIEWED",
+      "supported": true
+    },
+    {
+      "expected": {
+        "ambiguities": [
+          "velocity"
+        ],
+        "clarification_required": true,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "Measurement"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "newcomp07",
+      "kind": "ambiguous_measurement_material",
+      "query": "Find measurements of velocity for PMMA",
+      "review_status": "DETERMINISTIC_TEMPLATE_NOT_EXPERT_REVIEWED",
+      "supported": true
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "psi-98",
+            "relation": "belongsToInvestigation"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "APPROX",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": true,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": 0.08,
+              "tolerance": null,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [
+          "ReportedObservation"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "newcomp08",
+      "kind": "approximate_observation_investigation",
+      "query": "Find reported observations in Saffire-I at roughly 0.08 m/s airflow",
+      "review_status": "DETERMINISTIC_TEMPLATE_NOT_EXPERT_REVIEWED",
+      "supported": true
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "LTE",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": 0.08,
+              "tolerance": null,
+              "upper": null
+            }
+          },
+          {
+            "operator": "BETWEEN",
+            "property_id": "OxygenConcentration",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": 21.5,
+              "raw_expression": null,
+              "reported_unit": "%",
+              "reported_value": null,
+              "tolerance": null,
+              "upper": 21.7
+            }
+          }
+        ],
+        "requested_information": [
+          "SafetyImplication"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "newcomp09",
+      "kind": "safety_two_properties_gravity",
+      "query": "Find NASA safety implications in microgravity with airflow no greater than 0.08 m/s and oxygen between 21.5 and 21.7 percent",
+      "review_status": "DETERMINISTIC_TEMPLATE_NOT_EXPERT_REVIEWED",
+      "supported": true
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "Publication"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "Publication"
+        ],
+        "unresolved_mentions": [
+          "quasarcoat"
+        ]
+      },
+      "id": "newcomp10",
+      "kind": "publication_unknown_material",
+      "query": "Find publications about PMMA and quasarcoat",
+      "review_status": "DETERMINISTIC_TEMPLATE_NOT_EXPERT_REVIEWED",
+      "supported": true
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "Publication"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "Publication"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "newcomp11",
+      "kind": "publication_material_gravity",
+      "query": "Find publications about SIBAL Fabric in microgravity",
+      "review_status": "DETERMINISTIC_TEMPLATE_NOT_EXPERT_REVIEWED",
+      "supported": true
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "LTE",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": 0.12,
+              "tolerance": null,
+              "upper": null
+            }
+          },
+          {
+            "operator": "BETWEEN",
+            "property_id": "OxygenConcentration",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": 21.5,
+              "raw_expression": null,
+              "reported_unit": "%",
+              "reported_value": null,
+              "tolerance": null,
+              "upper": 21.7
+            }
+          }
+        ],
+        "requested_information": [
+          "Measurement"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "newcomp12",
+      "kind": "measurement_two_properties",
+      "query": "Find measurements for SIBAL Fabric with airflow no greater than 0.12 m/s and oxygen between 21.5 and 21.7 percent",
+      "review_status": "DETERMINISTIC_TEMPLATE_NOT_EXPERT_REVIEWED",
+      "supported": true
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "psi-98",
+            "relation": "belongsToInvestigation"
+          },
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "NASAConclusion"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "newcomp13",
+      "kind": "conclusion_investigation_material",
+      "query": "Find NASA conclusions for SIBAL Fabric in Saffire-I",
+      "review_status": "DETERMINISTIC_TEMPLATE_NOT_EXPERT_REVIEWED",
+      "supported": true
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "LTE",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": 0.12,
+              "tolerance": null,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [
+          "Requirement"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "newcomp14",
+      "kind": "requirement_numeric_material",
+      "query": "Find requirements for SIBAL Fabric at airflow no greater than 0.12 m/s",
+      "review_status": "DETERMINISTIC_TEMPLATE_NOT_EXPERT_REVIEWED",
+      "supported": true
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": {
+          "dimensions": [],
+          "operands": [
+            "psi-98-S1",
+            "psi-98-S2"
+          ]
+        },
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "psi-98",
+            "relation": "belongsToInvestigation"
+          }
+        ],
+        "operation": "COMPARE",
+        "property_constraints": [
+          {
+            "operator": "LTE",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": 0.12,
+              "tolerance": null,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "newcomp15",
+      "kind": "comparison_numeric_investigation",
+      "query": "Compare Saffire-I S1 and Saffire-I S2 at airflow no greater than 0.12 m/s",
+      "review_status": "DETERMINISTIC_TEMPLATE_NOT_EXPERT_REVIEWED",
+      "supported": true
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "LTE",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": 0.12,
+              "tolerance": null,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": [
+          "quasarcoat"
+        ]
+      },
+      "id": "newcomp16",
+      "kind": "unknown_known_numeric",
+      "query": "Find SIBAL Fabric experiments in microgravity with airflow no greater than 0.12 m/s and quasarcoat",
+      "review_status": "DETERMINISTIC_TEMPLATE_NOT_EXPERT_REVIEWED",
+      "supported": true
+    },
+    {
+      "expected": {
+        "ambiguities": [
+          "velocity"
+        ],
+        "clarification_required": true,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "Measurement"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "newcomp17",
+      "kind": "ambiguous_measurement_material",
+      "query": "Find measurements of velocity for SIBAL Fabric",
+      "review_status": "DETERMINISTIC_TEMPLATE_NOT_EXPERT_REVIEWED",
+      "supported": true
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "psi-98",
+            "relation": "belongsToInvestigation"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "APPROX",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": true,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": 0.12,
+              "tolerance": null,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [
+          "ReportedObservation"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "newcomp18",
+      "kind": "approximate_observation_investigation",
+      "query": "Find reported observations in Saffire-I at roughly 0.12 m/s airflow",
+      "review_status": "DETERMINISTIC_TEMPLATE_NOT_EXPERT_REVIEWED",
+      "supported": true
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "LTE",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": 0.12,
+              "tolerance": null,
+              "upper": null
+            }
+          },
+          {
+            "operator": "BETWEEN",
+            "property_id": "OxygenConcentration",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": 21.5,
+              "raw_expression": null,
+              "reported_unit": "%",
+              "reported_value": null,
+              "tolerance": null,
+              "upper": 21.7
+            }
+          }
+        ],
+        "requested_information": [
+          "SafetyImplication"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "newcomp19",
+      "kind": "safety_two_properties_gravity",
+      "query": "Find NASA safety implications in microgravity with airflow no greater than 0.12 m/s and oxygen between 21.5 and 21.7 percent",
+      "review_status": "DETERMINISTIC_TEMPLATE_NOT_EXPERT_REVIEWED",
+      "supported": true
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "Publication"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "Publication"
+        ],
+        "unresolved_mentions": [
+          "quasarcoat"
+        ]
+      },
+      "id": "newcomp20",
+      "kind": "publication_unknown_material",
+      "query": "Find publications about SIBAL Fabric and quasarcoat",
+      "review_status": "DETERMINISTIC_TEMPLATE_NOT_EXPERT_REVIEWED",
+      "supported": true
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "Publication"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "Publication"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "newcomp21",
+      "kind": "publication_material_gravity",
+      "query": "Find publications about PMMA in microgravity",
+      "review_status": "DETERMINISTIC_TEMPLATE_NOT_EXPERT_REVIEWED",
+      "supported": true
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "LTE",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": 0.2,
+              "tolerance": null,
+              "upper": null
+            }
+          },
+          {
+            "operator": "BETWEEN",
+            "property_id": "OxygenConcentration",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": 21.5,
+              "raw_expression": null,
+              "reported_unit": "%",
+              "reported_value": null,
+              "tolerance": null,
+              "upper": 21.7
+            }
+          }
+        ],
+        "requested_information": [
+          "Measurement"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "newcomp22",
+      "kind": "measurement_two_properties",
+      "query": "Find measurements for PMMA with airflow no greater than 0.2 m/s and oxygen between 21.5 and 21.7 percent",
+      "review_status": "DETERMINISTIC_TEMPLATE_NOT_EXPERT_REVIEWED",
+      "supported": true
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "psi-98",
+            "relation": "belongsToInvestigation"
+          },
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "NASAConclusion"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "newcomp23",
+      "kind": "conclusion_investigation_material",
+      "query": "Find NASA conclusions for PMMA in Saffire-I",
+      "review_status": "DETERMINISTIC_TEMPLATE_NOT_EXPERT_REVIEWED",
+      "supported": true
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "LTE",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": 0.2,
+              "tolerance": null,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [
+          "Requirement"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "newcomp24",
+      "kind": "requirement_numeric_material",
+      "query": "Find requirements for PMMA at airflow no greater than 0.2 m/s",
+      "review_status": "DETERMINISTIC_TEMPLATE_NOT_EXPERT_REVIEWED",
+      "supported": true
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": {
+          "dimensions": [],
+          "operands": [
+            "psi-98-S1",
+            "psi-98-S2"
+          ]
+        },
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "psi-98",
+            "relation": "belongsToInvestigation"
+          }
+        ],
+        "operation": "COMPARE",
+        "property_constraints": [
+          {
+            "operator": "LTE",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": 0.2,
+              "tolerance": null,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "newcomp25",
+      "kind": "comparison_numeric_investigation",
+      "query": "Compare Saffire-I S1 and Saffire-I S2 at airflow no greater than 0.2 m/s",
+      "review_status": "DETERMINISTIC_TEMPLATE_NOT_EXPERT_REVIEWED",
+      "supported": true
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "LTE",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": 0.2,
+              "tolerance": null,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": [
+          "quasarcoat"
+        ]
+      },
+      "id": "newcomp26",
+      "kind": "unknown_known_numeric",
+      "query": "Find PMMA experiments in microgravity with airflow no greater than 0.2 m/s and quasarcoat",
+      "review_status": "DETERMINISTIC_TEMPLATE_NOT_EXPERT_REVIEWED",
+      "supported": true
+    },
+    {
+      "expected": {
+        "ambiguities": [
+          "velocity"
+        ],
+        "clarification_required": true,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "Measurement"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "newcomp27",
+      "kind": "ambiguous_measurement_material",
+      "query": "Find measurements of velocity for PMMA",
+      "review_status": "DETERMINISTIC_TEMPLATE_NOT_EXPERT_REVIEWED",
+      "supported": true
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "psi-98",
+            "relation": "belongsToInvestigation"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "APPROX",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": true,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": 0.2,
+              "tolerance": null,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [
+          "ReportedObservation"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "newcomp28",
+      "kind": "approximate_observation_investigation",
+      "query": "Find reported observations in Saffire-I at roughly 0.2 m/s airflow",
+      "review_status": "DETERMINISTIC_TEMPLATE_NOT_EXPERT_REVIEWED",
+      "supported": true
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "LTE",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": 0.2,
+              "tolerance": null,
+              "upper": null
+            }
+          },
+          {
+            "operator": "BETWEEN",
+            "property_id": "OxygenConcentration",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": 21.5,
+              "raw_expression": null,
+              "reported_unit": "%",
+              "reported_value": null,
+              "tolerance": null,
+              "upper": 21.7
+            }
+          }
+        ],
+        "requested_information": [
+          "SafetyImplication"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "newcomp29",
+      "kind": "safety_two_properties_gravity",
+      "query": "Find NASA safety implications in microgravity with airflow no greater than 0.2 m/s and oxygen between 21.5 and 21.7 percent",
+      "review_status": "DETERMINISTIC_TEMPLATE_NOT_EXPERT_REVIEWED",
+      "supported": true
+    },
+    {
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "Publication"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "Publication"
+        ],
+        "unresolved_mentions": [
+          "quasarcoat"
+        ]
+      },
+      "id": "newcomp30",
+      "kind": "publication_unknown_material",
+      "query": "Find publications about PMMA and quasarcoat",
+      "review_status": "DETERMINISTIC_TEMPLATE_NOT_EXPERT_REVIEWED",
+      "supported": true
+    }
+  ],
+  "label_basis": "Existing approved registry identities and deterministic intended semantics. No model prediction defines gold. This is linguistic execution gold, not source relevance gold.",
+  "new_vocabulary": 0,
+  "patterns": 10,
+  "surface_variants": 30,
+  "version": "corrective-novel-compositions-v1"
+}

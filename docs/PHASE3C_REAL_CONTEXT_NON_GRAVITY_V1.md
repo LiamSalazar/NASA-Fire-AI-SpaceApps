@@ -1,0 +1,7 @@
+# Non-gravity scientific context
+
+Eight material statements maintain PMMA-film, PMMA-rod, Saffire-IV PMMA and silicone identity across explicitly linked source units. Silicone is a literal source identity instantiated with the existing Material class, not a new ontology predicate or acrylic equivalence. Ground PMMA oxygen 21% and documented wind-tunnel/MSG apparatus are typed contexts; numbers and units are unaltered and apply only to linked scopes.
+
+The Saffire-IV source (NTRS 20205007829, physical page 16) establishes PMMA, flow interruption for 20 seconds, non-extinction and renewed growth after flow returned. Separate Intervention and ReportedObservation records link to the same source-identified test through typed concerns membership. No execution gravity is assigned to this slide; the explicit microgravity PMMA question therefore receives this record only as RELATED with unknown gravity.
+
+Material continuity does not extend to later SIBAL or silicone sections. A source conclusion is separately typed and its flow-speed qualification is preserved. OpenQuestion text is retained but the broad explicit-microgravity query lacks verified question-to-gravity applicability and remains documentary CONTEXTUAL, not fabricated DIRECT. Phenomenon mappings, generalized atmospheric ranges, pressure and all-domain extraction remain PARTIAL. Original source quantities are not recommendations.

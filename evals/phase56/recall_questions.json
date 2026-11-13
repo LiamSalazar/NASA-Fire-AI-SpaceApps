@@ -1,0 +1,98 @@
+[
+  {
+    "id": "solid",
+    "question": "solid fuel combustion flame spread"
+  },
+  {
+    "id": "droplet",
+    "question": "droplet combustion extinction"
+  },
+  {
+    "id": "propagation",
+    "question": "flame propagation"
+  },
+  {
+    "id": "extinction",
+    "question": "flame extinction reduced gravity"
+  },
+  {
+    "id": "smoke",
+    "question": "smoke particle detection"
+  },
+  {
+    "id": "ignition",
+    "question": "ignition experiments"
+  },
+  {
+    "id": "oxygen",
+    "question": "oxygen concentration combustion"
+  },
+  {
+    "id": "pressure",
+    "question": "pressure droplet combustion"
+  },
+  {
+    "id": "airflow",
+    "question": "airflow flame spread"
+  },
+  {
+    "id": "gravity",
+    "question": "microgravity combustion investigations"
+  },
+  {
+    "id": "diagnostics",
+    "question": "combustion diagnostics"
+  },
+  {
+    "id": "instrumentation",
+    "question": "instruments cameras radiometers"
+  },
+  {
+    "id": "materials",
+    "question": "spacecraft flammability materials"
+  },
+  {
+    "id": "methods",
+    "question": "combustion experimental methodology"
+  },
+  {
+    "id": "comparison",
+    "question": "Compare droplet and solid fuel combustion investigations"
+  },
+  {
+    "id": "normative",
+    "question": "NASA flammability testing requirements"
+  },
+  {
+    "id": "spacecraft",
+    "question": "spacecraft fire safety research"
+  },
+  {
+    "id": "ambiguous",
+    "question": "extinction measurements"
+  },
+  {
+    "id": "broad",
+    "question": "NASA combustion research investigations"
+  },
+  {
+    "id": "multi",
+    "question": "flame spread and smoke detection experiments"
+  },
+  {
+    "id": "new",
+    "question": "soot formation measurements"
+  },
+  {
+    "id": "suppression",
+    "question": "fire suppression experiments"
+  },
+  {
+    "id": "followup",
+    "question": "Which instruments measured droplet combustion?"
+  },
+  {
+    "id": "partial",
+    "question": "combustion in lunar gravity"
+  }
+]

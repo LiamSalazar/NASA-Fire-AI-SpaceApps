@@ -1,0 +1,52 @@
+[
+  {
+    "id": "foma_hardware",
+    "message": "Which apparatus controls the FLEX chamber atmosphere, and what components does the report list?",
+    "conversation": "fresh_hardware"
+  },
+  {
+    "id": "foma_followup",
+    "message": "How can gas be evacuated from that chamber? Keep this separate from a flame-extinction observation.",
+    "conversation": "fresh_hardware"
+  },
+  {
+    "id": "droplet_deployment",
+    "message": "How does MDCA deploy free droplets, and how are fiber-supported translated tests performed?"
+  },
+  {
+    "id": "diagnostic_limits",
+    "message": "What did the FLEX radiometers seek to detect, and why are their data absent from the report?"
+  },
+  {
+    "id": "gravity_monitoring",
+    "message": "What hardware monitored the gravitational and vibrational environment during FLEX testing?"
+  },
+  {
+    "id": "rtdfs_roles",
+    "message": "In the SoFIE RTDFS slide, distinguish computational flame illustrations, experimental aims and complementary terrestrial tests."
+  },
+  {
+    "id": "mist_gel_focus",
+    "message": "Compare the MIST and GEL objectives concerning radiant flux and internal heating, without inventing measured outcomes."
+  },
+  {
+    "id": "suppression_example",
+    "message": "What happened when flow was stopped for the Saffire-IV PMMA sample in the fire safety presentation?"
+  },
+  {
+    "id": "postfire_uncertainty",
+    "message": "What possibility does the exploration fire safety document describe for cleanup and mission continuation?"
+  },
+  {
+    "id": "configuration_requirements",
+    "message": "According to JSC 29353B, how are materials that fail NASA-STD-6001 tests evaluated, and is a hardware assessment an experimental observation?"
+  },
+  {
+    "id": "exploratory_catalogue",
+    "message": "Which catalogue investigations might support exploration of gaseous flame diagnostics? Label their applicability as unverified."
+  },
+  {
+    "id": "partial_gravity_limits",
+    "message": "Can these retrieved reports establish a universal flame-extinction law for all partial-gravity environments? Explain the evidential limits."
+  }
+]

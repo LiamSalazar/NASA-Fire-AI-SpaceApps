@@ -1,0 +1,10 @@
+{
+  "cases": [
+    {
+      "id": "historical-flex-diagnostics",
+      "question": "What diagnostic methods does the available FLEX documentation describe, and what does it say they measure? Distinguish methods from experimental findings.",
+      "followup_of": null,
+      "ledger_path": "artifacts/knowledge_completion_20261109/live-claim-ledger.json"
+    }
+  ]
+}

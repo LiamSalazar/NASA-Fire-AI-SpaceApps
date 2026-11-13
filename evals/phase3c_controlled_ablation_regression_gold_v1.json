@@ -1,0 +1,402 @@
+{
+  "version": "phase3c-controlled-ablation-regression-gold-v1",
+  "status": "EXPOSED_REGRESSION_NOT_INDEPENDENT_RELEVANCE_GOLD",
+  "source": "artifacts/phase3c_final_repair_objective_retrieval_v2.jsonl",
+  "source_digest": "eb0b564abb87fca0981538c7618504fe70fe4db654d9562ede8b4863350d497c",
+  "cases": [
+    {
+      "case_id": "reviewed-saffire-iv-flow-off-20s",
+      "query": "Find Intervention: For the Saffire-IV PMMA sample, we turned off the flow for 20 seconds.",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "Intervention"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [
+          "ntrs-20205007829"
+        ],
+        "targets": [],
+        "unresolved_mentions": []
+      },
+      "required_evidence_ids": [
+        "E-safety-saffire-intervention"
+      ],
+      "gold_basis": "Frozen source-backed evidence identity or justified no-answer state; not complete scientific relevance gold.",
+      "expected_no_direct": false,
+      "review_status": "OBJECTIVE_IDENTITY_REGRESSION",
+      "not_independent_relevance": true
+    },
+    {
+      "case_id": "reviewed-saffire-iv-flow-off-observation",
+      "query": "Find ReportedObservation: The fire didn’t extinguish and began to grow when we turned the flow back on.",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "ReportedObservation"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [
+          "ntrs-20205007829"
+        ],
+        "targets": [],
+        "unresolved_mentions": []
+      },
+      "required_evidence_ids": [
+        "E-safety-saffire-observation"
+      ],
+      "gold_basis": "Frozen source-backed evidence identity or justified no-answer state; not complete scientific relevance gold.",
+      "expected_no_direct": false,
+      "review_status": "OBJECTIVE_IDENTITY_REGRESSION",
+      "not_independent_relevance": true
+    },
+    {
+      "case_id": "reviewed-saffire-suppression-conclusion",
+      "query": "Find NASAConclusion: In a spacecraft, suppressant could have been used to ‘knock down’ the fire but wasn’t held at the desired concentration long enough for surface to cool.",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "NASAConclusion"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [
+          "ntrs-20205007829"
+        ],
+        "targets": [],
+        "unresolved_mentions": []
+      },
+      "required_evidence_ids": [
+        "E-safety-saffire-suppression-conclusion"
+      ],
+      "gold_basis": "Frozen source-backed evidence identity or justified no-answer state; not complete scientific relevance gold.",
+      "expected_no_direct": false,
+      "review_status": "OBJECTIVE_IDENTITY_REGRESSION",
+      "not_independent_relevance": true
+    },
+    {
+      "case_id": "reviewed-saffire-suppression-open-question",
+      "query": "Find OpenQuestion: Additional focused tests may be required to develop guidance on these questions.",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "OpenQuestion"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [
+          "ntrs-20205007829"
+        ],
+        "targets": [],
+        "unresolved_mentions": []
+      },
+      "required_evidence_ids": [
+        "E-safety-saffire-suppression-open-question"
+      ],
+      "gold_basis": "Frozen source-backed evidence identity or justified no-answer state; not complete scientific relevance gold.",
+      "expected_no_direct": false,
+      "review_status": "OBJECTIVE_IDENTITY_REGRESSION",
+      "not_independent_relevance": true
+    },
+    {
+      "case_id": "reviewed-suppression-system-implication",
+      "query": "Find SafetyImplication: Given that a fire may propagate in spite of early detection and initial response, there is a possibility that an active fire suppression system will need to be activated.",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "SafetyImplication"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [
+          "ntrs-20205007829"
+        ],
+        "targets": [],
+        "unresolved_mentions": []
+      },
+      "required_evidence_ids": [
+        "E-safety-suppression-system-implication"
+      ],
+      "gold_basis": "Frozen source-backed evidence identity or justified no-answer state; not complete scientific relevance gold.",
+      "expected_no_direct": false,
+      "review_status": "OBJECTIVE_IDENTITY_REGRESSION",
+      "not_independent_relevance": true
+    },
+    {
+      "case_id": "reviewed-std-6001-applicability",
+      "query": "Find Requirement: Materials intended for use in space vehicles, specified test facilities, and contractually specified Ground Support Equipment (GSE) shall meet the requirements of this NASA Technical Standard.",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "Requirement"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [
+          "nasa-std-6001"
+        ],
+        "targets": [],
+        "unresolved_mentions": []
+      },
+      "required_evidence_ids": [
+        "E-safety-std-6001-applicability"
+      ],
+      "gold_basis": "Frozen source-backed evidence identity or justified no-answer state; not complete scientific relevance gold.",
+      "expected_no_direct": false,
+      "review_status": "OBJECTIVE_IDENTITY_REGRESSION",
+      "not_independent_relevance": true
+    },
+    {
+      "case_id": "reviewed-std-6001-worst-case-test",
+      "query": "Find TestCriterion: Required tests shall be conducted on materials in their worst-case exposure conditions and representative use thicknesses and product forms.",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "TestCriterion"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [
+          "nasa-std-6001"
+        ],
+        "targets": [],
+        "unresolved_mentions": []
+      },
+      "required_evidence_ids": [
+        "E-safety-std-6001-worst-case-test"
+      ],
+      "gold_basis": "Frozen source-backed evidence identity or justified no-answer state; not complete scientific relevance gold.",
+      "expected_no_direct": false,
+      "review_status": "OBJECTIVE_IDENTITY_REGRESSION",
+      "not_independent_relevance": true
+    },
+    {
+      "case_id": "reviewed-configuration-guidance",
+      "query": "Find Guidance: The document provides guidance in conducting the flammability assessments required for payload hardware by SSP 51700.",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "Guidance"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [
+          "ntrs-20150020937"
+        ],
+        "targets": [],
+        "unresolved_mentions": []
+      },
+      "required_evidence_ids": [
+        "E-safety-configuration-guidance"
+      ],
+      "gold_basis": "Frozen source-backed evidence identity or justified no-answer state; not complete scientific relevance gold.",
+      "expected_no_direct": false,
+      "review_status": "OBJECTIVE_IDENTITY_REGRESSION",
+      "not_independent_relevance": true
+    },
+    {
+      "case_id": "reviewed-configuration-design-criterion",
+      "query": "Find DesignCriterion: It means controlling the quantity and configuration of such materials to eliminate potential fire propagation paths and thus ensure that any fire would be small, localized, and isolated, and would self-extinguish without harm to the crew.",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "DesignCriterion"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [
+          "ntrs-20150020937"
+        ],
+        "targets": [],
+        "unresolved_mentions": []
+      },
+      "required_evidence_ids": [
+        "E-safety-configuration-design-criterion"
+      ],
+      "gold_basis": "Frozen source-backed evidence identity or justified no-answer state; not complete scientific relevance gold.",
+      "expected_no_direct": false,
+      "review_status": "OBJECTIVE_IDENTITY_REGRESSION",
+      "not_independent_relevance": true
+    },
+    {
+      "case_id": "canonical-table-conditions",
+      "query": "SIBAL Fabric microgravity airflow at least 20 cm/s",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "GTE",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "cm/s",
+              "reported_value": 20.0,
+              "tolerance": null,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "required_evidence_ids": [
+        "E-psi-98-table-S1",
+        "E-psi-98-table-S2"
+      ],
+      "gold_basis": "Frozen source-backed evidence identity or justified no-answer state; not complete scientific relevance gold.",
+      "expected_no_direct": false,
+      "review_status": "OBJECTIVE_IDENTITY_REGRESSION",
+      "not_independent_relevance": true
+    },
+    {
+      "case_id": "canonical-table-related",
+      "query": "SIBAL Fabric microgravity airflow below 10 cm/s",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "LT",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "cm/s",
+              "reported_value": 10,
+              "tolerance": null,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "required_evidence_ids": [
+        "E-psi-98-table-S1",
+        "E-psi-98-table-S2"
+      ],
+      "gold_basis": "Frozen source-backed evidence identity or justified no-answer state; not complete scientific relevance gold.",
+      "expected_no_direct": true,
+      "review_status": "OBJECTIVE_IDENTITY_REGRESSION",
+      "not_independent_relevance": true
+    },
+    {
+      "case_id": "unavailable-source",
+      "query": "NASA evidence from unavailable source",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [
+          "unavailable-source"
+        ],
+        "targets": [
+          "Document"
+        ],
+        "unresolved_mentions": []
+      },
+      "required_evidence_ids": [],
+      "gold_basis": "Frozen source-backed evidence identity or justified no-answer state; not complete scientific relevance gold.",
+      "expected_no_direct": true,
+      "review_status": "OBJECTIVE_IDENTITY_REGRESSION",
+      "not_independent_relevance": true
+    }
+  ]
+}

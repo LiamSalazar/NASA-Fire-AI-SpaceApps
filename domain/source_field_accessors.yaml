@@ -1,0 +1,21 @@
+version: phase3c-source-field-accessors-v1
+purpose: "Typed access to already canonical source fields through existing fs:conditionType/fs:value semantics; not new observed measurements"
+authority: "Canonical ConditionRecord kinds and immutable source table headers; units validated independently"
+fields:
+  initial_nitrogen: {unit: fraction, dimension: fraction, context: initial, role: INITIAL_REPORTED_CONDITION}
+  initial_helium: {unit: fraction, dimension: fraction, context: initial, role: INITIAL_REPORTED_CONDITION}
+  initial_co2: {unit: fraction, dimension: fraction, context: initial, role: INITIAL_REPORTED_VALUE}
+  final_co2: {unit: fraction, dimension: fraction, context: final, role: FINAL_REPORTED_VALUE}
+  initial_co: {unit: fraction, dimension: fraction, context: initial, role: INITIAL_REPORTED_VALUE}
+  final_co: {unit: fraction, dimension: fraction, context: final, role: FINAL_REPORTED_VALUE}
+  initial_droplet_diameter: {unit: m, dimension: length, context: initial, role: INITIAL_SPECIMEN_CHARACTERISTIC}
+  visible_flame_extinction_diameter: {unit: m, dimension: length, role: REPORTED_EXTINCTION_CONTEXT}
+  sample_thickness: {unit: m, dimension: length, role: SPECIMEN_CHARACTERISTIC}
+  sample_length: {unit: m, dimension: length, role: SPECIMEN_CHARACTERISTIC}
+  sample_width: {unit: m, dimension: length, role: SPECIMEN_CHARACTERISTIC}
+  ignition_power: {unit: W, dimension: power, role: REPORTED_INTERVENTION_PARAMETER}
+  ignition_time: {unit: s, dimension: time, role: REPORTED_INTERVENTION_PARAMETER}
+  burn_time: {unit: s, dimension: time, role: REPORTED_DURATION_UNSPECIFIED}
+staged:
+  burning_rate: "Source header reports mm for a rate; dimensional interpretation unresolved. Never substitute burn duration."
+  initial_carbon_dioxide: "FLEX header says CO initial ambient composition; CO versus CO2 identity requires source review."

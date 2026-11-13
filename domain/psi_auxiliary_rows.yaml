@@ -1,0 +1,156 @@
+# Reviewed original auxiliary records. Ordinals include the header.
+PSI-98:
+  4:
+    class: DataProductReference
+    identifier: F1C1/F1C2
+    kind: pretest_flow_visualization_reference
+    expected:
+      Sample Number: F1C1/F1C2
+      Material: Pre-test flow visulation data for sample 1
+    fields:
+      Sample Number:
+        property: source:data_reference_identifier
+        datatype: categorical
+        role: data_product_reference
+      Material:
+        property: source:data_description
+        datatype: categorical
+        role: data_product_reference
+  5:
+    class: DataProductReference
+    identifier: F2C1/F2C2
+    kind: pretest_flow_visualization_reference
+    expected:
+      Sample Number: F2C1/F2C2
+      Material: Pre-test flow visulation data for sample 2
+    fields:
+      Sample Number:
+        property: source:data_reference_identifier
+        datatype: categorical
+        role: data_product_reference
+      Material:
+        property: source:data_description
+        datatype: categorical
+        role: data_product_reference
+PSI-99:
+  11:
+    class: DataProductReference
+    identifier: F1C1/F1C2
+    kind: pretest_flow_visualization_reference
+    expected:
+      Sample Number: F1C1/F1C2
+      Material: Pre-test flow visulation data for sample 2-1
+    fields:
+      Sample Number:
+        property: source:data_reference_identifier
+        datatype: categorical
+        role: data_product_reference
+      Material:
+        property: source:data_description
+        datatype: categorical
+        role: data_product_reference
+  12:
+    class: DataProductReference
+    identifier: F2C1/F2C2
+    kind: pretest_flow_visualization_reference
+    expected:
+      Sample Number: F2C1/F2C2
+      Material: Pre-test flow visulation data for sample 2-2
+    fields:
+      Sample Number:
+        property: source:data_reference_identifier
+        datatype: categorical
+        role: data_product_reference
+      Material:
+        property: source:data_description
+        datatype: categorical
+        role: data_product_reference
+  13:
+    class: SourceAnnotation
+    identifier: Note 1
+    kind: table_field_definition
+    expected:
+      Sample Number: Note 1 Derived from measured CO2 production and referenced to
+        initial O2 concentration reported by ISS.
+    fields:
+      Sample Number:
+        property: source:notes
+        datatype: categorical
+        role: source_field_definition
+  14:
+    class: SourceAnnotation
+    identifier: Note 2
+    kind: record_field_annotation
+    expected:
+      Sample Number: Note 2 The PMMA portion was completely consumed but the Nomex
+        was not ignited.
+    fields:
+      Sample Number:
+        property: source:notes
+        datatype: categorical
+        role: reported_note
+    references:
+    - record: 2-7
+      column: ?-g Burn Length
+      marker: note 2
+  15:
+    class: SourceAnnotation
+    identifier: Note 3
+    kind: record_field_annotation
+    expected:
+      Sample Number: Note 3 This is the length of fuel with significant visible damage.
+    fields:
+      Sample Number:
+        property: source:notes
+        datatype: categorical
+        role: reported_note
+    references:
+    - record: 2-8
+      column: ?-g Burn Length
+      marker: note 3
+  16:
+    class: SourceAnnotation
+    identifier: Note 4
+    kind: record_field_annotation
+    expected:
+      Sample Number: Note 4 The flames remain anchored at the base of the sample which
+        has a very slow regression rate (0.01 to 0.04 mm/s)
+    fields:
+      Sample Number:
+        property: source:regression_rate
+        unit: mm/s
+        role: reported_regression_rate
+        label: Source-annotated regression-rate interval
+        quantity_expression: 0.01 to 0.04 mm/s
+    references:
+    - record: 2-8
+      column: ?-g Spread Length
+      marker: Note 4
+    - record: 2-9
+      column: ?-g Burn Length
+      marker: note 4
+    - record: 2-9
+      column: ?-g Spread Length
+      marker: Note 4
+PSI-26:
+  67:
+    class: MaintenanceRecord
+    identifier: SOOT Cleaning
+    kind: maintenance_log
+    expected:
+      Date: 8/3/2012
+      GMT: '216'
+      Fuel Sample Material: SOOT Cleaning
+    fields:
+      Date:
+        property: source:test_date
+        datatype: categorical
+        role: session_identifier
+      GMT:
+        property: source:gmt_day
+        datatype: categorical
+        role: session_identifier
+      Fuel Sample Material:
+        property: source:notes
+        datatype: categorical
+        role: reported_note

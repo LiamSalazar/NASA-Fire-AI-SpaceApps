@@ -1,0 +1,1946 @@
+{
+  "cases": [
+    {
+      "confidence_of_rule_derivation": "HIGH",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [
+          "microgravity"
+        ],
+        "investigations": [],
+        "materials": [
+          "PMMA"
+        ],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi01",
+      "kind": "exact",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "PMMA in microgravity",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "AUTO_HIGH_CONFIDENCE"
+    },
+    {
+      "confidence_of_rule_derivation": "HIGH",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [
+          "microgravity"
+        ],
+        "investigations": [],
+        "materials": [
+          "PMMA"
+        ],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi02",
+      "kind": "safe_alias",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "polymethyl methacrylate in low-g",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "AUTO_HIGH_CONFIDENCE"
+    },
+    {
+      "confidence_of_rule_derivation": "HIGH",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [
+          "microgravity"
+        ],
+        "investigations": [],
+        "materials": [
+          "SIBAL Fabric"
+        ],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi03",
+      "kind": "exact",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "SIBAL Fabric microgravity",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "AUTO_HIGH_CONFIDENCE"
+    },
+    {
+      "confidence_of_rule_derivation": "HIGH",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [
+          "microgravity"
+        ],
+        "investigations": [],
+        "materials": [
+          "SIBAL Fabric"
+        ],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi04",
+      "kind": "safe_alias",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "Sibal low-g",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "AUTO_HIGH_CONFIDENCE"
+    },
+    {
+      "confidence_of_rule_derivation": "HIGH",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [
+          "psi-98"
+        ],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "experiment_search",
+        "requested_information": [
+          "experiments"
+        ],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi05",
+      "kind": "exact",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "SAFFIRE-I experiments",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "AUTO_HIGH_CONFIDENCE"
+    },
+    {
+      "confidence_of_rule_derivation": "HIGH",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [
+          "psi-98"
+        ],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "experiment_search",
+        "requested_information": [
+          "experiments"
+        ],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi06",
+      "kind": "safe_alias",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "Saffire I tests",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "AUTO_HIGH_CONFIDENCE"
+    },
+    {
+      "confidence_of_rule_derivation": "HIGH",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [
+          "psi-25"
+        ],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "experiment_search",
+        "requested_information": [
+          "experiments"
+        ],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi07",
+      "kind": "exact",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "BASS-II experiments",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "AUTO_HIGH_CONFIDENCE"
+    },
+    {
+      "confidence_of_rule_derivation": "HIGH",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [
+          "psi-25"
+        ],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "experiment_search",
+        "requested_information": [
+          "experiments"
+        ],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi08",
+      "kind": "safe_alias",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "BASS tests",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "AUTO_HIGH_CONFIDENCE"
+    },
+    {
+      "confidence_of_rule_derivation": "REVIEW_REQUIRED",
+      "expected": {
+        "ambiguous_terms": [
+          "flow is ambiguous: flow:airflow_velocity"
+        ],
+        "clarification_required": true,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [
+          "microgravity"
+        ],
+        "investigations": [],
+        "materials": [
+          "PMMA"
+        ],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": {
+            "operator": "<",
+            "unit": "cm/s",
+            "value": 10.0
+          },
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": [
+          "flow"
+        ]
+      },
+      "id": "qi09",
+      "kind": "numeric",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "PMMA microgravity airflow below 10 cm/s",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "REVIEW_REQUIRED"
+    },
+    {
+      "confidence_of_rule_derivation": "REVIEW_REQUIRED",
+      "expected": {
+        "ambiguous_terms": [
+          "flow is ambiguous: flow:airflow_velocity"
+        ],
+        "clarification_required": true,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [
+          "microgravity"
+        ],
+        "investigations": [],
+        "materials": [
+          "PMMA"
+        ],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": {
+            "operator": "<=",
+            "unit": "m/s",
+            "value": 0.1
+          },
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": [
+          "flow"
+        ]
+      },
+      "id": "qi10",
+      "kind": "numeric",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "PMMA low-g air flow at most 0.1 m/s",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "REVIEW_REQUIRED"
+    },
+    {
+      "confidence_of_rule_derivation": "REVIEW_REQUIRED",
+      "expected": {
+        "ambiguous_terms": [
+          "flow is ambiguous: flow:airflow_velocity"
+        ],
+        "clarification_required": true,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [
+          "microgravity"
+        ],
+        "investigations": [],
+        "materials": [
+          "SIBAL Fabric"
+        ],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": {
+            "operator": ">=",
+            "unit": "cm/s",
+            "value": 20.0
+          },
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": [
+          "flow"
+        ]
+      },
+      "id": "qi11",
+      "kind": "numeric",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "SIBAL Fabric microgravity flow velocity >= 20 cm/s",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "REVIEW_REQUIRED"
+    },
+    {
+      "confidence_of_rule_derivation": "HIGH",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [
+          "psi-98-S1",
+          "psi-98-S2"
+        ],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [
+          "psi-98"
+        ],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "compare",
+        "requested_information": [
+          "experiments"
+        ],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi12",
+      "kind": "comparison",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "Compare Saffire-I S1 and S2",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "AUTO_HIGH_CONFIDENCE"
+    },
+    {
+      "confidence_of_rule_derivation": "HIGH",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [
+          "psi-98-S1",
+          "psi-98-S2"
+        ],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [
+          "psi-98"
+        ],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "compare",
+        "requested_information": [
+          "experiments"
+        ],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi13",
+      "kind": "comparison",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "Compare S1 and S2",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "AUTO_HIGH_CONFIDENCE"
+    },
+    {
+      "confidence_of_rule_derivation": "HIGH",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "safety_search",
+        "requested_information": [
+          "observations",
+          "safety"
+        ],
+        "safety_intents": [
+          "safety_implication"
+        ],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi14",
+      "kind": "safety",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "What did NASA observe about suppression?",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "AUTO_HIGH_CONFIDENCE"
+    },
+    {
+      "confidence_of_rule_derivation": "HIGH",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [
+          "PMMA"
+        ],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "experiment_search",
+        "requested_information": [
+          "safety"
+        ],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi15",
+      "kind": "safety",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "NASA safety implications for PMMA",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "AUTO_HIGH_CONFIDENCE"
+    },
+    {
+      "confidence_of_rule_derivation": "HIGH",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "safety_search",
+        "requested_information": [
+          "safety"
+        ],
+        "safety_intents": [
+          "requirement"
+        ],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi16",
+      "kind": "requirement",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "Find NASA requirements",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "AUTO_HIGH_CONFIDENCE"
+    },
+    {
+      "confidence_of_rule_derivation": "HIGH",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "safety_search",
+        "requested_information": [
+          "safety"
+        ],
+        "safety_intents": [
+          "guidance"
+        ],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi17",
+      "kind": "guidance",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "Find NASA guidance",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "AUTO_HIGH_CONFIDENCE"
+    },
+    {
+      "confidence_of_rule_derivation": "HIGH",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "safety_search",
+        "requested_information": [
+          "safety"
+        ],
+        "safety_intents": [
+          "open_question"
+        ],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi18",
+      "kind": "open_question",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "NASA open questions",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "AUTO_HIGH_CONFIDENCE"
+    },
+    {
+      "confidence_of_rule_derivation": "REVIEW_REQUIRED",
+      "expected": {
+        "ambiguous_terms": [
+          "acrylic is ambiguous: material:pmma"
+        ],
+        "clarification_required": true,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": [
+          "acrylic"
+        ]
+      },
+      "id": "qi19",
+      "kind": "ambiguous",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "What about acrylic fires?",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "REVIEW_REQUIRED"
+    },
+    {
+      "confidence_of_rule_derivation": "REVIEW_REQUIRED",
+      "expected": {
+        "ambiguous_terms": [
+          "velocity is ambiguous: airflow velocity or flame-spread velocity"
+        ],
+        "clarification_required": true,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": [
+          "velocity"
+        ]
+      },
+      "id": "qi20",
+      "kind": "ambiguous",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "velocity effects",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "REVIEW_REQUIRED"
+    },
+    {
+      "confidence_of_rule_derivation": "REVIEW_REQUIRED",
+      "expected": {
+        "ambiguous_terms": [
+          "flow is ambiguous: flow:airflow_velocity"
+        ],
+        "clarification_required": true,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": [
+          "flow"
+        ]
+      },
+      "id": "qi21",
+      "kind": "ambiguous",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "flow effects",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "REVIEW_REQUIRED"
+    },
+    {
+      "confidence_of_rule_derivation": "REVIEW_REQUIRED",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": [
+          "xenon"
+        ]
+      },
+      "id": "qi22",
+      "kind": "unknown",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "xenon combustion",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "REVIEW_REQUIRED"
+    },
+    {
+      "confidence_of_rule_derivation": "HIGH",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi23",
+      "kind": "unknown",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "unindexed material fire",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "AUTO_HIGH_CONFIDENCE"
+    },
+    {
+      "confidence_of_rule_derivation": "HIGH",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [
+          "PMMA"
+        ],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi24",
+      "kind": "paraphrase",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "Show PMMA tests",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "AUTO_HIGH_CONFIDENCE"
+    },
+    {
+      "confidence_of_rule_derivation": "HIGH",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [
+          "PMMA"
+        ],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "experiment_search",
+        "requested_information": [
+          "experiments"
+        ],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi25",
+      "kind": "paraphrase",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "What experiments used PMMA?",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "AUTO_HIGH_CONFIDENCE"
+    },
+    {
+      "confidence_of_rule_derivation": "HIGH",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [
+          "microgravity"
+        ],
+        "investigations": [],
+        "materials": [
+          "SIBAL Fabric"
+        ],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi26",
+      "kind": "paraphrase",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "Show low-g SIBAL evidence",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "AUTO_HIGH_CONFIDENCE"
+    },
+    {
+      "confidence_of_rule_derivation": "HIGH",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [
+          "microgravity"
+        ],
+        "investigations": [],
+        "materials": [
+          "PMMA"
+        ],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "safety_search",
+        "requested_information": [
+          "safety"
+        ],
+        "safety_intents": [
+          "safety_implication"
+        ],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi27",
+      "kind": "multi_condition",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "What has NASA reported about suppressing PMMA fires in microgravity?",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "AUTO_HIGH_CONFIDENCE"
+    },
+    {
+      "confidence_of_rule_derivation": "REVIEW_REQUIRED",
+      "expected": {
+        "ambiguous_terms": [
+          "flow is ambiguous: flow:airflow_velocity"
+        ],
+        "clarification_required": true,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "compare",
+        "requested_information": [
+          "experiments"
+        ],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": [
+          "flow"
+        ]
+      },
+      "id": "qi28",
+      "kind": "comparison",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "Compare concurrent and opposed flow",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "REVIEW_REQUIRED"
+    },
+    {
+      "confidence_of_rule_derivation": "REVIEW_REQUIRED",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [
+          "microgravity"
+        ],
+        "investigations": [
+          "psi-98"
+        ],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "experiment_search",
+        "requested_information": [
+          "experiments"
+        ],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi29",
+      "kind": "documentary",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "Saffire microgravity results",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "REVIEW_REQUIRED"
+    },
+    {
+      "confidence_of_rule_derivation": "REVIEW_REQUIRED",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [
+          "microgravity"
+        ],
+        "investigations": [
+          "psi-25"
+        ],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "experiment_search",
+        "requested_information": [
+          "experiments"
+        ],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi30",
+      "kind": "documentary",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "BASS microgravity results",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "REVIEW_REQUIRED"
+    },
+    {
+      "confidence_of_rule_derivation": "HIGH",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [
+          "PMMA"
+        ],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "safety_search",
+        "requested_information": [
+          "safety"
+        ],
+        "safety_intents": [
+          "requirement"
+        ],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi31",
+      "kind": "safety",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "PMMA requirement",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "AUTO_HIGH_CONFIDENCE"
+    },
+    {
+      "confidence_of_rule_derivation": "HIGH",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [
+          "PMMA"
+        ],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "safety_search",
+        "requested_information": [
+          "safety"
+        ],
+        "safety_intents": [
+          "guidance"
+        ],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi32",
+      "kind": "safety",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "PMMA guidance",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "AUTO_HIGH_CONFIDENCE"
+    },
+    {
+      "confidence_of_rule_derivation": "HIGH",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "safety_search",
+        "requested_information": [
+          "safety"
+        ],
+        "safety_intents": [
+          "open_question",
+          "safety_implication"
+        ],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi33",
+      "kind": "safety",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "suppression open question",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "AUTO_HIGH_CONFIDENCE"
+    },
+    {
+      "confidence_of_rule_derivation": "REVIEW_REQUIRED",
+      "expected": {
+        "ambiguous_terms": [
+          "flow is ambiguous: flow:airflow_velocity"
+        ],
+        "clarification_required": true,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": {
+            "operator": "<",
+            "unit": "cm/s",
+            "value": 20.0
+          },
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": [
+          "flow"
+        ]
+      },
+      "id": "qi34",
+      "kind": "numeric",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "airflow < 20 cm/s",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "REVIEW_REQUIRED"
+    },
+    {
+      "confidence_of_rule_derivation": "REVIEW_REQUIRED",
+      "expected": {
+        "ambiguous_terms": [
+          "flow is ambiguous: flow:airflow_velocity"
+        ],
+        "clarification_required": true,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": {
+            "operator": "<=",
+            "unit": "m/s",
+            "value": 0.1
+          },
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": [
+          "flow"
+        ]
+      },
+      "id": "qi35",
+      "kind": "numeric",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "air flow no more than 0.10 m/s",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "REVIEW_REQUIRED"
+    },
+    {
+      "confidence_of_rule_derivation": "REVIEW_REQUIRED",
+      "expected": {
+        "ambiguous_terms": [
+          "flow is ambiguous: flow:airflow_velocity"
+        ],
+        "clarification_required": true,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": [
+          "flow"
+        ]
+      },
+      "id": "qi36",
+      "kind": "numeric",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "roughly 0.2 m/s airflow",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "REVIEW_REQUIRED"
+    },
+    {
+      "confidence_of_rule_derivation": "HIGH",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi37",
+      "kind": "numeric",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "about 20% oxygen",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "AUTO_HIGH_CONFIDENCE"
+    },
+    {
+      "confidence_of_rule_derivation": "REVIEW_REQUIRED",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi38",
+      "kind": "range",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "between 21.5 and 21.7% oxygen",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "REVIEW_REQUIRED"
+    },
+    {
+      "confidence_of_rule_derivation": "REVIEW_REQUIRED",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [
+          "psi-98-S1"
+        ],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [
+          "psi-98"
+        ],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi39",
+      "kind": "context_followup",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "S1",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "REVIEW_REQUIRED"
+    },
+    {
+      "confidence_of_rule_derivation": "REVIEW_REQUIRED",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [
+          "psi-98-S2"
+        ],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [
+          "psi-98"
+        ],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi40",
+      "kind": "context_followup",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "What was different about S2?",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "REVIEW_REQUIRED"
+    },
+    {
+      "confidence_of_rule_derivation": "REVIEW_REQUIRED",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "experiment_search",
+        "requested_information": [
+          "observations"
+        ],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi41",
+      "kind": "context_followup",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "What did it observe?",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "REVIEW_REQUIRED"
+    },
+    {
+      "confidence_of_rule_derivation": "HIGH",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [
+          "microgravity"
+        ],
+        "investigations": [],
+        "materials": [
+          "PMMA",
+          "SIBAL Fabric"
+        ],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi42",
+      "kind": "multi_condition",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "PMMA and SIBAL under microgravity",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "AUTO_HIGH_CONFIDENCE"
+    },
+    {
+      "confidence_of_rule_derivation": "REVIEW_REQUIRED",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "safety_search",
+        "requested_information": [
+          "safety"
+        ],
+        "safety_intents": [
+          "safety_implication"
+        ],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi43",
+      "kind": "phenomenon",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "suppression versus extinction",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "REVIEW_REQUIRED"
+    },
+    {
+      "confidence_of_rule_derivation": "REVIEW_REQUIRED",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi44",
+      "kind": "requested_information",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "reported observations",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "REVIEW_REQUIRED"
+    },
+    {
+      "confidence_of_rule_derivation": "REVIEW_REQUIRED",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "experiment_search",
+        "requested_information": [
+          "conclusions"
+        ],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi45",
+      "kind": "requested_information",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "NASA conclusions",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "REVIEW_REQUIRED"
+    },
+    {
+      "confidence_of_rule_derivation": "REVIEW_REQUIRED",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [
+          "psi-98"
+        ],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "experiment_search",
+        "requested_information": [
+          "experiments"
+        ],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi46",
+      "kind": "requested_information",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "measurements from Saffire",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "REVIEW_REQUIRED"
+    },
+    {
+      "confidence_of_rule_derivation": "REVIEW_REQUIRED",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [
+          "PMMA"
+        ],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi47",
+      "kind": "requested_information",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "publications about PMMA",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "REVIEW_REQUIRED"
+    },
+    {
+      "confidence_of_rule_derivation": "HIGH",
+      "expected": {
+        "ambiguous_terms": [],
+        "clarification_required": false,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [
+          "microgravity"
+        ],
+        "investigations": [],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": []
+      },
+      "id": "qi48",
+      "kind": "unknown",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "unknown polymer in low-g",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "AUTO_HIGH_CONFIDENCE"
+    },
+    {
+      "confidence_of_rule_derivation": "REVIEW_REQUIRED",
+      "expected": {
+        "ambiguous_terms": [
+          "acrylic is ambiguous: material:pmma"
+        ],
+        "clarification_required": true,
+        "comparison_targets": [],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [],
+        "materials": [
+          "PMMA"
+        ],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": null,
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "general_search",
+        "requested_information": [],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": [
+          "acrylic"
+        ]
+      },
+      "id": "qi49",
+      "kind": "ambiguous",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "Does acrylic mean PMMA?",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "REVIEW_REQUIRED"
+    },
+    {
+      "confidence_of_rule_derivation": "REVIEW_REQUIRED",
+      "expected": {
+        "ambiguous_terms": [
+          "flow is ambiguous: flow:airflow_velocity"
+        ],
+        "clarification_required": true,
+        "comparison_targets": [
+          "psi-98-S1",
+          "psi-98-S2"
+        ],
+        "flow_direction": null,
+        "gravity_conditions": [],
+        "investigations": [
+          "psi-98"
+        ],
+        "materials": [],
+        "no_direct_behavior": null,
+        "numeric_constraints": {
+          "flow_velocity": {
+            "operator": "=",
+            "unit": "cm/s",
+            "value": 20.0
+          },
+          "oxygen": null,
+          "pressure": null
+        },
+        "phenomena": [],
+        "query_mode": "compare",
+        "requested_information": [
+          "experiments"
+        ],
+        "safety_intents": [],
+        "source_constraints": [],
+        "unknown_terms": [
+          "flow"
+        ]
+      },
+      "id": "qi50",
+      "kind": "multi_condition",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS"
+      ],
+      "query": "Compare Saffire-I S1 and S2 at airflow 20 cm/s",
+      "review_notes": "Candidate only; not reviewed.",
+      "review_status": "REVIEW_REQUIRED"
+    }
+  ],
+  "source_digest": "8e6858de65359062f65e6d34b3ad81dcd6ef4ccee0866f40ee0b742882da3703",
+  "version": "candidate-v1"
+}

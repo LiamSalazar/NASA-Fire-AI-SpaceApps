@@ -1,0 +1,81 @@
+version: phase1.5-frozen-2026-10-04
+contract:
+  - Top-1 concept accuracy and Top-k concept recall are measured only for unambiguous cases.
+  - Ambiguous cases must remain unresolved or return only an allowed ambiguity set.
+  - Confusable concepts must not be collapsed merely because their language overlaps.
+examples:
+  - phrase: PMMA
+    canonical_concept: material:pmma
+    acceptable_aliases: [PMMA, polymethyl methacrylate]
+    ambiguous: false
+    confusable_concepts: []
+  - phrase: polymethyl methacrylate
+    canonical_concept: material:pmma
+    acceptable_aliases: [PMMA]
+    ambiguous: false
+    confusable_concepts: []
+  - phrase: SIBAL Fabric
+    canonical_concept: material:sibal_fabric
+    acceptable_aliases: [SIBAL]
+    ambiguous: false
+    confusable_concepts: []
+  - phrase: airflow velocity
+    canonical_concept: condition:flow_velocity
+    acceptable_aliases: [airflow, forced flow velocity]
+    ambiguous: false
+    confusable_concepts: [measurement:flame_spread_velocity]
+  - phrase: forced flow velocity
+    canonical_concept: condition:flow_velocity
+    acceptable_aliases: [airflow velocity]
+    ambiguous: false
+    confusable_concepts: [measurement:flame_spread_velocity]
+  - phrase: flame-spread velocity
+    canonical_concept: measurement:flame_spread_velocity
+    acceptable_aliases: [flame spread rate]
+    ambiguous: false
+    confusable_concepts: [condition:flow_velocity]
+  - phrase: extinction
+    canonical_concept: phenomenon:extinction
+    acceptable_aliases: []
+    ambiguous: false
+    confusable_concepts: [intervention:suppression, phenomenon:blowoff]
+  - phrase: suppression
+    canonical_concept: intervention:suppression
+    acceptable_aliases: []
+    ambiguous: false
+    confusable_concepts: [phenomenon:extinction, phenomenon:blowoff]
+  - phrase: quenching
+    canonical_concept: null
+    acceptable_aliases: []
+    ambiguous: true
+    confusable_concepts: [phenomenon:extinction, intervention:suppression]
+  - phrase: blowoff
+    canonical_concept: phenomenon:blowoff
+    acceptable_aliases: []
+    ambiguous: false
+    confusable_concepts: [phenomenon:extinction]
+  - phrase: droplet diameter
+    canonical_concept: measurement:diameter
+    acceptable_aliases: [initial droplet diameter, extinction diameter]
+    ambiguous: false
+    confusable_concepts: []
+  - phrase: burning rate
+    canonical_concept: null
+    acceptable_aliases: []
+    ambiguous: true
+    confusable_concepts: [measurement:regression_rate]
+  - phrase: oxygen concentration
+    canonical_concept: condition:oxygen_fraction
+    acceptable_aliases: [oxygen mole fraction, O2]
+    ambiguous: false
+    confusable_concepts: [condition:oxygen_partial_pressure]
+  - phrase: pressure
+    canonical_concept: condition:pressure
+    acceptable_aliases: [ambient pressure]
+    ambiguous: false
+    confusable_concepts: [condition:oxygen_partial_pressure]
+  - phrase: soot particle measure
+    canonical_concept: null
+    acceptable_aliases: []
+    ambiguous: true
+    confusable_concepts: [measurement:smoke_particle_measure]

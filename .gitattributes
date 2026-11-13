@@ -1,0 +1,6 @@
+# New receipts are LF on every platform; earlier receipts keep their recorded bytes.
+artifacts/phase1_generalizable_ingestion/v6/milestone14/** text eol=lf
+# Compressed packages are bytes, never text (an LF rule would corrupt them).
+*.gz binary
+# Scientific originals are immutable bytes, including their original line endings.
+data/raw/** binary

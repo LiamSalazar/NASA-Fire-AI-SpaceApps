@@ -1,0 +1,9 @@
+{
+  "frozen_at": "2026-11-09",
+  "purpose": "Prospective source-identity holdout for the next ingestion and consultation evaluation",
+  "document_oos_accessions": ["PSI-39", "PSI-47"],
+  "investigation_oos_accessions": ["PSI-107"],
+  "development_accessions": ["PSI-10", "PSI-159", "PSI-20", "PSI-21", "PSI-22", "PSI-23", "PSI-106"],
+  "status": "Frozen before new ingestion work; clean team tables and catalogue metadata were already accessible in the repository, so this is not an independently unseen scientific holdout",
+  "leakage_rule": "No holdout question, result or source value may become a production rule. Any inspected holdout source becomes exposed and requires a new independent acceptance set."
+}

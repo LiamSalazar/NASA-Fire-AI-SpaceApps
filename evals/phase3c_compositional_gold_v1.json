@@ -1,0 +1,1487 @@
+{
+  "cases": [
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "BETWEEN",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": 0.01,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": null,
+              "tolerance": null,
+              "upper": 0.11
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "comp01",
+      "kind": "two_entities_range",
+      "query": "Find experiments using PMMA in microgravity with airflow between 0.01 and 0.11 m/s",
+      "supported": true
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "BETWEEN",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": 0.02,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": null,
+              "tolerance": null,
+              "upper": 0.12000000000000001
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "comp02",
+      "kind": "two_entities_range",
+      "query": "Find experiments using SIBAL Fabric in microgravity with airflow between 0.02 and 0.12 m/s",
+      "supported": true
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "BETWEEN",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": 0.03,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": null,
+              "tolerance": null,
+              "upper": 0.13
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "comp03",
+      "kind": "two_entities_range",
+      "query": "Find experiments using PMMA in microgravity with airflow between 0.03 and 0.13 m/s",
+      "supported": true
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "BETWEEN",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": 0.04,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": null,
+              "tolerance": null,
+              "upper": 0.14
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "comp04",
+      "kind": "two_entities_range",
+      "query": "Find experiments using SIBAL Fabric in microgravity with airflow between 0.04 and 0.14 m/s",
+      "supported": true
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "BETWEEN",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": 0.05,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": null,
+              "tolerance": null,
+              "upper": 0.15000000000000002
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "comp05",
+      "kind": "two_entities_range",
+      "query": "Find experiments using PMMA in microgravity with airflow between 0.05 and 0.15 m/s",
+      "supported": true
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "BETWEEN",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": 0.060000000000000005,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": null,
+              "tolerance": null,
+              "upper": 0.16
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "comp06",
+      "kind": "two_entities_range",
+      "query": "Find experiments using SIBAL Fabric in microgravity with airflow between 0.06 and 0.16 m/s",
+      "supported": true
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "BETWEEN",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": 0.06999999999999999,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": null,
+              "tolerance": null,
+              "upper": 0.16999999999999998
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "comp07",
+      "kind": "two_entities_range",
+      "query": "Find experiments using PMMA in microgravity with airflow between 0.07 and 0.17 m/s",
+      "supported": true
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "BETWEEN",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": 0.08,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": null,
+              "tolerance": null,
+              "upper": 0.18
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "comp08",
+      "kind": "two_entities_range",
+      "query": "Find experiments using SIBAL Fabric in microgravity with airflow between 0.08 and 0.18 m/s",
+      "supported": true
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "BETWEEN",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": 0.09,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": null,
+              "tolerance": null,
+              "upper": 0.19
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "comp09",
+      "kind": "two_entities_range",
+      "query": "Find experiments using PMMA in microgravity with airflow between 0.09 and 0.19 m/s",
+      "supported": true
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "BETWEEN",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": 0.09999999999999999,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": null,
+              "tolerance": null,
+              "upper": 0.2
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "comp10",
+      "kind": "two_entities_range",
+      "query": "Find experiments using SIBAL Fabric in microgravity with airflow between 0.10 and 0.20 m/s",
+      "supported": true
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "APPROX",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": true,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": 0.01,
+              "tolerance": 0.005,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "comp11",
+      "kind": "two_entities_explicit_approximation",
+      "query": "Find experiments using PMMA in microgravity with airflow about 0.01 +/- 0.005 m/s",
+      "supported": true
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "APPROX",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": true,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": 0.02,
+              "tolerance": 0.005,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "comp12",
+      "kind": "two_entities_explicit_approximation",
+      "query": "Find experiments using SIBAL Fabric in microgravity with airflow about 0.02 +/- 0.005 m/s",
+      "supported": true
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "APPROX",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": true,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": 0.03,
+              "tolerance": 0.005,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "comp13",
+      "kind": "two_entities_explicit_approximation",
+      "query": "Find experiments using PMMA in microgravity with airflow about 0.03 +/- 0.005 m/s",
+      "supported": true
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "APPROX",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": true,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": 0.04,
+              "tolerance": 0.005,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "comp14",
+      "kind": "two_entities_explicit_approximation",
+      "query": "Find experiments using SIBAL Fabric in microgravity with airflow about 0.04 +/- 0.005 m/s",
+      "supported": true
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "APPROX",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": true,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": 0.05,
+              "tolerance": 0.005,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "comp15",
+      "kind": "two_entities_explicit_approximation",
+      "query": "Find experiments using PMMA in microgravity with airflow about 0.05 +/- 0.005 m/s",
+      "supported": true
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "APPROX",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": true,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": 0.060000000000000005,
+              "tolerance": 0.005,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "comp16",
+      "kind": "two_entities_explicit_approximation",
+      "query": "Find experiments using SIBAL Fabric in microgravity with airflow about 0.06 +/- 0.005 m/s",
+      "supported": true
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "APPROX",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": true,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": 0.06999999999999999,
+              "tolerance": 0.005,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "comp17",
+      "kind": "two_entities_explicit_approximation",
+      "query": "Find experiments using PMMA in microgravity with airflow about 0.07 +/- 0.005 m/s",
+      "supported": true
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "APPROX",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": true,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": 0.08,
+              "tolerance": 0.005,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "comp18",
+      "kind": "two_entities_explicit_approximation",
+      "query": "Find experiments using SIBAL Fabric in microgravity with airflow about 0.08 +/- 0.005 m/s",
+      "supported": true
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "APPROX",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": true,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": 0.09,
+              "tolerance": 0.005,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "comp19",
+      "kind": "two_entities_explicit_approximation",
+      "query": "Find experiments using PMMA in microgravity with airflow about 0.09 +/- 0.005 m/s",
+      "supported": true
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "APPROX",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": true,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": 0.09999999999999999,
+              "tolerance": 0.005,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "comp20",
+      "kind": "two_entities_explicit_approximation",
+      "query": "Find experiments using SIBAL Fabric in microgravity with airflow about 0.10 +/- 0.005 m/s",
+      "supported": true
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "BETWEEN",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": 0.01,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": null,
+              "tolerance": null,
+              "upper": 0.11
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [
+          "psi-98"
+        ],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": [
+          "unregistered-condition"
+        ]
+      },
+      "id": "comp21",
+      "kind": "two_entities_range_source_unknown",
+      "query": "Find experiments using PMMA in microgravity with airflow between 0.01 and 0.11 m/s from psi-98 with unregistered-condition",
+      "supported": true
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "BETWEEN",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": 0.02,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": null,
+              "tolerance": null,
+              "upper": 0.12000000000000001
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [
+          "psi-98"
+        ],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": [
+          "unregistered-condition"
+        ]
+      },
+      "id": "comp22",
+      "kind": "two_entities_range_source_unknown",
+      "query": "Find experiments using SIBAL Fabric in microgravity with airflow between 0.02 and 0.12 m/s from psi-98 with unregistered-condition",
+      "supported": true
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "BETWEEN",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": 0.03,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": null,
+              "tolerance": null,
+              "upper": 0.13
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [
+          "psi-98"
+        ],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": [
+          "unregistered-condition"
+        ]
+      },
+      "id": "comp23",
+      "kind": "two_entities_range_source_unknown",
+      "query": "Find experiments using PMMA in microgravity with airflow between 0.03 and 0.13 m/s from psi-98 with unregistered-condition",
+      "supported": true
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "BETWEEN",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": 0.04,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": null,
+              "tolerance": null,
+              "upper": 0.14
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [
+          "psi-98"
+        ],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": [
+          "unregistered-condition"
+        ]
+      },
+      "id": "comp24",
+      "kind": "two_entities_range_source_unknown",
+      "query": "Find experiments using SIBAL Fabric in microgravity with airflow between 0.04 and 0.14 m/s from psi-98 with unregistered-condition",
+      "supported": true
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "BETWEEN",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": 0.05,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": null,
+              "tolerance": null,
+              "upper": 0.15000000000000002
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [
+          "psi-98"
+        ],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": [
+          "unregistered-condition"
+        ]
+      },
+      "id": "comp25",
+      "kind": "two_entities_range_source_unknown",
+      "query": "Find experiments using PMMA in microgravity with airflow between 0.05 and 0.15 m/s from psi-98 with unregistered-condition",
+      "supported": true
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "BETWEEN",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": 0.060000000000000005,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": null,
+              "tolerance": null,
+              "upper": 0.16
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [
+          "psi-98"
+        ],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": [
+          "unregistered-condition"
+        ]
+      },
+      "id": "comp26",
+      "kind": "two_entities_range_source_unknown",
+      "query": "Find experiments using SIBAL Fabric in microgravity with airflow between 0.06 and 0.16 m/s from psi-98 with unregistered-condition",
+      "supported": true
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "BETWEEN",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": 0.06999999999999999,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": null,
+              "tolerance": null,
+              "upper": 0.16999999999999998
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [
+          "psi-98"
+        ],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": [
+          "unregistered-condition"
+        ]
+      },
+      "id": "comp27",
+      "kind": "two_entities_range_source_unknown",
+      "query": "Find experiments using PMMA in microgravity with airflow between 0.07 and 0.17 m/s from psi-98 with unregistered-condition",
+      "supported": true
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "BETWEEN",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": 0.08,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": null,
+              "tolerance": null,
+              "upper": 0.18
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [
+          "psi-98"
+        ],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": [
+          "unregistered-condition"
+        ]
+      },
+      "id": "comp28",
+      "kind": "two_entities_range_source_unknown",
+      "query": "Find experiments using SIBAL Fabric in microgravity with airflow between 0.08 and 0.18 m/s from psi-98 with unregistered-condition",
+      "supported": true
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "BETWEEN",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": 0.09,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": null,
+              "tolerance": null,
+              "upper": 0.19
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [
+          "psi-98"
+        ],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": [
+          "unregistered-condition"
+        ]
+      },
+      "id": "comp29",
+      "kind": "two_entities_range_source_unknown",
+      "query": "Find experiments using PMMA in microgravity with airflow between 0.09 and 0.19 m/s from psi-98 with unregistered-condition",
+      "supported": true
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "BETWEEN",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": 0.09999999999999999,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": null,
+              "tolerance": null,
+              "upper": 0.2
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [
+          "psi-98"
+        ],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": [
+          "unregistered-condition"
+        ]
+      },
+      "id": "comp30",
+      "kind": "two_entities_range_source_unknown",
+      "query": "Find experiments using SIBAL Fabric in microgravity with airflow between 0.10 and 0.20 m/s from psi-98 with unregistered-condition",
+      "supported": true
+    }
+  ],
+  "limitation": "30 parameterized cases, only three composition patterns; no vocabulary novelty claim",
+  "patterns": 3,
+  "version": "phase3c-compositional-v1"
+}

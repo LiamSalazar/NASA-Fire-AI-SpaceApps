@@ -1,0 +1,14 @@
+[
+ {"id":"h_diameter_definitions","topic":"diagnostics","message":"What information is preserved when droplet diameter and flame diameter are reported separately? Explain the measurement methods described by the sources.","live":true,"conversation":"diameters"},
+ {"id":"h_camera_followup","topic":"follow-up","message":"Does the same camera measure both, or are the diagnostics different?","live":true,"conversation":"diameters"},
+ {"id":"h_extinction_followup","topic":"follow-up and extinction","message":"Which measured quantity would be relevant to identifying extinction, and what limits are stated by the authors?","live":true,"conversation":"diameters"},
+ {"id":"h_ground_objectives","topic":"objectives versus results","message":"How do the sources describe the purpose of ground-based solid-fuel apparatus compared with space-based facilities? Preserve whether statements are objectives or results.","live":true},
+ {"id":"h_unreported_conditions","topic":"experimental comparison","message":"Which unreported conditions would prevent a recorded specimen size from establishing experimental equivalence?","live":true},
+ {"id":"h_detection_discovery","topic":"documentary discovery","message":"Which documents or search avenues could help investigate fire signatures before ignition under reduced gravity? Keep possible searches separate from established findings.","live":true},
+ {"id":"h_offgassing_role","topic":"requirements","message":"Does a material offgassing requirement establish an observed combustion result? Explain only what the source documents support."},
+ {"id":"h_oxygen_units","topic":"quantities","message":"Which records report oxygen percentages, and what is missing before comparing them with partial-pressure measurements?"},
+ {"id":"h_pressure_context","topic":"initial conditions","message":"What limits do the original reports place on interpreting ambient pressure as a combustion outcome?"},
+ {"id":"h_temperature_role","topic":"measurement scope","message":"Distinguish a reported ambient temperature from flame temperature without deriving missing measurements."},
+ {"id":"h_no_partial_g","topic":"unsupported environment","message":"Provide observed droplet extinction in Martian gravity at 81.6 kPa and 24.8 % oxygen.","no_direct":true},
+ {"id":"h_ambiguous_instrument","topic":"ambiguity","message":"Was its measurement calibrated under the same conditions?"}
+]

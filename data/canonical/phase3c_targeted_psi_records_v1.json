@@ -1,0 +1,1901 @@
+[
+  {
+    "type": "InvestigationRecord",
+    "id": "psi-26",
+    "source_id": "psi-26",
+    "title": "Burning and Suppression of Solids",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-2",
+        "source_id": "psi-26"
+      }
+    ]
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-1",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "1",
+    "reported_sample_id": "4",
+    "reported_date": "3/30/2012",
+    "reported_material_description": "SIBAL 2 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-2",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-2",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "42",
+    "reported_sample_id": "24",
+    "reported_date": "3/30/2012",
+    "reported_material_description": "PMMA sphere 2 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-3",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-3",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "18",
+    "reported_sample_id": "19",
+    "reported_date": "3/30/2012",
+    "reported_material_description": "PMMA sphere 1 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-4",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-4",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "7",
+    "reported_sample_id": "10",
+    "reported_date": "4/5/2012",
+    "reported_material_description": "SIBAL 2 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-5",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-5",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "8",
+    "reported_sample_id": "11",
+    "reported_date": "4/5/2012",
+    "reported_material_description": "SIBAL 2 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-6",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-6",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "43",
+    "reported_sample_id": "24",
+    "reported_date": "4/9/2012",
+    "reported_material_description": "PMMA sphere 2 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-7",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-7",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "44",
+    "reported_sample_id": "24",
+    "reported_date": "4/9/2012",
+    "reported_material_description": "PMMA sphere 2 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-8",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-8",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "45",
+    "reported_sample_id": "24",
+    "reported_date": "4/9/2012",
+    "reported_material_description": "PMMA sphere 2 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-9",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-9",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "19",
+    "reported_sample_id": "19",
+    "reported_date": "5/2/2012",
+    "reported_material_description": "PMMA sphere 1 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-10",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-10",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "20",
+    "reported_sample_id": "19",
+    "reported_date": "5/2/2012",
+    "reported_material_description": "PMMA sphere 1 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-11",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-11",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "21",
+    "reported_sample_id": "19",
+    "reported_date": "5/2/2012",
+    "reported_material_description": "PMMA sphere 1 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-12",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-12",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "4",
+    "reported_sample_id": "12",
+    "reported_date": "5/10/2012",
+    "reported_material_description": "SIBAL 2 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-13",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-13",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "10",
+    "reported_sample_id": "2",
+    "reported_date": "5/10/2012",
+    "reported_material_description": "SIBAL 1 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-14",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-14",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "12",
+    "reported_sample_id": "27",
+    "reported_date": "5/10/2012",
+    "reported_material_description": "Nomex blend 2 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-15",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-15",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "54",
+    "reported_sample_id": "21",
+    "reported_date": "5/11/2012",
+    "reported_material_description": "PMMA 2 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-16",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-16",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "55",
+    "reported_sample_id": "21",
+    "reported_date": "5/11/2012",
+    "reported_material_description": "PMMA 2 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-17",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-17",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "56",
+    "reported_sample_id": "21",
+    "reported_date": "5/11/2012",
+    "reported_material_description": "PMMA 2 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-18",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-18",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "57",
+    "reported_sample_id": "21",
+    "reported_date": "5/11/2012",
+    "reported_material_description": "PMMA 2 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-19",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-19",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "110",
+    "reported_sample_id": "21",
+    "reported_date": "5/11/2012",
+    "reported_material_description": "PMMA 2 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-20",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-20",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "30",
+    "reported_sample_id": "15",
+    "reported_date": "6/5/2012",
+    "reported_material_description": "PMMA 1 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-21",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-21",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "31",
+    "reported_sample_id": "15",
+    "reported_date": "6/5/2012",
+    "reported_material_description": "PMMA 1 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-22",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-22",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "32",
+    "reported_sample_id": "15",
+    "reported_date": "6/5/2012",
+    "reported_material_description": "PMMA 1 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-23",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-23",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "33",
+    "reported_sample_id": "15",
+    "reported_date": "6/5/2012",
+    "reported_material_description": "PMMA 1 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-24",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-25",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "46",
+    "reported_sample_id": "22",
+    "reported_date": "6/11/2012",
+    "reported_material_description": "2 cm sphere",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-27",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-26",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "47",
+    "reported_sample_id": "22",
+    "reported_date": "6/11/2012",
+    "reported_material_description": "2 cm sphere",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-28",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-27",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "48",
+    "reported_sample_id": "22",
+    "reported_date": "6/11/2012",
+    "reported_material_description": "2 cm sphere",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-29",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-28",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "49",
+    "reported_sample_id": "22",
+    "reported_date": "6/11/2012",
+    "reported_material_description": "2 cm sphere",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-30",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-29",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "22",
+    "reported_sample_id": "18",
+    "reported_date": "6/14/2012",
+    "reported_material_description": "1 cm sphere",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-31",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-30",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "23",
+    "reported_sample_id": "18",
+    "reported_date": "6/14/2012",
+    "reported_material_description": "1 cm sphere",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-32",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-31",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "24",
+    "reported_sample_id": "18",
+    "reported_date": "6/14/2012",
+    "reported_material_description": "1 cm sphere",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-33",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-32",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "25",
+    "reported_sample_id": "18",
+    "reported_date": "6/14/2012",
+    "reported_material_description": "1 cm sphere",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-34",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-33",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "58",
+    "reported_sample_id": "25",
+    "reported_date": "6/18/2012",
+    "reported_material_description": "2 cm sphere",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-35",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-34",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "59",
+    "reported_sample_id": "25",
+    "reported_date": "6/18/2012",
+    "reported_material_description": "2 cm sphere",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-36",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-35",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "60",
+    "reported_sample_id": "25",
+    "reported_date": "6/18/2012",
+    "reported_material_description": "2 cm sphere",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-37",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-36",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "61",
+    "reported_sample_id": "25",
+    "reported_date": "6/18/2012",
+    "reported_material_description": "2 cm sphere",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-38",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-37",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "5",
+    "reported_sample_id": "9",
+    "reported_date": "6/28/2012",
+    "reported_material_description": "SIBAL 2 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-39",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-38",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "14",
+    "reported_sample_id": "29",
+    "reported_date": "6/28/2012",
+    "reported_material_description": "Nomex III Natural",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-40",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-39",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "66",
+    "reported_sample_id": "33",
+    "reported_date": "6/28/2012",
+    "reported_material_description": "PMMA slab",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-41",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-40",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "67",
+    "reported_sample_id": "33",
+    "reported_date": "6/28/2012",
+    "reported_material_description": "PMMA slab",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-42",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-41",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "34",
+    "reported_sample_id": "16",
+    "reported_date": "6/29/2012",
+    "reported_material_description": "1 cm sphere",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-43",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-42",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "35",
+    "reported_sample_id": "16",
+    "reported_date": "6/29/`12",
+    "reported_material_description": "1 cm sphere",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-44",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-43",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "16",
+    "reported_sample_id": "31",
+    "reported_date": "6/29/2012",
+    "reported_material_description": "ultem sheet",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-45",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-44",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "5b",
+    "reported_sample_id": "9",
+    "reported_date": "6/29/2012",
+    "reported_material_description": "SIBAL 2 cm   opposed flow ",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-46",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-45",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "6",
+    "reported_sample_id": "8",
+    "reported_date": "7/3/2012",
+    "reported_material_description": "SIBAL 2 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-47",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-46",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "82",
+    "reported_sample_id": "35",
+    "reported_date": "7/3/2012",
+    "reported_material_description": "candle",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-48",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-47",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "82a",
+    "reported_sample_id": "35",
+    "reported_date": "7/3/2012",
+    "reported_material_description": "candle",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-49",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-48",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "82b",
+    "reported_sample_id": "35",
+    "reported_date": "7/3/2012",
+    "reported_material_description": "candle",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-50",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-49",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "68",
+    "reported_sample_id": "33",
+    "reported_date": "7/3/2012",
+    "reported_material_description": "pmma slab",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-51",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-50",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "69",
+    "reported_sample_id": "33",
+    "reported_date": "7/12/2012",
+    "reported_material_description": "pmma slab",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-52",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-51",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "111",
+    "reported_sample_id": "21",
+    "reported_date": "7/12/2012",
+    "reported_material_description": "2 cm sphere   wake ign",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-53",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-52",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "112",
+    "reported_sample_id": "21",
+    "reported_date": "7/12/2012",
+    "reported_material_description": "2 cm sphere   wake ign",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-54",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-53",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "113",
+    "reported_sample_id": "21",
+    "reported_date": "7/12/2012",
+    "reported_material_description": "2 cm sphere   wake ign",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-55",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-54",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "2",
+    "reported_sample_id": "5",
+    "reported_date": "7/19/2012",
+    "reported_material_description": "SIBAL 2 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-56",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-55",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "3",
+    "reported_sample_id": "6",
+    "reported_date": "7/19/2012",
+    "reported_material_description": "SIBAL 2 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-57",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-56",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "15",
+    "reported_sample_id": "30",
+    "reported_date": "7/19/2012",
+    "reported_material_description": "nomex natural III",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-58",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-57",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "13",
+    "reported_sample_id": "28",
+    "reported_date": "7/19/2012",
+    "reported_material_description": "Nomex blend 2 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-59",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-58",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "17",
+    "reported_sample_id": "32",
+    "reported_date": "7/19/2012",
+    "reported_material_description": "ultem sheet",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-60",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-59",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "114",
+    "reported_sample_id": "25",
+    "reported_date": "7/19/2012",
+    "reported_material_description": "pmma sphere",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-61",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-60",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "62",
+    "reported_sample_id": "23",
+    "reported_date": "7/23/2012",
+    "reported_material_description": "PMMA sphere 2 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-62",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-61",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "63",
+    "reported_sample_id": "23",
+    "reported_date": "7/23/2012",
+    "reported_material_description": "PMMA sphere 2 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-63",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-62",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "64",
+    "reported_sample_id": "23",
+    "reported_date": "7/23/2012",
+    "reported_material_description": "PMMA sphere 2 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-64",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-63",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "65",
+    "reported_sample_id": "23",
+    "reported_date": "7/23/2012",
+    "reported_material_description": "PMMA sphere 2 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-65",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-64",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "118",
+    "reported_sample_id": "23",
+    "reported_date": "7/23/2012",
+    "reported_material_description": "PMMA sphere 2 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-66",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-65",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "11",
+    "reported_sample_id": "3",
+    "reported_date": "8/9/2012",
+    "reported_material_description": "SIBAL 1 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-68",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-66",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "9",
+    "reported_sample_id": "7",
+    "reported_date": "8/9/2012",
+    "reported_material_description": "SIBAL 2 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-69",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-67",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "102",
+    "reported_sample_id": "22",
+    "reported_date": "8/9/2012",
+    "reported_material_description": "PMMA sphere 2 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-70",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-68",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "83a",
+    "reported_sample_id": "36",
+    "reported_date": "8/16/2012",
+    "reported_material_description": "Japan Wax Candle   wake",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-71",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-69",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "83b",
+    "reported_sample_id": "36",
+    "reported_date": "8/16/2012",
+    "reported_material_description": "Japan Wax Candle   wake",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-72",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-70",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "83c",
+    "reported_sample_id": "36",
+    "reported_date": "8/16/2012",
+    "reported_material_description": "Japan Wax Candle   wake",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-73",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-71",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "84a",
+    "reported_sample_id": "37",
+    "reported_date": "8/16/2012",
+    "reported_material_description": "Japan Wax Candle   wake",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-74",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-72",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "84b",
+    "reported_sample_id": "37",
+    "reported_date": "8/16/2012",
+    "reported_material_description": "Japan Wax Candle   wake",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-75",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-73",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "86a",
+    "reported_sample_id": "38",
+    "reported_date": "8/16/2012",
+    "reported_material_description": "Japan Wax Candle   wake",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-76",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-74",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "86b",
+    "reported_sample_id": "38",
+    "reported_date": "8/16/2012",
+    "reported_material_description": "Japan Wax Candle   wake",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-77",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-75",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "86c",
+    "reported_sample_id": "38",
+    "reported_date": "8/16/2012",
+    "reported_material_description": "Japan Wax Candle   wake",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-78",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-76",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "70",
+    "reported_sample_id": "34",
+    "reported_date": "8/21/2012",
+    "reported_material_description": "PMMA slab",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-79",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-77",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "71",
+    "reported_sample_id": "34",
+    "reported_date": "8/21/2012",
+    "reported_material_description": "PMMA slab",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-80",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-78",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "74",
+    "reported_sample_id": "41",
+    "reported_date": "8/21/2012",
+    "reported_material_description": "paraffin wax slab",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-81",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-79",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "75",
+    "reported_sample_id": "41",
+    "reported_date": "8/21/2012",
+    "reported_material_description": "parrafin wax slab",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-82",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-80",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "98",
+    "reported_sample_id": "24",
+    "reported_date": "4/5/2013",
+    "reported_material_description": "PMMA 2 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-83",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-81",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "99",
+    "reported_sample_id": "24",
+    "reported_date": "4/5/2013",
+    "reported_material_description": "PMMA 2 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-84",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-82",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "114",
+    "reported_sample_id": "25",
+    "reported_date": "4/9/2013",
+    "reported_material_description": "PMMA 2 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-85",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-83",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "115",
+    "reported_sample_id": "25",
+    "reported_date": "4/9/2013",
+    "reported_material_description": "pmma 2 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-86",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-84",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "116",
+    "reported_sample_id": "25",
+    "reported_date": "4/9/2013",
+    "reported_material_description": "pmma 2 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-87",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-86",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "100",
+    "reported_sample_id": "24",
+    "reported_date": "4/12/2013",
+    "reported_material_description": "pmma 2 cm",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-90",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-87",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "85",
+    "reported_sample_id": "43",
+    "reported_date": "4/12/2013",
+    "reported_material_description": "candle    paraffin   wake",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-91",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-88",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "93",
+    "reported_sample_id": "43",
+    "reported_date": "4/12/2013",
+    "reported_material_description": "candle    paraffin   wake",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-92",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-92",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "105",
+    "reported_sample_id": "22",
+    "reported_date": "4/23/2013",
+    "reported_material_description": "2 cm sphere",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-99",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-93",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "38",
+    "reported_sample_id": "20",
+    "reported_date": "4/26/2013",
+    "reported_material_description": "1 cm sphere   wake",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-100",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-94",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "39",
+    "reported_sample_id": "20",
+    "reported_date": "4/26/2013",
+    "reported_material_description": "1 cm wake sphere",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-101",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-95",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "40",
+    "reported_sample_id": "20",
+    "reported_date": "4/26/2013",
+    "reported_material_description": "1 cm wake sphere",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-102",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-96",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "72",
+    "reported_sample_id": "34",
+    "reported_date": "4/26/2013",
+    "reported_material_description": "pmma slab opposed",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-103",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-97",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "73",
+    "reported_sample_id": "34",
+    "reported_date": "4/26/2013",
+    "reported_material_description": "pmma slab   oppsed",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-104",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-98",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "118",
+    "reported_sample_id": "23",
+    "reported_date": "4/29/2013",
+    "reported_material_description": "2 cm pmma sphere ",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-105",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-99",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "119",
+    "reported_sample_id": "23",
+    "reported_date": "4/29/2013",
+    "reported_material_description": "2 cm pmma sphere ",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-106",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-100",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "89",
+    "reported_sample_id": "44",
+    "reported_date": "5/2/2013",
+    "reported_material_description": "parrafin wax candle",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-107",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-101",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "95",
+    "reported_sample_id": "44",
+    "reported_date": "5/2/2013",
+    "reported_material_description": "paraffin wax candle",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-108",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-102",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "92",
+    "reported_sample_id": "40",
+    "reported_date": "5/2/2013",
+    "reported_material_description": "candle   Japan wax",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-109",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-103",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "78",
+    "reported_sample_id": "42",
+    "reported_date": "5/2/2013",
+    "reported_material_description": "paraffin wax slab",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-110",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-104",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "50",
+    "reported_sample_id": "26",
+    "reported_date": "5/15/2103",
+    "reported_material_description": "2 cm pmma sphere ",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-111",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-105",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "51",
+    "reported_sample_id": "26",
+    "reported_date": "5/15/2013",
+    "reported_material_description": "2 cm sphere",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-112",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-106",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "52",
+    "reported_sample_id": "26",
+    "reported_date": "5/15/2013",
+    "reported_material_description": "2 cm sphere",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-113",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-107",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "53",
+    "reported_sample_id": "26",
+    "reported_date": "5/15/2013",
+    "reported_material_description": "2 cm sphere",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-114",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-108",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "106",
+    "reported_sample_id": "26",
+    "reported_date": "5/17/2013",
+    "reported_material_description": "2 cm sphere",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-115",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-109",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "107",
+    "reported_sample_id": "26",
+    "reported_date": "5/17/2013",
+    "reported_material_description": "2 cm sphere",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-116",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-110",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "108",
+    "reported_sample_id": "26",
+    "reported_date": "5/17/2013",
+    "reported_material_description": "2 cm sphere",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-117",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-111",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "109",
+    "reported_sample_id": "26",
+    "reported_date": "6/1/2013",
+    "reported_material_description": "2 cm sphere",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-118",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-112",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "79",
+    "reported_sample_id": "42",
+    "reported_date": "6/1/2013",
+    "reported_material_description": "flat wax slab",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-119",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-113",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "80",
+    "reported_sample_id": "42",
+    "reported_date": "6/1/2013",
+    "reported_material_description": "flat wax slab",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-120",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-114",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "75",
+    "reported_sample_id": "41",
+    "reported_date": "6/1/2013",
+    "reported_material_description": "flat wax slab",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-121",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-115",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "53",
+    "reported_sample_id": "26",
+    "reported_date": "6/1/2013",
+    "reported_material_description": "pmma sphere",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-122",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "id": "psi-26-as-run-116",
+    "investigation_id": "psi-26",
+    "source_id": "psi-26",
+    "reported_test_id": "53a",
+    "reported_sample_id": "26",
+    "reported_date": "6/1/2013",
+    "reported_material_description": "pmma sphere",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-targeted-psi-26-794970236805ec22-row-123",
+        "source_id": "psi-26"
+      }
+    ],
+    "scientific_scope": "as-run identity only; gravity, material identity and measured responses not inferred"
+  }
+]

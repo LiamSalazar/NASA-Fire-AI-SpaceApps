@@ -1,0 +1,158 @@
+{
+  "status": "frozen implementing-agent source-inspected holdout targets, not independent adjudication",
+  "targets": [
+    {
+      "id": "mist_maps",
+      "case_ids": [
+        "mist_objectives"
+      ],
+      "evidence_id": "E-hackathon-29d4394a7fe193a123e74ea0",
+      "proposition": "The MIST objectives include ignition and extinction maps for a PMMA cylinder as a function of flow, oxygen and external radiant flux.",
+      "review": "Implementing-agent source inspection before production changes; documentary meaning and modality required. No independent scientist adjudication."
+    },
+    {
+      "id": "mist_shape",
+      "case_ids": [
+        "solid_shapes"
+      ],
+      "evidence_id": "E-hackathon-f683371c375563b9f289087d",
+      "proposition": "MIST uses acrylic cylinders (PMMA).",
+      "review": "Implementing-agent source inspection before production changes; documentary meaning and modality required. No independent scientist adjudication."
+    },
+    {
+      "id": "rtdfs_shape",
+      "case_ids": [
+        "solid_shapes"
+      ],
+      "evidence_id": "E-hackathon-f683371c375563b9f289087d",
+      "proposition": "RTDFS uses thin acrylic sheets (PMMA).",
+      "review": "Implementing-agent source inspection before production changes; documentary meaning and modality required. No independent scientist adjudication."
+    },
+    {
+      "id": "gel_shape",
+      "case_ids": [
+        "solid_shapes"
+      ],
+      "evidence_id": "E-hackathon-f683371c375563b9f289087d",
+      "proposition": "GEL uses acrylic spheres (PMMA).",
+      "review": "Implementing-agent source inspection before production changes; documentary meaning and modality required. No independent scientist adjudication."
+    },
+    {
+      "id": "nca_buoyancy",
+      "case_ids": [
+        "nca_method"
+      ],
+      "evidence_id": "E-hackathon-817485e7bad281c090241f84",
+      "proposition": "The NCA objectives describe a one-g narrow channel controlling buoyancy, to allow determination of microgravity opposed-flow flame spread rate and possibly extinction limits on Earth.",
+      "review": "Implementing-agent source inspection before production changes; documentary meaning and modality required. No independent scientist adjudication."
+    },
+    {
+      "id": "nca_variables",
+      "case_ids": [
+        "nca_method"
+      ],
+      "evidence_id": "E-hackathon-817485e7bad281c090241f84",
+      "proposition": "The NCA objectives include flame spread across thick PMMA slabs as a function of forced opposed flow velocity, oxygen concentration and pressure along the normoxic curve.",
+      "review": "Implementing-agent source inspection before production changes; documentary meaning and modality required. No independent scientist adjudication."
+    },
+    {
+      "id": "gel_variables",
+      "case_ids": [
+        "gel_dimensions"
+      ],
+      "evidence_id": "E-hackathon-9f1f598a5b4750abe661181b",
+      "proposition": "The GEL objectives describe growth over PMMA spheres and extinction characteristics as functions of flow velocity, oxygen percentage, pressure and internal heating.",
+      "review": "Implementing-agent source inspection before production changes; documentary meaning and modality required. No independent scientist adjudication."
+    },
+    {
+      "id": "roadmap_interaction",
+      "case_ids": [
+        "roadmap_purpose"
+      ],
+      "evidence_id": "E-hackathon-77baec7d997fb4de9d4279b4",
+      "proposition": "The roadmap gives increased interaction and awareness of vehicle or program fire safety needs and testing opportunities as the reason for co-coordinators.",
+      "review": "Implementing-agent source inspection before production changes; documentary meaning and modality required. No independent scientist adjudication."
+    },
+    {
+      "id": "roadmap_testdata",
+      "case_ids": [
+        "roadmap_purpose"
+      ],
+      "evidence_id": "E-hackathon-77baec7d997fb4de9d4279b4",
+      "proposition": "The roadmap describes test data as invaluable for validating modeling of fire scenarios.",
+      "review": "Implementing-agent source inspection before production changes; documentary meaning and modality required. No independent scientist adjudication."
+    },
+    {
+      "id": "risk_screening",
+      "case_ids": [
+        "risk_scope"
+      ],
+      "evidence_id": "E-hackathon-0224491170a5eba15e440192",
+      "proposition": "The document states a possibility that current material screening standards will not adequately identify fire risk because flame spread differs in normal and reduced gravity.",
+      "review": "Implementing-agent source inspection before production changes; documentary meaning and modality required. No independent scientist adjudication."
+    },
+    {
+      "id": "risk_ignition",
+      "case_ids": [
+        "risk_scope"
+      ],
+      "evidence_id": "E-hackathon-0224491170a5eba15e440192",
+      "proposition": "The document states a possibility that spacecraft or habitat environment could influence solid-material ignitability.",
+      "review": "Implementing-agent source inspection before production changes; documentary meaning and modality required. No independent scientist adjudication."
+    },
+    {
+      "id": "config_audience",
+      "case_ids": [
+        "configuration_scope"
+      ],
+      "evidence_id": "E-hackathon-01da992b41b2fbc23e0697ed",
+      "proposition": "The document assists ISS and other program hardware customers with flammability configuration analyses to justify flammable materials in flight hardware.",
+      "review": "Implementing-agent source inspection before production changes; documentary meaning and modality required. No independent scientist adjudication."
+    },
+    {
+      "id": "config_alternatives",
+      "case_ids": [
+        "configuration_scope"
+      ],
+      "evidence_id": "E-hackathon-01da992b41b2fbc23e0697ed",
+      "proposition": "The document explains procedures and techniques considered by NASA to meet the intent of safety requirements, without precluding alternative approaches.",
+      "review": "Implementing-agent source inspection before production changes; documentary meaning and modality required. No independent scientist adjudication."
+    },
+    {
+      "id": "camera_diameters",
+      "case_ids": [
+        "camera_comparison"
+      ],
+      "evidence_id": "E-hackathon-5b0bc0bb232e8281c6d03919",
+      "proposition": "Both flame-diameter measurements are of the flame outer edge; color-camera diameters are approximately three-fourths of the LLUV results.",
+      "review": "Implementing-agent source inspection before production changes; documentary meaning and modality required. No independent scientist adjudication."
+    },
+    {
+      "id": "camera_droplet",
+      "case_ids": [
+        "camera_followup"
+      ],
+      "evidence_id": "E-hackathon-e4bd4cb86c28c921f67bca67",
+      "proposition": "A backlit camera highlights the droplet to determine diameter as a function of time during burning.",
+      "review": "Implementing-agent source inspection before production changes; documentary meaning and modality required. No independent scientist adjudication."
+    },
+    {
+      "id": "camera_filtered_intent",
+      "case_ids": [
+        "camera_followup"
+      ],
+      "evidence_id": "E-hackathon-e4bd4cb86c28c921f67bca67",
+      "proposition": "The camera with a filter centered at 310 nm was intended to record excited hydroxyl emissions and provide a measure of flame diameter.",
+      "review": "Implementing-agent source inspection before production changes; documentary meaning and modality required. No independent scientist adjudication."
+    },
+    {
+      "id": "sofie_shared",
+      "case_ids": [
+        "topic_change"
+      ],
+      "evidence_id": "E-hackathon-b58329d788fe400f6e203dc5",
+      "proposition": "SoFIE supports multiple solid-material combustion studies using CIR and common infrastructure.",
+      "review": "Implementing-agent source inspection before production changes; documentary meaning and modality required. No independent scientist adjudication."
+    }
+  ]
+}

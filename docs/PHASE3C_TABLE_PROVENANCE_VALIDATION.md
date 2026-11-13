@@ -1,0 +1,7 @@
+# Table provenance validation
+
+FLEX import code assigned the same one-based logical CSV record ordinal to start_offset/end_offset. These were never valid character spans; historical values remain unchanged and are explicitly typed by new registry locators. Character spans retain half-open start/end for narrative/PDF evidence. Multiline/duplicate CSV fixtures verify that logical records and character offsets are not conflated.
+
+Structured locations are stored only in SQLite, carrying source file/checksum/version, table, row ordinal, column ordinal, original header/value and unit-source status. No missing data dictionary is invented. All seven datasets have row/cell locators. Historical row recovery verifies checksum and reconstructed source text; documented legacy UTF-8 replacement decoding is corroborated against the raw bytes while original cp1252 cells remain preserved. 406 historical CSV rows are verified; 12758/12758 CSV cell checks pass.
+
+FLEX original PDF rows are bound by test/engineering identifiers, all column line counts and actual same-row word coordinates. 532/532 corrected scientific cells round-trip to physical pages and cell boxes. The evidence API and native bundles expose verified PDF location metadata. Source-level coverage beyond these verified records remains PARTIALLY_VERIFIED; older/missing/ambiguous locators are not manufactured. Receipts: legacy_provenance_v2, cell_provenance_v1, pdf_provenance_v1.

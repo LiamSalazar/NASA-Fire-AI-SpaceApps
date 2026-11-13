@@ -1,0 +1,12 @@
+[
+  {"id":"gs01","query":"Compare Saffire-I S1 and S2","kind":"comparison"},
+  {"id":"gs02","query":"PMMA suppression open question","kind":"no_direct_safety"},
+  {"id":"gs03","query":"NASA requirement","kind":"requirement"},
+  {"id":"gs04","query":"NASA guidance","kind":"guidance"},
+  {"id":"gs05","query":"NASA open question","kind":"open_question"},
+  {"id":"gs06","query":"SIBAL Fabric microgravity airflow <= 0.10 m/s","kind":"related"},
+  {"id":"gs07","query":"unindexed material xenon combustion","kind":"no_direct"},
+  {"id":"gs08","query":"possibility active suppression","kind":"modality"},
+  {"id":"gs09","query":"did not extinguish","kind":"negation"},
+  {"id":"gs10","query":"PMMA microgravity","kind":"scope"}
+]

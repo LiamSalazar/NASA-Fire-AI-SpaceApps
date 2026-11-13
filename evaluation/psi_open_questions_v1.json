@@ -1,0 +1,612 @@
+{
+  "protocol": "psi-open-source-routing-v1",
+  "freeze_note": "60 scenarios frozen before expanded retrieval execution. Twenty reserved scenarios are not used to tune runtime. This is agent-authored and requires independent scientific adjudication for release metrics.",
+  "questions": [
+    {
+      "id": "psi-open-01",
+      "family": "SPICE",
+      "question": "What nozzle diameter and air velocity are listed in the first SPICE acquisition record?",
+      "expected_sources": [
+        "psi-107"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-02",
+      "family": "CFI",
+      "question": "Which fuel, oxygen fraction and fiber status are recorded for CFI Flex Number 1207?",
+      "expected_sources": [
+        "psi-39"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-03",
+      "family": "BRE",
+      "question": "What burner size and ignition count does the BRE table report for 8 February 2019?",
+      "expected_sources": [
+        "psi-20"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-04",
+      "family": "CLD",
+      "question": "Does the CLD Fuel MFC column specify an actual fuel flow or controller capacity, and on what basis?",
+      "expected_sources": [
+        "psi-21"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-05",
+      "family": "EFIELD",
+      "question": "For E-FIELD test day 18073, which mesh polarity and fuel bottle are listed?",
+      "expected_sources": [
+        "psi-22"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-06",
+      "family": "SFLAME",
+      "question": "What atmosphere and fuel bottle are recorded for s-Flame test day 19254?",
+      "expected_sources": [
+        "psi-23"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-07",
+      "family": "SLICE",
+      "question": "Which SLICE fuel was used on 9 February 2012?",
+      "expected_sources": [
+        "psi-106"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-08",
+      "family": "FLEX2",
+      "question": "What initial droplet diameter range and ambient temperature does FLEX-2 list for pure ethanol?",
+      "expected_sources": [
+        "psi-68"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-09",
+      "family": "DAFT",
+      "question": "What hardware and sampled location does DAFT session D2 describe?",
+      "expected_sources": [
+        "psi-47"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-10",
+      "family": "BASS",
+      "question": "Which material and sample number belong to BASS as-run test 2?",
+      "expected_sources": [
+        "psi-26"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-11",
+      "family": "BASS2",
+      "question": "What initial and final calibrated oxygen values are reported for BASS-II B1?",
+      "expected_sources": [
+        "psi-25"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-12",
+      "family": "FLEX",
+      "question": "What fuel, initial droplet diameter and test end are listed for FLEX 20CAL08?",
+      "expected_sources": [
+        "psi-69"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-13",
+      "family": "SAFFIRE1",
+      "question": "What ignition power and duration are recorded for Saffire-I S1?",
+      "expected_sources": [
+        "psi-98"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-14",
+      "family": "SAFFIRE2",
+      "question": "What specimen thicknesses are reported for Saffire-II samples 2-1 and 2-2?",
+      "expected_sources": [
+        "psi-99"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-15",
+      "family": "SAFFIRE3",
+      "question": "How do the flow directions of Saffire-III S1 and S2 differ?",
+      "expected_sources": [
+        "psi-100"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-16",
+      "family": "SAME",
+      "question": "What weight loss rate and aging duration are reported for SAME sample 1?",
+      "expected_sources": [
+        "psi-102"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-17",
+      "family": "SAMER",
+      "question": "What inlet velocity and net aging time are listed for SAME-R test 51a?",
+      "expected_sources": [
+        "psi-101"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-18",
+      "family": "DESIGN",
+      "question": "What initial and final oxygen fractions are listed for Flame Design 19115A1?",
+      "expected_sources": [
+        "psi-10"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-19",
+      "family": "CFIG",
+      "question": "What peak burner temperature and termination entry are recorded for CFI-G 21088A1?",
+      "expected_sources": [
+        "psi-159"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-20",
+      "family": "CFI",
+      "question": "Compare the listed pressure and fiber status for CFI records 1206 and 1207.",
+      "expected_sources": [
+        "psi-39"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-21",
+      "family": "SPICE",
+      "question": "Do repeated SPICE ignition timestamps prove distinct physical experiments? What does the source table actually identify?",
+      "expected_sources": [
+        "psi-107"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-22",
+      "family": "FLEX2",
+      "question": "Does the FLEX-2 table identify one executed run for each oxygen and pressure combination?",
+      "expected_sources": [
+        "psi-68"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-23",
+      "family": "CLD",
+      "question": "What limitation does the CLD note place on interpreting its fuel concentration range near extinction?",
+      "expected_sources": [
+        "psi-21"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-24",
+      "family": "BRE",
+      "question": "Does the BRE summary identify chamber pressure for each ignition?",
+      "expected_sources": [
+        "psi-20"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-25",
+      "family": "SFLAME",
+      "question": "Why should the s-Flame atmosphere summary not be interpreted as a constant oxygen condition throughout each test?",
+      "expected_sources": [
+        "psi-23"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-26",
+      "family": "SLICE",
+      "question": "What calibration activity is mentioned for the SLICE session on 13 February 2012?",
+      "expected_sources": [
+        "psi-106"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-27",
+      "family": "DAFT",
+      "question": "Which aerosol material and gas are described in the DAFT session records?",
+      "expected_sources": [
+        "psi-47"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-28",
+      "family": "SAME",
+      "question": "Can the SAME table establish the airflow for a row that only says same conditions as another sample?",
+      "expected_sources": [
+        "psi-102"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-29",
+      "family": "FLEX",
+      "question": "Is the FLEX column labelled Burning rate; mm sufficient to assert a rate in square millimetres per second?",
+      "expected_sources": [
+        "psi-69"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-30",
+      "family": "SAFFIRE2",
+      "question": "How was Saffire-II oxygen concentration obtained according to Note 1?",
+      "expected_sources": [
+        "psi-99"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-31",
+      "family": "CFI",
+      "question": "What are the stated CFI objectives concerning helium dilution and extinction?",
+      "expected_sources": [
+        "documentation-psi-39"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-32",
+      "family": "SPICE",
+      "question": "What does the SPICE investigation aim to determine about coflow and burner diameter?",
+      "expected_sources": [
+        "documentation-psi-107"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-33",
+      "family": "CLD",
+      "question": "Which optical methods are proposed for soot and temperature measurements in CLD?",
+      "expected_sources": [
+        "documentation-psi-21"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-34",
+      "family": "EFIELD",
+      "question": "How is the electric field applied, and which response variables are described?",
+      "expected_sources": [
+        "documentation-psi-22"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-35",
+      "family": "BRE",
+      "question": "What hypothesis about quasi-steady burning motivates the BRE investigation?",
+      "expected_sources": [
+        "documentation-psi-20"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-36",
+      "family": "SFLAME",
+      "question": "What measurements are proposed for spherical flames and how are they to be compared with simulations?",
+      "expected_sources": [
+        "documentation-psi-23"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-37",
+      "family": "SLICE",
+      "question": "What apparatus and calibration methods does the SLICE documentation describe?",
+      "expected_sources": [
+        "documentation-psi-106"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-38",
+      "family": "FLEX2",
+      "question": "What is the purpose of bi-component droplets in FLEX-2 and which parameters are varied?",
+      "expected_sources": [
+        "documentation-psi-68"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-39",
+      "family": "DAFT",
+      "question": "Why was the P-Trak modified for microgravity and what hypotheses were tested?",
+      "expected_sources": [
+        "documentation-psi-47"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-40",
+      "family": "SIMULATION",
+      "question": "What is the objective of the PSI-115 smoke aerosol modeling investigation?",
+      "expected_sources": [
+        "documentation-psi-115"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-41",
+      "family": "SIMULATION",
+      "question": "Which cool-flame perturbations does PSI-117 investigate?",
+      "expected_sources": [
+        "documentation-psi-117"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-42",
+      "family": "SIMULATION",
+      "question": "What does PSI-142 investigate at radiation and stretch extinction?",
+      "expected_sources": [
+        "documentation-psi-142"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-43",
+      "family": "SIMULATION",
+      "question": "What is the objective of PSI-62 and how does BASS enter the comparison?",
+      "expected_sources": [
+        "documentation-psi-62"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-44",
+      "family": "SIMULATION",
+      "question": "How does PSI-60 use SPICE data in computational and experimental analysis?",
+      "expected_sources": [
+        "documentation-psi-60"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-45",
+      "family": "CROSS",
+      "question": "Compare the scope of the SPICE acquisition table and the CLD test-day summary.",
+      "expected_sources": [
+        "psi-107",
+        "psi-21"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-46",
+      "family": "CROSS",
+      "question": "Compare fuel descriptions in CFI and FLEX-2 without equating their experimental conditions.",
+      "expected_sources": [
+        "psi-39",
+        "psi-68"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-47",
+      "family": "CROSS",
+      "question": "Which hardware is shared by the CFI and ACME CLD investigation descriptions?",
+      "expected_sources": [
+        "documentation-psi-39",
+        "documentation-psi-21"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-48",
+      "family": "CROSS",
+      "question": "Compare the documented research objectives of DAFT and SAME.",
+      "expected_sources": [
+        "documentation-psi-47",
+        "documentation-psi-102"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-49",
+      "family": "CROSS",
+      "question": "How do Saffire-I and Saffire-III report specimen dimensions and flow direction?",
+      "expected_sources": [
+        "psi-98",
+        "psi-100"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-50",
+      "family": "CROSS",
+      "question": "What differences in experimental identity are present in the FLEX and FLEX-2 tables?",
+      "expected_sources": [
+        "psi-69",
+        "psi-68"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-51",
+      "family": "NEGATIVE",
+      "question": "Does SPICE report that its nozzle size guarantees crew safety?",
+      "expected_sources": [
+        "psi-107"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-52",
+      "family": "NEGATIVE",
+      "question": "What pressure was recorded for every individual BRE ignition on 8 February 2019?",
+      "expected_sources": [
+        "psi-20"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-53",
+      "family": "NEGATIVE",
+      "question": "Does CLD controller capacity establish the realized fuel flow of every flame?",
+      "expected_sources": [
+        "psi-21"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-54",
+      "family": "NEGATIVE",
+      "question": "Can the CFI table alone establish a causal effect of the support fiber?",
+      "expected_sources": [
+        "psi-39"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-55",
+      "family": "NEGATIVE",
+      "question": "What measured uncertainty is provided for each FLEX-2 configuration range?",
+      "expected_sources": [
+        "psi-68"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-56",
+      "family": "FOLLOWUP",
+      "question": "For DAFT D1, identify the hardware.",
+      "expected_sources": [
+        "psi-47"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-57",
+      "family": "FOLLOWUP",
+      "question": "For that same DAFT D1 session, where was the air sampled?",
+      "expected_sources": [
+        "psi-47"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-58",
+      "family": "FOLLOWUP",
+      "question": "For CFI Flex Number 1206, report the gas composition.",
+      "expected_sources": [
+        "psi-39"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-59",
+      "family": "FOLLOWUP",
+      "question": "How does CFI Flex Number 1207 differ in fiber status from that record?",
+      "expected_sources": [
+        "psi-39"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    },
+    {
+      "id": "psi-open-60",
+      "family": "STANDARD",
+      "question": "What test categories does NASA-STD-6001B describe for material flammability and offgassing?",
+      "expected_sources": [
+        "nasa-std-6001b-change3"
+      ],
+      "partition": "development",
+      "judgment_scope": "Source relevance, not final-answer entailment or independent scientific adjudication"
+    }
+  ]
+}

@@ -1,0 +1,680 @@
+{
+  "cases": [
+    {
+      "basis": "Existing reviewed linguistic gold; required record identities only where objective canonical/reviewed evidence permits",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi03",
+      "query": "SIBAL Fabric microgravity",
+      "required_evidence_ids": [
+        "E-psi-98-table-S1",
+        "E-psi-98-table-S2"
+      ],
+      "source_namespace": "baseline",
+      "synthesize": false
+    },
+    {
+      "basis": "Existing reviewed linguistic gold; required record identities only where objective canonical/reviewed evidence permits",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "GTE",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "cm/s",
+              "reported_value": 20.0,
+              "tolerance": null,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": [
+          "flow"
+        ]
+      },
+      "id": "qi11",
+      "query": "SIBAL Fabric microgravity flow velocity >= 20 cm/s",
+      "required_evidence_ids": [
+        "E-psi-98-table-S1",
+        "E-psi-98-table-S2"
+      ],
+      "source_namespace": "baseline",
+      "synthesize": false
+    },
+    {
+      "basis": "Existing reviewed linguistic gold; required record identities only where objective canonical/reviewed evidence permits",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": {
+          "dimensions": [],
+          "operands": [
+            "psi-98-S1",
+            "psi-98-S2"
+          ]
+        },
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "psi-98",
+            "relation": "belongsToInvestigation"
+          }
+        ],
+        "operation": "COMPARE",
+        "property_constraints": [],
+        "requested_information": [
+          "ExperimentalRun"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi12",
+      "query": "Compare Saffire-I S1 and S2",
+      "required_evidence_ids": [
+        "E-psi-98-table-S1",
+        "E-psi-98-table-S2"
+      ],
+      "source_namespace": "baseline",
+      "synthesize": false
+    },
+    {
+      "basis": "Existing reviewed linguistic gold; required record identities only where objective canonical/reviewed evidence permits",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "ReportedObservation",
+          "SafetyImplication"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi14",
+      "query": "What did NASA observe about suppression?",
+      "required_evidence_ids": [
+        "E-safety-saffire-observation"
+      ],
+      "source_namespace": "baseline",
+      "synthesize": true
+    },
+    {
+      "basis": "Existing reviewed linguistic gold; required record identities only where objective canonical/reviewed evidence permits",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "SafetyImplication",
+          "Requirement"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi16",
+      "query": "Find NASA requirements",
+      "required_evidence_ids": [
+        "E-safety-std-6001-applicability"
+      ],
+      "source_namespace": "baseline",
+      "synthesize": true
+    },
+    {
+      "basis": "Existing reviewed linguistic gold; required record identities only where objective canonical/reviewed evidence permits",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "SafetyImplication",
+          "Guidance"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi17",
+      "query": "Find NASA guidance",
+      "required_evidence_ids": [
+        "E-safety-configuration-guidance"
+      ],
+      "source_namespace": "baseline",
+      "synthesize": true
+    },
+    {
+      "basis": "Existing reviewed linguistic gold; required record identities only where objective canonical/reviewed evidence permits",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "SafetyImplication",
+          "OpenQuestion"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi18",
+      "query": "NASA open questions",
+      "required_evidence_ids": [
+        "E-safety-saffire-suppression-open-question"
+      ],
+      "source_namespace": "baseline",
+      "synthesize": true
+    },
+    {
+      "basis": "Existing reviewed linguistic gold; required record identities only where objective canonical/reviewed evidence permits",
+      "expected_intent": {
+        "ambiguities": [
+          "acrylic"
+        ],
+        "clarification_required": true,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi19",
+      "query": "What about acrylic fires?",
+      "required_evidence_ids": null,
+      "source_namespace": "baseline",
+      "synthesize": false
+    },
+    {
+      "basis": "Existing reviewed linguistic gold; required record identities only where objective canonical/reviewed evidence permits",
+      "expected_intent": {
+        "ambiguities": [
+          "velocity"
+        ],
+        "clarification_required": true,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi20",
+      "query": "velocity effects",
+      "required_evidence_ids": null,
+      "source_namespace": "baseline",
+      "synthesize": false
+    },
+    {
+      "basis": "Existing reviewed linguistic gold; required record identities only where objective canonical/reviewed evidence permits",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": [
+          "xenon"
+        ]
+      },
+      "id": "qi22",
+      "query": "xenon combustion",
+      "required_evidence_ids": null,
+      "source_namespace": "baseline",
+      "synthesize": false
+    },
+    {
+      "basis": "Existing reviewed linguistic gold; required record identities only where objective canonical/reviewed evidence permits",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi24",
+      "query": "Show PMMA tests",
+      "required_evidence_ids": null,
+      "source_namespace": "baseline",
+      "synthesize": false
+    },
+    {
+      "basis": "Existing reviewed linguistic gold; required record identities only where objective canonical/reviewed evidence permits",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "SafetyImplication"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi27",
+      "query": "What has NASA reported about suppressing PMMA fires in microgravity?",
+      "required_evidence_ids": null,
+      "source_namespace": "baseline",
+      "synthesize": false
+    },
+    {
+      "basis": "Existing reviewed linguistic gold; required record identities only where objective canonical/reviewed evidence permits",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "SafetyImplication",
+          "Requirement"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi31",
+      "query": "PMMA requirement",
+      "required_evidence_ids": null,
+      "source_namespace": "baseline",
+      "synthesize": false
+    },
+    {
+      "basis": "Existing reviewed linguistic gold; required record identities only where objective canonical/reviewed evidence permits",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "SafetyImplication",
+          "Guidance"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi32",
+      "query": "PMMA guidance",
+      "required_evidence_ids": null,
+      "source_namespace": "baseline",
+      "synthesize": false
+    },
+    {
+      "basis": "Existing reviewed linguistic gold; required record identities only where objective canonical/reviewed evidence permits",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "SafetyImplication",
+          "OpenQuestion"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi33",
+      "query": "suppression open question",
+      "required_evidence_ids": null,
+      "source_namespace": "baseline",
+      "synthesize": false
+    },
+    {
+      "basis": "Existing reviewed linguistic gold; required record identities only where objective canonical/reviewed evidence permits",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi42",
+      "query": "PMMA and SIBAL under microgravity",
+      "required_evidence_ids": null,
+      "source_namespace": "baseline",
+      "synthesize": false
+    },
+    {
+      "basis": "Existing reviewed linguistic gold; required record identities only where objective canonical/reviewed evidence permits",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "NASAConclusion"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi45",
+      "query": "NASA conclusions",
+      "required_evidence_ids": [
+        "E-safety-saffire-suppression-conclusion"
+      ],
+      "source_namespace": "baseline",
+      "synthesize": true
+    },
+    {
+      "basis": "Existing reviewed linguistic gold; required record identities only where objective canonical/reviewed evidence permits",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "BETWEEN",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": 0.01,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": null,
+              "tolerance": null,
+              "upper": 0.11
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "comp01",
+      "query": "Find experiments using PMMA in microgravity with airflow between 0.01 and 0.11 m/s",
+      "required_evidence_ids": null,
+      "source_namespace": "baseline",
+      "synthesize": false
+    },
+    {
+      "basis": "Existing reviewed linguistic gold; required record identities only where objective canonical/reviewed evidence permits",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "APPROX",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": true,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": 0.01,
+              "tolerance": 0.005,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "comp11",
+      "query": "Find experiments using PMMA in microgravity with airflow about 0.01 +/- 0.005 m/s",
+      "required_evidence_ids": null,
+      "source_namespace": "baseline",
+      "synthesize": false
+    },
+    {
+      "basis": "Objective source-ID lookup; document is unrelated to microgravity combustion, NOT domain expertise gold",
+      "expected_intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [
+          "20140011119"
+        ],
+        "targets": [
+          "Document"
+        ],
+        "unresolved_mentions": []
+      },
+      "expected_source": "20140011119",
+      "id": "corrective-unseen-document",
+      "query": "Find Document from source 20140011119",
+      "required_evidence_ids": null,
+      "source_namespace": "holdout",
+      "synthesize": true
+    }
+  ],
+  "language_calls": "Compatible persisted live minimal predictions; one fresh document call. Total latency is assembled, not fresh serial API latency.",
+  "unavailable_categories": [
+    "new structured experimental holdout",
+    "independently reviewed paraphrase relevance",
+    "native NL new-property NASA-source case"
+  ],
+  "version": "corrective-e2e-v1"
+}

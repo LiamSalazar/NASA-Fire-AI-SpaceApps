@@ -1,0 +1,208 @@
+{
+  "protocol": "psi-post-freeze-source-routing-v1",
+  "freeze_note": "Twenty newly composed questions withheld from retrieval runs and runtime optimization. Agent-authored source relevance judgments, not independent human adjudication. Source material may already be curated. No runtime exceptions permitted.",
+  "questions": [
+    {
+      "id": "psi-holdout-01",
+      "family": "solid",
+      "question": "How does the BASS-II summary report organize its test matrices, and what does PI mean in that context?",
+      "expected_sources": [
+        "ntrs-20210011385"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance only; no final-answer or semantic support metric"
+    },
+    {
+      "id": "psi-holdout-02",
+      "family": "shared-apparatus",
+      "question": "Which flame instruments were common to the SPICE and SLICE glovebox experiments, and which quantities were overlaid on the video?",
+      "expected_sources": [
+        "ntrs-20140009169"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance only; no final-answer or semantic support metric"
+    },
+    {
+      "id": "psi-holdout-03",
+      "family": "gas-findings",
+      "question": "What does the 2022 ACME report say about soot volume fraction in attached CLD flames relative to normal gravity, and how preliminary are those findings?",
+      "expected_sources": [
+        "ntrs-20220005205"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance only; no final-answer or semantic support metric"
+    },
+    {
+      "id": "psi-holdout-04",
+      "family": "electric-fields",
+      "question": "In the reported ISS E-FIELD work, how do weak and strong applied fields differ in their effects on diluted flames?",
+      "expected_sources": [
+        "ntrs-20220005205"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance only; no final-answer or semantic support metric"
+    },
+    {
+      "id": "psi-holdout-05",
+      "family": "combustion-method",
+      "question": "How does the Burning Rate Emulator use gaseous flames to study condensed fuel flammability?",
+      "expected_sources": [
+        "ntrs-20220005205"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance only; no final-answer or semantic support metric"
+    },
+    {
+      "id": "psi-holdout-06",
+      "family": "flame-uncertainty",
+      "question": "What qualified evidence does the ACME report give for radiative versus kinetic extinction of spherical flames?",
+      "expected_sources": [
+        "ntrs-20220005205"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance only; no final-answer or semantic support metric"
+    },
+    {
+      "id": "psi-holdout-07",
+      "family": "cool-flame",
+      "question": "Which fuel produced reported normal cool flames in CFI-G, and what filtered imaging signal was used?",
+      "expected_sources": [
+        "ntrs-20220005205"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance only; no final-answer or semantic support metric"
+    },
+    {
+      "id": "psi-holdout-08",
+      "family": "campaign",
+      "question": "Which six investigations does the report associate with ACME operations aboard the ISS from 2017 to 2022?",
+      "expected_sources": [
+        "ntrs-20220005205"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance only; no final-answer or semantic support metric"
+    },
+    {
+      "id": "psi-holdout-09",
+      "family": "source-numerics",
+      "question": "For BASS-II B3, which gas entries are reported before and after the test?",
+      "expected_sources": [
+        "psi-25"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance only; no final-answer or semantic support metric"
+    },
+    {
+      "id": "psi-holdout-10",
+      "family": "droplet-record",
+      "question": "For FLEX record 20CAL09, distinguish the original record label, fuel description and FLEX test counter.",
+      "expected_sources": [
+        "psi-69"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance only; no final-answer or semantic support metric"
+    },
+    {
+      "id": "psi-holdout-11",
+      "family": "aerosol-record",
+      "question": "What does the SAME-R table provide about Kapton sample aging, and which entries are numerical rather than material descriptions?",
+      "expected_sources": [
+        "psi-101"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance only; no final-answer or semantic support metric"
+    },
+    {
+      "id": "psi-holdout-12",
+      "family": "solid-comparison",
+      "question": "Compare the dimensional and ignition fields in the Saffire-I and Saffire-II original tables without transferring the conditions of one sample to another.",
+      "expected_sources": [
+        "psi-98",
+        "psi-99"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance only; no final-answer or semantic support metric"
+    },
+    {
+      "id": "psi-holdout-13",
+      "family": "mixture-scope",
+      "question": "How do the FLEX-2 ethanol/glycerol configuration alternatives differ from its propanol/glycerol alternatives?",
+      "expected_sources": [
+        "psi-68"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance only; no final-answer or semantic support metric"
+    },
+    {
+      "id": "psi-holdout-14",
+      "family": "gas-source-scope",
+      "question": "What identifiers and fuel labels are actually supplied by the SLICE session summaries compared with E-FIELD test-day summaries?",
+      "expected_sources": [
+        "psi-106",
+        "psi-22"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance only; no final-answer or semantic support metric"
+    },
+    {
+      "id": "psi-holdout-15",
+      "family": "hardware",
+      "question": "What features of the dust/aerosol P-Trak setup are described in the DAFT records?",
+      "expected_sources": [
+        "psi-47"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance only; no final-answer or semantic support metric"
+    },
+    {
+      "id": "psi-holdout-16",
+      "family": "smoke-simulation",
+      "question": "How does the PSI-115 data organization document distinguish Earth-gravity from microgravity figure data?",
+      "expected_sources": [
+        "psi-report-115-science-documents"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance only; no final-answer or semantic support metric"
+    },
+    {
+      "id": "psi-holdout-17",
+      "family": "methods-models",
+      "question": "Which experimental data are PSI-60 computational analyses intended to interpret, and what are the stated scientific objectives?",
+      "expected_sources": [
+        "documentation-psi-60"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance only; no final-answer or semantic support metric"
+    },
+    {
+      "id": "psi-holdout-18",
+      "family": "flamelet-methods",
+      "question": "How does the PSI-62 project propose to compare flamelet generated manifold modeling with two-color tomography?",
+      "expected_sources": [
+        "documentation-psi-62"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance only; no final-answer or semantic support metric"
+    },
+    {
+      "id": "psi-holdout-19",
+      "family": "reference-status",
+      "question": "Which original PSI-142 entries point to ozone-related CFE-limit figures, and why are they references rather than measured limit values?",
+      "expected_sources": [
+        "psi-142"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance only; no final-answer or semantic support metric"
+    },
+    {
+      "id": "psi-holdout-20",
+      "family": "criteria",
+      "question": "How does NASA-STD-6001B separate upward flame propagation testing from offgassing testing?",
+      "expected_sources": [
+        "nasa-std-6001b-change3"
+      ],
+      "partition": "reserved",
+      "judgment_scope": "Source relevance only; no final-answer or semantic support metric"
+    }
+  ]
+}

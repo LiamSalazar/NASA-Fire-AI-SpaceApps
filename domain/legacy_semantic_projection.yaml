@@ -1,0 +1,37 @@
+version: phase3c-legacy-projection-v1
+purpose: "One-time projection of existing reviewed canonical fields; never loaded by native executor"
+condition_properties:
+  flow_velocity: {property_id: AirflowVelocity, context: reported_condition}
+  oxygen: {property_id: OxygenConcentration, context: reported_condition}
+  initial_oxygen: {property_id: OxygenConcentration, context: initial}
+  final_oxygen: {property_id: OxygenConcentration, context: final}
+  pressure: {property_id: Pressure, context: reported_condition}
+  flow_direction: {property_id: FlowDirection, context: reported_condition}
+condition_relations:
+  gravity: hasGravityCondition
+reviewed_epistemic_record_types: [SafetyStatementRecord, InterventionRecord, ObservationRecord]
+properties:
+  oxygen_fraction: {property_id: OxygenConcentration, unit: fraction}
+  flow_velocity_m_s: {property_id: AirflowVelocity, unit: m/s}
+  pressure_pa: {property_id: Pressure, unit: Pa}
+  flow_direction: {property_id: FlowDirection, unit: null}
+ranges:
+  oxygen_range_fraction: {property_id: OxygenConcentration, unit: fraction}
+relations:
+  material: hasMaterial
+  gravity: hasGravityCondition
+record_classes:
+  InvestigationRecord: Investigation
+  ExperimentalRunRecord: ExperimentalRun
+  PublicationRecord: Publication
+  NASAStandard: Publication
+  ObservationRecord: ReportedObservation
+  InterventionRecord: Intervention
+statement_classes:
+  nasa_conclusion: NASAConclusion
+  safety_implication: SafetyImplication
+  requirement: Requirement
+  guidance: Guidance
+  design_criterion: DesignCriterion
+  test_criterion: TestCriterion
+  open_question: OpenQuestion

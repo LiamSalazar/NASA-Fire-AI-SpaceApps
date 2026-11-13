@@ -1,0 +1,118 @@
+{
+  "boundary": "Frozen essential scientific information. Grade communicated meaning and complete compound needs. Knowledge is available in the curated corpus; no query-specific production exceptions are permitted.",
+  "questions": [
+    {
+      "id": "next-cld-record",
+      "question": "For CLD test day 17356, give the original fuel-bottle label, fuel-concentration range, both MFC entries and ignition count. Explain what the MFC values describe; retain unusual source spellings.",
+      "expected_sources": [
+        "psi-21"
+      ],
+      "essential_needs": [
+        "Fuel-bottle literal 40% CH7, without substituting CH4",
+        "Fuel concentration range 30% to 40%",
+        "Fuel MFC and N2 MFC both 0.1 slpm",
+        "MFC values are maximum capacities on a nitrogen basis, not actual realized flow",
+        "Three flames ignited for the test day"
+      ]
+    },
+    {
+      "id": "next-sflame-record",
+      "question": "For s-Flame test day 19308, distinguish the atmosphere entry from the fuel-bottle entry and give the ignition count. Keep the gas labels exactly as recorded.",
+      "expected_sources": [
+        "psi-23"
+      ],
+      "essential_needs": [
+        "Atmosphere approximately 30% O2 with N2",
+        "Fuel bottle 45% CH4 with N3, without correcting N3",
+        "Twenty-one flames ignited",
+        "Atmosphere and fuel bottle remain distinct session fields"
+      ]
+    },
+    {
+      "id": "next-bass-identifiers",
+      "question": "For BASS As Run Test number 4, identify the other recorded test and sample numbers, the fuel-sample material description, and GMT day. Keep the different identifiers separate.",
+      "expected_sources": [
+        "psi-26"
+      ],
+      "essential_needs": [
+        "As Run Test number 4 is the selected source record",
+        "Other Test number 7",
+        "Sample number 10 and material SIBAL 2 cm",
+        "GMT day 96; identifiers are not reconciled into one common number"
+      ]
+    },
+    {
+      "id": "next-cfig-parameters",
+      "question": "For CFI-G test 21088 D1, report burn time, hot-ignition status, the termination entry and its recorded comment, and Tad. Distinguish the adiabatic parameter from a measured flame temperature.",
+      "expected_sources": [
+        "psi-159"
+      ],
+      "essential_needs": [
+        "Burn time 61 seconds",
+        "Hot ignition Yes",
+        "Termination literal FT and comment FC=flow cut retained without silently equating the two labels",
+        "Tad 2703.647801 K",
+        "Tad is an adiabatic-temperature parameter, not an observed flame-temperature measurement"
+      ]
+    },
+    {
+      "id": "next-smoke-simulation",
+      "question": "In the PSI-115 final report and its data-organization document, what particle formation is modeled, which gravity cases are distinguished, and how is the no-thermophoresis variant defined? Explain the evidential status of these outputs.",
+      "expected_sources": [
+        "psi-report-115-reports",
+        "psi-report-115-science-documents"
+      ],
+      "essential_needs": [
+        "Formation and growth of dibutyl-phthalate particles are simulated",
+        "Earth-gravity and microgravity outputs remain distinct",
+        "Case1-Microgravity-NT is the corresponding microgravity case with thermophoresis transport neglected",
+        "Outputs are computed simulation results, not newly measured ISS observations"
+      ]
+    },
+    {
+      "id": "next-optical-evidence",
+      "question": "Connect the shared SPICE/SLICE apparatus description with PSI-60 image processing: which optical instruments are reported, how are the Nikon image channels used, and what quantities does the processing seek to recover? Keep the apparatus report and the processing study distinct.",
+      "expected_sources": [
+        "ntrs-20140009169",
+        "documentation-psi-60"
+      ],
+      "essential_needs": [
+        "Shared SPICE/SLICE hardware is in the Microgravity Science Glovebox",
+        "High-resolution digital still camera, analog video camera and manually adjustable thermopile radiometer",
+        "Raw Nikon NEF images decoded into three color channels",
+        "Color-ratio pyrometry extracts soot-temperature fields and the study addresses soot volume fractions",
+        "The hardware description and PSI-60 processing study are attributed separately; no serial-device or run identity is invented"
+      ]
+    },
+    {
+      "id": "next-extinction-comparison",
+      "question": "Compare the reported BRE low-momentum burning behavior with the qualified s-Flame extinction findings in the ACME ISS overview. Include the relevant oxygen/size or flow/diluent qualifications and keep the investigations separate.",
+      "expected_sources": [
+        "ntrs-20220005205"
+      ],
+      "essential_needs": [
+        "BRE low-momentum microgravity flames can burn for minutes without air flow or flame spread",
+        "BRE below approximately 25 percent oxygen by volume self-extinguishes as reported",
+        "Larger BRE flames generally self-extinguish within about 1.5 minutes; do not transfer this to s-Flame",
+        "s-Flame radiative and kinetic extinction appear to have been observed; retain the source qualification",
+        "s-Flame radiative extinction seems associated with high flow and kinetic extinction with low flow, with the reported near-burner velocity explanation",
+        "Helium versus nitrogen dilution shifts s-Flame extinction limits and makes kinetic extinction generally difficult to discern"
+      ]
+    },
+    {
+      "id": "next-wire-method",
+      "question": "For Electrical Wire Insulation Flammability Test 4 in NASA-STD-6001B with Change 3, explain the specimen count, dimensions, mounting and ignition, the observations to record, and the self-extinguishing criteria. Describe these as standard requirements.",
+      "expected_sources": [
+        "nasa-std-6001b-change3"
+      ],
+      "essential_needs": [
+        "Five wire-equivalent specimens are tested one at a time",
+        "Each specimen length 1.2 m (48 in), active area 30 cm (12 in)",
+        "Mounted at 15 degrees from vertical and ignited at the bottom",
+        "Burn length and whether paper ignites through burning-debris transfer are recorded",
+        "No specimen of the five burns more than 15 cm (6 in) and no specimen propagates flame through transfer of burning debris",
+        "Requirements and pass/fail criteria are not described as new experimental observations"
+      ]
+    }
+  ]
+}

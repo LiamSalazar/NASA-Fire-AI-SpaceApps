@@ -1,0 +1,10 @@
+version: phase3c-reviewed-taxonomy-v1
+# Only source-backed, reviewed relationships may be declared in edges.
+# Each endpoint must already be registered. No NASA material taxonomy is assumed.
+edges: []
+proposals:
+  - requested_term: acrylic
+    relationship: BROADER_DISCOVERY
+    status: PENDING_SOURCE_BACKED_REVIEW
+    proposed_concept: null
+    rationale: Broad terminology must not be silently equated with a specific polymer.

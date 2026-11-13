@@ -1,0 +1,11 @@
+[Unit]
+Description=Weekly NASA document version check (example, not installed)
+
+[Timer]
+OnCalendar=weekly
+Persistent=true
+RandomizedDelaySec=1h
+Unit=nasa-knowledge-maintenance.service
+
+[Install]
+WantedBy=timers.target

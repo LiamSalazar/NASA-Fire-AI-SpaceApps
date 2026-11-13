@@ -1,0 +1,522 @@
+[
+  {
+    "type": "SampleRecord",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-psi-98-table-S1",
+        "source_id": "psi-98",
+        "page": null,
+        "section": "Experimental table"
+      }
+    ],
+    "id": "psi-98-S1-sample",
+    "material": "SIBAL Fabric",
+    "geometry": "rectangular fabric sheet"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-psi-98-table-S1",
+        "source_id": "psi-98",
+        "page": null,
+        "section": "Experimental table"
+      }
+    ],
+    "id": "psi-98-S1",
+    "investigation_id": "psi-98",
+    "sample_id": "psi-98-S1-sample",
+    "condition_ids": [
+      "psi-98-S1-sample_thickness",
+      "psi-98-S1-sample_length",
+      "psi-98-S1-sample_width",
+      "psi-98-S1-flow_velocity",
+      "psi-98-S1-oxygen",
+      "psi-98-S1-ignition_power",
+      "psi-98-S1-ignition_time",
+      "psi-98-S1-burn_time",
+      "psi-98-S1-flow_direction",
+      "psi-98-S1-gravity"
+    ]
+  },
+  {
+    "type": "ConditionRecord",
+    "id": "psi-98-S1-sample_thickness",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-psi-98-table-S1",
+        "source_id": "psi-98",
+        "page": null,
+        "section": "Experimental table"
+      }
+    ],
+    "kind": "sample_thickness",
+    "reported_value": 0.37,
+    "reported_unit": "cm",
+    "canonical_value": 0.0037,
+    "canonical_unit": "m",
+    "reported_lower_value": null,
+    "reported_upper_value": null,
+    "canonical_lower_value": null,
+    "canonical_upper_value": null,
+    "is_approximate": false
+  },
+  {
+    "type": "ConditionRecord",
+    "id": "psi-98-S1-sample_length",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-psi-98-table-S1",
+        "source_id": "psi-98",
+        "page": null,
+        "section": "Experimental table"
+      }
+    ],
+    "kind": "sample_length",
+    "reported_value": 40.6,
+    "reported_unit": "cm",
+    "canonical_value": 0.406,
+    "canonical_unit": "m",
+    "reported_lower_value": null,
+    "reported_upper_value": null,
+    "canonical_lower_value": null,
+    "canonical_upper_value": null,
+    "is_approximate": false
+  },
+  {
+    "type": "ConditionRecord",
+    "id": "psi-98-S1-sample_width",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-psi-98-table-S1",
+        "source_id": "psi-98",
+        "page": null,
+        "section": "Experimental table"
+      }
+    ],
+    "kind": "sample_width",
+    "reported_value": 94.0,
+    "reported_unit": "cm",
+    "canonical_value": 0.9400000000000001,
+    "canonical_unit": "m",
+    "reported_lower_value": null,
+    "reported_upper_value": null,
+    "canonical_lower_value": null,
+    "canonical_upper_value": null,
+    "is_approximate": false
+  },
+  {
+    "type": "ConditionRecord",
+    "id": "psi-98-S1-flow_velocity",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-psi-98-table-S1",
+        "source_id": "psi-98",
+        "page": null,
+        "section": "Experimental table"
+      }
+    ],
+    "kind": "flow_velocity",
+    "reported_value": 20.0,
+    "reported_unit": "cm/s",
+    "canonical_value": 0.2,
+    "canonical_unit": "m/s",
+    "reported_lower_value": null,
+    "reported_upper_value": null,
+    "canonical_lower_value": null,
+    "canonical_upper_value": null,
+    "is_approximate": false
+  },
+  {
+    "type": "ConditionRecord",
+    "id": "psi-98-S1-oxygen",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-psi-98-table-S1",
+        "source_id": "psi-98",
+        "page": null,
+        "section": "Experimental table"
+      }
+    ],
+    "kind": "oxygen",
+    "reported_value": "21.5 - 21.7",
+    "reported_unit": "%",
+    "canonical_value": null,
+    "canonical_unit": "fraction",
+    "reported_lower_value": 21.5,
+    "reported_upper_value": 21.7,
+    "canonical_lower_value": 0.215,
+    "canonical_upper_value": 0.217,
+    "is_approximate": false
+  },
+  {
+    "type": "ConditionRecord",
+    "id": "psi-98-S1-ignition_power",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-psi-98-table-S1",
+        "source_id": "psi-98",
+        "page": null,
+        "section": "Experimental table"
+      }
+    ],
+    "kind": "ignition_power",
+    "reported_value": 182.0,
+    "reported_unit": "W",
+    "canonical_value": 182.0,
+    "canonical_unit": "W",
+    "reported_lower_value": null,
+    "reported_upper_value": null,
+    "canonical_lower_value": null,
+    "canonical_upper_value": null,
+    "is_approximate": false
+  },
+  {
+    "type": "ConditionRecord",
+    "id": "psi-98-S1-ignition_time",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-psi-98-table-S1",
+        "source_id": "psi-98",
+        "page": null,
+        "section": "Experimental table"
+      }
+    ],
+    "kind": "ignition_time",
+    "reported_value": 8.0,
+    "reported_unit": "s",
+    "canonical_value": 8.0,
+    "canonical_unit": "s",
+    "reported_lower_value": null,
+    "reported_upper_value": null,
+    "canonical_lower_value": null,
+    "canonical_upper_value": null,
+    "is_approximate": false
+  },
+  {
+    "type": "ConditionRecord",
+    "id": "psi-98-S1-burn_time",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-psi-98-table-S1",
+        "source_id": "psi-98",
+        "page": null,
+        "section": "Experimental table"
+      }
+    ],
+    "kind": "burn_time",
+    "reported_value": 420.0,
+    "reported_unit": "s",
+    "canonical_value": 420.0,
+    "canonical_unit": "s",
+    "reported_lower_value": null,
+    "reported_upper_value": null,
+    "canonical_lower_value": null,
+    "canonical_upper_value": null,
+    "is_approximate": false
+  },
+  {
+    "type": "ConditionRecord",
+    "id": "psi-98-S1-flow_direction",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-psi-98-table-S1",
+        "source_id": "psi-98",
+        "page": null,
+        "section": "Experimental table"
+      }
+    ],
+    "kind": "flow_direction",
+    "reported_value": "Concurrent",
+    "reported_unit": null,
+    "canonical_value": null,
+    "canonical_unit": null,
+    "reported_lower_value": null,
+    "reported_upper_value": null,
+    "canonical_lower_value": null,
+    "canonical_upper_value": null,
+    "is_approximate": false
+  },
+  {
+    "type": "ConditionRecord",
+    "id": "psi-98-S1-gravity",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-psi-98-table-S1",
+        "source_id": "psi-98",
+        "page": null,
+        "section": "Experimental table"
+      }
+    ],
+    "kind": "gravity",
+    "reported_value": "microgravity",
+    "reported_unit": null,
+    "canonical_value": null,
+    "canonical_unit": null,
+    "reported_lower_value": null,
+    "reported_upper_value": null,
+    "canonical_lower_value": null,
+    "canonical_upper_value": null,
+    "is_approximate": false
+  },
+  {
+    "type": "SampleRecord",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-psi-98-table-S2",
+        "source_id": "psi-98",
+        "page": null,
+        "section": "Experimental table"
+      }
+    ],
+    "id": "psi-98-S2-sample",
+    "material": "SIBAL Fabric",
+    "geometry": "rectangular fabric sheet"
+  },
+  {
+    "type": "ExperimentalRunRecord",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-psi-98-table-S2",
+        "source_id": "psi-98",
+        "page": null,
+        "section": "Experimental table"
+      }
+    ],
+    "id": "psi-98-S2",
+    "investigation_id": "psi-98",
+    "sample_id": "psi-98-S2-sample",
+    "condition_ids": [
+      "psi-98-S2-sample_thickness",
+      "psi-98-S2-sample_length",
+      "psi-98-S2-sample_width",
+      "psi-98-S2-flow_velocity",
+      "psi-98-S2-oxygen",
+      "psi-98-S2-ignition_power",
+      "psi-98-S2-ignition_time",
+      "psi-98-S2-burn_time",
+      "psi-98-S2-flow_direction",
+      "psi-98-S2-gravity"
+    ]
+  },
+  {
+    "type": "ConditionRecord",
+    "id": "psi-98-S2-sample_thickness",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-psi-98-table-S2",
+        "source_id": "psi-98",
+        "page": null,
+        "section": "Experimental table"
+      }
+    ],
+    "kind": "sample_thickness",
+    "reported_value": 0.37,
+    "reported_unit": "cm",
+    "canonical_value": 0.0037,
+    "canonical_unit": "m",
+    "reported_lower_value": null,
+    "reported_upper_value": null,
+    "canonical_lower_value": null,
+    "canonical_upper_value": null,
+    "is_approximate": false
+  },
+  {
+    "type": "ConditionRecord",
+    "id": "psi-98-S2-sample_length",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-psi-98-table-S2",
+        "source_id": "psi-98",
+        "page": null,
+        "section": "Experimental table"
+      }
+    ],
+    "kind": "sample_length",
+    "reported_value": 40.6,
+    "reported_unit": "cm",
+    "canonical_value": 0.406,
+    "canonical_unit": "m",
+    "reported_lower_value": null,
+    "reported_upper_value": null,
+    "canonical_lower_value": null,
+    "canonical_upper_value": null,
+    "is_approximate": false
+  },
+  {
+    "type": "ConditionRecord",
+    "id": "psi-98-S2-sample_width",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-psi-98-table-S2",
+        "source_id": "psi-98",
+        "page": null,
+        "section": "Experimental table"
+      }
+    ],
+    "kind": "sample_width",
+    "reported_value": 94.0,
+    "reported_unit": "cm",
+    "canonical_value": 0.9400000000000001,
+    "canonical_unit": "m",
+    "reported_lower_value": null,
+    "reported_upper_value": null,
+    "canonical_lower_value": null,
+    "canonical_upper_value": null,
+    "is_approximate": false
+  },
+  {
+    "type": "ConditionRecord",
+    "id": "psi-98-S2-flow_velocity",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-psi-98-table-S2",
+        "source_id": "psi-98",
+        "page": null,
+        "section": "Experimental table"
+      }
+    ],
+    "kind": "flow_velocity",
+    "reported_value": 20.0,
+    "reported_unit": "cm/s",
+    "canonical_value": 0.2,
+    "canonical_unit": "m/s",
+    "reported_lower_value": null,
+    "reported_upper_value": null,
+    "canonical_lower_value": null,
+    "canonical_upper_value": null,
+    "is_approximate": false
+  },
+  {
+    "type": "ConditionRecord",
+    "id": "psi-98-S2-oxygen",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-psi-98-table-S2",
+        "source_id": "psi-98",
+        "page": null,
+        "section": "Experimental table"
+      }
+    ],
+    "kind": "oxygen",
+    "reported_value": "~ 21.5",
+    "reported_unit": "%",
+    "canonical_value": 0.215,
+    "canonical_unit": "fraction",
+    "reported_lower_value": null,
+    "reported_upper_value": null,
+    "canonical_lower_value": null,
+    "canonical_upper_value": null,
+    "is_approximate": true
+  },
+  {
+    "type": "ConditionRecord",
+    "id": "psi-98-S2-ignition_power",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-psi-98-table-S2",
+        "source_id": "psi-98",
+        "page": null,
+        "section": "Experimental table"
+      }
+    ],
+    "kind": "ignition_power",
+    "reported_value": 182.0,
+    "reported_unit": "W",
+    "canonical_value": 182.0,
+    "canonical_unit": "W",
+    "reported_lower_value": null,
+    "reported_upper_value": null,
+    "canonical_lower_value": null,
+    "canonical_upper_value": null,
+    "is_approximate": false
+  },
+  {
+    "type": "ConditionRecord",
+    "id": "psi-98-S2-ignition_time",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-psi-98-table-S2",
+        "source_id": "psi-98",
+        "page": null,
+        "section": "Experimental table"
+      }
+    ],
+    "kind": "ignition_time",
+    "reported_value": 8.0,
+    "reported_unit": "s",
+    "canonical_value": 8.0,
+    "canonical_unit": "s",
+    "reported_lower_value": null,
+    "reported_upper_value": null,
+    "canonical_lower_value": null,
+    "canonical_upper_value": null,
+    "is_approximate": false
+  },
+  {
+    "type": "ConditionRecord",
+    "id": "psi-98-S2-burn_time",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-psi-98-table-S2",
+        "source_id": "psi-98",
+        "page": null,
+        "section": "Experimental table"
+      }
+    ],
+    "kind": "burn_time",
+    "reported_value": 70.0,
+    "reported_unit": "s",
+    "canonical_value": 70.0,
+    "canonical_unit": "s",
+    "reported_lower_value": null,
+    "reported_upper_value": null,
+    "canonical_lower_value": null,
+    "canonical_upper_value": null,
+    "is_approximate": false
+  },
+  {
+    "type": "ConditionRecord",
+    "id": "psi-98-S2-flow_direction",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-psi-98-table-S2",
+        "source_id": "psi-98",
+        "page": null,
+        "section": "Experimental table"
+      }
+    ],
+    "kind": "flow_direction",
+    "reported_value": "Opposed",
+    "reported_unit": null,
+    "canonical_value": null,
+    "canonical_unit": null,
+    "reported_lower_value": null,
+    "reported_upper_value": null,
+    "canonical_lower_value": null,
+    "canonical_upper_value": null,
+    "is_approximate": false
+  },
+  {
+    "type": "ConditionRecord",
+    "id": "psi-98-S2-gravity",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-psi-98-table-S2",
+        "source_id": "psi-98",
+        "page": null,
+        "section": "Experimental table"
+      }
+    ],
+    "kind": "gravity",
+    "reported_value": "microgravity",
+    "reported_unit": null,
+    "canonical_value": null,
+    "canonical_unit": null,
+    "reported_lower_value": null,
+    "reported_upper_value": null,
+    "canonical_lower_value": null,
+    "canonical_upper_value": null,
+    "is_approximate": false
+  }
+]

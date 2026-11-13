@@ -1,0 +1,76 @@
+concepts:
+  - canonical_id: material:pmma
+    canonical_label: PMMA
+    ontology_uri: https://example.org/nasa-fire-safety#Material
+    aliases: [PMMA, polymethyl methacrylate]
+    abbreviations: [PMMA]
+    category: material
+    source: "PSI-25 experimental table; NTRS 20205007829"
+  - canonical_id: material:sibal_fabric
+    canonical_label: SIBAL Fabric
+    ontology_uri: https://example.org/nasa-fire-safety#Material
+    aliases: [SIBAL Fabric, Sibal]
+    abbreviations: []
+    category: material
+    source: "PSI-98 experimental table"
+  - canonical_id: investigation:saffire_i
+    canonical_label: SAFFIRE-I
+    ontology_uri: https://example.org/nasa-fire-safety#Investigation
+    aliases: [SAFFIRE-I, Saffire I, Saffire]
+    abbreviations: []
+    category: investigation
+    source: "PSI-98 metadata"
+  - canonical_id: investigation:bass_ii
+    canonical_label: BASS-II
+    ontology_uri: https://example.org/nasa-fire-safety#Investigation
+    aliases: [BASS-II, BASS II]
+    abbreviations: [BASS]
+    category: investigation
+    source: "PSI-25 metadata"
+  - canonical_id: gravity:microgravity
+    canonical_label: microgravity
+    ontology_uri: https://example.org/nasa-fire-safety#GravityCondition
+    aliases: [microgravity, low-g]
+    abbreviations: []
+    category: gravity
+    source: "PSI-98 metadata; NTRS 20205007829"
+  - canonical_id: flow:airflow_velocity
+    canonical_label: airflow velocity
+    ontology_uri: https://example.org/nasa-fire-safety#FlowCondition
+    aliases: [airflow, air flow, flow velocity, forced flow]
+    abbreviations: []
+    category: flow
+    notes: "Not flame-spread velocity."
+    source: "PSI-98 experimental table"
+  - canonical_id: safety:suppression
+    canonical_label: fire suppression
+    ontology_uri: https://example.org/nasa-fire-safety#SafetyImplication
+    aliases: [fire suppression, suppression, suppressant]
+    abbreviations: []
+    category: safety concept
+    source: "NTRS 20205007829"
+  - canonical_id: normative:requirement
+    canonical_label: requirement
+    ontology_uri: https://example.org/nasa-fire-safety#Requirement
+    aliases: [requirement, shall]
+    abbreviations: []
+    category: normative concept
+    source: "NASA-STD-6001"
+  - canonical_id: normative:guidance
+    canonical_label: guidance
+    ontology_uri: https://example.org/nasa-fire-safety#Guidance
+    aliases: [guidance, guidelines]
+    abbreviations: []
+    category: normative concept
+    source: "NTRS 20150020937"
+  - canonical_id: phenomenon:extinction
+    canonical_label: extinction
+    ontology_uri: https://example.org/nasa-fire-safety#Extinction
+    aliases: [extinction, extinguish]
+    abbreviations: []
+    category: combustion phenomenon
+    notes: "Not synonymous with suppression."
+    source: "NTRS 20205007829"
+ambiguous_aliases:
+  acrylic: [material:pmma]
+  flow: [flow:airflow_velocity]

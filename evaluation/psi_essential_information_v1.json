@@ -1,0 +1,370 @@
+{
+  "protocol": "manual-essential-information-v1",
+  "boundary": "Agent-authored source-grounded rubric frozen before RC3 replay. Human independence is not claimed. Grade actual communicated scoped meaning, not string overlap, citation presence or accepted-claim count.",
+  "questions": [
+    {
+      "id": "dev-cfi",
+      "question": "For CFI Flex Number 1207, what fuel, oxygen fraction and fiber status are recorded?",
+      "essential_needs": [
+        "C12H26 fuel",
+        "Oxygen fraction 0.21",
+        "Fiber Yes"
+      ],
+      "answerability": "source_answerable_or_explicit_scope_limit"
+    },
+    {
+      "id": "dev-spice",
+      "question": "What nozzle diameters and air velocities does the SPICE table record? Describe two source records without assuming they are different physical runs.",
+      "essential_needs": [
+        "First identifiable source record nozzle with original unit",
+        "Same record air rate with original unit",
+        "Second identifiable source record nozzle with original unit",
+        "Same second record air rate with original unit",
+        "Source rows are not assumed unique physical runs"
+      ],
+      "answerability": "source_answerable_or_explicit_scope_limit"
+    },
+    {
+      "id": "cld-capacity",
+      "question": "For CLD test day 17324, report both mass-flow controller entries and the original fuel-bottle label. Explain whether those controller entries specify actual realized flow.",
+      "essential_needs": [
+        "Fuel MFC 0.1 with nitrogen-capacity definition",
+        "N2 MFC 0.1 with nitrogen-capacity definition",
+        "Fuel bottle literal 40% CH5",
+        "Controller maxima not realized flow"
+      ],
+      "answerability": "source_answerable_or_explicit_scope_limit"
+    },
+    {
+      "id": "efield-mixture",
+      "question": "For E-FIELD test day 18078, distinguish the recorded fuel-bottle label from the recorded fuel concentration, and give the mesh polarity.",
+      "essential_needs": [
+        "Fuel Bottle 100% CH4",
+        "Fuel Conc 70% distinct from bottle",
+        "Mesh negative"
+      ],
+      "answerability": "source_answerable_or_explicit_scope_limit"
+    },
+    {
+      "id": "sflame-record",
+      "question": "For s-Flame test day 19256, quote the recorded atmosphere and fuel-bottle entries and the ignition count. Preserve original spellings.",
+      "essential_needs": [
+        "Atmosphere literal ~21% O2 with N3",
+        "Fuel Bottle literal 50% C2H4 with N3",
+        "Ignition count16"
+      ],
+      "answerability": "source_answerable_or_explicit_scope_limit"
+    },
+    {
+      "id": "flex2-mixture",
+      "question": "Which droplet-diameter range, ambient temperature and pressure alternatives are listed for the FLEX-2 propanol/glycerol mixtures? Distinguish configuration summaries from identified individual runs.",
+      "essential_needs": [
+        "Propanol/glycerol scope",
+        "Diameter1.5\u20135mm",
+        "Temperature25C",
+        "Pressure alternatives0.5/1/1.5/2/3atm",
+        "Configuration summaries not physical runs"
+      ],
+      "answerability": "source_answerable_or_explicit_scope_limit"
+    },
+    {
+      "id": "daft-session",
+      "question": "In DAFT session D1, what hardware and aerosol material are described?",
+      "essential_needs": [
+        "Modified P-Trak hardware with alcohol wick/batteries",
+        "ARD Fine aerosol/ISS GN2 source description"
+      ],
+      "answerability": "source_answerable_or_explicit_scope_limit"
+    },
+    {
+      "id": "solid-record",
+      "question": "For Saffire-III S2, report the sample thickness, length, width, flow direction and two camera identifiers.",
+      "essential_needs": [
+        "Thickness.33cm",
+        "Length94cm",
+        "Width40.6cm",
+        "Opposed flow",
+        "S2C1/S2C2 cameras"
+      ],
+      "answerability": "source_answerable_or_explicit_scope_limit"
+    },
+    {
+      "id": "aerosol-aging",
+      "question": "For SAME-R test 51a, what inlet velocity, duration and net aging time are recorded?",
+      "essential_needs": [
+        "Inlet8.1cm/s",
+        "Duration60s",
+        "Net aging261s"
+      ],
+      "answerability": "source_answerable_or_explicit_scope_limit"
+    },
+    {
+      "id": "bass-instruments",
+      "question": "For BASS-II test B1, what initial and final calibrated oxygen values, radiometer gain and total frames are recorded?",
+      "essential_needs": [
+        "Initial oxygen22.2vol%",
+        "Final oxygen22.2vol%",
+        "Radiometer gain50",
+        "Frames57"
+      ],
+      "answerability": "source_answerable_or_explicit_scope_limit"
+    },
+    {
+      "id": "flex-instruments",
+      "question": "Why does the FLEX report caution against quantitative radiometer output, and what do its camera views characterize?",
+      "essential_needs": [
+        "Backlit view droplet size/dynamics",
+        "Visible view flame size/shape/color",
+        "Radiometer total radiation",
+        "Filtered radiation signal appropriately scoped"
+      ],
+      "answerability": "source_answerable_or_explicit_scope_limit"
+    },
+    {
+      "id": "simulation-scope",
+      "question": "According to the PSI-115 Data Organization Document, which mechanisms are neglected in Case1-Earth Gravity-NS and Case1-Microgravity-NT? Are these simulation cases or observations?",
+      "essential_needs": [
+        "Source classification simulation",
+        "Earth/microgravity cases kept distinct",
+        "No claim that simulated output is measured"
+      ],
+      "answerability": "source_answerable_or_explicit_scope_limit"
+    },
+    {
+      "id": "unanswerable-pressure",
+      "question": "What chamber pressure was recorded for every individual BRE ignition on 8 February 2019? Explain the scope of the available table.",
+      "essential_needs": [
+        "Table does not identify chamber pressure",
+        "No invented numerical pressure"
+      ],
+      "answerability": "unanswerable_measurement_request"
+    },
+    {
+      "id": "daft-followup",
+      "question": "And for D2, where was the air sampled?",
+      "essential_needs": [
+        "D2 correct session and source scope",
+        "Recorded sampled locations communicated"
+      ],
+      "answerability": "source_answerable_or_explicit_scope_limit"
+    },
+    {
+      "id": "fresh-slice",
+      "question": "How does the SLICE source describe fuel and calibration activities on 13 February 2012? Does that date entry identify one physical flame run?",
+      "essential_needs": [
+        "40% CH4 balanceN2",
+        "2pyrometry calibrations",
+        "2fan calibrations",
+        "Date entry session scope not one flame run"
+      ],
+      "answerability": "source_answerable_or_explicit_scope_limit"
+    },
+    {
+      "id": "fresh-bre",
+      "question": "For the BRE entry dated 20 February 2019, what oxygen concentration alternatives, burner size and number of flames ignited are recorded? Can its chamber pressure be recovered from that summary?",
+      "essential_needs": [
+        "Recorded oxygen alternatives",
+        "25mm burner",
+        "8ignitions session count",
+        "Pressure not identified in summary"
+      ],
+      "answerability": "source_answerable_or_explicit_scope_limit"
+    },
+    {
+      "id": "fresh-solid",
+      "question": "For Saffire-II sample 2-2, compare the printed 1-g burn length and spread rate with the entries headed ?-g. Preserve the source labels and distinguish numerical results from qualitative entries.",
+      "essential_needs": [
+        "1-g7.6cm",
+        "1-g1.2mm/s",
+        "?-g~0 no invented dimension",
+        "?-gSpread Length n/a unexpanded",
+        "No gravity label correction without evidence"
+      ],
+      "answerability": "source_answerable_or_explicit_scope_limit"
+    },
+    {
+      "id": "fresh-bass",
+      "question": "For BASS-II B2, give initial and final calibrated oxygen, initial carbon monoxide and the recorded total-frames entry. Does the frames entry supply a numerical count?",
+      "essential_needs": [
+        "Initial oxygen22.2vol%",
+        "Final oxygen1.6vol%",
+        "InitialCO6ppm",
+        "Frames none is not numerical"
+      ],
+      "answerability": "source_answerable_or_explicit_scope_limit"
+    },
+    {
+      "id": "fresh-design",
+      "question": "For Flame Design test 21088A1, distinguish the reported burn time and hydrocarbon mass flow from Tad and Zst. Give the original values and explain what Tad and Zst mean according to the investigation documentation.",
+      "essential_needs": [
+        "Burntime50sec",
+        "mHC2mg/s",
+        "Tad2719.323211K",
+        "Zst0.102651783",
+        "Tad adiabatic temperature/calculated not observed",
+        "Zst stoichiometric mixture fraction"
+      ],
+      "answerability": "source_answerable_or_explicit_scope_limit"
+    },
+    {
+      "id": "historical-flex-diagnostics",
+      "question": "What diagnostic methods does the available FLEX documentation describe, and what does it say they measure? Distinguish methods from experimental findings.",
+      "essential_needs": [
+        "Backlit droplet imaging and size history",
+        "Visible flame imaging and morphology/color",
+        "Broadband flame radiation",
+        "Filtered radiation measurement",
+        "Method distinguished from scientific finding"
+      ],
+      "answerability": "source_answerable_or_explicit_scope_limit"
+    },
+    {
+      "id": "fresh-models",
+      "question": "What modeling approaches do PSI-60 and PSI-62 describe, and which flame-spread configurations do their objectives address? Distinguish research objectives from measured outcomes.",
+      "essential_needs": [
+        "PSI-60 image processing/color-ratio pyrometry and soot modeling source description",
+        "PSI-60 normal/microgravity burner/model context",
+        "PSI-62 UFGM coupled fluid-solid modeling and BASS two-color tomography",
+        "Configurations sheets/spheres/PMMA rods/wax cylinders as described",
+        "Objectives or reported modeling approaches are not newly measured outcomes"
+      ],
+      "answerability": "source_answerable_or_explicit_scope_limit"
+    },
+    {
+      "id": "fresh-reference",
+      "question": "What does the PSI-142 original table link for CFE limit with ozone and without ozone? Give the figure identifiers and publication reference, and explain whether these rows themselves supply measured limit values.",
+      "essential_needs": [
+        "With-ozone CFE figure4",
+        "Without-ozone CFE figure5",
+        "DOI10.1016/j.combustflame.2017.01.028",
+        "Figure reference rows do not contain measured limit values"
+      ],
+      "answerability": "source_answerable_or_explicit_scope_limit"
+    },
+    {
+      "id": "fresh-standard",
+      "question": "According to NASA-STD-6001B Change 3, what is the purpose of Test 1 and what evidence does the standard require for declaring a material self-extinguishing? Keep the standard criteria separate from experimental observations.",
+      "essential_needs": [
+        "Test1 standard ignition/self-extinguishing and no burning debris transfer purpose",
+        "No one of five standard-sized specimens burns beyond15cm/6in",
+        "No specimen propagates flame by burning debris transfer",
+        "Burn length and paper ignition recorded; source criteria not experimental observations"
+      ],
+      "answerability": "source_answerable_or_explicit_scope_limit"
+    },
+    {
+      "id": "fresh-record-comparison",
+      "question": "Compare CFI Flex Numbers 1208 and 1209: what oxygen fractions, pressures and fiber status are recorded for each? Keep their run contexts separate and do not infer a causal effect.",
+      "essential_needs": [
+        "1208 oxygen0.21",
+        "1208pressure1atm",
+        "1208fiberYes",
+        "1209oxygen0.21",
+        "1209pressure1atm",
+        "1209fiberYes",
+        "No causal inference or run identity merging"
+      ],
+      "answerability": "source_answerable_or_explicit_scope_limit"
+    },
+    {
+      "id": "fresh-solid-instrument",
+      "question": "For BASS-II B4, give the recorded material, initial and final calibrated oxygen, radiometer gain and total frames. Which values are instrument settings rather than scientific outcomes?",
+      "essential_needs": [
+        "B4 material300micronPMMAfilm2cmwide",
+        "Initialoxygen22.2vol%",
+        "Finaloxygen22.2vol%",
+        "Radiometergain50as instrumentsetting",
+        "Frames137recordedcount"
+      ],
+      "answerability": "source_answerable_or_explicit_scope_limit"
+    },
+    {
+      "id": "fresh-acme-findings",
+      "question": "Compare the CLD and E-FIELD results in the ACME ISS overview: what soot-related findings are reported, what configurations were studied, and which findings are explicitly preliminary?",
+      "essential_needs": [
+        "CLD matched/coflow diluted methane-ethylene configuration",
+        "CLD attached sooty-flame soot fraction greater in microgravity comparison",
+        "CLD result explicitly preliminary",
+        "E-FIELD gas-jet/coflow methane-ethylene with applied electrode field",
+        "E-FIELD soot suppression as reported and distinct investigation scope"
+      ],
+      "answerability": "source_answerable_or_explicit_scope_limit"
+    },
+    {
+      "id": "fresh-glovebox-hardware",
+      "question": "Which instruments did SPICE and SLICE share in the Microgravity Science Glovebox, and which quantities were displayed or recorded in the video overlay?",
+      "essential_needs": [
+        "Shared MSG hardware explicitly attributed to SPICE/SLICE",
+        "Digital still camera and analog video camera",
+        "Thermopile radiometer manually adjustable gain",
+        "Video overlay radiometer output/fuel flow/fan voltage/reference velocity/time"
+      ],
+      "answerability": "source_answerable_or_explicit_scope_limit"
+    },
+    {
+      "id": "fresh-aerosol-comparison",
+      "question": "Compare the original SAME sample 1 and SAME-R test 51a records: which material, duration or aging entries are available in each? Preserve the source units and do not assume identical experimental conditions.",
+      "essential_needs": [
+        "SAME1 Teflon",
+        "SAME1 aging1minute",
+        "SAME-R51a Kapton",
+        "SAME-R51a duration60sec",
+        "SAME-R51a netaging261sec",
+        "Distinct experiment/context rather than equivalent conditions"
+      ],
+      "answerability": "source_answerable_or_explicit_scope_limit"
+    },
+    {
+      "id": "fresh-saffire-comparison",
+      "question": "Compare the original Saffire-I S1 and Saffire-III S2 records for specimen dimensions and flow direction. State each result with its own experiment and sample.",
+      "essential_needs": [
+        "Saffire-I S1 thickness0.37cm",
+        "Saffire-I S1 length40.6cm",
+        "Saffire-I S1 width94cm",
+        "Saffire-I S1 flowConcurrent",
+        "Saffire-III S2 thickness.33cm",
+        "Saffire-III S2 length94cm",
+        "Saffire-III S2 width40.6cm",
+        "Saffire-III S2 flowOpposed",
+        "Each result correctly scoped to its experiment/sample"
+      ],
+      "answerability": "source_answerable_or_explicit_scope_limit"
+    },
+    {
+      "id": "fresh-droplet-configurations",
+      "question": "What diameter, temperature and pressure alternatives does FLEX-2 report for pure ethanol and for the propanol/glycerol mixtures? Do these configuration summaries identify physical runs?",
+      "essential_needs": [
+        "Pure ethanol original diameter range",
+        "Pure ethanol original temperature",
+        "Pure ethanol original pressure alternatives",
+        "Propanol/glycerol original diameter range",
+        "Propanol/glycerol original temperature",
+        "Propanol/glycerol original pressure alternatives",
+        "Alternative configuration scope not physical-run enumeration"
+      ],
+      "answerability": "source_answerable_or_explicit_scope_limit"
+    },
+    {
+      "id": "fresh-smoke-model-status",
+      "question": "Does the PSI-115 final report present its particle formation and growth results as simulations or as new measured smoke observations? Explain the reported gravity cases and the scope of the source.",
+      "essential_needs": [
+        "Source reports simulations of particle formation/growth",
+        "Earth-gravity case scope",
+        "Microgravity case scope",
+        "No conversion of computed output into new measured observation"
+      ],
+      "answerability": "source_answerable_or_explicit_scope_limit"
+    },
+    {
+      "id": "fresh-acme-followup",
+      "question": "In that ACME overview, what is reported about n-butane cool flames in CFI-G, and which imaging signal is used? Keep this separate from the earlier CLD and E-FIELD findings.",
+      "essential_needs": [
+        "CFI-G n-butane normal-flame cool flames",
+        "Intensified filtered camera for formaldehyde emission",
+        "Cool flames smaller than corresponding hot flames if discussed",
+        "No attribution to CLD or E-FIELD"
+      ],
+      "answerability": "source_answerable_or_explicit_scope_limit"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+development:
+  - PSI-25 BASS-II
+  - PSI-98 SAFFIRE-I
+  - NASA-STD-6001
+reason: Existing verified corpus and reusable structured-table calibration sources.
+holdout:
+  - NTRS 20205007829 Spacecraft Fire Safety Needs for Exploration
+reason_holdout: Entire documentary source group held out from structured CSV parser design; it is segmented without source-specific extraction rules.
+first_pass_rule: Record deterministic segmentation/candidate behavior before adding a source-specific parser.

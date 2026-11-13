@@ -1,0 +1,45 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix sem: <https://example.org/nasa-fire-safety/semantic/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+sem:SourceRecordEvidence a sh:NodeShape ;
+ sh:targetClass sem:SourceRecord, sem:ExperimentalSession, sem:ConfigurationSummary, sem:PublicationFigureReference,
+ sem:SourceAnnotation, sem:DataProductReference, sem:MaintenanceRecord ;
+ sh:property [ sh:path sem:evidenceRef ; sh:minCount 1 ] ;
+ sh:property [ sh:path sem:payload ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ] .
+sem:ReportedFieldEvidence a sh:NodeShape ; sh:targetClass sem:ReportedField ;
+ sh:property [ sh:path sem:subject ; sh:minCount 1 ; sh:maxCount 1 ; sh:nodeKind sh:IRI ] ;
+ sh:property [ sh:path sem:measuredProperty ; sh:minCount 1 ; sh:maxCount 1 ; sh:nodeKind sh:IRI ] ;
+ sh:property [ sh:path sem:evidenceRef ; sh:minCount 1 ] .
+sem:InvestigationMembershipTarget a sh:NodeShape ; sh:targetClass sem:SemanticRelation ;
+ sh:sparql [ sh:message "Investigation membership must target a real Investigation entity, not only a registry alias." ;
+   sh:select """
+     PREFIX sem: <https://example.org/nasa-fire-safety/semantic/>
+     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+     SELECT $this WHERE {
+       $this sem:relation sem:belongsToInvestigation ; sem:object ?investigation .
+       FILTER NOT EXISTS { ?investigation rdf:type sem:Investigation }
+     }
+   """ ] .
+
+sem:InstrumentEvidence a sh:NodeShape ; sh:targetClass sem:Instrument ;
+ sh:property [ sh:path sem:evidenceRef ; sh:minCount 1 ] ;
+ sh:property [ sh:path sem:payload ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ] ;
+ sh:property [ sh:path sem:instrumentCategory ; sh:maxCount 1 ; sh:datatype xsd:string ] ;
+ sh:property [ sh:path sem:signalFormat ; sh:maxCount 1 ; sh:datatype xsd:string ] ;
+ sh:property [ sh:path sem:acquisitionMode ; sh:maxCount 1 ; sh:datatype xsd:string ] ;
+ sh:property [ sh:path sem:detectorType ; sh:maxCount 1 ; sh:datatype xsd:string ] .
+sem:ApparatusInstrumentEndpoints a sh:NodeShape ; sh:targetClass sem:SemanticRelation ;
+ sh:sparql [ sh:message "Instrument components require an explicitly typed apparatus and instrument." ;
+   sh:select """
+     PREFIX sem: <https://example.org/nasa-fire-safety/semantic/>
+     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+     SELECT $this WHERE {
+       $this sem:relation sem:hasInstrument ; sem:subject ?apparatus ; sem:object ?instrument .
+       FILTER (NOT EXISTS { ?apparatus rdf:type sem:Apparatus } ||
+               NOT EXISTS { ?instrument rdf:type sem:Instrument })
+     }
+   """ ] .
+
+sem:ScientificTermDefinitionEvidence a sh:NodeShape ; sh:targetClass sem:ScientificTermDefinition ;
+ sh:property [ sh:path sem:evidenceRef ; sh:minCount 1 ] ;
+ sh:property [ sh:path sem:payload ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ] .

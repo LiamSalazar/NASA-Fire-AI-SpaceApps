@@ -1,0 +1,1974 @@
+{
+  "cases": [
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi01",
+      "kind": "exact",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "PMMA in microgravity",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi02",
+      "kind": "safe_alias",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "polymethyl methacrylate in low-g",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi03",
+      "kind": "exact",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "SIBAL Fabric microgravity",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi04",
+      "kind": "safe_alias",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "Sibal low-g",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "psi-98",
+            "relation": "belongsToInvestigation"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "ExperimentalRun"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi05",
+      "kind": "exact",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "SAFFIRE-I experiments",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "psi-98",
+            "relation": "belongsToInvestigation"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "ExperimentalRun"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi06",
+      "kind": "safe_alias",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "Saffire I tests",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "psi-25",
+            "relation": "belongsToInvestigation"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "ExperimentalRun"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi07",
+      "kind": "exact",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "BASS-II experiments",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "psi-25",
+            "relation": "belongsToInvestigation"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "ExperimentalRun"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi08",
+      "kind": "safe_alias",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "BASS tests",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "LT",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "cm/s",
+              "reported_value": 10.0,
+              "tolerance": null,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": [
+          "flow"
+        ]
+      },
+      "id": "qi09",
+      "kind": "numeric",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "PMMA microgravity airflow below 10 cm/s",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "LTE",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": 0.1,
+              "tolerance": null,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": [
+          "flow"
+        ]
+      },
+      "id": "qi10",
+      "kind": "numeric",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "PMMA low-g air flow at most 0.1 m/s",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "GTE",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "cm/s",
+              "reported_value": 20.0,
+              "tolerance": null,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": [
+          "flow"
+        ]
+      },
+      "id": "qi11",
+      "kind": "numeric",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "SIBAL Fabric microgravity flow velocity >= 20 cm/s",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": {
+          "dimensions": [],
+          "operands": [
+            "psi-98-S1",
+            "psi-98-S2"
+          ]
+        },
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "psi-98",
+            "relation": "belongsToInvestigation"
+          }
+        ],
+        "operation": "COMPARE",
+        "property_constraints": [],
+        "requested_information": [
+          "ExperimentalRun"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi12",
+      "kind": "comparison",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "Compare Saffire-I S1 and S2",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": {
+          "dimensions": [],
+          "operands": [
+            "psi-98-S1",
+            "psi-98-S2"
+          ]
+        },
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "psi-98",
+            "relation": "belongsToInvestigation"
+          }
+        ],
+        "operation": "COMPARE",
+        "property_constraints": [],
+        "requested_information": [
+          "ExperimentalRun"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi13",
+      "kind": "comparison",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "Compare S1 and S2",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "ReportedObservation",
+          "SafetyImplication"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi14",
+      "kind": "safety",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "What did NASA observe about suppression?",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "SafetyImplication"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi15",
+      "kind": "safety",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "NASA safety implications for PMMA",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "SafetyImplication",
+          "Requirement"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi16",
+      "kind": "requirement",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "Find NASA requirements",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "SafetyImplication",
+          "Guidance"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi17",
+      "kind": "guidance",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "Find NASA guidance",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "SafetyImplication",
+          "OpenQuestion"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi18",
+      "kind": "open_question",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "NASA open questions",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [
+          "acrylic"
+        ],
+        "clarification_required": true,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi19",
+      "kind": "ambiguous",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "What about acrylic fires?",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [
+          "velocity"
+        ],
+        "clarification_required": true,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi20",
+      "kind": "ambiguous",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "velocity effects",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [
+          "flow"
+        ],
+        "clarification_required": true,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi21",
+      "kind": "ambiguous",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "flow effects",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": [
+          "xenon"
+        ]
+      },
+      "id": "qi22",
+      "kind": "unknown",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "xenon combustion",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi23",
+      "kind": "unknown",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "unindexed material fire",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi24",
+      "kind": "paraphrase",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "Show PMMA tests",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "ExperimentalRun"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi25",
+      "kind": "paraphrase",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "What experiments used PMMA?",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi26",
+      "kind": "paraphrase",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "Show low-g SIBAL evidence",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "SafetyImplication"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi27",
+      "kind": "multi_condition",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "What has NASA reported about suppressing PMMA fires in microgravity?",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [
+          "flow is ambiguous: flow:airflow_velocity"
+        ],
+        "clarification_required": true,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "COMPARE",
+        "property_constraints": [],
+        "requested_information": [
+          "ExperimentalRun"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": [
+          "flow"
+        ]
+      },
+      "id": "qi28",
+      "kind": "comparison",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "Compare concurrent and opposed flow",
+      "review_status": "CONTRACT_GAP",
+      "supported": false,
+      "unsupported_reason": "REVIEWED_GAP_WITHOUT_COMPLETE_V2_FIELD_GOLD"
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          },
+          {
+            "entity_id": "psi-98",
+            "relation": "belongsToInvestigation"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "ExperimentalRun"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi29",
+      "kind": "documentary",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "Saffire microgravity results",
+      "review_status": "CONTRACT_GAP",
+      "supported": false,
+      "unsupported_reason": "REVIEWED_GAP_WITHOUT_COMPLETE_V2_FIELD_GOLD"
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          },
+          {
+            "entity_id": "psi-25",
+            "relation": "belongsToInvestigation"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "ExperimentalRun"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi30",
+      "kind": "documentary",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "BASS microgravity results",
+      "review_status": "CONTRACT_GAP",
+      "supported": false,
+      "unsupported_reason": "REVIEWED_GAP_WITHOUT_COMPLETE_V2_FIELD_GOLD"
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "SafetyImplication",
+          "Requirement"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi31",
+      "kind": "safety",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "PMMA requirement",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "SafetyImplication",
+          "Guidance"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi32",
+      "kind": "safety",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "PMMA guidance",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "SafetyImplication",
+          "OpenQuestion"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi33",
+      "kind": "safety",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "suppression open question",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "LT",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "cm/s",
+              "reported_value": 20.0,
+              "tolerance": null,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": [
+          "flow"
+        ]
+      },
+      "id": "qi34",
+      "kind": "numeric",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "airflow < 20 cm/s",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "LTE",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "m/s",
+              "reported_value": 0.1,
+              "tolerance": null,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": [
+          "flow"
+        ]
+      },
+      "id": "qi35",
+      "kind": "numeric",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "air flow no more than 0.10 m/s",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [
+          "flow is ambiguous: flow:airflow_velocity"
+        ],
+        "clarification_required": true,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": [
+          "flow"
+        ]
+      },
+      "id": "qi36",
+      "kind": "numeric",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "roughly 0.2 m/s airflow",
+      "review_status": "CONTRACT_GAP",
+      "supported": false,
+      "unsupported_reason": "REVIEWED_GAP_WITHOUT_COMPLETE_V2_FIELD_GOLD"
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi37",
+      "kind": "numeric",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "about 20% oxygen",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi38",
+      "kind": "range",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "between 21.5 and 21.7% oxygen",
+      "review_status": "CONTRACT_GAP",
+      "supported": false,
+      "unsupported_reason": "REVIEWED_GAP_WITHOUT_COMPLETE_V2_FIELD_GOLD"
+    },
+    {
+      "context": {
+        "current_investigation": "psi-98",
+        "current_run_ids": [
+          "psi-98-S1",
+          "psi-98-S2"
+        ]
+      },
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": "psi-98-S1",
+        "entity_constraints": [
+          {
+            "entity_id": "psi-98",
+            "relation": "belongsToInvestigation"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi39",
+      "kind": "context_followup",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "S1",
+      "review_status": "REVIEWED_CONVERSATIONAL",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": {
+        "current_investigation": "psi-98",
+        "current_run_ids": [
+          "psi-98-S1",
+          "psi-98-S2"
+        ]
+      },
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": "psi-98-S2",
+        "entity_constraints": [
+          {
+            "entity_id": "psi-98",
+            "relation": "belongsToInvestigation"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi40",
+      "kind": "context_followup",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "What was different about S2?",
+      "review_status": "REVIEWED_CONVERSATIONAL",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "ReportedObservation"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi41",
+      "kind": "context_followup",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "What did it observe?",
+      "review_status": "CONVERSATIONAL_CONTEXT_GAP",
+      "supported": false,
+      "unsupported_reason": "NO_REVIEWED_CONTEXT_FIXTURE"
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi42",
+      "kind": "multi_condition",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "PMMA and SIBAL under microgravity",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "COMPARE",
+        "property_constraints": [],
+        "requested_information": [
+          "SafetyImplication"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi43",
+      "kind": "phenomenon",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "suppression versus extinction",
+      "review_status": "CONTRACT_GAP",
+      "supported": false,
+      "unsupported_reason": "REVIEWED_GAP_WITHOUT_COMPLETE_V2_FIELD_GOLD"
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "ReportedObservation"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi44",
+      "kind": "requested_information",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "reported observations",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "NASAConclusion"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi45",
+      "kind": "requested_information",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "NASA conclusions",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "psi-98",
+            "relation": "belongsToInvestigation"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "ExperimentalRun"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi46",
+      "kind": "requested_information",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "measurements from Saffire",
+      "review_status": "CONTRACT_GAP",
+      "supported": false,
+      "unsupported_reason": "REVIEWED_GAP_WITHOUT_COMPLETE_V2_FIELD_GOLD"
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi47",
+      "kind": "requested_information",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "publications about PMMA",
+      "review_status": "CONTRACT_GAP",
+      "supported": false,
+      "unsupported_reason": "REVIEWED_GAP_WITHOUT_COMPLETE_V2_FIELD_GOLD"
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "id": "qi48",
+      "kind": "unknown",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "unknown polymer in low-g",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [
+          "acrylic"
+        ],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "PMMA",
+            "relation": "hasMaterial"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": [
+          "acrylic"
+        ]
+      },
+      "id": "qi49",
+      "kind": "ambiguous",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "Does acrylic mean PMMA?",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    },
+    {
+      "context": null,
+      "expected": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": {
+          "dimensions": [],
+          "operands": [
+            "psi-98-S1",
+            "psi-98-S2"
+          ]
+        },
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "psi-98",
+            "relation": "belongsToInvestigation"
+          }
+        ],
+        "operation": "COMPARE",
+        "property_constraints": [
+          {
+            "operator": "EQ",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "cm/s",
+              "reported_value": 20.0,
+              "tolerance": null,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [
+          "ExperimentalRun"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": [
+          "flow"
+        ]
+      },
+      "id": "qi50",
+      "kind": "multi_condition",
+      "label_provenance": [
+        "DETERMINISTIC_PARSER",
+        "UNIT_PARSER",
+        "SAFE_CONTROLLED_ALIAS",
+        "USER_DOMAIN_REVIEW"
+      ],
+      "query": "Compare Saffire-I S1 and S2 at airflow 20 cm/s",
+      "review_status": "REVIEWED_SCORED",
+      "supported": true,
+      "unsupported_reason": null
+    }
+  ],
+  "policy": "No unreviewed intended fields inferred from historical gap labels; gaps remain explicit.",
+  "source_digest": "54af0985660eafe4360b4a76049433bd53e5df68a258498c43fd9dabba9d251c",
+  "version": "phase3c-reviewed-v1"
+}

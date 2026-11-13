@@ -1,0 +1,1088 @@
+{
+  "boundary": "21 previously unexecuted v7 scenarios plus 9 new source-inspected questions. Agent-authored, not independent human gold. Frozen before scoring; never loaded by production.",
+  "questions": [
+    {
+      "id": "v7-spice-acquisition",
+      "question": "Using SPICE source record psi-107-record-5 (GMT day 45, ignition 14:50:07), report its recorded fuel, nozzle diameter, volumetric and mass fuel rates, air speed, and flame-off time. Keep this as an acquisition record rather than reconciling a unique physical run.",
+      "expected_sources": [
+        "psi-107"
+      ],
+      "essential_needs": [
+        "Ethylene fuel; source acquisition identity GMT 45 and 14:50:07",
+        "Nozzle 1.6002 mm",
+        "Fuel rate 51.6 sccm and mass rate 0.98 mg/s remain distinct quantities",
+        "Air rate 40.15 cm/s",
+        "Flame off 14:52:11; no invented physical-run reconciliation"
+      ],
+      "source_review": [
+        {
+          "file": "data/raw/hackathon-psi/PSI-107_experimental_table.csv",
+          "sha256": "fb0d7e60cf5367afb429089e9901d27288f78038efd26c8de1db4fbe04117136",
+          "logical_rows_including_header": [
+            5
+          ],
+          "boundary": "Original CSV entries inspected; no inferred physical-run reconciliation."
+        }
+      ],
+      "partition": "reserved-v7",
+      "judgment_scope": "Original-source-inspected required source; not exhaustive passage relevance"
+    },
+    {
+      "id": "v7-cfi-1209",
+      "question": "For CFI Flex Number 1209, give the pressure and oxygen/nitrogen/helium composition, the literal fuel formula, fiber flag and CIR identifier. Keep equipment identifiers separate from experimental quantities.",
+      "expected_sources": [
+        "psi-39"
+      ],
+      "essential_needs": [
+        "Pressure 1 atm",
+        "Oxygen 0.21, nitrogen 0.79, helium 0 as recorded composition fractions",
+        "Fuel C12H26 and Fiber Yes",
+        "CIR identifier f068a09 is an identifier, not a measured quantity"
+      ],
+      "source_review": [
+        {
+          "file": "data/raw/hackathon-psi/PSI-39_experimental_table.csv",
+          "sha256": "fb898e28762353aa132c16b886dbd207a024b1dd3c9bed5928d70d8036d2ec7e",
+          "logical_rows_including_header": [
+            5
+          ],
+          "boundary": "Original CSV entries inspected; no inferred physical-run reconciliation."
+        }
+      ],
+      "partition": "reserved-v7",
+      "judgment_scope": "Original-source-inspected required source; not exhaustive passage relevance"
+    },
+    {
+      "id": "v7-efield-18080",
+      "question": "For E-FIELD test day 18080, separately report Test Type, Mesh Polarity, Fuel Bottle, Fuel Conc and Flames Ignited. Preserve the two fuel fields even if their numbers resemble each other.",
+      "expected_sources": [
+        "psi-22"
+      ],
+      "essential_needs": [
+        "First round of tests with coflow burner",
+        "Mesh polarity negative",
+        "Fuel Bottle 40% CH4 and separate Fuel Conc 40%",
+        "Eight flames ignited for the test day; no invented individual-run identities"
+      ],
+      "source_review": [
+        {
+          "file": "data/raw/hackathon-psi/PSI-22_experimental_table.csv",
+          "sha256": "69090c357b83ae38d161d29001d1d32b40fd77b13324ca6585ee990cdceef524",
+          "logical_rows_including_header": [
+            5
+          ],
+          "boundary": "Original CSV entries inspected; no inferred physical-run reconciliation."
+        }
+      ],
+      "partition": "reserved-v7",
+      "judgment_scope": "Original-source-inspected required source; not exhaustive passage relevance"
+    },
+    {
+      "id": "v7-cld-18039",
+      "question": "For CLD day 18039, what fuel-bottle entry and concentration range are recorded, what are both MFC entries and their source-defined meaning, and how many flames were ignited? Do not turn instrument limits into measured flow.",
+      "expected_sources": [
+        "psi-21"
+      ],
+      "essential_needs": [
+        "Fuel Bottle 100% CH4",
+        "Fuel concentration range 50%-80%",
+        "Fuel MFC 0.1 and N2 MFC 0.05 with the original nitrogen-basis maximum-flow definition",
+        "Eight flames ignited; the MFC capacities are not realized measured flow"
+      ],
+      "source_review": [
+        {
+          "file": "data/raw/hackathon-psi/PSI-21_experimental_table.csv",
+          "sha256": "9fafbc5b3dddaf715ce8025ed9154ce297803f7b69a935f077ec26c8249e44c0",
+          "logical_rows_including_header": [
+            2,
+            13
+          ],
+          "boundary": "Original CSV entries inspected; no inferred physical-run reconciliation."
+        }
+      ],
+      "partition": "reserved-v7",
+      "judgment_scope": "Original-source-inspected required source; not exhaustive passage relevance"
+    },
+    {
+      "id": "v7-bre-march",
+      "question": "For the BRE entry on 4 March 2019, report burner size, fuel bottle, oxygen concentration entries and ignition count. Explain the scope of the listed oxygen values.",
+      "expected_sources": [
+        "psi-20"
+      ],
+      "essential_needs": [
+        "Burner size 25 mm",
+        "Fuel Bottle 50% C2H4",
+        "Oxygen entries 26.5; 40 percent, not one simultaneous gas mixture",
+        "Six flames ignited in the dated summary; no Cartesian reconstruction of individual runs"
+      ],
+      "source_review": [
+        {
+          "file": "data/raw/hackathon-psi/PSI-20_experimental_table.csv",
+          "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+          "logical_rows_including_header": [
+            2,
+            5
+          ],
+          "boundary": "Original CSV entries inspected; no inferred physical-run reconciliation."
+        }
+      ],
+      "partition": "reserved-v7",
+      "judgment_scope": "Original-source-inspected required source; not exhaustive passage relevance"
+    },
+    {
+      "id": "v7-sflame-20142",
+      "question": "For s-Flame day 20142, report the test-type description, atmosphere, exact fuel-bottle mixture and ignition count. Give printed mixture entries without calculating an unreported balance fraction.",
+      "expected_sources": [
+        "psi-23"
+      ],
+      "essential_needs": [
+        "Second round with helium-diluted fuel and oxygen",
+        "Atmosphere ~30% O2 with He",
+        "Fuel bottle 30% H2, 15% CH4, with He; no invented printed helium percentage",
+        "Seventeen flames ignited in this day summary"
+      ],
+      "source_review": [
+        {
+          "file": "data/raw/hackathon-psi/PSI-23_experimental_table.csv",
+          "sha256": "16cd10f50bd2e962887c8eb4077e5a9b3e790c78de8e0361c0b77e19300be7cf",
+          "logical_rows_including_header": [
+            13
+          ],
+          "boundary": "Original CSV entries inspected; no inferred physical-run reconciliation."
+        }
+      ],
+      "partition": "reserved-v7",
+      "judgment_scope": "Original-source-inspected required source; not exhaustive passage relevance"
+    },
+    {
+      "id": "v7-slice-hardware",
+      "question": "What does the SLICE entry dated 5 March 2012 say about fuel and the fuel bottle, and which instruments are described for the shared SPICE/SLICE setup? Distinguish the source session entry from the general apparatus configuration.",
+      "expected_sources": [
+        "psi-106",
+        "ntrs-20140009169"
+      ],
+      "essential_needs": [
+        "SLICE fuel entry 70% CH4 (balance N2)",
+        "The entry says the bottle was not emptied, in contrast to most days",
+        "Shared setup descriptions include digital still camera and analog video camera",
+        "Thermopile radiometer is the separate radiative instrument",
+        "Apparatus descriptions do not establish use of every device or setting in this individual session"
+      ],
+      "source_review": [
+        {
+          "file": "data/raw/hackathon-psi/PSI-106_experimental_table.csv",
+          "sha256": "89ef980810ca6d9aa8be817b42e36cd2adff23f5e9058361b5a33d18b4363f4d",
+          "logical_rows_including_header": [
+            8
+          ],
+          "boundary": "Original CSV entries inspected; no inferred physical-run reconciliation."
+        },
+        {
+          "source_id": "ntrs-20140009169",
+          "file": "data/raw/hackathon-documentation/NTRS-20140009169.pdf",
+          "sha256": "7e6ca0acc5947a49493d6a8c50494acbfa43f08cf4a854b3544233f003e39d7d",
+          "physical_pages": [
+            3
+          ],
+          "boundary": "Original registered NASA source inspected; source type and scope retained."
+        }
+      ],
+      "partition": "reserved-v7",
+      "judgment_scope": "Original-source-inspected required source; not exhaustive passage relevance"
+    },
+    {
+      "id": "v7-flex2-decane",
+      "question": "For the FLEX-2 Decane (pure) configuration summary, list the diameter range, oxygen fractions, pressure alternatives, temperature and flow range. Explain whether this identifies a Cartesian set of actual runs.",
+      "expected_sources": [
+        "psi-68"
+      ],
+      "essential_needs": [
+        "Initial droplet diameter 1.5-5 mm",
+        "Gas alternatives O2/N2 or O2/He and oxygen fractions 0.17; 0.21; 0.25; 0.3",
+        "Pressure alternatives 0.5; 1.0; 1.5; 2.0; or 3.0 atm",
+        "Ambient temperature 25 C and flow velocity 0.1-5 cm/s",
+        "Configuration summary alternatives do not identify a Cartesian collection of physical runs"
+      ],
+      "source_review": [
+        {
+          "file": "data/raw/hackathon-psi/PSI-68_experimental_table.csv",
+          "sha256": "cc57ad1bd9977aa13e7ac6c3aa618303012686e232b36c052c6a9f1a74e5f528",
+          "logical_rows_including_header": [
+            5
+          ],
+          "boundary": "Original CSV entries inspected; no inferred physical-run reconciliation."
+        }
+      ],
+      "partition": "reserved-v7",
+      "judgment_scope": "Original-source-inspected required source; not exhaustive passage relevance"
+    },
+    {
+      "id": "v7-daft-temperature",
+      "question": "For DAFT D2, summarize the recorded hardware, aerosol material, sampling locations and GMT day. Does this registered session provide a numerical temperature? Keep any limitation specific to this lookup.",
+      "expected_sources": [
+        "psi-47"
+      ],
+      "essential_needs": [
+        "Hardware DustTrak and batteries",
+        "Arizona Road Dust (ARD Fine) combined with ISS GN2 to create an aerosol",
+        "Separated Velcro and air near Port rack 6 and in Node 1",
+        "GMT 63 (2005)",
+        "No numerical temperature is established by this registered session lookup; no NASA-wide knowledge-gap claim or transferred temperature"
+      ],
+      "source_review": [
+        {
+          "file": "data/raw/hackathon-psi/PSI-47_experimental_table.csv",
+          "sha256": "d9d1a436c6e7bbc410b433e04575fe7dedaff763b5237d688089929b7393b5c0",
+          "logical_rows_including_header": [
+            3
+          ],
+          "boundary": "Original CSV entries inspected; no inferred physical-run reconciliation."
+        }
+      ],
+      "partition": "reserved-v7",
+      "judgment_scope": "Original-source-inspected required source; not exhaustive passage relevance"
+    },
+    {
+      "id": "v7-cfig-l1",
+      "question": "For CFI-G 21088 L1, separately report oxygen before and after, pressure, burn time, termination code, peak burner temperature and Tad. Preserve whether Tad is a calculated field.",
+      "expected_sources": [
+        "psi-159"
+      ],
+      "essential_needs": [
+        "Oxygen before 0.209638709 and after 0.209000159 are separate fields",
+        "Approximate pressure 1.0133 bar",
+        "Burn time 9 s and termination code SE",
+        "Peak burner temperature 80.8277263 C",
+        "Tad 2254.430202 K is the reported calculated adiabatic-temperature field; no unreported solver attribution"
+      ],
+      "source_review": [
+        {
+          "file": "data/raw/hackathon-psi/PSI-159_experimental_table.csv",
+          "sha256": "d95a621c3fbd27d204dd32ed29fa17d68f2b779d6a523cde8479ed7ebaa5251a",
+          "logical_rows_including_header": [
+            13
+          ],
+          "boundary": "Original CSV entries inspected; no inferred physical-run reconciliation."
+        },
+        {
+          "source_id": "grc-flame-design-srd-20100401",
+          "file": "data/raw/hackathon-documentation/Flame_Design_SRD_20100401.pdf",
+          "sha256": "e783fc0da3d388b567654c109b2595a5a74218de6ccd641241f13b091a5448eb",
+          "physical_pages": [
+            5
+          ],
+          "boundary": "Original registered NASA source inspected; source type and scope retained."
+        }
+      ],
+      "partition": "reserved-v7",
+      "judgment_scope": "Original-source-inspected required source; not exhaustive passage relevance"
+    },
+    {
+      "id": "v7-flame-design-ramped",
+      "question": "For Flame Design test 19115G1, give the initial/final oxygen fractions, initial/final/mean pressures, and the literal fuel-setting and Tad flags. Do not invent a numerical setting from RAMPED.",
+      "expected_sources": [
+        "psi-10"
+      ],
+      "essential_needs": [
+        "Initial oxygen 0.203863566 and final oxygen 0.203513186",
+        "Initial pressure 1.0138854 atm, final 1.01932908 atm, mean 1.01660724 atm",
+        "Xfuel, mfuel, mN2 and mtot are recorded RAMPED",
+        "Mean Zst and Tad are recorded RAMPED, not fabricated numerical values"
+      ],
+      "source_review": [
+        {
+          "file": "data/raw/hackathon-psi/PSI-10_experimental_table.csv",
+          "sha256": "4a663292bd3f65201943cc71bd661a70383639276a9176f64105b285bf0b6deb",
+          "logical_rows_including_header": [
+            7
+          ],
+          "boundary": "Original CSV entries inspected; no inferred physical-run reconciliation."
+        }
+      ],
+      "partition": "reserved-v7",
+      "judgment_scope": "Original-source-inspected required source; not exhaustive passage relevance"
+    },
+    {
+      "id": "v7-flex-disruption",
+      "question": "For FLEX identifier 264F003, report test number, fuel, pressure, initial diameter and test end. What quantitative extinction diameter and burn time can this row support? Do not substitute another FLEX test.",
+      "expected_sources": [
+        "psi-69"
+      ],
+      "essential_needs": [
+        "FLEX Test number 12 and Heptane fuel",
+        "Ambient pressure 2319.9 mmHg",
+        "Initial droplet diameter 2.74 mm",
+        "Test end Disruption",
+        "No numerical visible-flame extinction diameter or burn time supplied by the blank fields in this row; no zero or borrowed value"
+      ],
+      "source_review": [
+        {
+          "file": "data/raw/hackathon-psi/PSI-69_experimental_table.csv",
+          "sha256": "37c88ce8ae9391b7544ff630a45ce87543d04d317cdbfbed104fe7d5c27e1b96",
+          "logical_rows_including_header": [
+            13
+          ],
+          "boundary": "Original CSV entries inspected; no inferred physical-run reconciliation."
+        }
+      ],
+      "partition": "reserved-v7",
+      "judgment_scope": "Original-source-inspected required source; not exhaustive passage relevance"
+    },
+    {
+      "id": "v7-bass-asrun12",
+      "question": "For BASS As Run Test #12, list Test #, Sample #, Fuel Sample Material and GMT. Retain each identifier under its own field.",
+      "expected_sources": [
+        "psi-26"
+      ],
+      "essential_needs": [
+        "As Run Test number 12, separate Test number 4 and Sample number 12",
+        "Fuel Sample Material SIBAL 2 cm",
+        "GMT 131"
+      ],
+      "source_review": [
+        {
+          "file": "data/raw/hackathon-psi/PSI-26_experimental_table.csv",
+          "sha256": "ccfc3c54d948b64a1c5d2596a63c7c8019e51df0c91a1d62f039f48fa28c300f",
+          "logical_rows_including_header": [
+            13
+          ],
+          "boundary": "Original CSV entries inspected; no inferred physical-run reconciliation."
+        }
+      ],
+      "scientific_constraints": [
+        "Equal As Run and Sample numbers do not reconcile their separate identities"
+      ],
+      "partition": "reserved-v7",
+      "judgment_scope": "Original-source-inspected required source; not exhaustive passage relevance"
+    },
+    {
+      "id": "v7-bassii-b12",
+      "question": "For BASS-II test B12 associated with the recorded PI label Bhattacharjee, quote sample and material description, calibrated initial/final oxygen, initial/final carbon dioxide and initial/final carbon monoxide. Keep before and after values distinct.",
+      "expected_sources": [
+        "psi-25"
+      ],
+      "essential_needs": [
+        "Sample number 160; material as written 300 micron film 2 cm wide",
+        "Calibrated initial oxygen 22.2% by volume and final 22.1%",
+        "Initial CO2 0.51% by volume and final 0.56%",
+        "Initial CO 17 ppm and final CO 33 ppm"
+      ],
+      "source_review": [
+        {
+          "file": "data/raw/hackathon-psi/PSI-25_experimental_table.csv",
+          "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+          "logical_rows_including_header": [
+            13
+          ],
+          "boundary": "Original CSV entries inspected; no inferred physical-run reconciliation."
+        }
+      ],
+      "scientific_constraints": [
+        "Record-specific material wording does not silently acquire a more specific polymer identity from another row"
+      ],
+      "partition": "reserved-v7",
+      "judgment_scope": "Original-source-inspected required source; not exhaustive passage relevance"
+    },
+    {
+      "id": "v7-same-comparison",
+      "question": "Compare SAME samples 2 and 3 using material, air flow, weight-loss rate and aging duration. What differs, and can these two source rows alone establish a new causal explanation?",
+      "expected_sources": [
+        "psi-102"
+      ],
+      "essential_needs": [
+        "Both source materials Teflon and both air flows 5 cm/s",
+        "Sample 2 weight-loss rate 1 mg/min and aging duration 1 minute",
+        "Sample 3 weight-loss rate 2 mg/min and aging duration 20 minutes",
+        "Rate and aging duration differ; the assistant does not derive a new causal attribution from these rows alone"
+      ],
+      "source_review": [
+        {
+          "file": "data/raw/hackathon-psi/PSI-102_experimental_table.csv",
+          "sha256": "268d1e121d2f211b124407dd32b9475617bd269ede2c2d1749441da3e949a2af",
+          "logical_rows_including_header": [
+            3,
+            4
+          ],
+          "boundary": "Original CSV entries inspected; no inferred physical-run reconciliation."
+        }
+      ],
+      "partition": "reserved-v7",
+      "judgment_scope": "Original-source-inspected required source; not exhaustive passage relevance"
+    },
+    {
+      "id": "v7-same-reflight",
+      "question": "For SAME-Reflight test 62a, give sample type, description, inlet velocity, Rt/R0 and net aging time. Retain the ratio as its recorded quantity without inventing an absolute temperature.",
+      "expected_sources": [
+        "psi-101"
+      ],
+      "essential_needs": [
+        "Sample type Kapton; description aged",
+        "Inlet velocity 8.1 cm/s",
+        "Rt/R0 1.48 remains a ratio",
+        "Net aging time 808 seconds; no invented absolute temperature"
+      ],
+      "source_review": [
+        {
+          "file": "data/raw/hackathon-psi/PSI-101_experimental_table.csv",
+          "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+          "logical_rows_including_header": [
+            7
+          ],
+          "boundary": "Original CSV entries inspected; no inferred physical-run reconciliation."
+        }
+      ],
+      "partition": "reserved-v7",
+      "judgment_scope": "Original-source-inspected required source; not exhaustive passage relevance"
+    },
+    {
+      "id": "v7-saffireiii-s2",
+      "question": "For Saffire-III sample S2, summarize material, thickness, length, width, air-flow speed, direction and camera identifiers.",
+      "expected_sources": [
+        "psi-100"
+      ],
+      "essential_needs": [
+        "SIBAL Fabric, thickness .33 cm",
+        "Length 94 cm and width 40.6 cm",
+        "Air flow 30 cm/s, direction Opposed",
+        "Camera identifiers S2C1 and S2C2"
+      ],
+      "source_review": [
+        {
+          "file": "data/raw/hackathon-psi/PSI-100_experimental_table.csv",
+          "sha256": "4d3c717ec20dd0247db670b2784a9fd7d746788bc54a936f80693e48eb8cd117",
+          "logical_rows_including_header": [
+            3
+          ],
+          "boundary": "Original CSV entries inspected; no inferred physical-run reconciliation."
+        }
+      ],
+      "partition": "reserved-v7",
+      "judgment_scope": "Original-source-inspected required source; not exhaustive passage relevance"
+    },
+    {
+      "id": "v7-saffireiii-followup",
+      "question": "Compare that sample with S1: what flow direction and speed does each record give, and which camera identifiers belong to each?",
+      "expected_sources": [
+        "psi-100"
+      ],
+      "essential_needs": [
+        "The referenced previous sample is S2 and the comparison is with S1",
+        "S2 Opposed at 30 cm/s; S1 Concurrent at 30 cm/s",
+        "S2 cameras S2C1/S2C2; S1 cameras S1C1/S1C2"
+      ],
+      "source_review": [
+        {
+          "file": "data/raw/hackathon-psi/PSI-100_experimental_table.csv",
+          "sha256": "4d3c717ec20dd0247db670b2784a9fd7d746788bc54a936f80693e48eb8cd117",
+          "logical_rows_including_header": [
+            2,
+            3
+          ],
+          "boundary": "Original CSV entries inspected; no inferred physical-run reconciliation."
+        }
+      ],
+      "scientific_constraints": [
+        "No transfer of one sample camera identity or direction to the other"
+      ],
+      "partition": "reserved-v7",
+      "judgment_scope": "Original-source-inspected required source; not exhaustive passage relevance"
+    },
+    {
+      "id": "v7-ufgm-method",
+      "question": "How does the PSI-62 Approach describe combining UFGM simulation with two-color tomography of BASS/BASS-II imagery? Identify the geometries and the quantities used for comparison, and distinguish modeling from imagery-based validation.",
+      "expected_sources": [
+        "documentation-psi-62"
+      ],
+      "essential_needs": [
+        "Coupled fluid-solid computational framework addressing charring/ablation and unsteady FGM modeling",
+        "Geometries include flat sheets, spheres, rod-shaped PMMA samples and wax cylinders",
+        "BASS/BASS-II DSLR imagery post-processed with two-color tomography for 3D soot and temperature fields",
+        "Comparison quantities include flame geometry, temperature distribution, soot volume fraction and flame spread rate",
+        "Methods description distinguishes simulations/predictions from experimental imagery rather than inventing a newly measured run"
+      ],
+      "source_review": [
+        {
+          "file": "data/raw/hackathon-psi/PSI-62_metadata.json",
+          "sha256": "aa101b1e2b55b3d71a440a9bd07d3f745f70d6ded9f5f14f5a1f41e6c7d53a2b",
+          "json_pointer": "/studies/0/comments/1/value",
+          "boundary": "Original official Approach narrative, not publication titles used as experimental results."
+        }
+      ],
+      "partition": "reserved-v7",
+      "judgment_scope": "Original-source-inspected required source; not exhaustive passage relevance"
+    },
+    {
+      "id": "v7-offgassing-standard",
+      "question": "In the main Test 7 procedure of NASA-STD-6001B with Change 3, what is the offgassing test purpose, how are specimens contained and thermally conditioned, what is analyzed afterward, and what total toxic-hazard-index criterion is stated? Treat these as standard requirements.",
+      "expected_sources": [
+        "nasa-std-6001b-change3"
+      ],
+      "essential_needs": [
+        "Purpose identify and quantify volatile offgassed products from materials and assembled articles",
+        "Certified-clean sealed containers",
+        "Conditioning 72 plus or minus 1 hours at 50 plus or minus 3 C",
+        "Analyze container atmosphere for offgassed compounds; SMAC-based overall toxicity evaluation",
+        "Main procedure states total Toxic Hazard Index T less than 0.5, as a normative criterion rather than an observed NASA result"
+      ],
+      "source_review": [
+        {
+          "file": "data/raw/hackathon-standards/NASA-STD-6001B-change3.pdf",
+          "sha256": "8a8d6fca9a3bbe5c3728146a72424aa905346f1db0471a162ddd853e0c0f2394",
+          "physical_pages": [
+            35
+          ],
+          "boundary": "Main normative procedure, not appendix compliance matrix or observed test results."
+        }
+      ],
+      "partition": "reserved-v7",
+      "judgment_scope": "Original-source-inspected required source; not exhaustive passage relevance"
+    },
+    {
+      "id": "v7-acme-finding-comparison",
+      "question": "Compare the reported CLD soot/dilution findings with the E-FIELD ion-current and field-strength findings in the ACME ISS overview. Preserve preliminary qualifications and distinguish correlation from a new causal inference.",
+      "expected_sources": [
+        "ntrs-20220005205"
+      ],
+      "essential_needs": [
+        "CLD preliminary sooty-attached-flame soot volume fraction can be several times normal-gravity comparison values; flames taller and wider",
+        "CLD methane/ethylene dilution limits extended in microgravity with lifted flames at lower fuel concentrations",
+        "E-FIELD compact-flame condition corresponds to peak ion current; luminosity/intensity/current correlations are source-reported",
+        "Highly diluted E-FIELD flames stabilized with weak fields, while high fields produced corona/arc discharges",
+        "Comparative source synthesis preserves investigation scopes and preliminary/correlation qualifiers, not a new general causal law"
+      ],
+      "source_review": [
+        {
+          "source_id": "ntrs-20220005205",
+          "file": "data/raw/hackathon-documentation/NTRS-20220005205.pdf",
+          "sha256": "dc6c88a0dde80265e4fd6defa2895aea86f8967e19c1b3c0ae46986c5d775743",
+          "physical_pages": [
+            5,
+            6
+          ],
+          "boundary": "Original registered NASA source inspected; source type and scope retained."
+        }
+      ],
+      "partition": "reserved-v7",
+      "judgment_scope": "Original-source-inspected required source; not exhaustive passage relevance"
+    },
+    {
+      "id": "console-novel-01",
+      "question": "What material, ignition duration and camera identifiers are printed for Saffire-I sample S2?",
+      "expected_sources": [
+        "psi-98"
+      ],
+      "partition": "new-source-inspected",
+      "judgment_scope": "Original table is required for the explicitly identified source record; source-level relevance only",
+      "source_review": [
+        {
+          "file": "data/raw/hackathon-psi/PSI-98_experimental_table.csv",
+          "sha256": "c01f29c62455f0a3b512290ab85e5687ecded326733189f002f580368402308d",
+          "header": [
+            "Sample Number ",
+            "Material",
+            "Sample Thickness (cm)",
+            "Sample Length (cm)",
+            "Sample Width (cm)",
+            "Air Flow (cm/s)",
+            "Percent O2",
+            "Ignition Power (W)",
+            "Ignition Time (s)",
+            "Burn Time (s)",
+            "Flow Direction ",
+            "Camera 1",
+            "Camera 2"
+          ],
+          "inspected_original_rows": [
+            [
+              "S1",
+              "SIBAL Fabric",
+              "0.37",
+              "40.6",
+              "94",
+              "20",
+              "21.5 - 21.7",
+              "182",
+              "8",
+              "420",
+              "Concurrent",
+              "S1C1",
+              "S1C2"
+            ],
+            [
+              "S2",
+              "SIBAL Fabric",
+              "0.37",
+              "40.6",
+              "94",
+              "20",
+              "~ 21.5",
+              "182",
+              "8",
+              "70",
+              "Opposed",
+              "S2C1",
+              "S2C2"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "console-novel-02",
+      "question": "In Saffire-II sample 2-2, what thickness and 1-g spread rate are printed, and how is the microgravity burn time represented?",
+      "expected_sources": [
+        "psi-99"
+      ],
+      "partition": "new-source-inspected",
+      "judgment_scope": "Original table is required for the explicitly identified source record; source-level relevance only",
+      "source_review": [
+        {
+          "file": "data/raw/hackathon-psi/PSI-99_experimental_table.csv",
+          "sha256": "3c24390b9ef86f3d1ebaab911a1a3cc95a8759aebf42062371370e6d4b31b8ac",
+          "header": [
+            "Sample Number",
+            "Material",
+            "Samle Thickness ",
+            "Sample Length ",
+            "Sample Width (cm)",
+            "Air Flow (cm/s)",
+            "Percent O2 (Note 1)",
+            "Ignition Power (W)",
+            "Ignition Time (s)",
+            "Burn Time (s)",
+            "Flow Direction",
+            "?-g Burn Length",
+            "?-g Spread Length",
+            "1-g Burn Length",
+            "1-g Spread Rate",
+            "Camera 1",
+            "Camera 2"
+          ],
+          "inspected_original_rows": [
+            [
+              "2-1",
+              "Silicone",
+              "0.27 mm",
+              "29 cm",
+              "5 cm",
+              "20 cm/s",
+              "~ 21.5",
+              "80 W",
+              "9.2 s",
+              "Insignificant",
+              "Concurrent",
+              "~ 0",
+              "n/a",
+              "Complete",
+              "Acceleratory",
+              "S1C1",
+              "S1C2"
+            ],
+            [
+              "2-2",
+              "Silicone",
+              "0.61 mm",
+              "29 cm",
+              "5 cm",
+              "20 cm/s",
+              "~ 22.1",
+              "80 W",
+              "9.2 s",
+              "Insignificant",
+              "Concurrent",
+              "~ 0",
+              "n/a",
+              "7.6 cm",
+              "1.2 mm/s",
+              "n/a",
+              "S2C2"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "console-novel-03",
+      "question": "What dimensions and flow direction are recorded for Saffire-III S1, retaining the printed units?",
+      "expected_sources": [
+        "psi-100"
+      ],
+      "partition": "new-source-inspected",
+      "judgment_scope": "Original table is required for the explicitly identified source record; source-level relevance only",
+      "source_review": [
+        {
+          "file": "data/raw/hackathon-psi/PSI-100_experimental_table.csv",
+          "sha256": "4d3c717ec20dd0247db670b2784a9fd7d746788bc54a936f80693e48eb8cd117",
+          "header": [
+            "Sample Number ",
+            "Material",
+            "Sample Thickness",
+            "Sample Length",
+            "Sample Width",
+            "Air Flow ",
+            "Direction",
+            "Camera 1",
+            "Camera 2"
+          ],
+          "inspected_original_rows": [
+            [
+              "S1",
+              "SIBAL Fabric",
+              ".33 cm",
+              "94 cm",
+              "40.6 cm",
+              "30 cm/s",
+              "Concurrent ",
+              "S1C1",
+              "S1C2"
+            ],
+            [
+              "S2",
+              "SIBAL Fabric",
+              ".33 cm",
+              "94 cm",
+              "40.6 cm",
+              "30 cm/s",
+              "Opposed",
+              "S2C1",
+              "S2C2"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "console-novel-04",
+      "question": "For the SPICE entry ignited at 14:37:08 on GMT 45, distinguish volumetric fuel flow from mass fuel flow and give the nozzle diameter.",
+      "expected_sources": [
+        "psi-107"
+      ],
+      "partition": "new-source-inspected",
+      "judgment_scope": "Original table is required for the explicitly identified source record; source-level relevance only",
+      "source_review": [
+        {
+          "file": "data/raw/hackathon-psi/PSI-107_experimental_table.csv",
+          "sha256": "fb0d7e60cf5367afb429089e9901d27288f78038efd26c8de1db4fbe04117136",
+          "header": [
+            "GMT date",
+            "GMT ignition",
+            "GMT  Flame Off ",
+            "Fuel",
+            "Nozzle (mm)",
+            "Fuel Rate (sccm)",
+            "Fuel Rate (mg/s)",
+            "HC Fuel Rate (mg/s)",
+            "Air Rate (cm/s)"
+          ],
+          "inspected_original_rows": [
+            [
+              "45",
+              "14:37:08",
+              "14:48:03",
+              "Ethylene",
+              "1.6002",
+              "103.8",
+              "1.971",
+              "1.971",
+              "36.39"
+            ],
+            [
+              "45",
+              "14:37:08",
+              "14:48:03",
+              "Ethylene",
+              "1.6002",
+              "103.8",
+              "1.971",
+              "1.971",
+              "36.39"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "console-novel-05",
+      "question": "Does CFI Flex Number 1207 use a fiber, and which fuel formula and pressure are printed?",
+      "expected_sources": [
+        "psi-39"
+      ],
+      "partition": "new-source-inspected",
+      "judgment_scope": "Original table is required for the explicitly identified source record; source-level relevance only",
+      "source_review": [
+        {
+          "file": "data/raw/hackathon-psi/PSI-39_experimental_table.csv",
+          "sha256": "fb898e28762353aa132c16b886dbd207a024b1dd3c9bed5928d70d8036d2ec7e",
+          "header": [
+            "Flex Number",
+            "Test Date",
+            "Local Time",
+            "CIR ",
+            "Pressure",
+            "Oxygen",
+            "Nitrogen",
+            "Helium",
+            "Fiber",
+            "Fuel "
+          ],
+          "inspected_original_rows": [
+            [
+              "1206",
+              "9-Mar-17",
+              "02:03:08 pm est",
+              "f068a03",
+              "1 atm",
+              "0.21",
+              "0.79",
+              "0",
+              "No",
+              "C12H26"
+            ],
+            [
+              "1207",
+              "9-Mar-17",
+              "03:53:26 pm est",
+              "f068a07",
+              "1 atm",
+              "0.21",
+              "0.79",
+              "0",
+              "Yes",
+              "C12H26"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "console-novel-06",
+      "question": "For DAFT D2, identify the hardware, sample material and sampled locations without inferring fire properties.",
+      "expected_sources": [
+        "psi-47"
+      ],
+      "partition": "new-source-inspected",
+      "judgment_scope": "Original table is required for the explicitly identified source record; source-level relevance only",
+      "source_review": [
+        {
+          "file": "data/raw/hackathon-psi/PSI-47_experimental_table.csv",
+          "sha256": "d9d1a436c6e7bbc410b433e04575fe7dedaff763b5237d688089929b7393b5c0",
+          "header": [
+            "Session Name",
+            "Actual Day",
+            "Hardware Description",
+            "Sample Material",
+            "Sampled Location"
+          ],
+          "inspected_original_rows": [
+            [
+              "D1",
+              "GMT 54 (2005)",
+              "Contained the modified P-Trak with Alcohol Wick and batteries",
+              "Arizona Road Dust (ARD Fine) in combination with ISS GN2 to create an aerosol for measurement purposes.",
+              "Sampled air near Express rack 4"
+            ],
+            [
+              "D2",
+              "GMT 63 (2005)",
+              "Contained DustTrak and batteries",
+              "Arizona Road Dust (ARD Fine) in combination with ISS GN2 to create an aerosol for measurement purposes.",
+              "Sampled separated Velcro and the air near Port rack 6 and in Node 1"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "console-novel-07",
+      "question": "For CFI-G test 21088A1, keep the before-test and after-test oxygen entries separate and report burn time.",
+      "expected_sources": [
+        "psi-159"
+      ],
+      "partition": "new-source-inspected",
+      "judgment_scope": "Original table is required for the explicitly identified source record; source-level relevance only",
+      "source_review": [
+        {
+          "file": "data/raw/hackathon-psi/PSI-159_experimental_table.csv",
+          "sha256": "d95a621c3fbd27d204dd32ed29fa17d68f2b779d6a523cde8479ed7ebaa5251a",
+          "header": [
+            "Flame Type",
+            "Day",
+            "Fuel",
+            "Test",
+            "Cool flame?",
+            " XO2 before test",
+            "XO2  after test",
+            "approx p (bar)",
+            "Xf",
+            "mHC (mg/s)",
+            "TFP",
+            "Tad (K)",
+            "Zst",
+            "Hot ignition",
+            "burn time (sec)",
+            "Self-ext or flow term",
+            "Peak burner T (C )",
+            "Comments"
+          ],
+          "inspected_original_rows": [
+            [
+              "Normal",
+              "1",
+              "ethane",
+              "21088A1",
+              "",
+              "0.3939",
+              "0.389822946",
+              "0.9443956",
+              "1",
+              "2",
+              "No",
+              "2719.323211",
+              "0.102651783",
+              "Yes",
+              "50",
+              "SE",
+              "290.617198",
+              ""
+            ],
+            [
+              "Normal",
+              "1",
+              "ethane",
+              "21088 B1",
+              "",
+              "0.389822946",
+              "0.386321188",
+              "0.9443956",
+              "1",
+              "2",
+              "Yes",
+              "2713.594987",
+              "0.101747543",
+              "Yes",
+              "43",
+              "SE",
+              "276.009368",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "console-novel-08",
+      "question": "In BASS As Run Test 2 on 30 March 2012, what source Test number and sample material are printed?",
+      "expected_sources": [
+        "psi-26"
+      ],
+      "partition": "new-source-inspected",
+      "judgment_scope": "Original table is required for the explicitly identified source record; source-level relevance only",
+      "source_review": [
+        {
+          "file": "data/raw/hackathon-psi/PSI-26_experimental_table.csv",
+          "sha256": "ccfc3c54d948b64a1c5d2596a63c7c8019e51df0c91a1d62f039f48fa28c300f",
+          "header": [
+            "Date",
+            "GMT",
+            "As Run Test #",
+            "Test #",
+            "Sample #",
+            "Fuel Sample Material"
+          ],
+          "inspected_original_rows": [
+            [
+              "3/30/2012",
+              "90",
+              "1",
+              "1",
+              "4",
+              "SIBAL 2 cm"
+            ],
+            [
+              "3/30/2012",
+              "90",
+              "2",
+              "42",
+              "24",
+              "PMMA sphere 2 cm"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "console-novel-09",
+      "question": "For BASS-II B2, report initial and final oxygen entries, frames shot and final carbon dioxide without filling blank cells.",
+      "expected_sources": [
+        "psi-25"
+      ],
+      "partition": "new-source-inspected",
+      "judgment_scope": "Original table is required for the explicitly identified source record; source-level relevance only",
+      "source_review": [
+        {
+          "file": "data/raw/hackathon-psi/PSI-25_experimental_table.csv",
+          "sha256": "71e792bf6b5fb5ea620c5dd70fbbac05515992e12aefcf5dff47312caa48c042",
+          "header": [
+            "PI",
+            "Test #",
+            "Date",
+            "GMT",
+            "Sample #",
+            "Fuel Sample Material",
+            "Flow restrictor",
+            "Fan display",
+            "Air display",
+            "Radiometer gain   (1000   250   50   10)",
+            "Total Frames Shot",
+            "Calibrated  initial O2 % by vol ",
+            "Calibrated final O2 % by vol",
+            "Initial CO2 % by vol",
+            "Final CO2 % by vol",
+            "Initial CO (ppm)",
+            "Final CO (ppm)"
+          ],
+          "inspected_original_rows": [
+            [
+              "Bhattacharjee",
+              "B1",
+              "2/19/2014",
+              "50",
+              "147",
+              "100 micron PMMA film   2 cm wide",
+              "2",
+              "62",
+              "5",
+              "50",
+              "57",
+              "22.2",
+              "22.2",
+              "0.44",
+              "0.44",
+              "0",
+              "6"
+            ],
+            [
+              "Bhattacharjee",
+              "B2",
+              "2/19/2014",
+              "50",
+              "155",
+              "200 micron PMMA film   2 cm wide",
+              "2",
+              "62",
+              "5",
+              "50",
+              "none",
+              "22.2",
+              "1.6",
+              "0.44",
+              "",
+              "6",
+              ""
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

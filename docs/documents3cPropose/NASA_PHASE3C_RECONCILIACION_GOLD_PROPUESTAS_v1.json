@@ -1,0 +1,467 @@
+{
+  "title": "NASA Phase 3C - propuesta de reconciliacion de gold y control de razonamiento",
+  "version": "proposal-v1",
+  "status": "DRAFT_FOR_REVIEW_NOT_FROZEN_GOLD",
+  "author_type": "assistant_technical_review",
+  "human_expert_validated": false,
+  "original_gold_modified": false,
+  "source_files": [
+    "phase3c_final_repair_interpreter_cases_v6.jsonl",
+    "phase3c_final_repair_e2e_cases_v6.jsonl",
+    "phase3c_final_repair_scientific_relevance_review_v2.json"
+  ],
+  "adjudication_proposals": [
+    {
+      "case_id": "qi05",
+      "query": "SAFFIRE-I experiments",
+      "historical_requested_information": [
+        "ExperimentalRun"
+      ],
+      "observed_resolved_information": [],
+      "proposed_requested_information": [],
+      "status": "RECOMMEND_REMOVE",
+      "justification": "ExperimentalRun is already a target class; a request for experiments does not require a duplicate epistemic requested_information field.",
+      "other_nonmatching_fields": [
+        "ambiguities",
+        "clarification_required"
+      ],
+      "needs_domain_review": false,
+      "historical_gold_remains_unchanged": true
+    },
+    {
+      "case_id": "qi06",
+      "query": "Saffire I tests",
+      "historical_requested_information": [
+        "ExperimentalRun"
+      ],
+      "observed_resolved_information": [],
+      "proposed_requested_information": [],
+      "status": "RECOMMEND_REMOVE",
+      "justification": "ExperimentalRun is already a target class; a request for experiments does not require a duplicate epistemic requested_information field.",
+      "other_nonmatching_fields": [],
+      "needs_domain_review": false,
+      "historical_gold_remains_unchanged": true
+    },
+    {
+      "case_id": "qi07",
+      "query": "BASS-II experiments",
+      "historical_requested_information": [
+        "ExperimentalRun"
+      ],
+      "observed_resolved_information": [],
+      "proposed_requested_information": [],
+      "status": "RECOMMEND_REMOVE",
+      "justification": "ExperimentalRun is already a target class; a request for experiments does not require a duplicate epistemic requested_information field.",
+      "other_nonmatching_fields": [],
+      "needs_domain_review": false,
+      "historical_gold_remains_unchanged": true
+    },
+    {
+      "case_id": "qi08",
+      "query": "BASS tests",
+      "historical_requested_information": [
+        "ExperimentalRun"
+      ],
+      "observed_resolved_information": [],
+      "proposed_requested_information": [],
+      "status": "RECOMMEND_REMOVE",
+      "justification": "ExperimentalRun is already a target class; a request for experiments does not require a duplicate epistemic requested_information field.",
+      "other_nonmatching_fields": [],
+      "needs_domain_review": false,
+      "historical_gold_remains_unchanged": true
+    },
+    {
+      "case_id": "qi12",
+      "query": "Compare Saffire-I S1 and S2",
+      "historical_requested_information": [
+        "ExperimentalRun"
+      ],
+      "observed_resolved_information": [],
+      "proposed_requested_information": [],
+      "status": "RECOMMEND_REMOVE",
+      "justification": "ExperimentalRun is already a target class; a request for experiments does not require a duplicate epistemic requested_information field.",
+      "other_nonmatching_fields": [],
+      "needs_domain_review": false,
+      "historical_gold_remains_unchanged": true
+    },
+    {
+      "case_id": "qi13",
+      "query": "Compare S1 and S2",
+      "historical_requested_information": [
+        "ExperimentalRun"
+      ],
+      "observed_resolved_information": [],
+      "proposed_requested_information": [],
+      "status": "RECOMMEND_REMOVE",
+      "justification": "ExperimentalRun is already a target class; a request for experiments does not require a duplicate epistemic requested_information field.",
+      "other_nonmatching_fields": [
+        "entity_constraints"
+      ],
+      "needs_domain_review": false,
+      "historical_gold_remains_unchanged": true
+    },
+    {
+      "case_id": "qi14",
+      "query": "What did NASA observe about suppression?",
+      "historical_requested_information": [
+        "ReportedObservation",
+        "SafetyImplication"
+      ],
+      "observed_resolved_information": [
+        "ReportedObservation"
+      ],
+      "proposed_requested_information": [
+        "ReportedObservation"
+      ],
+      "status": "RECOMMEND_REMOVE",
+      "justification": "The question asks for a reported observation, not an implied safety implication.",
+      "other_nonmatching_fields": [],
+      "needs_domain_review": false,
+      "historical_gold_remains_unchanged": true
+    },
+    {
+      "case_id": "qi16",
+      "query": "Find NASA requirements",
+      "historical_requested_information": [
+        "SafetyImplication",
+        "Requirement"
+      ],
+      "observed_resolved_information": [
+        "Requirement"
+      ],
+      "proposed_requested_information": [
+        "Requirement"
+      ],
+      "status": "RECOMMEND_REMOVE",
+      "justification": "Requirement is the requested evidence class; SafetyImplication is not entailed.",
+      "other_nonmatching_fields": [],
+      "needs_domain_review": false,
+      "historical_gold_remains_unchanged": true
+    },
+    {
+      "case_id": "qi17",
+      "query": "Find NASA guidance",
+      "historical_requested_information": [
+        "SafetyImplication",
+        "Guidance"
+      ],
+      "observed_resolved_information": [
+        "Guidance"
+      ],
+      "proposed_requested_information": [
+        "Guidance"
+      ],
+      "status": "RECOMMEND_REMOVE",
+      "justification": "Guidance is requested directly; SafetyImplication is not entailed.",
+      "other_nonmatching_fields": [],
+      "needs_domain_review": false,
+      "historical_gold_remains_unchanged": true
+    },
+    {
+      "case_id": "qi18",
+      "query": "NASA open questions",
+      "historical_requested_information": [
+        "SafetyImplication",
+        "OpenQuestion"
+      ],
+      "observed_resolved_information": [
+        "OpenQuestion"
+      ],
+      "proposed_requested_information": [
+        "OpenQuestion"
+      ],
+      "status": "RECOMMEND_REMOVE",
+      "justification": "OpenQuestion is directly requested; SafetyImplication is not entailed. Evidence context remains unverified.",
+      "other_nonmatching_fields": [],
+      "needs_domain_review": false,
+      "historical_gold_remains_unchanged": true
+    },
+    {
+      "case_id": "qi25",
+      "query": "What experiments used PMMA?",
+      "historical_requested_information": [
+        "ExperimentalRun"
+      ],
+      "observed_resolved_information": [],
+      "proposed_requested_information": [],
+      "status": "RECOMMEND_REMOVE",
+      "justification": "ExperimentalRun is already a target class; a request for experiments does not require a duplicate epistemic requested_information field.",
+      "other_nonmatching_fields": [],
+      "needs_domain_review": false,
+      "historical_gold_remains_unchanged": true
+    },
+    {
+      "case_id": "qi27",
+      "query": "What has NASA reported about suppressing PMMA fires in microgravity?",
+      "historical_requested_information": [
+        "SafetyImplication"
+      ],
+      "observed_resolved_information": [],
+      "proposed_requested_information": null,
+      "status": "REVIEW_REQUIRED",
+      "justification": "Reported is not necessarily SafetyImplication; prefer broader source-backed report/observation/conclusion scope; decide intent schema before relabeling.",
+      "other_nonmatching_fields": [],
+      "needs_domain_review": true,
+      "historical_gold_remains_unchanged": true
+    },
+    {
+      "case_id": "qi31",
+      "query": "PMMA requirement",
+      "historical_requested_information": [
+        "SafetyImplication",
+        "Requirement"
+      ],
+      "observed_resolved_information": [
+        "Requirement"
+      ],
+      "proposed_requested_information": [
+        "Requirement"
+      ],
+      "status": "RECOMMEND_REMOVE",
+      "justification": "Requirement is requested, material-specific applicability needs external review.",
+      "other_nonmatching_fields": [],
+      "needs_domain_review": false,
+      "historical_gold_remains_unchanged": true
+    },
+    {
+      "case_id": "qi32",
+      "query": "PMMA guidance",
+      "historical_requested_information": [
+        "SafetyImplication",
+        "Guidance"
+      ],
+      "observed_resolved_information": [
+        "Guidance"
+      ],
+      "proposed_requested_information": [
+        "Guidance"
+      ],
+      "status": "RECOMMEND_REMOVE",
+      "justification": "Guidance is requested, material-specific applicability needs external review.",
+      "other_nonmatching_fields": [
+        "operation"
+      ],
+      "needs_domain_review": false,
+      "historical_gold_remains_unchanged": true
+    },
+    {
+      "case_id": "qi33",
+      "query": "suppression open question",
+      "historical_requested_information": [
+        "SafetyImplication",
+        "OpenQuestion"
+      ],
+      "observed_resolved_information": [
+        "OpenQuestion"
+      ],
+      "proposed_requested_information": [
+        "OpenQuestion"
+      ],
+      "status": "RECOMMEND_REMOVE",
+      "justification": "OpenQuestion is requested, source must specify the question explicitly.",
+      "other_nonmatching_fields": [],
+      "needs_domain_review": false,
+      "historical_gold_remains_unchanged": true
+    },
+    {
+      "case_id": "qi50",
+      "query": "Compare Saffire-I S1 and S2 at airflow 20 cm/s",
+      "historical_requested_information": [
+        "ExperimentalRun"
+      ],
+      "observed_resolved_information": [],
+      "proposed_requested_information": [],
+      "status": "RECOMMEND_REMOVE",
+      "justification": "ExperimentalRun is already a target class; a request for experiments does not require a duplicate epistemic requested_information field.",
+      "other_nonmatching_fields": [
+        "property_constraints",
+        "unresolved_mentions"
+      ],
+      "needs_domain_review": false,
+      "historical_gold_remains_unchanged": true
+    }
+  ],
+  "review_case_proposals": [
+    {
+      "case_id": "qi03",
+      "query": "SIBAL Fabric microgravity",
+      "historical_review_status": "OBJECTIVE_IDENTITY_SCOREABLE_RELEVANCE_STILL_REVIEWABLE",
+      "action_category": "DIRECT_TABLE_WITH_CONTEXT_SEPARATION",
+      "proposed_action": "Keep two PSI runs as DIRECT only under matched conditions; other documents must be independently ranked as contextual or rejected.",
+      "human_scientist_reviewed": false,
+      "final_scientific_relevance_label": null
+    },
+    {
+      "case_id": "qi11",
+      "query": "SIBAL Fabric microgravity flow velocity >= 20 cm/s",
+      "historical_review_status": "OBJECTIVE_IDENTITY_SCOREABLE_RELEVANCE_STILL_REVIEWABLE",
+      "action_category": "NUMERIC_EVIDENCE_CONSTRAINT",
+      "proposed_action": "SIBAL >=20cm/s direct rows must not be supported by 1-5cm/s documentary statements.",
+      "human_scientist_reviewed": false,
+      "final_scientific_relevance_label": null
+    },
+    {
+      "case_id": "qi12",
+      "query": "Compare Saffire-I S1 and S2",
+      "historical_review_status": "OBJECTIVE_IDENTITY_SCOREABLE_RELEVANCE_STILL_REVIEWABLE",
+      "action_category": "COMPARISON_PRESENTATION",
+      "proposed_action": "Compare S1/S2 source-backed values side by side; do not substitute retrieval list for comparison.",
+      "human_scientist_reviewed": false,
+      "final_scientific_relevance_label": null
+    },
+    {
+      "case_id": "qi14",
+      "query": "What did NASA observe about suppression?",
+      "historical_review_status": "OBJECTIVE_IDENTITY_SCOREABLE_RELEVANCE_STILL_REVIEWABLE",
+      "action_category": "GOLD_REVIEW_OBSERVATION",
+      "proposed_action": "Observation appears the explicit request; remove inferred SafetyImplication only after adjudication.",
+      "human_scientist_reviewed": false,
+      "final_scientific_relevance_label": null
+    },
+    {
+      "case_id": "qi16",
+      "query": "Find NASA requirements",
+      "historical_review_status": "OBJECTIVE_IDENTITY_SCOREABLE_RELEVANCE_STILL_REVIEWABLE",
+      "action_category": "GOLD_REVIEW_REQUIREMENT",
+      "proposed_action": "Requirement is requested; test normative authority and scope.",
+      "human_scientist_reviewed": false,
+      "final_scientific_relevance_label": null
+    },
+    {
+      "case_id": "qi17",
+      "query": "Find NASA guidance",
+      "historical_review_status": "OBJECTIVE_IDENTITY_SCOREABLE_RELEVANCE_STILL_REVIEWABLE",
+      "action_category": "GOLD_REVIEW_GUIDANCE",
+      "proposed_action": "Guidance is requested; do not coerce into safety implication.",
+      "human_scientist_reviewed": false,
+      "final_scientific_relevance_label": null
+    },
+    {
+      "case_id": "qi18",
+      "query": "NASA open questions",
+      "historical_review_status": "OBJECTIVE_IDENTITY_SCOREABLE_RELEVANCE_STILL_REVIEWABLE",
+      "action_category": "OPEN_QUESTION_CONTEXT",
+      "proposed_action": "Retrieve antecedents of references such as these questions before quoting as a specific NASA open question.",
+      "human_scientist_reviewed": false,
+      "final_scientific_relevance_label": null
+    },
+    {
+      "case_id": "qi19",
+      "query": "What about acrylic fires?",
+      "historical_review_status": "OBJECTIVE_IDENTITY_SCOREABLE_RELEVANCE_STILL_REVIEWABLE",
+      "action_category": "SAFE_AMBIGUITY",
+      "proposed_action": "Acrylic is ambiguous and must not become PMMA silently.",
+      "human_scientist_reviewed": false,
+      "final_scientific_relevance_label": null
+    },
+    {
+      "case_id": "qi20",
+      "query": "velocity effects",
+      "historical_review_status": "OBJECTIVE_IDENTITY_SCOREABLE_RELEVANCE_STILL_REVIEWABLE",
+      "action_category": "SAFE_AMBIGUITY",
+      "proposed_action": "Velocity needs distinction of flow and flame spread velocity.",
+      "human_scientist_reviewed": false,
+      "final_scientific_relevance_label": null
+    },
+    {
+      "case_id": "qi22",
+      "query": "xenon combustion",
+      "historical_review_status": "OBJECTIVE_IDENTITY_SCOREABLE_RELEVANCE_STILL_REVIEWABLE",
+      "action_category": "SAFE_UNKNOWN",
+      "proposed_action": "Unrecognized xenon combustion query must not invent records or conclusions.",
+      "human_scientist_reviewed": false,
+      "final_scientific_relevance_label": null
+    },
+    {
+      "case_id": "qi24",
+      "query": "Show PMMA tests",
+      "historical_review_status": "REVIEW_REQUIRED",
+      "action_category": "STRUCTURED_VS_DOCUMENTARY",
+      "proposed_action": "A document about PMMA is not automatically a source-backed ExperimentalRun entity; offer document vs run distinction.",
+      "human_scientist_reviewed": false,
+      "final_scientific_relevance_label": null
+    },
+    {
+      "case_id": "qi27",
+      "query": "What has NASA reported about suppressing PMMA fires in microgravity?",
+      "historical_review_status": "REVIEW_REQUIRED",
+      "action_category": "MULTI_CLASS_REPORT_AND_DOCUMENT_RECALL",
+      "proposed_action": "Reported about suppression is broader than SafetyImplication; search relevant reports and label claim class only when source supports it.",
+      "human_scientist_reviewed": false,
+      "final_scientific_relevance_label": null
+    },
+    {
+      "case_id": "qi31",
+      "query": "PMMA requirement",
+      "historical_review_status": "REVIEW_REQUIRED",
+      "action_category": "MATERIAL_SPECIFIC_REQUIREMENT",
+      "proposed_action": "Do not infer a material-specific rule from general standard applicability.",
+      "human_scientist_reviewed": false,
+      "final_scientific_relevance_label": null
+    },
+    {
+      "case_id": "qi32",
+      "query": "PMMA guidance",
+      "historical_review_status": "REVIEW_REQUIRED",
+      "action_category": "MATERIAL_SPECIFIC_GUIDANCE",
+      "proposed_action": "Verify guidance scope and retain no-direct when unsupported.",
+      "human_scientist_reviewed": false,
+      "final_scientific_relevance_label": null
+    },
+    {
+      "case_id": "qi33",
+      "query": "suppression open question",
+      "historical_review_status": "REVIEW_REQUIRED",
+      "action_category": "OPEN_QUESTION_CONTEXT",
+      "proposed_action": "Ensure a source-backed explicit question instead of deictic statement lacking antecedent.",
+      "human_scientist_reviewed": false,
+      "final_scientific_relevance_label": null
+    },
+    {
+      "case_id": "qi42",
+      "query": "PMMA and SIBAL under microgravity",
+      "historical_review_status": "REVIEW_REQUIRED",
+      "action_category": "GROUP_BOOLEAN_OR_COMPARE",
+      "proposed_action": "Do not require PMMA and SIBAL in same run; candidate interpretations list both materials or compare them, seek clarification when needed.",
+      "human_scientist_reviewed": false,
+      "final_scientific_relevance_label": null
+    },
+    {
+      "case_id": "qi45",
+      "query": "NASA conclusions",
+      "historical_review_status": "OBJECTIVE_IDENTITY_SCOREABLE_RELEVANCE_STILL_REVIEWABLE",
+      "action_category": "MODALITY_SCOPE",
+      "proposed_action": "Keep conditional NASA conclusion conditional, not measured efficacy.",
+      "human_scientist_reviewed": false,
+      "final_scientific_relevance_label": null
+    },
+    {
+      "case_id": "comp01",
+      "query": "Find experiments using PMMA in microgravity with airflow between 0.01 and 0.11 m/s",
+      "historical_review_status": "REVIEW_REQUIRED",
+      "action_category": "HARD_NUMERIC_CONSTRAINT_AND_CONTEXT",
+      "proposed_action": "PMMA microgravity numeric window must be checked at evidence level; SIBAL and off-topic docs are not direct.",
+      "human_scientist_reviewed": false,
+      "final_scientific_relevance_label": null
+    },
+    {
+      "case_id": "comp11",
+      "query": "Find experiments using PMMA in microgravity with airflow about 0.01 +/- 0.005 m/s",
+      "historical_review_status": "REVIEW_REQUIRED",
+      "action_category": "HARD_APPROX_CONSTRAINT_AND_CONTEXT",
+      "proposed_action": "Preserve supplied numerical tolerance and no-direct vs contextual distinction.",
+      "human_scientist_reviewed": false,
+      "final_scientific_relevance_label": null
+    },
+    {
+      "case_id": "corrective-unseen-document",
+      "query": "Find Document from source 20140011119",
+      "historical_review_status": "OBJECTIVE_IDENTITY_SCOREABLE_RELEVANCE_STILL_REVIEWABLE",
+      "action_category": "DETERMINISTIC_SOURCE_ID_LOOKUP",
+      "proposed_action": "Recognized citation/document ID should bypass model failure and resolve via registry ID.",
+      "human_scientist_reviewed": false,
+      "final_scientific_relevance_label": null
+    }
+  ],
+  "method": "Semantic interpretation of literal query, without optimizing to original model predictions. Proposed changes never change historical metrics or gold."
+}

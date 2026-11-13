@@ -1,0 +1,377 @@
+{
+  "cases": [
+    {
+      "basis": "Existing reviewed epistemic record; exact-text/source-constrained retrieval, NOT paraphrase relevance gold",
+      "expected_evidence_ids": [
+        "E-safety-saffire-intervention"
+      ],
+      "id": "reviewed-saffire-iv-flow-off-20s",
+      "intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "Intervention"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [
+          "ntrs-20205007829"
+        ],
+        "targets": [],
+        "unresolved_mentions": []
+      },
+      "query": "Find Intervention: For the Saffire-IV PMMA sample, we turned off the flow for 20 seconds."
+    },
+    {
+      "basis": "Existing reviewed epistemic record; exact-text/source-constrained retrieval, NOT paraphrase relevance gold",
+      "expected_evidence_ids": [
+        "E-safety-saffire-observation"
+      ],
+      "id": "reviewed-saffire-iv-flow-off-observation",
+      "intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "ReportedObservation"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [
+          "ntrs-20205007829"
+        ],
+        "targets": [],
+        "unresolved_mentions": []
+      },
+      "query": "Find ReportedObservation: The fire didn\u2019t extinguish and began to grow when we turned the flow back on."
+    },
+    {
+      "basis": "Existing reviewed epistemic record; exact-text/source-constrained retrieval, NOT paraphrase relevance gold",
+      "expected_evidence_ids": [
+        "E-safety-saffire-suppression-conclusion"
+      ],
+      "id": "reviewed-saffire-suppression-conclusion",
+      "intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "NASAConclusion"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [
+          "ntrs-20205007829"
+        ],
+        "targets": [],
+        "unresolved_mentions": []
+      },
+      "query": "Find NASAConclusion: In a spacecraft, suppressant could have been used to \u2018knock down\u2019 the fire but wasn\u2019t held at the desired concentration long enough for surface to cool."
+    },
+    {
+      "basis": "Existing reviewed epistemic record; exact-text/source-constrained retrieval, NOT paraphrase relevance gold",
+      "expected_evidence_ids": [
+        "E-safety-saffire-suppression-open-question"
+      ],
+      "id": "reviewed-saffire-suppression-open-question",
+      "intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "OpenQuestion"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [
+          "ntrs-20205007829"
+        ],
+        "targets": [],
+        "unresolved_mentions": []
+      },
+      "query": "Find OpenQuestion: Additional focused tests may be required to develop guidance on these questions."
+    },
+    {
+      "basis": "Existing reviewed epistemic record; exact-text/source-constrained retrieval, NOT paraphrase relevance gold",
+      "expected_evidence_ids": [
+        "E-safety-suppression-system-implication"
+      ],
+      "id": "reviewed-suppression-system-implication",
+      "intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "SafetyImplication"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [
+          "ntrs-20205007829"
+        ],
+        "targets": [],
+        "unresolved_mentions": []
+      },
+      "query": "Find SafetyImplication: Given that a fire may propagate in spite of early detection and initial response, there is a possibility that an active fire suppression system will need to be activated."
+    },
+    {
+      "basis": "Existing reviewed epistemic record; exact-text/source-constrained retrieval, NOT paraphrase relevance gold",
+      "expected_evidence_ids": [
+        "E-safety-std-6001-applicability"
+      ],
+      "id": "reviewed-std-6001-applicability",
+      "intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "Requirement"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [
+          "nasa-std-6001"
+        ],
+        "targets": [],
+        "unresolved_mentions": []
+      },
+      "query": "Find Requirement: Materials intended for use in space vehicles, specified test facilities, and contractually specified Ground Support Equipment (GSE) shall meet the requirements of this NASA Technical Standard."
+    },
+    {
+      "basis": "Existing reviewed epistemic record; exact-text/source-constrained retrieval, NOT paraphrase relevance gold",
+      "expected_evidence_ids": [
+        "E-safety-std-6001-worst-case-test"
+      ],
+      "id": "reviewed-std-6001-worst-case-test",
+      "intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "TestCriterion"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [
+          "nasa-std-6001"
+        ],
+        "targets": [],
+        "unresolved_mentions": []
+      },
+      "query": "Find TestCriterion: Required tests shall be conducted on materials in their worst-case exposure conditions and representative use thicknesses and product forms."
+    },
+    {
+      "basis": "Existing reviewed epistemic record; exact-text/source-constrained retrieval, NOT paraphrase relevance gold",
+      "expected_evidence_ids": [
+        "E-safety-configuration-guidance"
+      ],
+      "id": "reviewed-configuration-guidance",
+      "intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "Guidance"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [
+          "ntrs-20150020937"
+        ],
+        "targets": [],
+        "unresolved_mentions": []
+      },
+      "query": "Find Guidance: The document provides guidance in conducting the flammability assessments required for payload hardware by SSP 51700."
+    },
+    {
+      "basis": "Existing reviewed epistemic record; exact-text/source-constrained retrieval, NOT paraphrase relevance gold",
+      "expected_evidence_ids": [
+        "E-safety-configuration-design-criterion"
+      ],
+      "id": "reviewed-configuration-design-criterion",
+      "intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [
+          "DesignCriterion"
+        ],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [
+          "ntrs-20150020937"
+        ],
+        "targets": [],
+        "unresolved_mentions": []
+      },
+      "query": "Find DesignCriterion: It means controlling the quantity and configuration of such materials to eliminate potential fire propagation paths and thus ensure that any fire would be small, localized, and isolated, and would self-extinguish without harm to the crew."
+    },
+    {
+      "basis": "Immutable source-backed canonical condition/sample records, not executor prediction",
+      "expected_direct": [
+        "psi-98-S1",
+        "psi-98-S2"
+      ],
+      "expected_evidence_ids": [
+        "E-psi-98-table-S1",
+        "E-psi-98-table-S2"
+      ],
+      "id": "canonical-table-conditions",
+      "intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "GTE",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "cm/s",
+              "reported_value": 20.0,
+              "tolerance": null,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "query": "SIBAL Fabric microgravity airflow at least 20 cm/s"
+    },
+    {
+      "basis": "Known 20 cm/s conditions differ, material/gravity match",
+      "expected_direct": [],
+      "expected_evidence_ids": [
+        "E-psi-98-table-S1",
+        "E-psi-98-table-S2"
+      ],
+      "expected_related": [
+        "psi-98-S1",
+        "psi-98-S2"
+      ],
+      "id": "canonical-table-related",
+      "intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [
+          {
+            "entity_id": "SIBAL Fabric",
+            "relation": "hasMaterial"
+          },
+          {
+            "entity_id": "microgravity",
+            "relation": "hasGravityCondition"
+          }
+        ],
+        "operation": "SEARCH",
+        "property_constraints": [
+          {
+            "operator": "LT",
+            "property_id": "AirflowVelocity",
+            "value": {
+              "approximate": false,
+              "canonical_unit": null,
+              "canonical_value": null,
+              "lower": null,
+              "raw_expression": null,
+              "reported_unit": "cm/s",
+              "reported_value": 10,
+              "tolerance": null,
+              "upper": null
+            }
+          }
+        ],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [],
+        "targets": [
+          "ExperimentalRun"
+        ],
+        "unresolved_mentions": []
+      },
+      "query": "SIBAL Fabric microgravity airflow below 10 cm/s"
+    },
+    {
+      "basis": "Source ID absent from registry; objective no-answer",
+      "expected_evidence_ids": [],
+      "id": "unavailable-source",
+      "intent": {
+        "ambiguities": [],
+        "clarification_required": false,
+        "comparison": null,
+        "conversation_reference": null,
+        "entity_constraints": [],
+        "operation": "SEARCH",
+        "property_constraints": [],
+        "requested_information": [],
+        "schema_version": "query-intent-v2",
+        "source_constraints": [
+          "unavailable-source"
+        ],
+        "targets": [
+          "Document"
+        ],
+        "unresolved_mentions": []
+      },
+      "query": "NASA evidence from unavailable source"
+    }
+  ],
+  "limitations": [
+    "Twelve objective probes, not independently reviewed topical paraphrase relevance",
+    "No invented scientist review",
+    "Review packet required for subjective relevance and paraphrase retrieval"
+  ],
+  "version": "corrective-record-gold-v1"
+}

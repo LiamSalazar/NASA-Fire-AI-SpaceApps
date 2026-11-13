@@ -1,0 +1,14 @@
+[Unit]
+Description=NASA Fire AI bounded source maintenance and staged extraction (example)
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=liam
+WorkingDirectory=/home/liam/NASA
+# Bounded discovery, document publication, staged extraction and checkpoint validation.
+ExecStart=/home/liam/.local/bin/uv run python scripts/maintain_knowledge.py cycle --execute --max-sources 2 --extract --max-model-calls 1 --retries 1 --timeout-seconds 120
+TimeoutStartSec=240
+NoNewPrivileges=true
+UMask=0077
+

@@ -1,0 +1,79 @@
+[
+  {
+    "upstream_path": "data/psi/PSI-100_SAFFIRE-III/Experimental table/PSI-100_Experimental table_SAFFIRE-3.csv",
+    "our_path": "data/raw/upstream_nasa_space_apps/psi/PSI-100_SAFFIRE-III/Experimental table/PSI-100_Experimental table_SAFFIRE-3.csv",
+    "sha256": "74d31e50e86bee56d7e3c56a58d32de5785acc34854c0b6081522df083d658f6",
+    "classification": "SAFE_RAW_SOURCE",
+    "verification": "PSI accession/folder retained; upstream manifest available"
+  },
+  {
+    "upstream_path": "data/psi/PSI-101_SAME-R/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+    "our_path": "data/raw/upstream_nasa_space_apps/psi/PSI-101_SAME-R/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+    "sha256": "d5cd0a9a182b8badf9bdd1d22f52595125468d8449ef5ad93c378c0975f443b3",
+    "classification": "SAFE_RAW_SOURCE",
+    "verification": "PSI accession/folder retained; upstream manifest available"
+  },
+  {
+    "upstream_path": "data/psi/PSI-102_SAME/Experimental table/PSI-102_Experimental table_SAME.csv",
+    "our_path": "data/raw/upstream_nasa_space_apps/psi/PSI-102_SAME/Experimental table/PSI-102_Experimental table_SAME.csv",
+    "sha256": "d596badb840f338e596d03cf1804a96221e427e879eb5166c0c51dab3d9491fd",
+    "classification": "SAFE_RAW_SOURCE",
+    "verification": "PSI accession/folder retained; upstream manifest available"
+  },
+  {
+    "upstream_path": "data/psi/PSI-107_SPICE/Experimental table/PSI-107_Experimental table_Spice.csv",
+    "our_path": "data/raw/upstream_nasa_space_apps/psi/PSI-107_SPICE/Experimental table/PSI-107_Experimental table_Spice.csv",
+    "sha256": "6d1ce98c634b2047baef2d319d92f119699c1604f546ac9f39deca5a71ae7520",
+    "classification": "SAFE_RAW_SOURCE",
+    "verification": "PSI accession/folder retained; upstream manifest available"
+  },
+  {
+    "upstream_path": "data/psi/PSI-26_BASS/Experimental table/PSI-26_Experimental table_BASS.csv",
+    "our_path": "data/raw/upstream_nasa_space_apps/psi/PSI-26_BASS/Experimental table/PSI-26_Experimental table_BASS.csv",
+    "sha256": "794970236805ec22eb189a7c973c80f0aa71743c3cffb9ab466522d102b78bc6",
+    "classification": "SAFE_RAW_SOURCE",
+    "verification": "PSI accession/folder retained; upstream manifest available"
+  },
+  {
+    "upstream_path": "data/psi/PSI-68_FLEX-2/Experimental table/PSI-68_Experimental table_Flex2.csv",
+    "our_path": "data/raw/upstream_nasa_space_apps/psi/PSI-68_FLEX-2/Experimental table/PSI-68_Experimental table_Flex2.csv",
+    "sha256": "9836dc238c64d1c3e086093d4d10564ef5332d4b484ade413b4b0670f7bc41b3",
+    "classification": "SAFE_RAW_SOURCE",
+    "verification": "PSI accession/folder retained; upstream manifest available"
+  },
+  {
+    "upstream_path": "data/psi/PSI-69_FLEX/Experimental table/PSI-69_Experimental table_FLEX.csv",
+    "our_path": "data/raw/upstream_nasa_space_apps/psi/PSI-69_FLEX/Experimental table/PSI-69_Experimental table_FLEX.csv",
+    "sha256": "74addb771d6ec6765d285721bd35ec1ce3936d104e265f363aeba18c6c25743b",
+    "classification": "SAFE_RAW_SOURCE",
+    "verification": "PSI accession/folder retained; upstream manifest available"
+  },
+  {
+    "upstream_path": "data/psi/PSI-99_SAFFIRE-II/Experimental table/PSI-99_Experimental table_SAFFIRE-2.csv",
+    "our_path": "data/raw/upstream_nasa_space_apps/psi/PSI-99_SAFFIRE-II/Experimental table/PSI-99_Experimental table_SAFFIRE-2.csv",
+    "sha256": "0c78b6ecea3bdc76b0b8b647c9982da04ec9464fa47c998c316971537713dabd",
+    "classification": "SAFE_RAW_SOURCE",
+    "verification": "PSI accession/folder retained; upstream manifest available"
+  },
+  {
+    "upstream_path": "data/ntrs/catalog.csv",
+    "our_path": "data/raw/upstream_nasa_space_apps/ntrs/catalog.csv",
+    "sha256": "e28fa80a01374625d36f13bac54f5e25300fac51761286f355d481c554ef24cc",
+    "classification": "SAFE_METADATA",
+    "verification": "upstream catalog/metadata; not canonical scientific evidence"
+  },
+  {
+    "upstream_path": "data/taskbook/taskbook_combustion.csv",
+    "our_path": "data/raw/upstream_nasa_space_apps/taskbook/taskbook_combustion.csv",
+    "sha256": "0476cd3f928bdaf84d8ebcd863e163f2959b3bf24e78cf7ef12f0468523d1b6d",
+    "classification": "SAFE_METADATA",
+    "verification": "upstream catalog/metadata; not canonical scientific evidence"
+  },
+  {
+    "upstream_path": "data/psi/psi_index.csv",
+    "our_path": "data/raw/upstream_nasa_space_apps/psi/psi_index.csv",
+    "sha256": "cc0db19cf4339acc9a1c1a17378293e2d3a6ee81174c93b7cdaa7a779bd0039a",
+    "classification": "SAFE_MANIFEST",
+    "verification": "upstream catalog/metadata; not canonical scientific evidence"
+  }
+]

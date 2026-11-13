@@ -1,0 +1,51 @@
+# Knowledge architecture completion attempt — 2026-11-09
+
+**SCIENTIFIC ENGINE NOT YET ACCEPTED.** This is a partial implementation and a measured NO-GO, not completion of the assignment. The vector deployment blocker is corrected; deep curation and conversational acceptance remain incomplete.
+
+1. **Decision.** Do not release as an accepted scientific conversational engine. Search/API integration may be tested with the limitations below.
+2. **Root causes.** Previously the vector adapter was never provisioned or passed into production search. Faithful documentary propositions still disappear during source alignment and verification; the live diagnostic below reproduced that failure despite improved retrieval.
+3. **Inventory.** `artifacts/knowledge_completion_20261109/inventory-before.json` reconciles 24/24 team campaigns, 1,972 processed rows (1,964 eligible), 1,727 original PSI table passages, and 360 publication metadata records. Those counts are unchanged by this package. Disposition is not scientific verification. The inventory is not a complete adjudication of objectives, instruments, results and limitations for every campaign.
+4. **Curation.** No new scientific table mapping or source acquisition was completed. Ten original tables retain structured mappings and nine remain documentary. Five campaigns remain catalogue-only. This falls short of the requested deep scientific coverage.
+5. **Source limitations.** Provisional team records remain DISCOVERY and outside canonical scientific assertions. Bibliographic entries do not establish full-text coverage. Existing unit conflicts and identity ambiguities remain unresolved.
+6. **Ontology.** No vocabulary or ontology baseline was changed. Relation domain/range auditing now precedes source/NLI acceptance in `_align_claim`; incompatible candidates are also excluded from documentary realignment. A synthetic regression asserts that incompatible relations do not reach entailment. This does not expand ontology coverage or establish scientific truth from compatibility.
+7. **Graph.** The unchanged v15 graph has 76,690 triples, 1,631 distinct evidence references with zero missing, and conforms to SHACL. `graph.json` also round-trips 5,101 cells across three sources. These are structural/provenance checks, not comprehensive scientific adjudication or OWL consistency certification.
+8. **Structured data.** Existing source-scoped numerical retrieval is preserved. No claim is made that the nine documentary tables became structured experimental runs.
+9. **Documentary corpus.** The registry contains 4,305 passages. The vector selection covers 606 documentary/catalogue passages across 30 source identities; original table rows and provisional processed rows retain lexical/structured access. This selection deliberately avoids embedding every numeric row.
+10. **Vectors.** Persistent `LocalVectorIndex` generation uses configured NVIDIA `nvidia/nemotron-3-embed-1b`, registered passage boundaries and existing phase2-v1 subsegment averaging. There are 586 unique cached passage texts for 606 identities. Unchanged texts reuse `EmbeddingCache`. `vector-manifest.json` records snapshot identity, corpus digest, dimension, generation paths and SHA-256 hashes. The read-only scientific snapshot is unchanged; the writable embedding cache is separate.
+11. **Hybrid runtime.** `default_service` loads `SnapshotVectors` from `data/index/<snapshot-name>-vectors` or `NASA_VECTOR_DIRECTORY`, checks snapshot/model/corpus/artifact integrity, and supplies it to the existing candidate RRF channel. Similarity grants no DIRECT/RELATED authority. Production search and chat HTTP receipts explicitly report `vectors_enabled: true`. NVIDIA credentials are needed for new query embeddings. Without credentials local search/excerpts remain usable. Set `NASA_VECTOR_REQUIRED=1` to reject a missing index or credential rather than run a degraded deployment.
+12. **Ablation.** Same historical provisional pool: 24 queries, 13 judged, 32 source–question pairs. Macro source recall:
+
+| Channel | R@5 | R@10 | R@20 |
+|---|---:|---:|---:|
+| Lexical | 66.03% | 73.97% | 75.51% |
+| Documentary vectors | 59.49% | 71.67% | 80.00% |
+| Full available fusion | 79.62% | 93.59% | 96.15% |
+
+The historical available fusion scored 69.36%/85.26%/96.15%. Full mean latency in this run was 1,669 ms under concurrent regression load, lexical 14 ms. This is not an isolated latency comparison. Vector-only eligible content excludes numeric rows by design. Lexical+vector-only and structured/KG-only comparable ablations, precision, relation quality and context omission adjudication are still missing. The receipt does not establish unseen-query generalization.
+
+13. **Context completeness.** The fresh diagnostic retrieved 454 retained candidates and exposed 48 supports, while reporting 6,274 context omissions. These operational counts are not independently relevant information targets.
+14. **Claim verification.** The fresh HTTP Nemotron diagnostic retained two propositions and rejected 17. Source inspection located original diagnostic descriptions on registered report pages; `live-source-inspection.json` preserves them. The broad `No verified evidence for proposition` outcomes and explicit-subject failures remain defects requiring source-local adjudication and deterministic replay. The ontology-order correction alone does not fix these losses.
+15. **Answer coverage.** The answer omitted the requested diagnostic details. No 85% essential-answer-coverage pass is claimed. False rejection/acceptance and citation support correctness percentages remain unadjudicated. Resolving a citation does not establish support.
+16. **Usefulness.** One fresh diagnostic conversation is insufficiently useful despite `response_mode=generated`. No population usefulness rate is inferred from this one case. Existing composition preservation remains in place.
+17. **Generalization.** No frozen, independently graded unseen-query acceptance campaign was completed. The new diagnostic over a fixed v15 corpus is a failure observation, not a generalization success. No question-specific runtime response rule was added.
+18. **Providers.** Nemotron remains default; Sonnet remains configurable. Both keys were confirmed loaded as booleans without printing their values. The live receipt identifies `nvidia/nemotron-3.5-super-vl-120b-a12b`. Existing pinned local NLI and threshold remain unchanged.
+19. **Usage.** Zero Sonnet calls, USD 0 incremental Sonnet spend. NVIDIA embeddings and one complete live chat were used; 38 passage batches produced 586 unique cached passage vectors, and evaluation/runtime cached 27 unique query embeddings. Batch logs record cache hits/misses. Provider billing and complete token usage were not captured, so NVIDIA cost is unknown, not reported as zero. No additional provider comparison was run.
+20. **Deployment.** A 52-file archive includes the verified snapshot, exact manifest inputs and immutable vector generation, excluding `.env`, model weights, query caches and operational ledgers. `package.json` records the archive checksum. `package-restore.json` confirms snapshot verification after extraction into an isolated temporary root. The local archive is ignored and must be transferred explicitly or rebuilt; it does not appear automatically in a checkout.
+21. **Regression.** Full suite: 3,596 passed, 40 existing skips, zero failures in eleven batches. Historical registry SHA-256 unchanged. Final targeted verification/integrity run: 31 passed; B8 guards: 50 passed. See the final `regression/results.json` and per-batch logs; focused ordering/integrity tests and the four B8 guards are also run. Ruff passes. Real TCP offline chat, vector-enabled search and configured Nemotron chat returned HTTP 200. HTTP success is not scientific acceptance.
+22. **Dashboard.** Existing contracts are preserved; inspect candidate generation metrics for vector use. The dashboard must continue to label documentary and provisional records and expose partial verification. No dashboard redesign was performed.
+23. **Blockers.** Nine original tables lack deep validated mappings; five campaigns lack original row coverage; comprehensive ontology/scientific graph review is unfinished; verifier false rejections and poor final explanations persist; five-way ablations and independent unseen-query/multi-turn quality denominators are incomplete. These are acceptance failures, not NASA knowledge gaps.
+24. **Git.** Work is isolated to `NASA_hackathon`. No push or merge. Protected ref baseline: main `54445d07cb6d9c58a87835911c95baec2759e31f`, diego/research `ef3490c4272ab94f81e5ba87c7866ee50fba3421`. Use `git log -1` for the local handoff commit.
+
+## Reproduction and provisioning
+
+```bash
+uv sync --locked
+uv run python scripts/search_science.py verify --snapshot data/snapshots/hackathon-20261109-v15
+uv run python scripts/build_snapshot_vectors.py --snapshot data/snapshots/hackathon-20261109-v15 --output data/index/hackathon-20261109-v15-vectors
+uv run python scripts/package_scientific_snapshot.py --snapshot data/snapshots/hackathon-20261109-v15 --vectors data/index/hackathon-20261109-v15-vectors --output /tmp/nasa-scientific-package-new.tar.gz
+uv run python scripts/evaluate_retrieval_channels.py --snapshot data/snapshots/hackathon-20261109-v15 --vector-directory data/index/hackathon-20261109-v15-vectors --output /tmp/nasa-channel-results-new.json
+uv run python scripts/test_batches.py --output /tmp/nasa-tests-new
+NASA_VECTOR_REQUIRED=1 NASA_NLI_DIRECTORY=data/index/models/nasa-nli uv run uvicorn nasa_fire_ai.api:app --app-dir src --host 127.0.0.1 --port 8000 --workers 1
+```
+
+Transfer the archive recorded in `package.json` from `data/index/hackathon-20261109-v15-vectors/scientific-package.tar.gz` using the team's artifact channel. Verify its SHA-256 before extracting in a fresh checkout root (`tar --keep-old-files -xzf ...`); never overwrite existing raw inputs. Install/provision the pinned NLI separately using `scripts/provision_semantic_verifier.py`. Set server-side NVIDIA credentials for semantic query embeddings, then verify the snapshot before starting. The archive contains no credentials. CPU lexical/structured search remains available without a key; required-vector deployments fail clearly when that credential is absent.

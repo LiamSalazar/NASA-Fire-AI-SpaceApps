@@ -1,0 +1,73 @@
+{
+  "kind": "fresh-source-inspected-question-cohort",
+  "frozen_before_responses": true,
+  "adjudication": "Agent-authored questions; no independent human gold. Expected source IDs are routing labels, not answer facts and are never sent to generation.",
+  "cases": [
+    {
+      "id": "fresh-slice",
+      "question": "How does the SLICE source describe fuel and calibration activities on 13 February 2012? Does that date entry identify one physical flame run?",
+      "followup_of": null,
+      "expected_sources": [
+        "psi-106"
+      ]
+    },
+    {
+      "id": "fresh-bre",
+      "question": "For the BRE entry dated 20 February 2019, what oxygen concentration alternatives, burner size and number of flames ignited are recorded? Can its chamber pressure be recovered from that summary?",
+      "followup_of": null,
+      "expected_sources": [
+        "psi-20"
+      ]
+    },
+    {
+      "id": "fresh-solid",
+      "question": "For Saffire-II sample 2-2, compare the printed 1-g burn length and spread rate with the entries headed ?-g. Preserve the source labels and distinguish numerical results from qualitative entries.",
+      "followup_of": null,
+      "expected_sources": [
+        "psi-99"
+      ]
+    },
+    {
+      "id": "fresh-bass",
+      "question": "For BASS-II B2, give initial and final calibrated oxygen, initial carbon monoxide and the recorded total-frames entry. Does the frames entry supply a numerical count?",
+      "followup_of": null,
+      "expected_sources": [
+        "psi-25"
+      ]
+    },
+    {
+      "id": "fresh-design",
+      "question": "For Flame Design test 21088A1, distinguish the reported burn time and hydrocarbon mass flow from Tad and Zst. Give the original values and explain what Tad and Zst mean according to the investigation documentation.",
+      "followup_of": null,
+      "expected_sources": [
+        "psi-159",
+        "flame-design-srd"
+      ]
+    },
+    {
+      "id": "fresh-models",
+      "question": "What modeling approaches do PSI-60 and PSI-62 describe, and which flame-spread configurations do their objectives address? Distinguish research objectives from measured outcomes.",
+      "followup_of": null,
+      "expected_sources": [
+        "psi-60",
+        "psi-62"
+      ]
+    },
+    {
+      "id": "fresh-reference",
+      "question": "What does the PSI-142 original table link for CFE limit with ozone and without ozone? Give the figure identifiers and publication reference, and explain whether these rows themselves supply measured limit values.",
+      "followup_of": null,
+      "expected_sources": [
+        "psi-142"
+      ]
+    },
+    {
+      "id": "fresh-standard",
+      "question": "According to NASA-STD-6001B Change 3, what is the purpose of Test 1 and what evidence does the standard require for declaring a material self-extinguishing? Keep the standard criteria separate from experimental observations.",
+      "followup_of": null,
+      "expected_sources": [
+        "nasa-std-6001b"
+      ]
+    }
+  ]
+}

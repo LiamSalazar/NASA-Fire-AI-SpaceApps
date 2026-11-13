@@ -1,0 +1,55 @@
+version: phase3c-registry-v1
+selection_policy:
+  context:
+    dimensions: {hasGravityCondition: gravity, hasMaterial: material, AirflowVelocity: airflow, OxygenConcentration: oxygen, Pressure: pressure, hasCondition: apparatus, hasIntervention: intervention, hasPhenomenon: phenomenon}
+    preference_relation: hasGravityCondition
+    preferred_values: [microgravity]
+    preference_terms: [microgravity, low-gravity, low gravity, low-g]
+    comparative_terms: [compare, comparison, differ, distinguish, gravity affect, gravity change, gravity effects]
+    event_requirements:
+      restored: [restored, back on, restarted]
+      interrupted: [interrupted, turned off, shut off, cut off]
+    documented_join_terms: [observations support, support NASA]
+  topical_wordforms:
+    suppression: [suppression, suppress, suppressing, suppressed]
+    airflow: [airflow, flow]
+  related:
+    anchor_relations: [hasMaterial, hasPhenomenon]
+    dimension_weights: {hasMaterial: 3, hasPhenomenon: 3, hasGravityCondition: 2, AirflowVelocity: 2, OxygenConcentration: 2, Pressure: 1}
+    match_weight: 3
+    difference_weight: -2
+    unknown_weight: -1
+  stop_words: [what, did, does, was, were, is, are, nasa, find, show, about, the, a, an, for, of, in, under, and, or, to, this, that, from, with, has, have, its, explicitly, identified]
+authority: "Existing canonical records, domain/lexicon.yaml and ontology/fire_safety.ttl; additive identities recorded for review"
+entities: [PMMA, SIBAL Fabric, microgravity, normal-gravity, psi-98, psi-25, psi-26]
+properties:
+  - {property_id: AirflowVelocity, dimension: velocity, canonical_unit: m/s, aliases: [airflow velocity, airflow, air flow, flow velocity, forced flow]}
+  - {property_id: OxygenConcentration, dimension: fraction, canonical_unit: fraction, aliases: [oxygen concentration, oxygen, O2]}
+  - {property_id: Pressure, dimension: pressure, canonical_unit: Pa, aliases: [pressure]}
+  - {property_id: FlowDirection, dimension: none, canonical_unit: null, datatype: categorical, aliases: [flow direction]}
+relations:
+  - {relation_id: hasMaterial}
+  - {relation_id: hasGravityCondition}
+  - {relation_id: belongsToInvestigation, selection_scope: true}
+  - {relation_id: belongsToExperimentFamily}
+  - {relation_id: hasPhenomenon}
+classes:
+  Material: {target: true}
+  Sample: {target: true}
+  ExperimentalRun: {target: true, information: true, query_terms: [experiment, experiments, tests, runs]}
+  Investigation: {target: true}
+  ExperimentFamily: {target: true}
+  Measurement: {target: true, information: true, bundle_field: measurements, query_terms: [measurement, measurements, measured, measure]}
+  ExperimentalCondition: {target: true, information: true, bundle_field: conditions, query_terms: [condition, conditions, configured, specified]}
+  Publication: {target: true, information: true, bundle_field: publications, documentary: true}
+  Document: {target: true, documentary: true, bundle_field: publications}
+  SafetyStatement: {target: true}
+  ReportedObservation: {information: true, bundle_field: experimental_observations, query_terms: [observation, observations, observe, observed, reported]}
+  Intervention: {information: true, bundle_field: interventions}
+  NASAConclusion: {information: true, bundle_field: nasa_conclusions, query_terms: [conclusion, conclusions, conclude, concluded]}
+  SafetyImplication: {information: true, bundle_field: safety_implications}
+  Requirement: {information: true, bundle_field: requirements, query_terms: [requirement, requirements, require, requires, required]}
+  Guidance: {information: true, bundle_field: guidance, query_terms: [guidance, guidelines]}
+  DesignCriterion: {information: true, bundle_field: design_test_criteria}
+  TestCriterion: {information: true, bundle_field: design_test_criteria}
+  OpenQuestion: {information: true, bundle_field: nasa_identified_open_questions, query_terms: [open questions, unresolved questions, future questions], reject_anaphoric_only: true}

@@ -1,0 +1,311 @@
+{
+  "cases": [
+    {
+      "basis": "Literal question; numeric and linguistic proposal, not relevance gold",
+      "case_id": "qi09",
+      "expected": {
+        "approximate": false,
+        "canonical_unit": "m/s",
+        "canonical_value": 0.1,
+        "operator": "LT",
+        "property_id": "AirflowVelocity",
+        "reported_unit": "cm/s",
+        "reported_value": 10,
+        "tolerance": null
+      },
+      "query": "PMMA microgravity airflow below 10 cm/s",
+      "split": "EXPOSED_DEVELOPMENT"
+    },
+    {
+      "basis": "Literal question; numeric and linguistic proposal, not relevance gold",
+      "case_id": "qi10",
+      "expected": {
+        "approximate": false,
+        "canonical_unit": "m/s",
+        "canonical_value": 0.1,
+        "operator": "LTE",
+        "property_id": "AirflowVelocity",
+        "reported_unit": "m/s",
+        "reported_value": 0.1,
+        "tolerance": null
+      },
+      "query": "PMMA low-g air flow at most 0.1 m/s",
+      "split": "EXPOSED_DEVELOPMENT"
+    },
+    {
+      "basis": "Literal question; numeric and linguistic proposal, not relevance gold",
+      "case_id": "qi11",
+      "expected": {
+        "approximate": false,
+        "canonical_unit": "m/s",
+        "canonical_value": 0.2,
+        "operator": "GTE",
+        "property_id": "AirflowVelocity",
+        "reported_unit": "cm/s",
+        "reported_value": 20,
+        "tolerance": null
+      },
+      "query": "SIBAL Fabric microgravity flow velocity >= 20 cm/s",
+      "split": "EXPOSED_DEVELOPMENT"
+    },
+    {
+      "basis": "Literal question; numeric and linguistic proposal, not relevance gold",
+      "case_id": "qi34",
+      "expected": {
+        "approximate": false,
+        "canonical_unit": "m/s",
+        "canonical_value": 0.2,
+        "operator": "LT",
+        "property_id": "AirflowVelocity",
+        "reported_unit": "cm/s",
+        "reported_value": 20,
+        "tolerance": null
+      },
+      "query": "airflow < 20 cm/s",
+      "split": "EXPOSED_DEVELOPMENT"
+    },
+    {
+      "basis": "Literal question; numeric and linguistic proposal, not relevance gold",
+      "case_id": "qi35",
+      "expected": {
+        "approximate": false,
+        "canonical_unit": "m/s",
+        "canonical_value": 0.1,
+        "operator": "LTE",
+        "property_id": "AirflowVelocity",
+        "reported_unit": "m/s",
+        "reported_value": 0.1,
+        "tolerance": null
+      },
+      "query": "air flow no more than 0.10 m/s",
+      "split": "EXPOSED_DEVELOPMENT"
+    },
+    {
+      "basis": "Literal question; numeric and linguistic proposal, not relevance gold",
+      "case_id": "qi37",
+      "expected": {
+        "approximate": true,
+        "canonical_unit": "fraction",
+        "canonical_value": 0.2,
+        "operator": "APPROX",
+        "property_id": "OxygenConcentration",
+        "reported_unit": "%",
+        "reported_value": 20,
+        "tolerance": null
+      },
+      "query": "about 20% oxygen",
+      "split": "EXPOSED_DEVELOPMENT"
+    },
+    {
+      "basis": "Literal question; numeric and linguistic proposal, not relevance gold",
+      "case_id": "qi50",
+      "expected": {
+        "approximate": false,
+        "canonical_unit": "m/s",
+        "canonical_value": 0.2,
+        "operator": "EQ",
+        "property_id": "AirflowVelocity",
+        "reported_unit": "cm/s",
+        "reported_value": 20,
+        "tolerance": null
+      },
+      "query": "Compare Saffire-I S1 and S2 at airflow 20 cm/s",
+      "split": "EXPOSED_DEVELOPMENT"
+    },
+    {
+      "basis": "Hand-specified literal operators and dimensional equivalence; synthetic questions, NASA corpus unchanged",
+      "case_id": "num-independent-01",
+      "expected": {
+        "approximate": false,
+        "canonical_unit": "m/s",
+        "canonical_value": 0.2,
+        "operator": "GT",
+        "property_id": "AirflowVelocity",
+        "reported_unit": "cm/s",
+        "reported_value": 20,
+        "tolerance": null
+      },
+      "query": "airflow > 20 cm/s",
+      "split": "FROZEN_SYNTHETIC_LANGUAGE"
+    },
+    {
+      "basis": "Hand-specified literal operators and dimensional equivalence; synthetic questions, NASA corpus unchanged",
+      "case_id": "num-independent-02",
+      "expected": {
+        "approximate": false,
+        "canonical_unit": "m/s",
+        "canonical_value": 0.2,
+        "operator": "GTE",
+        "property_id": "AirflowVelocity",
+        "reported_unit": "cm/s",
+        "reported_value": 20,
+        "tolerance": null
+      },
+      "query": "airflow >= 20 cm/s",
+      "split": "FROZEN_SYNTHETIC_LANGUAGE"
+    },
+    {
+      "basis": "Hand-specified literal operators and dimensional equivalence; synthetic questions, NASA corpus unchanged",
+      "case_id": "num-independent-03",
+      "expected": {
+        "approximate": false,
+        "canonical_unit": "m/s",
+        "canonical_value": 0.2,
+        "operator": "LT",
+        "property_id": "AirflowVelocity",
+        "reported_unit": "cm/s",
+        "reported_value": 20,
+        "tolerance": null
+      },
+      "query": "airflow < 20 cm/s",
+      "split": "FROZEN_SYNTHETIC_LANGUAGE"
+    },
+    {
+      "basis": "Hand-specified literal operators and dimensional equivalence; synthetic questions, NASA corpus unchanged",
+      "case_id": "num-independent-04",
+      "expected": {
+        "approximate": false,
+        "canonical_unit": "m/s",
+        "canonical_value": 0.2,
+        "operator": "LTE",
+        "property_id": "AirflowVelocity",
+        "reported_unit": "cm/s",
+        "reported_value": 20,
+        "tolerance": null
+      },
+      "query": "airflow <= 20 cm/s",
+      "split": "FROZEN_SYNTHETIC_LANGUAGE"
+    },
+    {
+      "basis": "Hand-specified literal operators and dimensional equivalence; synthetic questions, NASA corpus unchanged",
+      "case_id": "num-independent-05",
+      "expected": {
+        "approximate": false,
+        "canonical_unit": "m/s",
+        "canonical_value": 0.2,
+        "operator": "EQ",
+        "property_id": "AirflowVelocity",
+        "reported_unit": "cm/s",
+        "reported_value": 20,
+        "tolerance": null
+      },
+      "query": "airflow = 20 cm/s",
+      "split": "FROZEN_SYNTHETIC_LANGUAGE"
+    },
+    {
+      "basis": "Hand-specified literal operators and dimensional equivalence; synthetic questions, NASA corpus unchanged",
+      "case_id": "num-independent-06",
+      "expected": {
+        "approximate": false,
+        "canonical_unit": "m/s",
+        "canonical_value": 0.2,
+        "operator": "GTE",
+        "property_id": "AirflowVelocity",
+        "reported_unit": "m/s",
+        "reported_value": 0.2,
+        "tolerance": null
+      },
+      "query": "airflow at least .2 m/s",
+      "split": "FROZEN_SYNTHETIC_LANGUAGE"
+    },
+    {
+      "basis": "Hand-specified literal operators and dimensional equivalence; synthetic questions, NASA corpus unchanged",
+      "case_id": "num-independent-07",
+      "expected": {
+        "approximate": false,
+        "canonical_unit": "m/s",
+        "canonical_value": 0.2,
+        "operator": "LTE",
+        "property_id": "AirflowVelocity",
+        "reported_unit": "mm/s",
+        "reported_value": 200,
+        "tolerance": null
+      },
+      "query": "airflow not exceeding 200 mm/s",
+      "split": "FROZEN_SYNTHETIC_LANGUAGE"
+    },
+    {
+      "basis": "Hand-specified literal operators and dimensional equivalence; synthetic questions, NASA corpus unchanged",
+      "case_id": "num-independent-08",
+      "expected": {
+        "approximate": false,
+        "canonical_unit": "m/s",
+        "canonical_value": 0.2,
+        "operator": "EQ",
+        "property_id": "AirflowVelocity",
+        "reported_unit": "cm/s",
+        "reported_value": 20,
+        "tolerance": null
+      },
+      "query": "airflow 2e1 cm/s",
+      "split": "FROZEN_SYNTHETIC_LANGUAGE"
+    },
+    {
+      "basis": "Hand-specified literal operators and dimensional equivalence; synthetic questions, NASA corpus unchanged",
+      "case_id": "num-independent-09",
+      "expected": {
+        "approximate": true,
+        "canonical_unit": "fraction",
+        "canonical_value": 0.2,
+        "operator": "APPROX",
+        "property_id": "OxygenConcentration",
+        "reported_unit": "%",
+        "reported_value": 20,
+        "tolerance": null
+      },
+      "query": "oxygen approximately 20 percent",
+      "split": "FROZEN_SYNTHETIC_LANGUAGE"
+    },
+    {
+      "basis": "Hand-specified literal operators and dimensional equivalence; synthetic questions, NASA corpus unchanged",
+      "case_id": "num-independent-10",
+      "expected": {
+        "approximate": false,
+        "canonical_unit": "m/s",
+        "canonical_value": 0.2,
+        "operator": "GTE",
+        "property_id": "AirflowVelocity",
+        "reported_unit": "cm/s",
+        "reported_value": 20,
+        "tolerance": null
+      },
+      "query": "airflow no less than 20 cm/s",
+      "split": "FROZEN_SYNTHETIC_LANGUAGE"
+    },
+    {
+      "basis": "Hand-specified literal operators and dimensional equivalence; synthetic questions, NASA corpus unchanged",
+      "case_id": "num-independent-11",
+      "expected": {
+        "approximate": false,
+        "canonical_unit": "m/s",
+        "canonical_value": 0.2,
+        "operator": "LTE",
+        "property_id": "AirflowVelocity",
+        "reported_unit": "m/s",
+        "reported_value": 0.2,
+        "tolerance": null
+      },
+      "query": "airflow does not exceed 0.20 m/s",
+      "split": "FROZEN_SYNTHETIC_LANGUAGE"
+    },
+    {
+      "basis": "Hand-specified literal operators and dimensional equivalence; synthetic questions, NASA corpus unchanged",
+      "case_id": "num-independent-12",
+      "expected": {
+        "approximate": true,
+        "canonical_unit": "fraction",
+        "canonical_value": 0.2,
+        "operator": "APPROX",
+        "property_id": "OxygenConcentration",
+        "reported_unit": "fraction",
+        "reported_value": 0.2,
+        "tolerance": null
+      },
+      "query": "approximately 0.2 fraction oxygen",
+      "split": "FROZEN_SYNTHETIC_LANGUAGE"
+    }
+  ],
+  "historical_gold_modified": false,
+  "independent_scientific_labels": 0,
+  "status": "PROPOSED_NOT_SCIENTIST_APPROVED"
+}

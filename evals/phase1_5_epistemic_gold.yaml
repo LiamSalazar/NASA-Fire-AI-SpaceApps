@@ -1,0 +1,25 @@
+examples:
+  - family: SAFFIRE
+    label: Intervention
+    text: "For the Saffire-IV PMMA sample, we turned off the flow for 20 seconds."
+  - family: SAFFIRE
+    label: ReportedExperimentalObservation
+    text: "The fire didn’t extinguish and began to grow when we turned the flow back on."
+  - family: SAFFIRE
+    label: SafetyImplication
+    text: "Given that a fire may propagate in spite of early detection and initial response, there is a possibility that an active fire suppression system will need to be activated."
+  - family: SoFIE
+    label: NONE
+    text: "Utilize Combustion Integrated Rack (CIR)"
+  - family: SoFIE
+    label: NONE
+    text: "Common infrastructure"
+  - family: SoFIE
+    label: NONE
+    text: "SoFIE — Solid Fuel Ignition and Extinction"
+  - family: FLEX
+    label: NONE
+    text: "Flame Extinguishment Experiment"
+  - family: NASA_STD_6001
+    label: Requirement
+    text: "Materials intended for use in space vehicles shall meet the requirements of this NASA Technical Standard."

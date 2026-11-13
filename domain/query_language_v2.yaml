@@ -1,0 +1,56 @@
+version: phase3c-language-v1
+authority: "domain/lexicon.yaml and existing Phase-3 reviewed linguistic definitions"
+non_scientific_mentions: [NASA, compare, reports, results, source, document]
+entity_mentions:
+  PMMA: {relation: hasMaterial, aliases: [PMMA, polymethyl methacrylate]}
+  SIBAL Fabric: {relation: hasMaterial, aliases: [SIBAL Fabric, Sibal]}
+  microgravity: {relation: hasGravityCondition, aliases: [microgravity, low-g]}
+  normal-gravity: {relation: hasGravityCondition, aliases: [normal gravity, normal-gravity, terrestrial, 1-g, 1g]}
+  psi-98: {relation: belongsToInvestigation, aliases: [SAFFIRE-I, Saffire I]}
+  psi-25: {relation: belongsToInvestigation, aliases: [BASS-II, BASS II, Burning and Suppression of Solids-II]}
+  psi-26: {relation: belongsToInvestigation, aliases: [BASS, Burning and Suppression of Solids]}
+target_mentions:
+  Sample: [sample, samples, specimen, specimens]
+  Investigation: [investigation, investigations, study, studies]
+  ExperimentFamily: [experiment family, experiment families, investigation family, investigation families]
+information_mentions:
+  ExperimentalRun: [experiments, experiment, tests, runs]
+  Measurement: [measurements, measurement, measured, measure]
+  ReportedObservation: [observations, observation, reported observations, observe, observed, what happened]
+  Intervention: [intervention, interventions, interrupted, restored]
+  NASAConclusion: [conclusions, conclusion, concluded, conclude]
+  SafetyImplication: [safety implication, safety implications, safety impact, safety impacts]
+  Requirement: [requirement, requirements, require, requires]
+  Guidance: [guidance, guidelines]
+  Publication: [publication, publications, documents]
+  OpenQuestion: [open question, open questions, unresolved question, unresolved questions]
+context_mentions:
+  initial: [initial, initially]
+  final: [final, finally]
+  reported_condition: [reported condition, reported configuration]
+ambiguous_mentions: [acrylic, flow, velocity, Saffire]
+ambiguity_scopes:
+  acrylic: {relations: [hasMaterial]}
+  saffire: {relations: [belongsToInvestigation]}
+  velocity: {properties: true}
+  flow: {properties: true}
+operators:
+  '=': EQ
+  '<': LT
+  '<=': LTE
+  '>': GT
+  '>=': GTE
+  below: LT
+  under: LT
+  above: GT
+  at most: LTE
+  no more than: LTE
+  no greater than: LTE
+  less than or equal to: LTE
+  greater than or equal to: GTE
+  less than: LT
+  greater than: GT
+  at least: GTE
+  no less than: GTE
+  not exceeding: LTE
+  does not exceed: LTE

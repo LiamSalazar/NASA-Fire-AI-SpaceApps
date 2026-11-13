@@ -1,0 +1,327 @@
+{
+  "model": "nvidia/nemotron-3-embed-1b",
+  "cases": [
+    {
+      "phrase": "PMMA",
+      "ambiguous": false,
+      "expected": "material:pmma",
+      "status": "RESOLVED_SAFE_ALIAS",
+      "ranked_candidates": [],
+      "top1": true,
+      "top3": true,
+      "top5": true
+    },
+    {
+      "phrase": "polymethyl methacrylate",
+      "ambiguous": false,
+      "expected": "material:pmma",
+      "status": "RESOLVED_SAFE_ALIAS",
+      "ranked_candidates": [],
+      "top1": true,
+      "top3": true,
+      "top5": true
+    },
+    {
+      "phrase": "SIBAL Fabric",
+      "ambiguous": false,
+      "expected": "material:sibal_fabric",
+      "status": "RESOLVED_SAFE_ALIAS",
+      "ranked_candidates": [],
+      "top1": true,
+      "top3": true,
+      "top5": true
+    },
+    {
+      "phrase": "airflow velocity",
+      "ambiguous": false,
+      "expected": "condition:flow_velocity",
+      "status": "AMBIGUOUS",
+      "ranked_candidates": [],
+      "top1": false,
+      "top3": false,
+      "top5": false
+    },
+    {
+      "phrase": "forced flow velocity",
+      "ambiguous": false,
+      "expected": "condition:flow_velocity",
+      "status": "AMBIGUOUS",
+      "ranked_candidates": [],
+      "top1": false,
+      "top3": false,
+      "top5": false
+    },
+    {
+      "phrase": "flame-spread velocity",
+      "ambiguous": false,
+      "expected": "measurement:flame_spread_velocity",
+      "status": "SEMANTIC_CANDIDATE",
+      "ranked_candidates": [
+        {
+          "canonical_id": "flow:airflow_velocity",
+          "semantic_similarity_score": 0.5961423516273499
+        },
+        {
+          "canonical_id": "safety:suppression",
+          "semantic_similarity_score": 0.21786269545555115
+        },
+        {
+          "canonical_id": "gravity:microgravity",
+          "semantic_similarity_score": 0.13002710044384003
+        },
+        {
+          "canonical_id": "normative:requirement",
+          "semantic_similarity_score": 0.09693118929862976
+        },
+        {
+          "canonical_id": "phenomenon:extinction",
+          "semantic_similarity_score": 0.08071253448724747
+        }
+      ],
+      "top1": false,
+      "top3": false,
+      "top5": false
+    },
+    {
+      "phrase": "extinction",
+      "ambiguous": false,
+      "expected": "phenomenon:extinction",
+      "status": "RESOLVED_SAFE_ALIAS",
+      "ranked_candidates": [],
+      "top1": true,
+      "top3": true,
+      "top5": true
+    },
+    {
+      "phrase": "suppression",
+      "ambiguous": false,
+      "expected": "intervention:suppression",
+      "status": "RESOLVED_SAFE_ALIAS",
+      "ranked_candidates": [],
+      "top1": false,
+      "top3": false,
+      "top5": false
+    },
+    {
+      "phrase": "quenching",
+      "ambiguous": true,
+      "expected": null,
+      "status": "SEMANTIC_CANDIDATE",
+      "ranked_candidates": [
+        {
+          "canonical_id": "phenomenon:extinction",
+          "semantic_similarity_score": 0.24330970644950867
+        },
+        {
+          "canonical_id": "safety:suppression",
+          "semantic_similarity_score": 0.2153315246105194
+        },
+        {
+          "canonical_id": "normative:guidance",
+          "semantic_similarity_score": 0.12167058885097504
+        },
+        {
+          "canonical_id": "normative:requirement",
+          "semantic_similarity_score": 0.10426512360572815
+        },
+        {
+          "canonical_id": "gravity:microgravity",
+          "semantic_similarity_score": 0.08501635491847992
+        }
+      ],
+      "top1": null,
+      "top3": null,
+      "top5": null
+    },
+    {
+      "phrase": "blowoff",
+      "ambiguous": false,
+      "expected": "phenomenon:blowoff",
+      "status": "SEMANTIC_CANDIDATE",
+      "ranked_candidates": [
+        {
+          "canonical_id": "flow:airflow_velocity",
+          "semantic_similarity_score": 0.19293498992919922
+        },
+        {
+          "canonical_id": "safety:suppression",
+          "semantic_similarity_score": 0.13284149765968323
+        },
+        {
+          "canonical_id": "normative:guidance",
+          "semantic_similarity_score": 0.12305498868227005
+        },
+        {
+          "canonical_id": "normative:requirement",
+          "semantic_similarity_score": 0.1216936931014061
+        },
+        {
+          "canonical_id": "phenomenon:extinction",
+          "semantic_similarity_score": 0.1083935871720314
+        }
+      ],
+      "top1": false,
+      "top3": false,
+      "top5": false
+    },
+    {
+      "phrase": "droplet diameter",
+      "ambiguous": false,
+      "expected": "measurement:diameter",
+      "status": "SEMANTIC_CANDIDATE",
+      "ranked_candidates": [
+        {
+          "canonical_id": "normative:guidance",
+          "semantic_similarity_score": 0.08655957877635956
+        },
+        {
+          "canonical_id": "flow:airflow_velocity",
+          "semantic_similarity_score": 0.0820503756403923
+        },
+        {
+          "canonical_id": "safety:suppression",
+          "semantic_similarity_score": 0.08129304647445679
+        },
+        {
+          "canonical_id": "normative:requirement",
+          "semantic_similarity_score": 0.07938763499259949
+        },
+        {
+          "canonical_id": "material:pmma",
+          "semantic_similarity_score": 0.07793394476175308
+        }
+      ],
+      "top1": false,
+      "top3": false,
+      "top5": false
+    },
+    {
+      "phrase": "burning rate",
+      "ambiguous": true,
+      "expected": null,
+      "status": "SEMANTIC_CANDIDATE",
+      "ranked_candidates": [
+        {
+          "canonical_id": "flow:airflow_velocity",
+          "semantic_similarity_score": 0.28066176176071167
+        },
+        {
+          "canonical_id": "safety:suppression",
+          "semantic_similarity_score": 0.20523300766944885
+        },
+        {
+          "canonical_id": "phenomenon:extinction",
+          "semantic_similarity_score": 0.1384570300579071
+        },
+        {
+          "canonical_id": "normative:requirement",
+          "semantic_similarity_score": 0.1130576878786087
+        },
+        {
+          "canonical_id": "normative:guidance",
+          "semantic_similarity_score": 0.10677608102560043
+        }
+      ],
+      "top1": null,
+      "top3": null,
+      "top5": null
+    },
+    {
+      "phrase": "oxygen concentration",
+      "ambiguous": false,
+      "expected": "condition:oxygen_fraction",
+      "status": "SEMANTIC_CANDIDATE",
+      "ranked_candidates": [
+        {
+          "canonical_id": "normative:requirement",
+          "semantic_similarity_score": 0.1359633505344391
+        },
+        {
+          "canonical_id": "safety:suppression",
+          "semantic_similarity_score": 0.12615510821342468
+        },
+        {
+          "canonical_id": "gravity:microgravity",
+          "semantic_similarity_score": 0.12457618117332458
+        },
+        {
+          "canonical_id": "flow:airflow_velocity",
+          "semantic_similarity_score": 0.11820153892040253
+        },
+        {
+          "canonical_id": "normative:guidance",
+          "semantic_similarity_score": 0.11559656262397766
+        }
+      ],
+      "top1": false,
+      "top3": false,
+      "top5": false
+    },
+    {
+      "phrase": "pressure",
+      "ambiguous": false,
+      "expected": "condition:pressure",
+      "status": "SEMANTIC_CANDIDATE",
+      "ranked_candidates": [
+        {
+          "canonical_id": "normative:requirement",
+          "semantic_similarity_score": 0.20701287686824799
+        },
+        {
+          "canonical_id": "normative:guidance",
+          "semantic_similarity_score": 0.19341139495372772
+        },
+        {
+          "canonical_id": "safety:suppression",
+          "semantic_similarity_score": 0.16977545619010925
+        },
+        {
+          "canonical_id": "gravity:microgravity",
+          "semantic_similarity_score": 0.1523015797138214
+        },
+        {
+          "canonical_id": "phenomenon:extinction",
+          "semantic_similarity_score": 0.1435532569885254
+        }
+      ],
+      "top1": false,
+      "top3": false,
+      "top5": false
+    },
+    {
+      "phrase": "soot particle measure",
+      "ambiguous": true,
+      "expected": null,
+      "status": "SEMANTIC_CANDIDATE",
+      "ranked_candidates": [
+        {
+          "canonical_id": "flow:airflow_velocity",
+          "semantic_similarity_score": 0.14278234541416168
+        },
+        {
+          "canonical_id": "safety:suppression",
+          "semantic_similarity_score": 0.07887572050094604
+        },
+        {
+          "canonical_id": "normative:requirement",
+          "semantic_similarity_score": 0.07577183842658997
+        },
+        {
+          "canonical_id": "normative:guidance",
+          "semantic_similarity_score": 0.06941711902618408
+        },
+        {
+          "canonical_id": "material:pmma",
+          "semantic_similarity_score": 0.05319243296980858
+        }
+      ],
+      "top1": null,
+      "top3": null,
+      "top5": null
+    }
+  ],
+  "unambiguous_cases": 12,
+  "top1": 0.3333,
+  "top3": 0.3333,
+  "top5": 0.3333
+}

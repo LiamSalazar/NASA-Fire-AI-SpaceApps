@@ -1,0 +1,7 @@
+# Scientific relevance evaluation (fidelity v1)
+
+14 scientist-facing final traces are preserved in `phase3c_fidelity_answer_traces_v5.json`, including source IDs, questions, typed/planned conditions, bundles, deterministic answers and limitations. Citations are registry-resolvable; narrative physical pages are independently verified. Successful recovery of an evidence ID is measured separately from useful answering.
+
+qi14 requests observations and does not silently include safety implications. qi18's incomplete “these questions” is excluded as a complete NASA question; the recovered PDF context is quoted separately for antecedent review. qi27 can return the source-backed PMMA flow-off intervention as contextual support, while explicitly disclosing UNKNOWN experimental scope. PMMA configuration rows are not suppression outcomes. BASS/BASS-II, acrylic/PMMA, conceptual-versus-experimental questions and multi-entity clarification/grouping behavior remain protected. The ontology has no approved material-family edges; no such edge was invented.
+
+Independent reviewers obtained: zero. Scientific usefulness, contamination, Precision@k, Recall@k and nDCG are NOT MEASURABLE. Technical source/constraint verification is complete within scope; execution-level gravity provenance, phenomenon vocabulary approval, source-applicability interpretation and independent scientific review remain dependencies. Missing DIRECT evidence is never called a NASA knowledge gap.

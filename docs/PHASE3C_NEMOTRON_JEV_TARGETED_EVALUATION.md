@@ -1,0 +1,7 @@
+# Nemotron and Jev targeted evaluation
+
+Existing dotenv loader and provider adapters were reused with explicit environment precedence and no credential changes. New NVIDIA requests: 12; new Jev requests: 6. NVIDIA has one failed source-span output contract; no model-generated canonical scientific fact was published. Usage/latency/prompt versions/input digests are in live_summary and checkpointed JSONL receipts; incomplete usage is explicitly marked.
+
+Pilots cover BASS/BASS-II, acrylic/PMMA conceptual interpretation, broad suppression-report intent, observation/intervention/open-question context, BASS/FLEX-2 tables and RELATED review. The A–F one-query pilot uses candidate budget 20: A deterministic original fields, B enriched existing corpus, C validated PSI identities, D controlled exploration, E selective reranking, F optional Jev. D/E/F compatible-cache replay is distinguished from new inference. F's warm latency cannot establish faster cold inference.
+
+The reranker retains the known PMMA flow-off intervention as partial contextual support and does not change DIRECT eligibility. Equivalent expansion proposals were not granted semantic authority. BASS/definition guards now make model calls unnecessary for their demonstrated deterministic corrections. No source-backed expert relevance labels exist to establish ranking benefit. Both providers' scientific incremental value is INCONCLUSIVE; Jev's valid class proposals are advisory rather than scientific approval.

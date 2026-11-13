@@ -1,0 +1,835 @@
+[
+  {
+    "cache_key": "183b3de99ea520df89a940c49364136ed8c5d3e3c76e9aada9109816cd50cef8",
+    "payload": {
+      "error_type": "APITimeoutError",
+      "outcome": {
+        "segment_id": "segment-bd146d8f397f9f65630306f7",
+        "evidence_id": "E-fff11db50ab02d9c3c5437c1",
+        "start": 0,
+        "end": 772,
+        "deterministic": "COMPLETE",
+        "model": "FAILED",
+        "attempts": 1,
+        "error_type": "APITimeoutError"
+      },
+      "contract": "contextual-scientific-ingestion-v1"
+    }
+  },
+  {
+    "cache_key": "368b773cf5e503b9edd60c6ca4da9f4ac40577146441cf9f656471cc9c2c626a",
+    "payload": {
+      "output": {
+        "entities": [],
+        "statements": [
+          {
+            "text": "Blue Origin New Shepard sounding rocket yields Lunar gravity by using centrifugal acceleration.",
+            "class_id": "ExperimentalCondition",
+            "epistemic": "author_reported_conclusion",
+            "subjects": [],
+            "study": "unknown",
+            "support": [
+              {
+                "evidence_id": "E-6a062578a8bc9b381a5d6bf0",
+                "quote": "•\nBlue Origin New Shepard sounding rocket yields Lunar gravity by using centrifugal acceleration.\n",
+                "start": null
+              }
+            ]
+          },
+          {
+            "text": "These are the first-ever, extended-duration (greater than 25 seconds) combustion tests performed in simulated Lunar gravity.",
+            "class_id": "ExperimentalCondition",
+            "epistemic": "author_reported_conclusion",
+            "subjects": [],
+            "study": "unknown",
+            "support": [
+              {
+                "evidence_id": "E-6a062578a8bc9b381a5d6bf0",
+                "quote": "•\nThese are the first-ever, extended-duration (greater than 25 seconds) combustion tests performed in simulated Lunar gravity.  \n",
+                "start": null
+              }
+            ]
+          },
+          {
+            "text": "A steady vehicle rotation of 11 RPM is established, with an effective radius of rotation of 1.22 m at the experiment location.",
+            "class_id": "ExperimentalCondition",
+            "epistemic": "author_reported_conclusion",
+            "subjects": [],
+            "study": "unknown",
+            "support": [
+              {
+                "evidence_id": "E-6a062578a8bc9b381a5d6bf0",
+                "quote": "•\nA steady vehicle rotation of 11 RPM is established, with an effective radius of rotation of 1.22 m at the experiment location.  \n",
+                "start": null
+              }
+            ]
+          },
+          {
+            "text": "Two samples are burned simultaneously in air at normal pressure: Cotton-fiberglass composite fabric sheet and a 4-mm diameter rod of acrylic plastic (polymethyl methacrylate).",
+            "class_id": "ExperimentalCondition",
+            "epistemic": "author_reported_conclusion",
+            "subjects": [],
+            "study": "unknown",
+            "support": [
+              {
+                "evidence_id": "E-6a062578a8bc9b381a5d6bf0",
+                "quote": "•\nTwo samples are burned simultaneously in air at normal pressure: Cotton-fiberglass composite fabric sheet and a 4-mm diameter \nrod of acrylic plastic (polymethyl methacrylate).  \n",
+                "start": null
+              }
+            ]
+          },
+          {
+            "text": "Flame images from two orthogonal cameras are used to determine flame spread and growth rates, and the burn lasts for over two and a half minutes.",
+            "class_id": "ExperimentalCondition",
+            "epistemic": "author_reported_conclusion",
+            "subjects": [],
+            "study": "unknown",
+            "support": [
+              {
+                "evidence_id": "E-6a062578a8bc9b381a5d6bf0",
+                "quote": "•\nFlame images from two orthogonal cameras are used to determine flame spread and growth rates, and the burn lasts for over \ntwo and a half minutes.  \n",
+                "start": null
+              }
+            ]
+          },
+          {
+            "text": "The oxygen concentration in the chamber is measured. As the burns progress, the oxygen concentration drops, enabling a limiting value for extinction to be defined.",
+            "class_id": "ExperimentalCondition",
+            "epistemic": "author_reported_conclusion",
+            "subjects": [],
+            "study": "unknown",
+            "support": [
+              {
+                "evidence_id": "E-6a062578a8bc9b381a5d6bf0",
+                "quote": "•\nThe oxygen concentration in the chamber is measured.  As the burns progress, the oxygen concentration drops, enabling a \nlimiting value for extinction to be defined.  \n",
+                "start": null
+              }
+            ]
+          }
+        ],
+        "relations": [
+          {
+            "subject": "literal-36ca554606e7a893",
+            "relation": "hasGravityCondition",
+            "object": "1-G",
+            "support": [
+              {
+                "evidence_id": "E-6a062578a8bc9b381a5d6bf0",
+                "quote": "•\nBlue Origin New Shepard sounding rocket yields Lunar gravity by using centrifugal acceleration.\n",
+                "start": null
+              }
+            ]
+          },
+          {
+            "subject": "literal-9ce53d526fe4d7b7",
+            "relation": "hasMaterial",
+            "object": "SIBAL fabric",
+            "support": [
+              {
+                "evidence_id": "E-b1a9f6a613faf9d539c3c1bb",
+                "quote": "•\nBurn SIBAL fabric & PMMA\n",
+                "start": null
+              }
+            ]
+          },
+          {
+            "subject": "literal-3105a806f00b8937",
+            "relation": "hasMaterial",
+            "object": "PMMA",
+            "support": [
+              {
+                "evidence_id": "E-b1a9f6a613faf9d539c3c1bb",
+                "quote": "•\nBurn SIBAL fabric & PMMA\n",
+                "start": null
+              }
+            ]
+          },
+          {
+            "subject": "literal-d8064746178177a0",
+            "relation": "belongsToInvestigation",
+            "object": "LUCI",
+            "support": [
+              {
+                "evidence_id": "E-6a062578a8bc9b381a5d6bf0",
+                "quote": "•\nBlue Origin New Shepard sounding rocket yields Lunar gravity by using centrifugal acceleration.\n",
+                "start": null
+              }
+            ]
+          }
+        ],
+        "quantities": [],
+        "concepts": [
+          {
+            "kind": "class",
+            "term": "ExperimentalCondition",
+            "definition": "",
+            "parent_or_existing": null,
+            "why_existing_insufficient": "",
+            "support": [
+              {
+                "evidence_id": "E-6a062578a8bc9b381a5d6bf0",
+                "quote": "•\nBlue Origin New Shepard sounding rocket yields Lunar gravity by using centrifugal acceleration.\n",
+                "start": null
+              }
+            ]
+          }
+        ]
+      },
+      "schema_errors": [
+        {
+          "kind": "entities",
+          "index": 0,
+          "errors": [
+            {
+              "location": [
+                "support"
+              ],
+              "type": "missing"
+            }
+          ]
+        },
+        {
+          "kind": "entities",
+          "index": 1,
+          "errors": [
+            {
+              "location": [
+                "support"
+              ],
+              "type": "missing"
+            }
+          ]
+        },
+        {
+          "kind": "entities",
+          "index": 2,
+          "errors": [
+            {
+              "location": [
+                "support"
+              ],
+              "type": "missing"
+            }
+          ]
+        },
+        {
+          "kind": "entities",
+          "index": 3,
+          "errors": [
+            {
+              "location": [
+                "support"
+              ],
+              "type": "missing"
+            }
+          ]
+        },
+        {
+          "kind": "quantities",
+          "index": 0,
+          "errors": [
+            {
+              "location": [
+                "epistemic"
+              ],
+              "type": "literal_error"
+            }
+          ]
+        },
+        {
+          "kind": "quantities",
+          "index": 1,
+          "errors": [
+            {
+              "location": [
+                "epistemic"
+              ],
+              "type": "literal_error"
+            }
+          ]
+        }
+      ],
+      "usage": {
+        "completion_tokens": 1902,
+        "prompt_tokens": 10565,
+        "total_tokens": 12467,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      },
+      "contract": "contextual-scientific-ingestion-v1"
+    }
+  },
+  {
+    "cache_key": "783eb13550d3d584b8255d16da72da80c42cae62b73114ee3db94312657feeb1",
+    "payload": {
+      "output": {
+        "entities": [],
+        "statements": [
+          {
+            "text": "LUCI: PMMA\n𝑥𓃽\n𝑥𓃽\nSample\nFlame\ng\n𝑙𓃽\n𝑉𓃽\n• Gravity remains ~constant for duration of the burn.",
+            "class_id": "ExperimentalRun",
+            "epistemic": "experimental_configuration",
+            "subjects": [],
+            "study": "unknown",
+            "support": [
+              {
+                "evidence_id": "E-f4f95c94998d43684aa6df08",
+                "quote": "LUCI: PMMA\n𝑥𓃽\n𝑥𓃽\nSample\nFlame\ng\n𝑙𓃽\n𑂽𑂽\n• Gravity remains ~constant for duration of the burn.",
+                "start": null
+              }
+            ]
+          },
+          {
+            "text": "Blue Origin New Shepard sounding rocket yields Lunar gravity by using centrifugal acceleration.",
+            "class_id": "ExperimentalRun",
+            "epistemic": "author_reported_conclusion",
+            "subjects": [],
+            "study": "unknown",
+            "support": [
+              {
+                "evidence_id": "E-6a062578a8bc9b381a5d6bf0",
+                "quote": "Blue Origin New Shepard sounding rocket yields Lunar gravity by using centrifugal acceleration.",
+                "start": null
+              }
+            ]
+          },
+          {
+            "text": "These are the first-ever, extended-duration (greater than 25 seconds) combustion tests performed in simulated Lunar gravity.",
+            "class_id": "ExperimentalRun",
+            "epistemic": "author_reported_conclusion",
+            "subjects": [],
+            "study": "unknown",
+            "support": [
+              {
+                "evidence_id": "E-6a062578a8bc9b381a5d6bf0",
+                "quote": "These are the first-ever, extended-duration (greater than 25 seconds) combustion tests performed in simulated Lunar gravity.",
+                "start": null
+              }
+            ]
+          },
+          {
+            "text": "Two samples are burned simultaneously in air at normal pressure: Cotton-fiberglass composite fabric sheet and a 4-mm diameter rod of acrylic plastic (polymethyl methacrylate).",
+            "class_id": "ExperimentalRun",
+            "epistemic": "author_reported_conclusion",
+            "subjects": [],
+            "study": "unknown",
+            "support": [
+              {
+                "evidence_id": "E-6a062578a8bc9b381a5d6bf0",
+                "quote": "Two samples are burned simultaneously in air at normal pressure: Cotton-fiberglass composite fabric sheet and a 4-mm diameter rod of acrylic plastic (polymethyl methacrylate).",
+                "start": null
+              }
+            ]
+          },
+          {
+            "text": "Flame images from two orthogonal cameras are used to determine flame spread and growth rates, and the burn lasts for over two and a half minutes.",
+            "class_id": "ExperimentalRun",
+            "epistemic": "author_reported_conclusion",
+            "subjects": [],
+            "study": "unknown",
+            "support": [
+              {
+                "evidence_id": "E-6a062578a8bc9b381a5d6bf0",
+                "quote": "Flame images from two orthogonal cameras are used to determine flame spread and growth rates, and the burn lasts for over two and a half minutes.",
+                "start": null
+              }
+            ]
+          }
+        ],
+        "relations": [
+          {
+            "subject": "literal-3105a806f00b8937",
+            "relation": "hasMaterial",
+            "object": "PMMA",
+            "support": [
+              {
+                "evidence_id": "E-f4f95c94998d43684aa6df08",
+                "quote": "LUCI: PMMA\n𑂽𑂽\nSample\nFlame\ng\n𑂽𑂽\n• Gravity remains ~constant for duration of the burn.",
+                "start": null
+              }
+            ]
+          },
+          {
+            "subject": "literal-9ce53d526fe4d7b7",
+            "relation": "hasMaterial",
+            "object": "SIBAL fabric",
+            "support": [
+              {
+                "evidence_id": "E-6a062578a8bc9b381a5d6bf0",
+                "quote": "Two samples are burned simultaneously in air at normal pressure: Cotton-fiberglass composite fabric sheet and a 4-mm diameter rod of acrylic plastic (polymethyl methacrylate).",
+                "start": null
+              }
+            ]
+          },
+          {
+            "subject": "literal-d8064746178177a0",
+            "relation": "belongsToInvestigation",
+            "object": "psi-98",
+            "support": [
+              {
+                "evidence_id": "E-6a062578a8bc9b381a5d6bf0",
+                "quote": "Blue Origin New Shepard sounding rocket yields Lunar gravity by using centrifugal acceleration.",
+                "start": null
+              }
+            ]
+          },
+          {
+            "subject": "literal-d8064746178177a0",
+            "relation": "belongsToInvestigation",
+            "object": "psi-25",
+            "support": [
+              {
+                "evidence_id": "E-f4f95c94998d43684aa6df08",
+                "quote": "LUCI: PMMA\n𑂽𑂽\nSample\nFlame\ng\n𑂽𑂽\n• Gravity remains ~constant for duration of the burn.",
+                "start": null
+              }
+            ]
+          },
+          {
+            "subject": "literal-3105a806f00b8937",
+            "relation": "hasRun",
+            "object": "literal-d8064746178177a0",
+            "support": [
+              {
+                "evidence_id": "E-f4f95c94998d43684aa6df08",
+                "quote": "LUCI: PMMA\n𑂽𑂽\nSample\nFlame\ng\n𑂽𑂽\n• Gravity remains ~constant for duration of the burn.",
+                "start": null
+              }
+            ]
+          },
+          {
+            "subject": "literal-9ce53d526fe4d7b7",
+            "relation": "hasRun",
+            "object": "literal-d8064746178177a0",
+            "support": [
+              {
+                "evidence_id": "E-6a062578a8bc9b381a5d6bf0",
+                "quote": "Blue Origin New Shepard sounding rocket yields Lunar gravity by using centrifugal acceleration.",
+                "start": null
+              }
+            ]
+          }
+        ],
+        "quantities": [
+          {
+            "subject": "g-level",
+            "label": "g-level",
+            "expression": "g-level vs. time",
+            "unit": "vs. time",
+            "epistemic": "derived_quantity",
+            "support": [
+              {
+                "evidence_id": "E-6a062578a8bc9b381a5d6bf0",
+                "quote": "Blue Origin New Shepard sounding rocket yields Lunar gravity by using centrifugal acceleration.",
+                "start": null
+              }
+            ]
+          }
+        ],
+        "concepts": []
+      },
+      "schema_errors": [
+        {
+          "kind": "entities",
+          "index": 0,
+          "errors": [
+            {
+              "location": [
+                "support"
+              ],
+              "type": "missing"
+            }
+          ]
+        },
+        {
+          "kind": "entities",
+          "index": 1,
+          "errors": [
+            {
+              "location": [
+                "support"
+              ],
+              "type": "missing"
+            }
+          ]
+        },
+        {
+          "kind": "entities",
+          "index": 2,
+          "errors": [
+            {
+              "location": [
+                "support"
+              ],
+              "type": "missing"
+            }
+          ]
+        },
+        {
+          "kind": "entities",
+          "index": 3,
+          "errors": [
+            {
+              "location": [
+                "support"
+              ],
+              "type": "missing"
+            }
+          ]
+        },
+        {
+          "kind": "quantities",
+          "index": 1,
+          "errors": [
+            {
+              "location": [
+                "epistemic"
+              ],
+              "type": "literal_error"
+            }
+          ]
+        },
+        {
+          "kind": "quantities",
+          "index": 2,
+          "errors": [
+            {
+              "location": [
+                "epistemic"
+              ],
+              "type": "literal_error"
+            }
+          ]
+        },
+        {
+          "kind": "quantities",
+          "index": 3,
+          "errors": [
+            {
+              "location": [
+                "epistemic"
+              ],
+              "type": "literal_error"
+            }
+          ]
+        },
+        {
+          "kind": "concepts",
+          "index": 0,
+          "errors": [
+            {
+              "location": [
+                "support"
+              ],
+              "type": "too_short"
+            }
+          ]
+        },
+        {
+          "kind": "concepts",
+          "index": 1,
+          "errors": [
+            {
+              "location": [
+                "support"
+              ],
+              "type": "too_short"
+            }
+          ]
+        }
+      ],
+      "usage": {
+        "completion_tokens": 2354,
+        "prompt_tokens": 7374,
+        "total_tokens": 9728,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      },
+      "contract": "contextual-scientific-ingestion-v1"
+    }
+  },
+  {
+    "cache_key": "8f2e29f09c7004a61e9032b86d1dc5d1fe0b9c7b50bbae44fd833b027b96d1b2",
+    "payload": {
+      "error_type": "APITimeoutError",
+      "outcome": {
+        "segment_id": "segment-70155a8428326d9c286fb7ca",
+        "evidence_id": "E-0acbeed7a437e765685d020a",
+        "start": 0,
+        "end": 776,
+        "deterministic": "COMPLETE",
+        "model": "FAILED",
+        "attempts": 1,
+        "error_type": "APITimeoutError"
+      },
+      "contract": "contextual-scientific-ingestion-v1"
+    }
+  },
+  {
+    "cache_key": "cc52d17d1f7a747c6b6ce2694f4b9912057864841ab9515eb2945843ab3ea45b",
+    "payload": {
+      "error_type": "JSONDecodeError",
+      "outcome": {
+        "segment_id": "window-d7b63bc7a6557c067780d04f",
+        "members": [
+          {
+            "id": "segment-db3bd90a9b652021f9d1d47a",
+            "evidence_id": "E-e701476789b9bf6dd3395377",
+            "start": 0,
+            "end": 320
+          },
+          {
+            "id": "segment-1b5c33472e72e144f909a25c",
+            "evidence_id": "E-d5b5c13caefae1761b25a868",
+            "start": 0,
+            "end": 268
+          },
+          {
+            "id": "segment-7603d41eb3fe6a1741224420",
+            "evidence_id": "E-d3aebe64259ea519e1693467",
+            "start": 0,
+            "end": 866
+          },
+          {
+            "id": "segment-6adaab00206f5167145e2009",
+            "evidence_id": "E-36fba4ad2dd3a80446e482de",
+            "start": 0,
+            "end": 292
+          },
+          {
+            "id": "segment-42841cebccdca079fd639657",
+            "evidence_id": "E-d21d6576e58973f04cbb79b6",
+            "start": 0,
+            "end": 315
+          },
+          {
+            "id": "segment-de86923551291452ba80aded",
+            "evidence_id": "E-b7874f30c44529988c9a2b4d",
+            "start": 0,
+            "end": 118
+          },
+          {
+            "id": "segment-34ec4452cd972f75c6364f0a",
+            "evidence_id": "E-ace382bc90bbdf2808dfba14",
+            "start": 0,
+            "end": 191
+          },
+          {
+            "id": "segment-41c4f967315c777511cc0de1",
+            "evidence_id": "E-a55ec34c0f83d6c8b98b529c",
+            "start": 0,
+            "end": 389
+          },
+          {
+            "id": "segment-0547e445b069f010d1fd2704",
+            "evidence_id": "E-43050973b6a89b18f7e5ea5e",
+            "start": 0,
+            "end": 194
+          },
+          {
+            "id": "segment-57f5cc4e04c7855f8f797f06",
+            "evidence_id": "E-a08131327d6385587996348e",
+            "start": 0,
+            "end": 224
+          },
+          {
+            "id": "segment-00a724d85ffb7fc187c60aa3",
+            "evidence_id": "E-007124915589abdd7abc5e6e",
+            "start": 0,
+            "end": 76
+          },
+          {
+            "id": "segment-982a39c8a4d866fd4829cab9",
+            "evidence_id": "E-dc9e4c8b9ff90290439d6f6a",
+            "start": 0,
+            "end": 74
+          },
+          {
+            "id": "segment-4c40ff5d12a1507a32e70060",
+            "evidence_id": "E-94f2c30163d61cfbf33f137a",
+            "start": 0,
+            "end": 252
+          },
+          {
+            "id": "segment-eecf1fc32edb289e7661c0eb",
+            "evidence_id": "E-4e83b44eb58f230065e2b311",
+            "start": 0,
+            "end": 226
+          },
+          {
+            "id": "segment-33fdb84e39028c7e5329aec3",
+            "evidence_id": "E-883f133a5745d0142df1e007",
+            "start": 0,
+            "end": 117
+          },
+          {
+            "id": "segment-59c9f85b9f13574f77bca086",
+            "evidence_id": "E-d4940e2063b4c03f3303beea",
+            "start": 0,
+            "end": 127
+          },
+          {
+            "id": "segment-8f0323e764e3b70ef69cbc8c",
+            "evidence_id": "E-92e5fd01ba0fa39b833981b3",
+            "start": 0,
+            "end": 24
+          },
+          {
+            "id": "segment-0db31dbfb72d76fa0264164b",
+            "evidence_id": "E-7b2423e2b4112606572b7b6e",
+            "start": 0,
+            "end": 153
+          },
+          {
+            "id": "segment-da0bcdf337aee670d166f6bf",
+            "evidence_id": "E-369175d9bd5f5634f84a0c6b",
+            "start": 0,
+            "end": 208
+          },
+          {
+            "id": "segment-1de976f86c01f3facd19647f",
+            "evidence_id": "E-a77a2a0b6c4c5ef905224f73",
+            "start": 0,
+            "end": 23
+          },
+          {
+            "id": "segment-b379670b8b5adc4b90055325",
+            "evidence_id": "E-01e78ac4900b35ec6ddd9644",
+            "start": 0,
+            "end": 138
+          },
+          {
+            "id": "segment-f298b01a1b10d005ed0d535c",
+            "evidence_id": "E-ab863beddb4ab0a2517976fa",
+            "start": 0,
+            "end": 706
+          },
+          {
+            "id": "segment-28fd007c535c19cecc9a2618",
+            "evidence_id": "E-7e8d8e958dbe85901540a377",
+            "start": 0,
+            "end": 8
+          },
+          {
+            "id": "segment-233b2558285b789e48806c67",
+            "evidence_id": "E-8e152fd5cc3f08cf75f79651",
+            "start": 0,
+            "end": 344
+          },
+          {
+            "id": "segment-999d768775be52225a93c0cd",
+            "evidence_id": "E-d5f9930ae7882641030769e0",
+            "start": 0,
+            "end": 269
+          },
+          {
+            "id": "segment-16ee9be57b91444451eb4da2",
+            "evidence_id": "E-591e163edaa75d5ac8c895d0",
+            "start": 0,
+            "end": 136
+          },
+          {
+            "id": "segment-dd7d0c2d7b12935c8b43123a",
+            "evidence_id": "E-dc4b3c3fe52caaa86c554e24",
+            "start": 0,
+            "end": 142
+          },
+          {
+            "id": "segment-838e15258c55f6ff9dd8904c",
+            "evidence_id": "E-d6e291dc28d06c4dea34e721",
+            "start": 0,
+            "end": 294
+          }
+        ],
+        "evidence_id": "E-e701476789b9bf6dd3395377",
+        "start": 0,
+        "end": 6494,
+        "deterministic": "COMPLETE",
+        "model": "FAILED",
+        "attempts": 1,
+        "finish_reason": "length",
+        "usage": {
+          "completion_tokens": 3000,
+          "prompt_tokens": 13465,
+          "total_tokens": 16465,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": null,
+            "text_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "error_type": "JSONDecodeError"
+      },
+      "contract": "contextual-scientific-ingestion-v1"
+    }
+  },
+  {
+    "cache_key": "d9643f3103605cbfdb09cc3c9ab5c0e3b1f98e9e10fb806016bd2c27d4e67c80",
+    "payload": {
+      "error_type": "JSONDecodeError",
+      "outcome": {
+        "segment_id": "segment-c1e596ab3be846821c400ce9",
+        "evidence_id": "E-3d0d479957889ee0ebba3428",
+        "start": 0,
+        "end": 320,
+        "deterministic": "COMPLETE",
+        "model": "FAILED",
+        "attempts": 1,
+        "usage": {
+          "completion_tokens": 3000,
+          "prompt_tokens": 10260,
+          "total_tokens": 13260,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": null,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": null,
+            "text_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "error_type": "JSONDecodeError"
+      },
+      "contract": "contextual-scientific-ingestion-v1"
+    }
+  }
+]

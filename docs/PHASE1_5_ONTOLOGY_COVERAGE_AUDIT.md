@@ -1,0 +1,3 @@
+# Canonical/ontology coverage audit
+
+Across 22 table schemas, materials, experimental runs, and generic conditions cover most reusable structure. Direct/generic mappings include material/fuel, pressure, oxygen/composition, flow, time, geometry/droplet diameter, and rates. New aliases are candidates only. Ambiguous fields include `Burning rate; mm` (reported label lacks a time denominator), `Test end`, `Rt/R0`, and aging terms. No ontology changes were accepted. SAME smoke/aerosol outputs and SPICE soot-specific fields remain generic measurements or review candidates rather than source-specific ontology classes.

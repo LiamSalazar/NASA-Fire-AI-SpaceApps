@@ -1,0 +1,48 @@
+{
+  "kind": "FRESH_POST_CORRECTION_QUERY_GENERALIZATION",
+  "freeze_commit": "b92cf75",
+  "snapshot_id": "6b67da5247b697976ca558418dffcc96ab68a928bf8ccc7cc2768253b6513654",
+  "boundary": "Eight questions frozen before generation on the corrected backend. Agent-authored source inspection; independent human adjudication is not claimed. Gold needs are stored separately and never sent to production.",
+  "cases": [
+    {
+      "id": "post-aerosol-records",
+      "question": "Compare SAME samples 2 and 3 for material, air flow, weight-loss rate and aging duration. Keep the recorded units and each sample association. Do these rows alone justify attributing a rate difference to aging?",
+      "followup_of": null
+    },
+    {
+      "id": "post-slice-sessions",
+      "question": "What fuel and calibration information is recorded in the SLICE entries dated 9 February 2012 and 13 February 2012? Describe the scope of those source entries.",
+      "followup_of": null
+    },
+    {
+      "id": "post-bass-gases",
+      "question": "For BASS-II B5, quote the material description as written, the initial and final CO and CO2 entries, and the radiometer gain setting.",
+      "followup_of": null
+    },
+    {
+      "id": "post-bass-followup",
+      "question": "For that same B5 record, what are the calibrated initial and final oxygen concentrations? Keep oxygen separate from the CO and CO2 entries.",
+      "followup_of": "post-bass-gases"
+    },
+    {
+      "id": "post-isooctane",
+      "question": "For pure isooctane, what gas-mixture choices, oxygen fractions and flow-velocity range does FLEX-2 list? Explain what the configuration summary establishes about physical run identities.",
+      "followup_of": null
+    },
+    {
+      "id": "post-standard-method",
+      "question": "In NASA-STD-6001B with Change 3, what information does Test 2 provide, how is heat-release rate determined, and is a pass/fail criterion specified for that test?",
+      "followup_of": null
+    },
+    {
+      "id": "post-cfig-camera",
+      "question": "What does the ACME ISS overview report about the fuel and flame configuration associated with the CFI-G cool-flame images, the camera filtering, and the size comparison with hot flames?",
+      "followup_of": null
+    },
+    {
+      "id": "post-burner-methods",
+      "question": "Compare the inverse-flame configuration described for Flame Design with the way BRE emulates condensed-phase burning in the ACME ISS overview. Explain what each method investigates.",
+      "followup_of": null
+    }
+  ]
+}

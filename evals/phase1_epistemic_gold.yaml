@@ -1,0 +1,16 @@
+positives:
+  - type: Intervention
+    evidence_id: E-safety-saffire-intervention
+    text: "For the Saffire-IV PMMA sample, we turned off the flow for 20 seconds."
+  - type: ReportedExperimentalObservation
+    evidence_id: E-safety-saffire-observation
+    text: "The fire didn’t extinguish and began to grow when we turned the flow back on."
+negatives:
+  - text: "Utilize Combustion Integrated Rack (CIR)"
+    not_type: ReportedExperimentalObservation
+  - text: "Common infrastructure"
+    not_type: ReportedExperimentalObservation
+  - text: "SoFIE — Solid Fuel Ignition and Extinction"
+    not_type: NASAConclusion
+  - text: "Surfaces"
+    not_type: NASAConclusion

@@ -1,0 +1,46 @@
+[
+  {
+    "type": "SafetyStatementRecord",
+    "statement_id": "reviewed-llm-dc1ad80b2ba83a3c",
+    "statement_type": "safety_implication",
+    "normalized_text": "A fire may propagate despite early detection and initial response, and there is a possibility that an active fire suppression system will need to be activated.",
+    "source_document": "ntrs-20205007829",
+    "source_page": 7,
+    "source_section": null,
+    "scope_applicability": null,
+    "evidence_refs": [
+      {
+        "evidence_id": "E-ntrs-20205007829-7-0",
+        "source_id": "ntrs-20205007829",
+        "page": 7,
+        "section": null
+      }
+    ],
+    "reviewed_from_candidate": "llm-dc1ad80b2ba83a3c",
+    "evidence_span": "Given that a fire may propagate in spite of early detection and initial response, there is a possibility that an active fire suppression system will need to be activated.",
+    "modality": null,
+    "uncertainty": null
+  },
+  {
+    "type": "SafetyStatementRecord",
+    "statement_id": "reviewed-llm-83b0a3d26d516850",
+    "statement_type": "safety_implication",
+    "normalized_text": "If fire mitigations are effective, it may allow the mission to continue; there is a possibility that with appropriate cleanup the vehicle could be restored and the mission could continue.",
+    "source_document": "ntrs-20205007829",
+    "source_page": 7,
+    "source_section": null,
+    "scope_applicability": null,
+    "evidence_refs": [
+      {
+        "evidence_id": "E-ntrs-20205007829-7-0",
+        "source_id": "ntrs-20205007829",
+        "page": 7,
+        "section": null
+      }
+    ],
+    "reviewed_from_candidate": "llm-83b0a3d26d516850",
+    "evidence_span": "Given that the fire mitigations were effective, may allow the mission to continue, there is a possibility that with appropriate clean up that the vehicle could be restored and the mission could continue.",
+    "modality": null,
+    "uncertainty": null
+  }
+]

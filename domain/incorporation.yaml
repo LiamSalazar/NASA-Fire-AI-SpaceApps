@@ -1,0 +1,21 @@
+version: incorporation-presentation-v1
+# Structural labels identify candidate roles, never scientific equivalence.
+column_roles:
+  run: [run, run id, 'test #', sample number]
+  specimen: ['sample #', sample id, specimen]
+  material: [material, fuel sample material]
+  group: [group, experimental group]
+  gravity: [gravity, gravity environment]
+statement_roles:
+  observation: {class_id: ReportedObservation, epistemic: measured_observation}
+  conclusion: {class_id: NASAConclusion, epistemic: author_reported_conclusion}
+  interpretation: {class_id: NASAConclusion, epistemic: tentative_interpretation}
+  hypothesis: {class_id: NASAConclusion, epistemic: hypothesis}
+  open question: {class_id: OpenQuestion, epistemic: open_question}
+  guidance: {class_id: Guidance, epistemic: guidance}
+  requirement: {class_id: Requirement, epistemic: normative_requirement}
+  safety implication: {class_id: SafetyImplication, epistemic: safety_implication}
+# Roles that are never table-column labels (their columns hold results).
+profile_roles:
+  design criterion: {class_id: DesignCriterion, epistemic: design_criterion}
+  test criterion: {class_id: TestCriterion, epistemic: test_criterion}

@@ -1,0 +1,161 @@
+[
+  {
+    "type": "InterventionRecord",
+    "id": "saffire-iv-flow-off-20s",
+    "description": "For the Saffire-IV PMMA sample, we turned off the flow for 20 seconds.",
+    "source_document": "ntrs-20205007829",
+    "source_page": 16,
+    "source_section": "Fire Suppression Requirements",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-safety-saffire-intervention",
+        "source_id": "ntrs-20205007829",
+        "page": 16,
+        "section": "Fire Suppression Requirements"
+      }
+    ]
+  },
+  {
+    "type": "ObservationRecord",
+    "id": "saffire-iv-flow-off-observation",
+    "phenomenon": "Flame persistence",
+    "text": "The fire didn\u2019t extinguish and began to grow when we turned the flow back on.",
+    "source_document": "ntrs-20205007829",
+    "source_page": 16,
+    "source_section": "Fire Suppression Requirements",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-safety-saffire-observation",
+        "source_id": "ntrs-20205007829",
+        "page": 16,
+        "section": "Fire Suppression Requirements"
+      }
+    ]
+  },
+  {
+    "type": "SafetyStatementRecord",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-safety-saffire-suppression-conclusion",
+        "source_id": "ntrs-20205007829",
+        "page": 16,
+        "section": "Fire Suppression Requirements"
+      }
+    ],
+    "statement_id": "saffire-suppression-conclusion",
+    "statement_type": "nasa_conclusion",
+    "normalized_text": "In a spacecraft, suppressant could have been used to \u2018knock down\u2019 the fire but wasn\u2019t held at the desired concentration long enough for surface to cool.",
+    "source_document": "ntrs-20205007829",
+    "source_page": 16,
+    "source_section": "Fire Suppression Requirements",
+    "scope_applicability": null
+  },
+  {
+    "type": "SafetyStatementRecord",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-safety-saffire-suppression-open-question",
+        "source_id": "ntrs-20205007829",
+        "page": 16,
+        "section": "Fire Suppression Requirements"
+      }
+    ],
+    "statement_id": "saffire-suppression-open-question",
+    "statement_type": "open_question",
+    "normalized_text": "Additional focused tests may be required to develop guidance on these questions.",
+    "source_document": "ntrs-20205007829",
+    "source_page": 16,
+    "source_section": "Fire Suppression Requirements",
+    "scope_applicability": "Qualification of spacecraft fire suppression under micro- or partial-gravity and suppressant concentration/hold time"
+  },
+  {
+    "type": "SafetyStatementRecord",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-safety-suppression-system-implication",
+        "source_id": "ntrs-20205007829",
+        "page": 7,
+        "section": "Risks for Fire Safety"
+      }
+    ],
+    "statement_id": "suppression-system-implication",
+    "statement_type": "safety_implication",
+    "normalized_text": "Given that a fire may propagate in spite of early detection and initial response, there is a possibility that an active fire suppression system will need to be activated.",
+    "source_document": "ntrs-20205007829",
+    "source_page": 7,
+    "source_section": "Risks for Fire Safety",
+    "scope_applicability": "Fire suppression"
+  },
+  {
+    "type": "SafetyStatementRecord",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-safety-std-6001-applicability",
+        "source_id": "nasa-std-6001",
+        "page": 8,
+        "section": "1.2.1 Applicability"
+      }
+    ],
+    "statement_id": "std-6001-applicability",
+    "statement_type": "requirement",
+    "normalized_text": "Materials intended for use in space vehicles, specified test facilities, and contractually specified Ground Support Equipment (GSE) shall meet the requirements of this NASA Technical Standard.",
+    "source_document": "nasa-std-6001",
+    "source_page": 8,
+    "source_section": "1.2.1 Applicability",
+    "scope_applicability": "Materials intended for stated uses"
+  },
+  {
+    "type": "SafetyStatementRecord",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-safety-std-6001-worst-case-test",
+        "source_id": "nasa-std-6001",
+        "page": 17,
+        "section": "5 Applicable Material Tests"
+      }
+    ],
+    "statement_id": "std-6001-worst-case-test",
+    "statement_type": "test_criterion",
+    "normalized_text": "Required tests shall be conducted on materials in their worst-case exposure conditions and representative use thicknesses and product forms.",
+    "source_document": "nasa-std-6001",
+    "source_page": 17,
+    "source_section": "5 Applicable Material Tests",
+    "scope_applicability": "Required material tests"
+  },
+  {
+    "type": "SafetyStatementRecord",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-safety-configuration-guidance",
+        "source_id": "ntrs-20150020937",
+        "page": 2,
+        "section": "Preface"
+      }
+    ],
+    "statement_id": "configuration-guidance",
+    "statement_type": "guidance",
+    "normalized_text": "The document provides guidance in conducting the flammability assessments required for payload hardware by SSP 51700.",
+    "source_document": "ntrs-20150020937",
+    "source_page": 2,
+    "source_section": "Preface",
+    "scope_applicability": "Payload hardware flammability assessment"
+  },
+  {
+    "type": "SafetyStatementRecord",
+    "evidence_refs": [
+      {
+        "evidence_id": "E-safety-configuration-design-criterion",
+        "source_id": "ntrs-20150020937",
+        "page": 1,
+        "section": "1.0 Introduction"
+      }
+    ],
+    "statement_id": "configuration-design-criterion",
+    "statement_type": "design_criterion",
+    "normalized_text": "It means controlling the quantity and configuration of such materials to eliminate potential fire propagation paths and thus ensure that any fire would be small, localized, and isolated, and would self-extinguish without harm to the crew.",
+    "source_document": "ntrs-20150020937",
+    "source_page": 1,
+    "source_section": "1.0 Introduction",
+    "scope_applicability": "Crewed spacecraft fire control"
+  }
+]

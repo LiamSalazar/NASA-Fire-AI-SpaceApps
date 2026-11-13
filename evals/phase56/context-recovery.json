@@ -1,0 +1,5 @@
+[
+ {"id":"recovery_establish","topic":"context regression, previously used initial question","message":"¿Qué explican las fuentes sobre cómo se observan las gotas durante los ensayos de combustión?","live":true,"conversation":"context-recovery"},
+ {"id":"recovery_ambiguous_extinction","topic":"context regression, previously failed follow-up","message":"Which measured quantity would be relevant to identifying extinction, and what limits are stated by the authors?","live":true,"conversation":"context-recovery"},
+ {"id":"recovery_explore","topic":"context regression and exploration","message":"¿Qué búsquedas adicionales permitirían explorar ese tema en gravedad parcial, sin dar por demostrada una relación?","live":true,"conversation":"context-recovery"}
+]

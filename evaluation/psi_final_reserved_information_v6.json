@@ -1,0 +1,149 @@
+{
+  "protocol": "source-inspected-essential-information-v6",
+  "boundary": "Ten agent-authored source-inspected questions frozen before the next corrective implementation, not independent human adjudication. No generation has been executed for these question relationships. Expected needs remain evaluation-only; source knowledge may be curated.",
+  "questions": [
+    {
+      "id": "reserved-efield",
+      "question": "For E-FIELD test day 18106, report the recorded burner/test-type description, mesh polarity, fuel-bottle and fuel-concentration entries, and number of flames ignited. Keep these as test-day information.",
+      "expected_sources": [
+        "psi-22"
+      ],
+      "essential_needs": [
+        "First round of tests with coflow burner",
+        "Mesh polarity positive",
+        "Fuel bottle 40% CH4 and fuel concentration 40% remain separate fields",
+        "Thirteen flames ignited for the test day; no fabricated individual-run reconciliation"
+      ]
+    },
+    {
+      "id": "reserved-bre",
+      "question": "For the BRE entry dated 4 April 2019, quote burner size, fuel bottle, the listed oxygen concentrations and ignition count. Explain whether those oxygen entries describe one simultaneous mixture or a day-summary set.",
+      "expected_sources": [
+        "psi-20"
+      ],
+      "essential_needs": [
+        "Burner size 25 mm",
+        "Fuel bottle literal 100%C2H4",
+        "Oxygen entries 21, 26.5 and 34 percent",
+        "Nine flames ignited",
+        "Day-summary oxygen alternatives are not combined into one mixture or fabricated individual runs"
+      ]
+    },
+    {
+      "id": "reserved-flex",
+      "question": "For FLEX identifier C03M701, give the separate FLEX Test number, fuel, ambient pressure, initial droplet diameter, visible-flame extinction diameter, burn time and termination. Preserve the original pressure unit and the ambiguous CO column label if mentioning composition.",
+      "expected_sources": [
+        "psi-69"
+      ],
+      "essential_needs": [
+        "Separate FLEX Test number 191",
+        "Methanol fuel and ambient pressure 765.3 mmHg",
+        "Initial droplet diameter 1.76 mm",
+        "Visible flame extinction diameter 0.81 mm",
+        "Burn time 5.5 s and termination Extinction",
+        "No reinterpretation of the ambiguous CO heading as a verified CO2 measurement"
+      ]
+    },
+    {
+      "id": "reserved-saffire-composite",
+      "question": "Quote the paired specimen thickness and length entries for Saffire-II sample 2-7, its material entry, airflow and burn duration. Preserve the paired text and avoid assigning one dimension to each material without source support.",
+      "expected_sources": [
+        "psi-99"
+      ],
+      "essential_needs": [
+        "Material PMMA & Nomex",
+        "Thickness pair 0.85 and 0.37 mm",
+        "Length pair 5 and 24 cm",
+        "Airflow 20 cm/s and burn time 140 s",
+        "Paired values preserved without an unsupported per-material assignment"
+      ]
+    },
+    {
+      "id": "reserved-bass-identities",
+      "question": "For BASS As Run Test number 9, quote the other Test number, Sample number, material description and GMT day. Keep the identifier types distinct even when their numeric values coincide.",
+      "expected_sources": [
+        "psi-26"
+      ],
+      "essential_needs": [
+        "Selected As Run Test number 9",
+        "Separate Test number 19 and Sample number 19",
+        "Material PMMA sphere 1 cm",
+        "GMT day 123",
+        "Equal numeric labels do not establish common physical identity or unsupported planning status"
+      ]
+    },
+    {
+      "id": "reserved-daft-pressure",
+      "question": "For DAFT session D1, can this registered session supply a chamber pressure? Describe what it actually records about the aerosol material, hardware, sampled location and day, without borrowing pressure from another experiment.",
+      "expected_sources": [
+        "psi-47"
+      ],
+      "essential_needs": [
+        "D1 is a session source record, not a newly reconciled physical combustion run",
+        "Modified P-Trak with Alcohol Wick and batteries",
+        "Arizona Road Dust ARD Fine with ISS GN2 to create an aerosol",
+        "Air near Express rack 4; GMT 54 (2005)",
+        "No source-backed pressure assigned from another investigation; any unavailability statement is bounded to this record/registered table"
+      ]
+    },
+    {
+      "id": "reserved-flex-uncertainties",
+      "question": "In the archived FLEX report, distinguish the LLUV and MDCA color-camera flame-size measurements. What flame boundary do they represent, what uncertainties are reported for the two analyses, and how do the color-camera diameters compare with LLUV? Keep the camera scopes separate.",
+      "expected_sources": [
+        "ntrs-20150023456"
+      ],
+      "essential_needs": [
+        "Both flame-diameter measurements concern the outer edge of the flame",
+        "LLUV flame-size uncertainty approximately plus or minus 200 micrometers",
+        "MDCA color-camera flame-size uncertainty approximately plus or minus 250 micrometers",
+        "Color-camera diameters approximately three-fourths of LLUV results",
+        "Uncertainty and diameter comparisons retain the report/camera scope rather than applying to every measurement"
+      ]
+    },
+    {
+      "id": "reserved-gox-method",
+      "question": "In NASA-STD-6001B with Change 3, what does Test 17 require when determining a pressure at which a material is not flammable in GOX? Include rod dimensions, mounting and ignition, the recorded burn quantity and the specimen/consumption condition. Treat these as requirements.",
+      "expected_sources": [
+        "nasa-std-6001b-change3"
+      ],
+      "essential_needs": [
+        "Test 17 concerns material flammability at use pressure in GOX at ambient or elevated temperature",
+        "Rod diameter 0.32 cm (0.126 in) and minimum length 10.2 cm (4 in)",
+        "Vertical mounting and ignition at the bottom",
+        "Burn length/consumed specimen length measured",
+        "At least ten specimens without consumption greater than 3 cm (1.2 in) for the pressure determination",
+        "These are normative requirements, not observed results of a new experiment"
+      ]
+    },
+    {
+      "id": "reserved-two-models",
+      "question": "Compare the documented modeling approaches of PSI-115 and PSI-117: what physical process does each model, which computational approach is described, and how does each relate to the earlier SAME or FLEX work? Keep numerical predictions distinct from new ISS observations.",
+      "expected_sources": [
+        "documentation-psi-115",
+        "documentation-psi-117"
+      ],
+      "essential_needs": [
+        "PSI-115 simulates formation and growth of dibutyl-phthalate particles in Earth gravity and microgravity",
+        "PSI-115 uses direct numerical simulation with a Navier-Stokes nodal approach and geometry similar to SAME",
+        "PSI-117 uses an OpenFOAM three-dimensional CFD droplet-cool-flame model",
+        "PSI-117 couples flow, low-temperature chemistry, heat/mass transfer and radiation and compares against FLEX measurements",
+        "PSI-117 examines convection, imposed heating and their combination",
+        "Methods/predictions remain distinct between studies and are not newly measured ISS outputs"
+      ]
+    },
+    {
+      "id": "reserved-bass-film-limits",
+      "question": "What approximate extinction velocities does the BASS-II RTDFS report associate with its 100, 200, 300 and 400 micrometer films, and what qualifications does it give about interpreting those velocities? Keep this film-study result separate from rod or cylinder tests.",
+      "expected_sources": [
+        "ntrs-20210011385"
+      ],
+      "essential_needs": [
+        "About 1 cm/s for the 100, 200 and 300 micrometer films",
+        "About 1.5 cm/s for the 400 micrometer film",
+        "Low-velocity calibration has high error bars/significant uncertainty",
+        "Fuel/tunnel boundary layers and the lag before reduced flow reaches the flame are noted",
+        "Values remain scoped to the reported RTDFS film study rather than a universal material limit"
+      ]
+    }
+  ]
+}

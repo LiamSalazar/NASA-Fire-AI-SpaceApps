@@ -1,0 +1,700 @@
+version: psi-curated-fields-v2
+authority: Original immutable PSI CSV headers, embedded table notes, and cached official
+  investigation metadata; mappings describe recorded scope, never distinct physical
+  run identity.
+tables:
+  PSI-107:
+    record_class: SourceRecord
+    identifier: null
+    material_header: Fuel
+    fields:
+      GMT date:
+        property: source:gmt_day
+        datatype: categorical
+        role: session_identifier
+      GMT ignition:
+        property: source:ignition_clock
+        datatype: categorical
+        role: recorded_time
+      GMT  Flame Off:
+        property: source:flame_off_clock
+        datatype: categorical
+        role: recorded_time
+      Nozzle (mm):
+        property: source:nozzle_diameter
+        unit: mm
+        role: apparatus_dimension
+      Fuel Rate (sccm):
+        property: source:fuel_standard_flow
+        unit: sccm
+        role: reported_condition
+      Fuel Rate (mg/s):
+        property: source:fuel_mass_flow
+        unit: mg/s
+        role: reported_condition
+      HC Fuel Rate (mg/s):
+        property: source:hydrocarbon_mass_flow
+        unit: mg/s
+        role: reported_condition
+      Air Rate (cm/s):
+        property: AirflowVelocity
+        unit: cm/s
+        role: reported_condition
+        aliases: [air velocity]
+  PSI-39:
+    record_class: ExperimentalRun
+    identifier: Flex Number
+    material_header: Fuel
+    fields:
+      Pressure:
+        property: Pressure
+        unit: atm
+        role: reported_condition
+      Oxygen:
+        property: OxygenConcentration
+        unit: fraction
+        role: reported_condition
+      Nitrogen:
+        property: source:initial_nitrogen
+        unit: fraction
+        role: reported_condition
+      Helium:
+        property: source:initial_helium
+        unit: fraction
+        role: reported_condition
+      CIR:
+        property: source:cir_identifier
+        datatype: categorical
+        role: record_identifier
+      Test Date:
+        property: source:test_date
+        datatype: categorical
+        role: session_identifier
+      Local Time:
+        property: source:local_time
+        datatype: categorical
+        role: recorded_time
+      Fiber:
+        property: source:fiber_presence
+        datatype: categorical
+        role: apparatus_configuration
+  PSI-20:
+    aliases: [BRE, Burning Rate Emulator]
+    alias_authority: NASA NTRS 20220005205, physical page 3, Table 1
+    record_class: ExperimentalSession
+    identifier: null
+    material_header: Fuel Bottle
+    fields:
+      Burner Size (mm):
+        property: source:burner_size
+        unit: mm
+        role: apparatus_dimension
+      Oxygen Conc (percent):
+        property: OxygenConcentration
+        unit: '%'
+        role: session_alternatives
+      Flames Ignited:
+        property: source:ignition_count
+        unit: count
+        role: session_count
+      Year:
+        property: source:date_year
+        datatype: categorical
+        role: session_identifier
+      Month:
+        property: source:date_month
+        datatype: categorical
+        role: session_identifier
+      Date:
+        property: source:date_date
+        datatype: categorical
+        role: session_identifier
+      Notes:
+        property: source:notes
+        datatype: categorical
+        role: source_field_definition
+  PSI-21:
+    aliases: [CLD, CLD Flame, Coflow Laminar Diffusion Flame]
+    alias_authority: NASA NTRS 20220005205, physical page 3, Table 1
+    record_class: ExperimentalSession
+    identifier: Test Day
+    material_header: Fuel Bottle
+    fields:
+      Test Type:
+        property: source:test_type
+        datatype: categorical
+        role: reported_description
+      Fuel MFC:
+        property: source:fuel_mfc_capacity
+        unit: slpm
+        role: instrument_capacity_nitrogen_basis
+        label: fuel mass flow controller maximum capacity (nitrogen basis)
+        aliases:
+        - fuel mass-flow controller
+        - fuel mass flow controller
+        - fuel controller capacity
+      N2 MFC:
+        property: source:nitrogen_mfc_capacity
+        unit: slpm
+        role: instrument_capacity_nitrogen_basis
+        label: nitrogen mass flow controller maximum capacity (nitrogen basis)
+        aliases:
+        - nitrogen mass-flow controller
+        - nitrogen mass flow controller
+        - N2 controller capacity
+      Fuel conc. Range:
+        property: source:fuel_concentration
+        unit: '%'
+        role: session_range
+      Flames ignited:
+        property: source:ignition_count
+        unit: count
+        role: session_count
+      Notes:
+        property: source:notes
+        datatype: categorical
+        role: source_field_definition
+  PSI-22:
+    aliases: [E-FIELD, EFIELD, E-FIELD Flames, Electric-Field Effects on Laminar Diffusion Flames]
+    alias_authority: NASA NTRS 20220005205, physical page 3, Table 1
+    record_class: ExperimentalSession
+    identifier: Test Day
+    material_header: Fuel Bottle
+    fields:
+      Test Type:
+        property: source:test_type
+        datatype: categorical
+        role: reported_description
+      Mesh Polarity:
+        property: source:mesh_polarity
+        datatype: categorical
+        role: apparatus_configuration
+      Fuel Conc:
+        property: source:fuel_concentration
+        unit: '%'
+        role: session_alternatives
+      Flames Ignited:
+        property: source:ignition_count
+        unit: count
+        role: session_count
+      Year:
+        property: source:date_year
+        datatype: categorical
+        role: session_identifier
+      Month:
+        property: source:date_month
+        datatype: categorical
+        role: session_identifier
+      Date:
+        property: source:date_date
+        datatype: categorical
+        role: session_identifier
+      Notes:
+        property: source:notes
+        datatype: categorical
+        role: source_field_definition
+  PSI-23:
+    aliases: [s-Flame, sFlame, Structure and Response of Spherical Diffusion Flames]
+    alias_authority: NASA NTRS 20220005205, physical page 3, Table 1
+    record_class: ExperimentalSession
+    identifier: Test Day*
+    material_header: Fuel Bottle
+    fields:
+      Test Type:
+        property: source:test_type
+        datatype: categorical
+        role: reported_description
+      Atmosphere*:
+        property: source:atmosphere_description
+        datatype: categorical
+        role: session_variable_atmosphere
+      Flames Ignited*:
+        property: source:ignition_count
+        unit: count
+        role: session_count
+      Year:
+        property: source:date_year
+        datatype: categorical
+        role: session_identifier
+      Month:
+        property: source:date_month
+        datatype: categorical
+        role: session_identifier
+      Date:
+        property: source:date_date
+        datatype: categorical
+        role: session_identifier
+      Notes:
+        property: source:notes
+        datatype: categorical
+        role: source_field_definition
+  PSI-106:
+    record_class: ExperimentalSession
+    identifier: Test Date
+    material_header: Fuel Type
+    fields:
+      Test Date:
+        property: source:test_date
+        datatype: categorical
+        role: session_identifier
+  PSI-47:
+    record_class: ExperimentalSession
+    identifier: Session Name
+    material_header: Sample Material
+    fields:
+      Actual Day:
+        property: source:gmt_day
+        datatype: categorical
+        role: session_identifier
+      Hardware Description:
+        property: source:hardware_description
+        datatype: categorical
+        role: apparatus_configuration
+      Sampled Location:
+        property: source:sampled_location
+        datatype: categorical
+        role: sampling_context
+  PSI-68:
+    record_class: ConfigurationSummary
+    identifier: null
+    material_header: Sample (Fuel Type)
+    fields:
+      Initial Droplet Diameter (mm):
+        property: source:initial_droplet_diameter
+        unit: mm
+        role: configuration_range
+      Ambient Gas Mixture:
+        property: source:ambient_mixture
+        datatype: categorical
+        role: configuration_alternatives
+      Oxygen Mole Fraction:
+        property: OxygenConcentration
+        unit: fraction
+        role: configuration_alternatives
+      Ambient Pressure (atm):
+        property: Pressure
+        unit: atm
+        role: configuration_alternatives
+      Ambient Temperature (C):
+        property: source:ambient_temperature
+        unit: °C
+        role: configuration_specification
+      Flow Velocity (cm/s):
+        property: AirflowVelocity
+        unit: cm/s
+        role: configuration_range
+  PSI-10:
+    aliases: [Flame Design]
+    alias_authority: NASA NTRS 20220005205, physical page 3, Table 1
+    record_class: existing
+    identifier: null
+    material_header: null
+    fields:
+      Xfuel:
+        property: source:fuel_concentration
+        unit: fraction
+        role: reported_condition
+      mfuel (mg/s):
+        property: source:fuel_mass_flow
+        unit: mg/s
+        role: reported_condition
+      mN2 (mg/s):
+        property: source:nitrogen_mass_flow
+        unit: mg/s
+        role: reported_condition
+      mtot (mg/s):
+        property: source:total_mass_flow
+        unit: mg/s
+        role: reported_condition
+      pmean (atm):
+        property: Pressure
+        unit: atm
+        role: reported_mean
+      mean Zst:
+        property: source:stoichiometric_mixture_fraction
+        unit: fraction
+        role: reported_calculated_quantity
+      Tad (K):
+        property: source:adiabatic_temperature
+        label: 'Tad (K), adiabatic flame temperature'
+        aliases: [Tad, adiabatic flame temperature]
+        unit: K
+        role: reported_calculated_quantity
+      Flame Type:
+        property: source:flame_type
+        datatype: categorical
+        role: reported_description
+      Day:
+        property: source:gmt_day
+        datatype: categorical
+        role: session_identifier
+  PSI-159:
+    aliases: [CFI-G, Cool Flames Investigation with Gases]
+    alias_authority: NASA NTRS 20220005205, physical page 8
+    record_class: existing
+    identifier: null
+    material_header: null
+    fields:
+      Cool flame?:
+        property: source:cool_flame_record
+        datatype: categorical
+        role: reported_outcome
+      Xf:
+        property: source:fuel_concentration
+        unit: fraction
+        role: reported_condition
+      mHC (mg/s):
+        property: source:hydrocarbon_mass_flow
+        unit: mg/s
+        role: reported_condition
+      TFP:
+        property: source:tfp_unresolved
+        datatype: categorical
+        role: unresolved_abbreviation
+      Tad (K):
+        property: source:adiabatic_temperature
+        label: 'Tad (K), adiabatic flame temperature'
+        aliases: [Tad, adiabatic flame temperature]
+        unit: K
+        role: reported_calculated_quantity
+      Zst:
+        property: source:stoichiometric_mixture_fraction
+        unit: fraction
+        role: reported_calculated_quantity
+      Hot ignition:
+        property: source:hot_ignition
+        datatype: categorical
+        role: reported_outcome
+      Self-ext or flow term:
+        property: source:termination
+        datatype: categorical
+        role: reported_outcome
+      Peak burner T (C ):
+        property: source:peak_burner_temperature
+        unit: °C
+        role: reported_measurement
+      Comments:
+        property: source:notes
+        datatype: categorical
+        role: reported_description
+      Flame Type:
+        property: source:flame_type
+        datatype: categorical
+        role: reported_description
+      Day:
+        property: source:gmt_day
+        datatype: categorical
+        role: session_identifier
+  PSI-25:
+    record_class: existing
+    identifier: null
+    material_header: null
+    fields:
+      Initial CO2 % by vol:
+        property: source:initial_co2
+        unit: '%'
+        role: reported_condition
+      Final CO2 % by vol:
+        property: source:final_co2
+        unit: '%'
+        role: final_reported_value
+      Initial CO (ppm):
+        property: source:initial_co
+        unit: ppm
+        role: reported_condition
+      Final CO (ppm):
+        property: source:final_co
+        unit: ppm
+        role: final_reported_value
+      Flow restrictor:
+        property: source:flow_restrictor
+        datatype: categorical
+        role: instrument_setting
+      Fan display:
+        property: source:fan_display
+        datatype: categorical
+        role: instrument_setting
+      Air display:
+        property: source:air_display
+        datatype: categorical
+        role: instrument_setting
+      Radiometer gain   (1000   250   50   10):
+        property: source:radiometer_gain
+        datatype: categorical
+        role: instrument_setting
+      Total Frames Shot:
+        property: source:frames_record
+        datatype: categorical
+        role: instrument_record
+      Date:
+        property: source:test_date
+        datatype: categorical
+        role: session_identifier
+      GMT:
+        property: source:gmt_day
+        datatype: categorical
+        role: session_identifier
+      'Sample #':
+        property: source:sample_identifier
+        datatype: categorical
+        role: sample_identifier
+      PI:
+        property: source:principal_investigator_label
+        datatype: categorical
+        role: investigator_attribution
+        label: principal investigator source label
+        aliases:
+        - principal investigator
+        - PI label
+  PSI-26:
+    record_class: existing
+    identifier: null
+    material_header: null
+    fields:
+      Date:
+        property: source:test_date
+        datatype: categorical
+        role: session_identifier
+      GMT:
+        property: source:gmt_day
+        datatype: categorical
+        role: session_identifier
+      'Sample #':
+        property: source:sample_identifier
+        datatype: categorical
+        role: sample_identifier
+      'Test #':
+        property: source:secondary_test_identifier
+        datatype: categorical
+        role: record_identifier
+      PI:
+        property: source:principal_investigator_label
+        datatype: categorical
+        role: investigator_attribution
+        label: principal investigator source label
+        aliases:
+        - principal investigator
+        - PI label
+  PSI-69:
+    record_class: existing
+    identifier: null
+    material_header: null
+    fields:
+      N initial ambient composition; mole fraction:
+        property: source:initial_nitrogen
+        unit: fraction
+        role: reported_condition
+      He initial ambient composition; mole fraction:
+        property: source:initial_helium
+        unit: fraction
+        role: reported_condition
+      CO initial ambient composition; mole fraction:
+        property: source:co_composition_unresolved
+        datatype: categorical
+        role: unresolved_species_label
+      Burning rate; mm:
+        property: source:burning_rate_unresolved
+        datatype: categorical
+        role: unresolved_dimension
+      Test end:
+        property: source:termination
+        datatype: categorical
+        role: reported_outcome
+      Test Date:
+        property: source:test_date
+        datatype: categorical
+        role: session_identifier
+      Test GMT:
+        property: source:local_time
+        datatype: categorical
+        role: recorded_time
+      'FLEX Test #':
+        property: source:flex_test_number
+        datatype: categorical
+        role: original_record_identifier
+        label: FLEX test number
+        aliases:
+        - FLEX test number
+        - 'FLEX test #'
+  PSI-101:
+    record_class: existing
+    identifier: null
+    material_header: null
+    fields:
+      Inlet velocity (cm/s):
+        property: AirflowVelocity
+        unit: cm/s
+        role: reported_condition
+      Rt/R0:
+        property: source:rt_r0_reported_ratio
+        unit: fraction
+        role: reported_ratio_definition_unresolved
+      Duration (sec):
+        property: source:test_duration
+        unit: s
+        role: reported_duration
+      Primary aging time (sec):
+        property: source:primary_aging_time
+        unit: s
+        role: reported_duration
+      Primary mixing time (sec):
+        property: source:primary_mixing_time
+        unit: s
+        role: reported_duration
+      Net aging time (sec):
+        property: source:net_aging_time
+        unit: s
+        role: reported_duration
+      Description:
+        property: source:notes
+        datatype: categorical
+        role: reported_description
+      Date:
+        property: source:test_date
+        datatype: categorical
+        role: session_identifier
+  PSI-102:
+    record_class: existing
+    identifier: null
+    material_header: null
+    fields:
+      Weight loss rate (mg/min):
+        property: source:weight_loss_rate
+        unit: mg/min
+        role: reported_measurement
+      Aging Duration (minutes):
+        property: source:aging_duration
+        unit: min
+        role: reported_duration
+  PSI-98:
+    record_class: existing
+    identifier: null
+    material_header: null
+    fields:
+      Sample Thickness (cm):
+        property: source:sample_thickness
+        unit: cm
+        role: specimen_characteristic
+      Sample Length (cm):
+        property: source:sample_length
+        unit: cm
+        role: specimen_characteristic
+      Sample Width (cm):
+        property: source:sample_width
+        unit: cm
+        role: specimen_characteristic
+      Ignition Power (W):
+        property: source:ignition_power
+        unit: W
+        role: intervention_parameter
+      Ignition Time (s):
+        property: source:ignition_time
+        unit: s
+        role: intervention_parameter
+      Camera 1:
+        property: source:camera_record
+        datatype: categorical
+        role: instrument_record
+      Camera 2:
+        property: source:camera_record
+        datatype: categorical
+        role: instrument_record
+  PSI-99:
+    record_class: existing
+    identifier: null
+    material_header: null
+    fields:
+      Samle Thickness:
+        property: source:sample_thickness
+        unit: cm
+        role: specimen_characteristic
+      Sample Length:
+        property: source:sample_length
+        unit: cm
+        role: specimen_characteristic
+      Sample Width (cm):
+        property: source:sample_width
+        unit: cm
+        role: specimen_characteristic
+      Ignition Power (W):
+        property: source:ignition_power
+        unit: W
+        role: intervention_parameter
+      Ignition Time (s):
+        property: source:ignition_time
+        unit: s
+        role: intervention_parameter
+      Camera 1:
+        property: source:camera_record
+        datatype: categorical
+        role: instrument_record
+      Camera 2:
+        property: source:camera_record
+        datatype: categorical
+        role: instrument_record
+      ?-g Burn Length:
+        property: source:unresolved_gravity_burn_length
+        unit: cm
+        require_printed_unit: true
+        role: reported_comparison_value
+        context: gravity_label_unresolved
+      ?-g Spread Length:
+        property: source:unresolved_gravity_spread_length
+        unit: cm
+        require_printed_unit: true
+        role: reported_comparison_value
+        context: gravity_label_unresolved
+      1-g Burn Length:
+        property: source:normal_gravity_burn_length
+        unit: cm
+        require_printed_unit: true
+        role: reported_comparison_value
+        context: printed_1_g_column
+      1-g Spread Rate:
+        property: source:normal_gravity_spread_rate
+        unit: mm/s
+        require_printed_unit: true
+        role: reported_comparison_value
+        context: printed_1_g_column
+  PSI-100:
+    record_class: existing
+    identifier: null
+    material_header: null
+    fields:
+      Sample Thickness:
+        property: source:sample_thickness
+        unit: cm
+        role: specimen_characteristic
+      Sample Length:
+        property: source:sample_length
+        unit: cm
+        role: specimen_characteristic
+      Sample Width:
+        property: source:sample_width
+        unit: cm
+        role: specimen_characteristic
+      Camera 1:
+        property: source:camera_record
+        datatype: categorical
+        role: instrument_record
+      Camera 2:
+        property: source:camera_record
+        datatype: categorical
+        role: instrument_record
+  PSI-142:
+    record_class: PublicationFigureReference
+    identifier: Data ID
+    material_header: null
+    fields:
+      Data Description:
+        property: source:data_description
+        datatype: categorical
+        role: publication_figure_reference
+      Reference Publication Link:
+        property: source:reference_publication
+        datatype: categorical
+        role: publication_figure_reference
+      Figure ID in Reference:
+        property: source:reference_figure
+        datatype: categorical
+        role: publication_figure_reference

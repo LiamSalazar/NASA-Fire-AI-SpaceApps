@@ -1,0 +1,7 @@
+# Microgravity-first end-to-end policy
+
+The existing V2 experimental service applies preference at documentary selection (32 candidates, final 8) and presentation of verified scientific candidates. Microgravity is a ranking preference only; unspecified-gravity queries can retain terrestrial comparisons and unknown conditions. Explicit normal-gravity constraints and comparative queries suppress the default preference. No UNKNOWN field is rewritten and canonical source values are unchanged.
+
+`Phase3AssistantService.answer_query` routes through the native V2 executor only with `NATIVE_V2_QUERY_ENABLED=true`. Enable `SCIENTIFIC_CONTEXT_RESOLUTION_ENABLED=true` for source-backed applicability. `MICROGRAVITY_FIRST_RETRIEVAL_ENABLED` defaults true. Context and native V2 default false. Live interpretation also requires `NEMOTRON_CONTEXT_INTERPRETATION_ENABLED=true` and an explicit `CONTEXT_QUERY_LIVE_CALL_BUDGET` (default 0, clamped to 2). `.env` is reused through existing Settings; explicit environment values win. Keyless execution remains deterministic. PSI publication and FLEX correction flags were disabled in controlled comparisons.
+
+QueryIntentV2 remains the execution contract; the V1 object in the app response is only its existing display envelope. V1 rollback is unchanged when native V2 is off. Actual app/service, default PMMA, explicit microgravity, normal gravity and grouped comparison tests exercise these boundaries. In this 15-case set B changes no structured recoveries over A; preference alone is not a scientific fact.

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "final_imaging",
+    "message": "According to the FLEX technical report, how did HiBMs and LLUV differ in what they imaged?"
+  },
+  {
+    "id": "final_exploration",
+    "message": "Which other NASA investigations might be worth examining for combustion diagnostics? Keep their relevance exploratory and separate from measured results."
+  }
+]

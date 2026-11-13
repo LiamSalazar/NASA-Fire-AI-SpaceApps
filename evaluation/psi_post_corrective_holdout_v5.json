@@ -1,0 +1,47 @@
+{
+  "kind": "FROZEN_NEXT_SCIENTIFIC_QUERY_HOLDOUT",
+  "freeze_commit": "3caf4a0",
+  "boundary": "Eight questions frozen before the next corrective implementation and before any generation for them. Agent-authored source-inspected questions, not independent human adjudication. No answers are sent to production.",
+  "cases": [
+    {
+      "id": "next-cld-record",
+      "question": "For CLD test day 17356, give the original fuel-bottle label, fuel-concentration range, both MFC entries and ignition count. Explain what the MFC values describe; retain unusual source spellings.",
+      "followup_of": null
+    },
+    {
+      "id": "next-sflame-record",
+      "question": "For s-Flame test day 19308, distinguish the atmosphere entry from the fuel-bottle entry and give the ignition count. Keep the gas labels exactly as recorded.",
+      "followup_of": null
+    },
+    {
+      "id": "next-bass-identifiers",
+      "question": "For BASS As Run Test number 4, identify the other recorded test and sample numbers, the fuel-sample material description, and GMT day. Keep the different identifiers separate.",
+      "followup_of": null
+    },
+    {
+      "id": "next-cfig-parameters",
+      "question": "For CFI-G test 21088 D1, report burn time, hot-ignition status, the termination entry and its recorded comment, and Tad. Distinguish the adiabatic parameter from a measured flame temperature.",
+      "followup_of": null
+    },
+    {
+      "id": "next-smoke-simulation",
+      "question": "In the PSI-115 final report and its data-organization document, what particle formation is modeled, which gravity cases are distinguished, and how is the no-thermophoresis variant defined? Explain the evidential status of these outputs.",
+      "followup_of": null
+    },
+    {
+      "id": "next-optical-evidence",
+      "question": "Connect the shared SPICE/SLICE apparatus description with PSI-60 image processing: which optical instruments are reported, how are the Nikon image channels used, and what quantities does the processing seek to recover? Keep the apparatus report and the processing study distinct.",
+      "followup_of": null
+    },
+    {
+      "id": "next-extinction-comparison",
+      "question": "Compare the reported BRE low-momentum burning behavior with the qualified s-Flame extinction findings in the ACME ISS overview. Include the relevant oxygen/size or flow/diluent qualifications and keep the investigations separate.",
+      "followup_of": null
+    },
+    {
+      "id": "next-wire-method",
+      "question": "For Electrical Wire Insulation Flammability Test 4 in NASA-STD-6001B with Change 3, explain the specimen count, dimensions, mounting and ignition, the observations to record, and the self-extinguishing criteria. Describe these as standard requirements.",
+      "followup_of": null
+    }
+  ]
+}
